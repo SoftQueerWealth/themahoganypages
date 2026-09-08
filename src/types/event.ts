@@ -80,6 +80,11 @@ export interface PrideEvent {
   cardClass: `tp-${string}`;
   /** Shown under the ticket CTA when set (e.g. promo code from the sheet). */
   discountCode?: string;
+  /**
+   * From sheet "registration directions" when Free Tickets? is "registration required".
+   * Shown in a dialog via clickable text instead of an external ticket link.
+   */
+  registrationDirections?: string;
   /** Direct image URL for the event flyer/poster, when provided in the sheet. */
   flyerUrl?: string;
   /** Normalized city key from the sheet City column, e.g. dc, nyc, baltimore, dmv. */

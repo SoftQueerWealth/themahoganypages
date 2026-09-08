@@ -29,7 +29,12 @@ export type HosThumbTone = 'dark' | 'rose' | 'sage';
 export interface GbpHospitalityItem {
   id: string;
   title: string;
-  meta: string;
+  /** Display address (or city fallback). */
+  address?: string;
+  /** Google Maps URL when the address is mappable. */
+  addressMapsUrl?: string;
+  /** Transit tip from sheet Nearby Station — Stay listings. */
+  nearbyStation?: string;
   price?: string;
   tags: string[];
   tone: HosThumbTone;

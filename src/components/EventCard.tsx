@@ -65,6 +65,8 @@ function LocationDisplay({
 
 export function EventCard({ event, visible, going = false, onToggleGoing }: EventCardProps) {
   const [flyerOpen, setFlyerOpen] = useState(false);
+  const [registrationOpen, setRegistrationOpen] = useState(false);
+  const registrationDirections = event.registrationDirections?.trim() || '';
   const ctaLabel = eventCtaLabel(event);
   const ctaButtonClass = eventCtaButtonClass(event);
   const mapsHref = isMappableLocation(event.location) ? mapsSearchUrl(event.location) : null;
@@ -107,6 +109,33 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
           label={event.name}
           onClose={() => setFlyerOpen(false)}
         />
+      ) : null}
+
+      {registrationOpen && registrationDirections ? (
+        <div
+          className="modal-overlay open"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={`registration-directions-${event.id}`}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setRegistrationOpen(false);
+          }}
+        >
+          <div className="modal-box">
+            <button
+              type="button"
+              className="modal-close"
+              aria-label="Close"
+              onClick={() => setRegistrationOpen(false)}
+            >
+              ✕
+            </button>
+            <h2 id={`registration-directions-${event.id}`} className="registration-directions-title">
+              Registration instructions
+            </h2>
+            <p className="registration-directions-body">{registrationDirections}</p>
+          </div>
+        </div>
       ) : null}
 
       <div className="event-body">
@@ -178,15 +207,28 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
               </span>
             </button>
           ) : null}
-          <a
-            href={event.ctaHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`btn ${ctaButtonClass}`}
-            onClick={() => trackClick(event.name, ctaLabel)}
-          >
-            {ctaLabel} →
-          </a>
+          {registrationDirections ? (
+            <button
+              type="button"
+              className="event-registration-link"
+              onClick={() => {
+                trackClick(event.name, 'View registration instructions');
+                setRegistrationOpen(true);
+              }}
+            >
+              View registration instructions
+            </button>
+          ) : (
+            <a
+              href={event.ctaHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`btn ${ctaButtonClass}`}
+              onClick={() => trackClick(event.name, ctaLabel)}
+            >
+              {ctaLabel} →
+            </a>
+          )}
           {discountParsed ? (
             <div className="discount-code" role="note">
               {discountParsed.kind === 'code' ? (

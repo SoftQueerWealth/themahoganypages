@@ -138,26 +138,6 @@ export interface FeaturedFestival {
 
 export const FEATURED_FESTIVALS: FeaturedFestival[] = [
   {
-    id: 'stamina-2026',
-    monthId: SEPTEMBER_FESTIVAL_ID,
-    monthPrefix: '2026-09',
-    tabLabel: 'STAMINA 2026: Queer Caribbean Festival',
-    location: 'New York · September 2026',
-    city: 'nyc',
-    prideSeries: STAMINA_PRIDE_SERIES,
-    includeCityAsMoreEvents: true,
-  },
-  {
-    id: 'atl-black-pride',
-    monthId: SEPTEMBER_FESTIVAL_ID,
-    monthPrefix: '2026-09',
-    tabLabel: 'Atlanta Black Pride',
-    location: 'Atlanta · September 2026',
-    city: 'atlanta',
-    prideSeries: ATL_BLACK_PRIDE_SERIES,
-    includeCityAsMoreEvents: true,
-  },
-  {
     id: 'global-black-pride',
     monthId: SEPTEMBER_FESTIVAL_ID,
     monthPrefix: '2026-09',

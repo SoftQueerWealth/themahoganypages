@@ -31,5 +31,13 @@ export function mapsSearchUrl(query: string): string {
 export function isMappableLocation(location: string): boolean {
   const t = location.trim();
   if (!t) return false;
-  return !/^see ticket link for address/i.test(t);
+  if (/^see ticket link for address/i.test(t)) return false;
+  if (/^varies\b/i.test(t)) return false;
+  if (/^various\b/i.test(t)) return false;
+  if (/^reach out\b/i.test(t)) return false;
+  if (/^tbd\b/i.test(t)) return false;
+  if (/^n\/?a\b/i.test(t)) return false;
+  // Instructional / social-only lines are not map queries.
+  if (/instagram|email |dm us|message /i.test(t) && !/\d/.test(t)) return false;
+  return true;
 }

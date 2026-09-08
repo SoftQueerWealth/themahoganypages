@@ -1,6 +1,7 @@
 import { generatedHospitalityItems } from '../data/hospitality.generated';
 import type { GbpHospitalityItem, HosThumbTone } from '../data/globalBlackPride';
 import type { HospitalityItem } from '../types/hospitality';
+import { isMappableLocation, mapsSearchUrl } from './maps';
 
 const THUMB_TONES: HosThumbTone[] = ['dark', 'rose', 'sage'];
 
@@ -54,24 +55,39 @@ function formatPrice(raw: string): string | undefined {
   return value;
 }
 
-function buildMeta(item: HospitalityItem): string {
+function resolveAddress(item: HospitalityItem): string {
   const address = formatVenueAddress(item.venueAddress);
   if (address) return address;
-  if (item.city.trim()) return item.city.trim();
-  return '';
+  return item.city.trim();
 }
 
 function toHospitalityCard(
   item: HospitalityItem,
   index: number,
-  options: { includeBio: boolean; bookLabel: string; fallbackTag: string },
+  options: {
+    includeBio: boolean;
+    bookLabel: string;
+    fallbackTag: string;
+    includeNearbyStation?: boolean;
+  },
 ): GbpHospitalityItem {
   const bookingLink = item.bookingLink.trim();
   const discountCode = item.code.trim() || undefined;
+  const address = resolveAddress(item) || undefined;
+  const addressMapsUrl =
+    address && isMappableLocation(item.venueAddress.trim() || address)
+      ? mapsSearchUrl(item.venueAddress.trim() || address)
+      : undefined;
+  const nearbyStation = options.includeNearbyStation
+    ? item.nearbyStation.trim() || undefined
+    : undefined;
+
   return {
     id: item.id,
     title: item.venueName.trim() || item.business.trim(),
-    meta: buildMeta(item),
+    address,
+    addressMapsUrl,
+    nearbyStation,
     price: formatPrice(item.price),
     tags: item.audienceTags.length ? item.audienceTags : [options.fallbackTag],
     tone: THUMB_TONES[index % THUMB_TONES.length],
@@ -93,6 +109,7 @@ export function getGbpStayHotels(): GbpHospitalityItem[] {
         includeBio: false,
         bookLabel: 'Book →',
         fallbackTag: 'Hotel',
+        includeNearbyStation: true,
       }),
     );
 }

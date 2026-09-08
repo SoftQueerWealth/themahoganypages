@@ -8,6 +8,7 @@ export interface HospitalityItem {
   description: string;
   venueName: string;
   venueAddress: string;
+  nearbyStation: string;
   price: string;
   hasCommunityPerk: boolean;
   code: string;

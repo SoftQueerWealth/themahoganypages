@@ -905,6 +905,44 @@ nav.rooms button:hover {
   color: var(--ink-soft);
 }
 
+.registration-directions-title {
+  margin: 0 28px 10px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.registration-directions-body {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+}
+
+.event-registration-link {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #e8447a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  text-align: right;
+  line-height: 1.35;
+  max-width: 11.5rem;
+}
+
+.event-registration-link:hover,
+.event-registration-link:focus-visible {
+  color: var(--terracotta);
+}
+
 .modal-option {
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -1098,7 +1136,9 @@ nav.rooms button:hover {
   display: flex;
   gap: 12px;
   overflow-x: auto;
-  padding: 4px 0 8px;
+  /* Side padding: room for active outline + first/last cards can center */
+  padding: 6px max(8px, calc((100% - min(78%, 320px)) / 2)) 10px;
+  scroll-padding-inline: max(8px, calc((100% - min(78%, 320px)) / 2));
   margin: 0 0 6px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
@@ -1137,7 +1177,9 @@ nav.rooms button:hover {
 }
 
 .featured-card-photo.paris {
-  background: linear-gradient(135deg, #8b5a6b, #3a2a35);
+  background:
+    center / cover no-repeat
+    url('/featured-global-black-pride.jpg');
 }
 
 .featured-card-photo.atlanta {
@@ -1297,6 +1339,22 @@ nav.rooms button:hover {
   font-size: 11.5px;
   color: var(--ink-soft);
   margin: 0 0 6px;
+}
+
+.hos-maplink {
+  color: #e8447a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.hos-maplink:hover {
+  color: var(--terracotta);
+}
+
+.hos-station {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  margin: -2px 0 8px;
 }
 
 .hos-bio {
@@ -2465,6 +2523,12 @@ nav.rooms button:hover {
 
   .featured-card {
     flex-basis: 78%;
+  }
+
+  .featured-scroll {
+    padding-left: max(8px, calc((100% - 78%) / 2));
+    padding-right: max(8px, calc((100% - 78%) / 2));
+    scroll-padding-inline: max(8px, calc((100% - 78%) / 2));
   }
 }
 

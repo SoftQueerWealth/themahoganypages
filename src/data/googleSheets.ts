@@ -122,6 +122,7 @@ const COLUMN_ALIASES = {
   audienceTags: ['audiencetag', 'audiencetags', 'audience'],
   vibesRaw: ['vibesraw', 'vibes', 'vibestags', 'datavibes', 'data-vibes', 'vibe'],
   free: ['free', 'freetickets', 'isfree', 'datafree', 'data-free'],
+  registrationDirections: ['registrationdirections'],
   price: ['price', 'cost', 'ticketprice', 'data-price'],
   earlyBirdPrice: ['earlybirdticketprice', 'earlybirdprice', 'ebprice'],
   generalTicketPrice: ['generalticketprice', 'generalprice', 'gaprice'],
@@ -496,6 +497,10 @@ function isRsvpFreeStatus(value: string): boolean {
   return normalized === TicketStatus.RsvpFree;
 }
 
+function isRegistrationRequired(value: string): boolean {
+  return normalizeToken(value) === 'registration required';
+}
+
 function ctaLabelForTicketStatus(value: string): string | null {
   const normalized = normalizeToken(value);
   if (normalized === TicketStatus.RsvpFree) return 'RSVP Free';
@@ -702,7 +707,13 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
       const generalRaw = readEventPriceField(headers, row, 'generalTicketPrice', shifted);
       const priceRaw = readEventPriceField(headers, row, 'price', shifted);
       const freeRaw = readEventField(headers, row, 'free', shifted);
+      const registrationRequired = isRegistrationRequired(freeRaw);
+      const registrationDirectionsRaw = registrationRequired
+        ? readEventField(headers, row, 'registrationDirections', shifted).trim()
+        : '';
+      const registrationDirections = registrationDirectionsRaw || undefined;
       const free =
+        registrationRequired ||
         parseBoolean(freeRaw) ||
         priceIndicatesFree(earlyBirdRaw) ||
         priceIndicatesFree(generalRaw) ||
@@ -713,15 +724,18 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
       const vibesRaw = priceShifted
         ? parseVibesRaw(readCellByHeader(headers, row, 'communityfocus'), vibeTagsCell)
         : parseVibesRaw(readEventField(headers, row, 'vibesRaw', shifted), vibeTagsCell);
-      const ctaHref = priceShifted
+      const ctaHrefRaw = priceShifted
         ? readCell(headers, row, 'ctaHref')
         : readEventField(headers, row, 'ctaHref', shifted);
+      const ctaHref = registrationDirections ? '' : ctaHrefRaw;
       const statusCtaLabel = ctaLabelForTicketStatus(ticketStatus);
       let ctaLabel =
         statusCtaLabel ||
         readCell(headers, row, 'ctaLabel') ||
         (free ? 'More Info' : 'Get Tickets');
-      if (!statusCtaLabel && ctaHref && !isInstagramUrl(ctaHref)) {
+      if (registrationDirections) {
+        ctaLabel = 'View registration instructions';
+      } else if (!statusCtaLabel && ctaHref && !isInstagramUrl(ctaHref)) {
         ctaLabel = free ? 'RSVP Free' : 'Get Tickets';
       }
       const fallbackCardClass: `tp-${string}` = `tp-${types[0] ?? EventType.DayParty}`;
@@ -767,6 +781,7 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
         ctaButtonClass: normalizeClass<'btn-'>(readCell(headers, row, 'ctaButtonClass'), 'btn-', ctaButtonClassForLabel(ctaLabel)),
         cardClass: normalizeClass<'tp-'>(readCell(headers, row, 'cardClass'), 'tp-', fallbackCardClass),
         ...(discountCode ? { discountCode } : {}),
+        ...(registrationDirections ? { registrationDirections } : {}),
         ...(flyerUrl ? { flyerUrl } : {}),
         ...(city ? { city } : {}),
         ...(prideSeries ? { prideSeries } : {}),

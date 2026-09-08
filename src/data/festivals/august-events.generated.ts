@@ -9042,10 +9042,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "creative community",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "9:30 AM",
     "location": "Centre LGBTQI+ Paris-Île-de-France · 63 Rue Beaubourg, 75003 Paris, France",
@@ -9054,8 +9056,8 @@ export const generatedEvents: PrideEvent[] = [
       "Community"
     ],
     "ctaHref": "https://www.instagram.com/global_blackpride/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
@@ -9154,10 +9156,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "networking community cultural groove",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "5:00 PM",
     "location": "La Chapelle Saint-Lazare, 75010 Paris · 10 Boulevard du Palais, 75001 Paris, France",
@@ -9168,8 +9172,8 @@ export const generatedEvents: PrideEvent[] = [
       "Groove"
     ],
     "ctaHref": "https://www.instagram.com/p/DajDt2mkaay/?img_index=1",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
@@ -9299,11 +9303,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "food drinks networking community",
-    "free": false,
+    "free": true,
     "price": "$35.00",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "9:30 AM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9313,10 +9318,11 @@ export const generatedEvents: PrideEvent[] = [
       "Networking",
       "Community"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9336,10 +9342,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "creative community",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "11:00 AM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9347,10 +9355,11 @@ export const generatedEvents: PrideEvent[] = [
       "Creative",
       "Community"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9372,10 +9381,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "food drinks networking community",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "11:15 AM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9385,10 +9396,11 @@ export const generatedEvents: PrideEvent[] = [
       "Networking",
       "Community"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9410,10 +9422,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "1:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9422,10 +9436,11 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9447,10 +9462,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "2:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9459,10 +9476,11 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9484,10 +9502,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "food drinks networking community",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "3:30 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9497,10 +9517,11 @@ export const generatedEvents: PrideEvent[] = [
       "Networking",
       "Community"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9522,10 +9543,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "3:45 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9534,10 +9557,11 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
@@ -9560,11 +9584,13 @@ export const generatedEvents: PrideEvent[] = [
       "Youth/Family"
     ],
     "vibesRaw": "community workshop educational family",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
       "Queer",
-      "Youth/Family"
+      "Youth/Family",
+      "Free"
     ],
     "time": "4:30 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9574,15 +9600,728 @@ export const generatedEvents: PrideEvent[] = [
       "Educational",
       "Family"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "294",
+    "id": "262",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-13",
+    "dayLabel": "Friday",
+    "name": "Brutalismus 3000: Harmony US Tour",
+    "organizer": "Brutalismus 3000",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$48.00",
+    "badges": [
+      "POC",
+      "Black",
+      "Queer"
+    ],
+    "time": "10:00 PM",
+    "location": "Echostage",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.ticketmaster.com/event/1500651BC245B3B1",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "263",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-07",
+    "dayLabel": "Saturday",
+    "name": "Brutalismus 3000: Harmony US Tour",
+    "organizer": "Brutalismus 3000",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$48.00",
+    "badges": [
+      "POC",
+      "Black",
+      "Queer"
+    ],
+    "time": "10:00 PM",
+    "location": "The Eastern · 800 Old Flat Shoals Road, Atlanta, GA, 30312",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://drop.cobrand.com/d/Brutalismus3000/northamerica-fall-2026?drop_link_collection_link_id_to_open=0fd6797c-4b3f-4342-9eb7-4458a05e73c1&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeMQlFGeQ0dycjAF2cUM_htYINmzUudXGM7RPI45MvAhbTlR8Sz7NU1hRA__A_aem_bgB0HbKmRQg9Pww4FOxyEg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "264",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "Gladys 1-Year Anniversary Party!",
+    "organizer": "Gladys Book Story",
+    "types": [
+      "happy-hour",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "creative chill flirt community food drinks groove",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "1:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, United States",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Flirt",
+      "Community",
+      "Food",
+      "Drinks",
+      "Groove"
+    ],
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=88088",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "nyc"
+  },
+  {
+    "id": "265",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-07",
+    "dayLabel": "Wednesday",
+    "name": "Salsa with Pride",
+    "organizer": "The Pride Center of Maryland",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer"
+    ],
+    "vibesRaw": "creative chill community groove workshop",
+    "free": false,
+    "price": "$1.00",
+    "badges": [
+      "POC",
+      "Queer"
+    ],
+    "time": "7:30 PM",
+    "location": "The Pride Center of Maryland · 2418 Saint Paul Street\nBaltimore, MD 21218",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Community",
+      "Groove",
+      "Workshop"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/salsa-with-pride-tickets-1988786376589",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "baltimore",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "266",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-03",
+    "dayLabel": "Saturday",
+    "name": "ONYX ~ THE [BLAQ PRIDE] FUNCTION VOL. IV",
+    "organizer": "The Function",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill flirt community ass shaking food groove drinks",
+    "free": false,
+    "price": "$11.50",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "time": "5:00 PM",
+    "location": "Our Time Kitchen · 117 W 24th St., Baltimore, MD, 21218, USA",
+    "vibeTags": [
+      "Chill",
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Food",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://ra.co/events/2493826?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafjyB6oxEFEzmUvmTMfr29jhmXO8MD4qVEJIq1W2fGZzFI44wTmFnP2Pp9uaQ_aem_1jEKsg8QVY6irZjGSU00pQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "baltimore",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "267",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Sapphic Saturdays",
+    "organizer": "Aphrodite’s House",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "The Manor · 924 N Charles St, Baltimore, MD 2120",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/sapphic-saturdays-26?u=aphroditeshouse_&_t=mt275tob&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "baltimore",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "268",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Aphrodite’s After Dark: Queer Rodeo",
+    "organizer": "Aphrodite’s House",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "9:00 PM",
+    "location": "Luckies Tavern · 10 Market Pl, Baltimore, MD 21202",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/aphrodites-after-dark-queer-rodeo",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "baltimore",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "269",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-17",
+    "dayLabel": "Thursday",
+    "name": "Pitch Your Friend Live Show",
+    "organizer": "BlackDMVSapphics",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "30+"
+    ],
+    "vibesRaw": "creative flirt community dating games",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "30+"
+    ],
+    "time": "6:30 PM",
+    "location": "Johnny Pistolas · 2333 18th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Creative",
+      "Flirt",
+      "Community",
+      "Dating",
+      "Games"
+    ],
+    "ctaHref": "https://www.tickettailor.com/events/blackdmvsapphics/2377735?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaep-UjSXUtwxP_MuZS3oUKlyFir7s3nbQhBy-TEH2C2xlXrE86FYexolS76PA_aem_aCmZIk3VIzvUHAi0soLtuw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-happy-hour",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "270",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-09",
+    "dayLabel": "Wednesday",
+    "name": "Gouyad Plezi: Rumba Queer x Queeribbeans of the DMV",
+    "organizer": "Rumba Queer DC",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer"
+    ],
+    "vibesRaw": "creative chill flirt grown & sexy groove workshop",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "POC",
+      "Queer"
+    ],
+    "time": "7:00 PM",
+    "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove",
+      "Workshop"
+    ],
+    "ctaHref": "https://posh.vip/e/gouyad-plezi-rumba-queer-x-queeribbeans-of-the-dmv?t=lt",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "271",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-26",
+    "dayLabel": "Saturday",
+    "name": "Rumba Queer: Vamo Pa' La Calle",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "POC",
+      "Queer"
+    ],
+    "time": "2:00 PM",
+    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/rumba-queer-vamo-pa-la-calle?utm_source=lt",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "272",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "HYPERDR!VE: VERSION 1.0",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$11.50",
+    "badges": [
+      "POC",
+      "Queer"
+    ],
+    "time": "9:00 PM",
+    "location": "Sinners and Saints · 2309 18th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://ra.co/events/2519276",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "273",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-27",
+    "dayLabel": "Sunday",
+    "name": "Adwoa's Listening Room: Raw + Un/Cut",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "chill creative community grown & sexy groove live show",
+    "free": false,
+    "price": "$16.80",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "4:00 PM",
+    "location": "KBird · 1333 P St NW",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Grown & Sexy",
+      "Groove",
+      "Live Show"
+    ],
+    "ctaHref": "https://joinpinyada.com/event-details?eventid=843&hostid=1259&share=true",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "274",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Fall For The Girls",
+    "organizer": "The Sunflower Child",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/fall-for-the-girls?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaffC-vL4Zj6RxcuRYvRyI23NUyVdBYJjD2bHTTvbgN_kGgZrHyMggxc-N5elw_aem_Lg44ZIaPuClORfk09l5E_Q",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "275",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-17",
+    "dayLabel": "Thursday",
+    "name": "Silent Read in the Garden",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/silent-read-in-the-garden-tickets-1999271205996?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadvC8uZeB-Ps5r8UGKSizRkLdu-GPGrqVNCudGUXip8tMwUd4dYYMIXJ6FE7g_aem_S-X9SQCupyfyCXyabmNuFA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "276",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Puff, Paint, Pour, People Picnic Part 2",
+    "organizer": "Miya Wiggins",
+    "types": [
+      "outdoors-hangout",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "chill creative community groove games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "3:00 PM",
+    "location": "95 Prospect Park W · 95 Prospect Park W\nBrooklyn, NY",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Groove",
+      "Games"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/puff-paint-pour-people-picnic-part-2-tickets-1999054312261?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQMxMDAAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnTRYzSw1htaYPRe5-9kkCp3UGx8yfk527lnZbCDZ4bn_HXyTZjsApsCCvylc_aem_IXStLNhckrog9CyCDx-4_w",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors-hangout",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "277",
+    "festival": "august-events",
+    "day": "tuesday",
+    "dayDate": "2026-09-22",
+    "dayLabel": "Tuesday",
+    "name": "Grief In Process",
+    "organizer": "FEMME FATALE DC",
+    "types": [
+      "meetup",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "vibesRaw": "creative community wellness workshop",
+    "free": false,
+    "price": "$55.00",
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "time": "6:30 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue NorthwestWashington, District of Columbia, 20008",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Wellness",
+      "Workshop"
+    ],
+    "ctaHref": "https://www.femmefataledc.com/events/grief-in-process",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "278",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Femme Fatale DC x Abloom: Polymer Clay Creative Hour",
+    "organizer": "Femme Fatale DC",
+    "types": [
+      "meetup",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "vibesRaw": "creative community wellness workshop",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "time": "6:30 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue NorthwestWashington, District of Columbia, 20008",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Wellness",
+      "Workshop"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/femme-fatale-dc-x-abloom-polymer-clay-creative-hour-tickets-1998900885357?utm_experiment=test_share_listing&aff=ebdsshios&sg=9ca0a54ddb0b8521ca377debd7b38a58c0a10adfd62dcf57470ec086bd835c0a9ee33e10c2781b2938f60cbacdfe69788b5a78fbdc51e36fb786d737066f9afc75d6cdb5a5119cca41e09863",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "279",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "PLAY PRESENTS: CRUSH",
+    "organizer": "PLAY: Whitney Chanel",
+    "types": [
+      "happy-hour",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "creative flirt community dating games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "698 Nostrand Ave, Brooklyn, NY",
+    "vibeTags": [
+      "Creative",
+      "Flirt",
+      "Community",
+      "Dating",
+      "Games"
+    ],
+    "ctaHref": "https://partiful.com/e/OKNnQfTnggDlm78Y36LI?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae6A_JQd0Uq0uF6kc1yZWkk09HSXZbKVB9Y7GPIQcX3_Od_BTnGRo8YEmi9Zw_aem_4RAIwcZXbQUa6U4GtW41IA",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "286",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -9597,10 +10336,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "live show creative community groove cultural",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "5:30 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9611,15 +10352,16 @@ export const generatedEvents: PrideEvent[] = [
       "Groove",
       "Cultural"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-ball",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "295",
+    "id": "287",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -9636,10 +10378,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "5:45 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9648,15 +10392,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "296",
+    "id": "288",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -9673,10 +10418,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "7:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9685,15 +10432,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "297",
+    "id": "289",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9710,11 +10458,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
     "price": "$35.00",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "10:00 AM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9723,15 +10472,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "298",
+    "id": "290",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9748,10 +10498,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "11:00 AM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9760,15 +10512,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "299",
+    "id": "291",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9785,10 +10538,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "12:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9797,15 +10552,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "300",
+    "id": "292",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9822,10 +10578,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "1:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9834,15 +10592,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "301",
+    "id": "293",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9859,10 +10618,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "2:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9871,15 +10632,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "302",
+    "id": "294",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9896,10 +10658,12 @@ export const generatedEvents: PrideEvent[] = [
       "Queer"
     ],
     "vibesRaw": "community workshop educational",
-    "free": false,
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Queer"
+      "Queer",
+      "Free"
     ],
     "time": "3:00 PM",
     "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -9908,15 +10672,16 @@ export const generatedEvents: PrideEvent[] = [
       "Workshop",
       "Educational"
     ],
-    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration instructions",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "303",
+    "id": "295",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-17",
@@ -9952,7 +10717,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "304",
+    "id": "296",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -9990,7 +10755,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "305",
+    "id": "297",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10026,7 +10791,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "306",
+    "id": "298",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-06",
@@ -10065,7 +10830,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "307",
+    "id": "299",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -10102,12 +10867,13 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "308",
+    "id": "300",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
     "dayLabel": "Saturday",
     "name": "AFRO QUEER FEMINIST Party sam. 12.09 ❤️‍🔥",
+    "organizer": "Cabaret des Merveilles",
     "types": [
       "after-dark"
     ],
@@ -10143,49 +10909,79 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "309",
+    "id": "301",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
     "dayLabel": "Friday",
     "name": "The Mahogany Sessions: An Evening of Song Crystal Petit",
-    "types": [],
-    "vibesRaw": "",
+    "organizer": "Crystal Petit | Singer Songwriter",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Sapphic"
+    ],
+    "vibesRaw": "creative chill live show groove cultural",
     "free": false,
-    "badges": [],
-    "time": "",
-    "location": "Le Peloton Studio",
-    "vibeTags": [],
-    "ctaHref": "",
+    "price": "$58.00",
+    "badges": [
+      "Sapphic"
+    ],
+    "time": "7:30 PM",
+    "location": "Le Peloton Studio (Formerly L'Échappée) · 1 Rue Grenier sur l'Eau, 75004 Paris, France",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Live Show",
+      "Groove",
+      "Cultural"
+    ],
+    "ctaHref": "https://www.helloasso.com/associations/singing-earth-divine/evenements/the-mahogany-sessions-an-evening-with-crystal-petit-june-25-2026-2?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafgbwdwBbDXMuE0ydsStOFveh2EDvkXS7jpBl-H1wtKAKOkCsZBPozvwtr9Vg_aem_9VNSrKxdImUWHhVEFEbnUA",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-live-show",
     "city": "paris",
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "310",
+    "id": "302",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
     "dayLabel": "Saturday",
     "name": "The Mahogany Sessions: An Evening of Song Crystal Petit",
-    "types": [],
-    "vibesRaw": "",
+    "organizer": "Crystal Petit | Singer Songwriter",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Sapphic"
+    ],
+    "vibesRaw": "creative chill live show groove cultural",
     "free": false,
-    "badges": [],
-    "time": "",
-    "location": "Le Peloton Studio",
-    "vibeTags": [],
-    "ctaHref": "",
+    "price": "$58.00",
+    "badges": [
+      "Sapphic"
+    ],
+    "time": "7:30 PM",
+    "location": "Le Peloton Studio (Formerly L'Échappée) · 1 Rue Grenier sur l'Eau, 75004 Paris, France",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Live Show",
+      "Groove",
+      "Cultural"
+    ],
+    "ctaHref": "https://www.helloasso.com/associations/singing-earth-divine/evenements/the-mahogany-sessions-an-evening-with-crystal-petit-june-25-2026-2?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafgbwdwBbDXMuE0ydsStOFveh2EDvkXS7jpBl-H1wtKAKOkCsZBPozvwtr9Vg_aem_9VNSrKxdImUWHhVEFEbnUA",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-live-show",
     "city": "paris",
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "311",
+    "id": "303",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10214,10 +11010,250 @@ export const generatedEvents: PrideEvent[] = [
       "Wellness",
       "Cultural"
     ],
-    "ctaHref": "To Reserve your place, please email nawo@free.fr",
+    "ctaHref": "",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "317",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-13",
+    "dayLabel": "Sunday",
+    "name": "Liquorice - Pride Cookout (Global Black Pride Edition)",
+    "organizer": "Liquorice Paris",
+    "types": [
+      "day-party",
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove drinks",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "1:00 PM",
+    "location": "Afro Night Club · 6 Boulevard Gallieni, 92230 Gennevilliers, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://shotgun.live/fr/events/liquorice-pride-cookout-global-black-pride-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf5_410gV6XF1LohgPHPi6CRSqNzaMNQ0_Czqb-xTz-almewPVBXzxsb7vgbw_aem_uhzQ6bCVeT_lHgy3FbQwsw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "318",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-09",
+    "dayLabel": "Wednesday",
+    "name": "Red Hours: Rin La Dalle, Ch4i, Stargurl, Uzi Nas B2b Sasa",
+    "organizer": "REX CLUB",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove drinks",
+    "free": false,
+    "price": "$9.00",
+    "badges": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "time": "11:59 PM",
+    "location": "Rex Club · 5 Boulevard Poissonnière, 75002 Paris, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/abstract-red-hours-rin-la-dalle-ch-4-i-stargurl-b-2-b-sasa",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "319",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Orange Crush Presents: Lamalice (Live), Mariiin, Rēve",
+    "organizer": "REX CLUB",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove drinks",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "time": "11:59 PM",
+    "location": "Rex Club · 5 Boulevard Poissonnière, 75002 Paris, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/orange-crush-presents-lamalice-live-mariiin-reve",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "320",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Black Boyz In White | Global Black Pride Edition",
+    "organizer": "Afro Boyz Club",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove drinks",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "time": "8:00 PM",
+    "location": "La CASA Club · 15 Rue Daval, 75011 Paris, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/black-boyz-in-white-global-black-pride-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadQJ7IFZmkmo97u__qGeMF5uX3S3aW1IiPIfaC6TGkKb1CPimZNKTUDR21C2g_aem_i8irZ0KVhln5Bypw_7PxFQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "321",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Paris Afro Pride | Global Black Pride Edition",
+    "organizer": "Afro Boyz Club",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove drinks",
+    "free": false,
+    "price": "$38.00",
+    "badges": [
+      "Queer",
+      "POC",
+      "Black",
+      "MLM"
+    ],
+    "time": "10:00 PM",
+    "location": "La CASA Club · 15 Rue Daval, 75011 Paris, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/paris-afro-pride-global-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaetUO7FANHNdxLxymFocWpKK7q6ugvi5Z-XFdAJLqI95XoOtG62ohBet83w6Q_aem_kRSJykAHAswg6ET1O97mZA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "322",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Jay-Z Concert",
+    "organizer": "Jay-Z",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "live show groove",
+    "free": false,
+    "price": "$45.00",
+    "badges": [
+      "Black"
+    ],
+    "time": "11:59 PM",
+    "location": "Stade de France, 93200 Saint-Denis, France · ZAC du Cornillon Nord, 93200 Saint-Denis, France.Map data ©2026 GoogleTerms200 m",
+    "vibeTags": [
+      "Live Show",
+      "Groove"
+    ],
+    "ctaHref": "https://www.livenation.com/event/intl_1680369/jay-z-30",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
     "city": "paris",
     "prideSeries": "No -- standalone event"
   }

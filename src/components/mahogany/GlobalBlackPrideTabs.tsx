@@ -46,7 +46,25 @@ function HospitalityList({
                 {item.price}
               </p>
             ) : null}
-            {item.meta ? <p className="hos-meta">{item.meta}</p> : null}
+            {item.address ? (
+              item.addressMapsUrl ? (
+                <p className="hos-meta">
+                  <a
+                    className="hos-maplink"
+                    href={item.addressMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {item.address}
+                  </a>
+                </p>
+              ) : (
+                <p className="hos-meta">{item.address}</p>
+              )
+            ) : null}
+            {item.nearbyStation ? (
+              <p className="hos-station">Nearby Station: {item.nearbyStation}</p>
+            ) : null}
             {item.bio ? <p className="hos-bio">{item.bio}</p> : null}
             {item.discountCode ? (
               <p className="hos-code" role="note">

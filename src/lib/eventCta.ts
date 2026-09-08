@@ -1,6 +1,6 @@
 import { CtaButtonClass, type CtaButtonClassId } from '../types/event';
 
-const SPECIAL_CTA_LABELS = new Set(['RSVP Free', 'Join Waitlist']);
+const SPECIAL_CTA_LABELS = new Set(['RSVP Free', 'Join Waitlist', 'View registration instructions']);
 
 export function isInstagramUrl(href: string): boolean {
   if (!href.trim()) return false;
@@ -13,7 +13,12 @@ export function isInstagramUrl(href: string): boolean {
   }
 }
 
-export function eventCtaLabel(event: { ctaHref: string; ctaLabel: string }): string {
+export function eventCtaLabel(event: {
+  ctaHref: string;
+  ctaLabel: string;
+  registrationDirections?: string;
+}): string {
+  if (event.registrationDirections) return 'View registration instructions';
   if (SPECIAL_CTA_LABELS.has(event.ctaLabel)) return event.ctaLabel;
   if (!isInstagramUrl(event.ctaHref)) return 'Get Tickets';
   return event.ctaLabel;
