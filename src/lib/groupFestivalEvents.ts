@@ -1,4 +1,4 @@
-import { CITY_ORDER, cityDisplayLabel } from '../constants/cities';
+import { compareCityKeysByLabel, cityDisplayLabel } from '../constants/cities';
 import { DAY_ORDER } from '../constants/days';
 import type { FestivalGrouping } from '../constants/festivals';
 import type { DayId, PrideEvent } from '../types/event';
@@ -83,10 +83,7 @@ export function groupEventsByCityThenDate(events: PrideEvent[]): CityDayGroup[] 
     byCity.set(key, bucket);
   }
 
-  const orderedKeys = [
-    ...CITY_ORDER.filter((key) => byCity.has(key)),
-    ...[...byCity.keys()].filter((key) => !CITY_ORDER.includes(key as (typeof CITY_ORDER)[number])),
-  ];
+  const orderedKeys = [...byCity.keys()].sort(compareCityKeysByLabel);
 
   return orderedKeys.map((cityKey) => ({
     cityKey,

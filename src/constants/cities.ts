@@ -1,4 +1,4 @@
-export const CITY_ORDER = ['dc', 'nyc', 'baltimore', 'dmv', 'atlanta'] as const;
+export const CITY_ORDER = ['atlanta', 'baltimore', 'dc', 'dmv', 'nyc'] as const;
 
 export type MainCityKey = (typeof CITY_ORDER)[number];
 export type CityKey = MainCityKey | 'chicago' | 'paris';
@@ -36,6 +36,14 @@ export function cityDisplayLabel(key: string): string {
   return CITY_LABELS[key as CityKey] ?? key;
 }
 
+/** Sort city keys A–Z by display label; blank/unknown city keys sort last. */
+export function compareCityKeysByLabel(a: string, b: string): number {
+  if (!a && !b) return 0;
+  if (!a) return 1;
+  if (!b) return -1;
+  return cityDisplayLabel(a).localeCompare(cityDisplayLabel(b), undefined, { sensitivity: 'base' });
+}
+
 export type CityFilterOption = { value: string; label: string };
 
 export const cityFilterOptions: CityFilterOption[] = CITY_ORDER.map((key) => ({
@@ -44,12 +52,8 @@ export const cityFilterOptions: CityFilterOption[] = CITY_ORDER.map((key) => ({
 }));
 
 export function cityFilterOptionsForKeys(keys: Iterable<string>): CityFilterOption[] {
-  const present = new Set([...keys].filter(Boolean));
-  const ordered = [
-    ...CITY_ORDER.filter((key) => present.has(key)),
-    ...[...present].filter((key) => !CITY_ORDER.includes(key as MainCityKey)),
-  ];
-  return ordered.map((key) => ({
+  const present = [...new Set([...keys].filter(Boolean))].sort(compareCityKeysByLabel);
+  return present.map((key) => ({
     value: key,
     label: cityDisplayLabel(key),
   }));
