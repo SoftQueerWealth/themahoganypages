@@ -14,6 +14,7 @@
     "lint": "eslint .",
     "sync-beauty": "node scripts/sync-beauty.mjs",
     "sync-events": "npx tsx scripts/sync-events.ts",
+    "sync-hospitality": "node scripts/sync-hospitality.mjs",
     "update-last-updated": "node scripts/update-last-updated.mjs",
     "deploy:staging": "bash scripts/sync-deploy-staging.sh",
     "deploy:prod": "bash scripts/sync-deploy-prod.sh",

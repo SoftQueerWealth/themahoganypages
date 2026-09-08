@@ -4,6 +4,7 @@ import type { PrideEvent } from '../types/event';
 import { trackClick } from '../lib/analytics';
 import { eventCtaButtonClass, eventCtaLabel } from '../lib/eventCta';
 import { badgeClassForLabel } from '../lib/badgeClass';
+import { displayAudienceBadges } from '../lib/displayAudienceBadges';
 import { flyerModalUrl } from '../lib/flyerUrl';
 import { parseDiscountDisplay, hasVisibleDiscountCode } from '../lib/parseDiscountDisplay';
 import { isMappableLocation, mapsSearchUrl, splitLocationParts } from '../lib/maps';
@@ -14,6 +15,11 @@ interface EventCardProps {
   visible: boolean;
   going?: boolean;
   onToggleGoing?: () => void;
+}
+
+function hasDisplayableTime(time: string | undefined): boolean {
+  const t = (time ?? '').trim();
+  return Boolean(t) && /\d/.test(t);
 }
 
 function LocationDisplay({
@@ -66,6 +72,8 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
     ? parseDiscountDisplay(event.discountCode!)
     : null;
   const hasFlyer = Boolean(event.flyerUrl);
+  const audienceBadges = displayAudienceBadges(event.badges);
+  const showTime = hasDisplayableTime(event.time);
 
   return (
     <div
@@ -104,7 +112,7 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
       <div className="event-body">
         <div className="event-main">
           <div className="event-badges">
-            {event.badges.map((b) => (
+            {audienceBadges.map((b) => (
               <span key={b} className={`badge ${badgeClassForLabel(b)}`}>
                 {b}
               </span>
@@ -113,18 +121,24 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
           <div className="event-name">{event.name}</div>
           {event.organizer ? <div className="event-organizer">{event.organizer}</div> : null}
           <div className="event-meta">
-            <span className="meta-pill">
-              <Clock size={10} strokeWidth={2} aria-hidden />
-              {event.time}
-              {event.price ? (
-                <>
+            {showTime || event.price ? (
+              <span className="meta-pill">
+                {showTime ? (
+                  <>
+                    <Clock size={10} strokeWidth={2} aria-hidden />
+                    {event.time.trim()}
+                  </>
+                ) : null}
+                {showTime && event.price ? (
                   <span className="meta-pill-sep" aria-hidden>
                     {' · '}
                   </span>
+                ) : null}
+                {event.price ? (
                   <span className={event.free ? 'meta-pill--price-free' : undefined}>{event.price}</span>
-                </>
-              ) : null}
-            </span>
+                ) : null}
+              </span>
+            ) : null}
             <span className="meta-pill meta-pill--location">
               <MapPin size={10} strokeWidth={2} aria-hidden />
               <LocationDisplay

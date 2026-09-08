@@ -54,11 +54,9 @@ export const FILTER_SECTIONS: FilterSectionDef<FilterKind>[] = [
   {
     label: 'Audience',
     pills: [
-      { kind: FilterKind.Audience, value: 'black', label: 'Black' },
       { kind: FilterKind.Audience, value: 'sapphic', label: 'Sapphic' },
       { kind: FilterKind.Audience, value: 'trans/gnc', label: 'Trans/GNC' },
       { kind: FilterKind.Audience, value: 'poc', label: 'POC' },
-      { kind: FilterKind.Audience, value: 'queer', label: 'Queer' },
       { kind: FilterKind.Audience, value: 'queer-friendly', label: 'Queer-friendly' },
       { kind: FilterKind.Audience, value: 'mlm', label: 'MLM' },
       { kind: FilterKind.Audience, value: '30+', label: '30+' },

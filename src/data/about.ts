@@ -53,6 +53,16 @@ export const ABOUT_SOCIAL_LINKS: AboutSocialLink[] = [
     platform: SocialPlatform.Instagram,
   },
   {
+    label: 'TikTok',
+    href: 'https://www.tiktok.com/@softqueerwealth?_r=1&_t=ZT-99Y0M5ekXZV',
+    platform: SocialPlatform.TikTok,
+  },
+  {
+    label: 'YouTube',
+    href: 'https://youtube.com/@softqueerwealth?si=RVF9Hz3qheVZAq69',
+    platform: SocialPlatform.YouTube,
+  },
+  {
     label: 'Threads',
     href: 'https://www.threads.com/@softqueerwealth',
     platform: SocialPlatform.Threads,
@@ -65,11 +75,6 @@ export const ABOUT_SOCIAL_LINKS: AboutSocialLink[] = [
   {
     label: 'Buy Me a Coffee',
     href: DONATION_URL,
-  },
-  {
-    label: 'Linktree',
-    href: 'https://linktr.ee/softqueerwealth?utm_source=ig&utm_medium=social&utm_content=link_in_bio',
-    platform: SocialPlatform.Linktree,
   },
 ];
 

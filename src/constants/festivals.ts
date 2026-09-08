@@ -138,16 +138,6 @@ export interface FeaturedFestival {
 
 export const FEATURED_FESTIVALS: FeaturedFestival[] = [
   {
-    id: NYC_BLACK_PRIDE_FESTIVAL_ID,
-    monthId: AUGUST_FESTIVAL_ID,
-    monthPrefix: '2026-08',
-    tabLabel: 'NYC Black Pride (29th Annual)',
-    location: 'New York · August 2026',
-    city: 'nyc',
-    prideSeries: NYC_BLACK_PRIDE_SERIES,
-    includeCityAsMoreEvents: true,
-  },
-  {
     id: 'stamina-2026',
     monthId: SEPTEMBER_FESTIVAL_ID,
     monthPrefix: '2026-09',

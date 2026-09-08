@@ -1,5 +1,24 @@
-import { AtSign, Instagram, Link2, Mail } from 'lucide-react';
+import { AtSign, Instagram, Mail, Youtube } from 'lucide-react';
 import { SocialPlatform, trackSocialClick } from '../lib/analytics';
+
+function TikTokIcon({ size = 19 }: { size?: number }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+    </svg>
+  );
+}
 
 const SOCIAL = [
   {
@@ -9,16 +28,22 @@ const SOCIAL = [
     Icon: Instagram,
   },
   {
+    platform: SocialPlatform.TikTok,
+    href: 'https://www.tiktok.com/@softqueerwealth?_r=1&_t=ZT-99Y0M5ekXZV',
+    label: 'TikTok',
+    Icon: TikTokIcon,
+  },
+  {
+    platform: SocialPlatform.YouTube,
+    href: 'https://youtube.com/@softqueerwealth?si=RVF9Hz3qheVZAq69',
+    label: 'YouTube',
+    Icon: Youtube,
+  },
+  {
     platform: SocialPlatform.Threads,
     href: 'https://www.threads.com/@softqueerwealth',
     label: 'Threads',
     Icon: AtSign,
-  },
-  {
-    platform: SocialPlatform.Linktree,
-    href: 'https://linktr.ee/softqueerwealth?utm_source=ig&utm_medium=social&utm_content=link_in_bio',
-    label: 'Linktree',
-    Icon: Link2,
   },
   {
     platform: SocialPlatform.Email,

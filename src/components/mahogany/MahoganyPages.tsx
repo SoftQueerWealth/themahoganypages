@@ -5,19 +5,23 @@ import { DaySection } from '../DaySection';
 import { ItineraryBar } from '../ItineraryBar';
 import { SharedItineraryHeader } from '../SharedItineraryHeader';
 import { EventFilterSidebar } from './EventFilterSidebar';
+import { FeaturedCarousel } from './FeaturedCarousel';
+import { GlobalBlackPrideTabs } from './GlobalBlackPrideTabs';
+import { HeroSocial } from '../HeroSocial';
 import { cityFilterOptionsForKeys } from '../../constants/cities';
 import {
   AUGUST_FESTIVAL_ID,
-  FEATURED_FESTIVALS,
   featuredFestivalById,
   type FeaturedFestival,
 } from '../../constants/festivals';
+import type { GbpTabId } from '../../data/globalBlackPride';
 import { PUBLIC_SITE_ORIGIN } from '../../constants/site';
+import { LAST_UPDATED_LABEL } from '../../constants/lastUpdated';
 import { FOOTER_BAND, FOOTER_COPY } from '../../data/home';
 import { useEvents } from '../../hooks/useEvents';
 import { useEventFilters } from '../../hooks/useEventFilters';
 import { useItinerary } from '../../hooks/useItinerary';
-import { trackItineraryShare, SocialPlatform, trackSocialClick } from '../../lib/analytics';
+import { trackItineraryShare } from '../../lib/analytics';
 import { eventMatchesPrideSeries, isUntaggedPrideSeries } from '../../lib/festivalCityFilter';
 import { formatItineraryShare } from '../../lib/formatItinerary';
 import { groupEventsByCityThenDate, groupFestivalEvents } from '../../lib/groupFestivalEvents';
@@ -44,8 +48,10 @@ export function MahoganyPages() {
   const [featuredId, setFeaturedId] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState('');
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
+  const isGlobalBlackPride = featuredId === 'global-black-pride';
   const grouping = 'calendar';
 
   const { allEvents, eventsForFestival, error, isLoading } = useEvents();
@@ -145,6 +151,7 @@ export function MahoganyPages() {
     const next = featuredFestivalById(id);
     setFeaturedId(id);
     setSelectedCity(next?.city ?? '');
+    if (id === 'global-black-pride') setGbpTab('programme');
     filter.clearAll();
   };
 
@@ -209,28 +216,17 @@ export function MahoganyPages() {
             <p className="mahogany-lede">
               Black and Brown Queer Events Near You — curated with locals who know the scene.
             </p>
-            <p className="last-updated">Last updated · August 28, 2026</p>
-            <a
-              className="btn small"
-              href="https://www.instagram.com/softqueerwealth?igsh=NzVzaWt4N3BseDQ5"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() =>
-                trackSocialClick(
-                  SocialPlatform.Instagram,
-                  'https://www.instagram.com/softqueerwealth?igsh=NzVzaWt4N3BseDQ5',
-                )
-              }
-            >
-              Share an Event →
-            </a>
+            <p className="last-updated">Last updated · {LAST_UPDATED_LABEL}</p>
           </div>
-          <div className="sidebar-box mahogany-vibe-box">
-            <h3>✨ Find your vibe, save your favorites</h3>
-            <p>
-              Sort the guide by day, audience, venue type, vibes, and price — then tap <b>Add</b> and share
-              your itinerary with your people.
-            </p>
+          <div className="mahogany-intro-aside">
+            <div className="sidebar-box mahogany-vibe-box">
+              <h3>✨ Find your vibe, save your favorites</h3>
+              <p>
+                Sort the guide by day, audience, venue type, vibes, and price — then tap <b>Add</b> and share
+                your itinerary with your people.
+              </p>
+            </div>
+            <HeroSocial />
           </div>
         </div>
 
@@ -243,21 +239,7 @@ export function MahoganyPages() {
               options={cityOptions}
             />
 
-            <div className="mahogany-featured-row">
-              {FEATURED_FESTIVALS.map((card) => (
-                <button
-                  key={card.id}
-                  type="button"
-                  className={`mahogany-wnba-card${featuredId === card.id ? ' active' : ''}`}
-                  onClick={() => handleSelectFeatured(card.id)}
-                  aria-pressed={featuredId === card.id}
-                >
-                  <span className="mahogany-wnba-chip">Featured</span>
-                  <span className="mahogany-wnba-title">{card.tabLabel}</span>
-                  <span className="mahogany-wnba-meta">{card.location}</span>
-                </button>
-              ))}
-            </div>
+            <FeaturedCarousel featuredId={featuredId} onSelect={handleSelectFeatured} />
           </div>
         )}
 
@@ -302,27 +284,63 @@ export function MahoganyPages() {
                   />
                 ))
               ) : featured ? (
-                <>
-                  {officialGrouped.length > 0 ? (
-                    <CitySection
-                      cityLabel="Pride events"
-                      dayGroups={officialGrouped}
-                      isEventVisible={isEventShown}
-                      isGoing={(event) => itinerary.isGoing(event.id)}
-                      onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
-                      className={moreGrouped.length > 0 ? 'city-section--before-more' : undefined}
-                    />
-                  ) : null}
-                  {moreGrouped.length > 0 ? (
-                    <CitySection
-                      cityLabel="Other events"
-                      dayGroups={moreGrouped}
-                      isEventVisible={isEventShown}
-                      isGoing={(event) => itinerary.isGoing(event.id)}
-                      onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
-                    />
-                  ) : null}
-                </>
+                isGlobalBlackPride ? (
+                  <GlobalBlackPrideTabs
+                    activeTab={gbpTab}
+                    onTabChange={setGbpTab}
+                    programmePanel={
+                      officialGrouped.length > 0 ? (
+                        <CitySection
+                          cityLabel="Official Global Black Pride Programme"
+                          dayGroups={officialGrouped}
+                          isEventVisible={isEventShown}
+                          isGoing={(event) => itinerary.isGoing(event.id)}
+                          onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                        />
+                      ) : (
+                        <p className="gbp-empty">No programme events in the guide right now.</p>
+                      )
+                    }
+                    queerParisPanel={
+                      moreGrouped.length > 0 ? (
+                        <CitySection
+                          cityLabel="Black Queer + Sapphic Paris"
+                          dayGroups={moreGrouped}
+                          isEventVisible={isEventShown}
+                          isGoing={(event) => itinerary.isGoing(event.id)}
+                          onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                        />
+                      ) : (
+                        <p className="gbp-empty">
+                          More happening around the city during Global Black Pride week — check back
+                          soon.
+                        </p>
+                      )
+                    }
+                  />
+                ) : (
+                  <>
+                    {officialGrouped.length > 0 ? (
+                      <CitySection
+                        cityLabel="Pride events"
+                        dayGroups={officialGrouped}
+                        isEventVisible={isEventShown}
+                        isGoing={(event) => itinerary.isGoing(event.id)}
+                        onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                        className={moreGrouped.length > 0 ? 'city-section--before-more' : undefined}
+                      />
+                    ) : null}
+                    {moreGrouped.length > 0 ? (
+                      <CitySection
+                        cityLabel="Other events"
+                        dayGroups={moreGrouped}
+                        isEventVisible={isEventShown}
+                        isGoing={(event) => itinerary.isGoing(event.id)}
+                        onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                      />
+                    ) : null}
+                  </>
+                )
               ) : selectedCity ? (
                 grouped.map((dayGroup) => (
                   <DaySection

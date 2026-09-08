@@ -7,6 +7,8 @@ declare global {
 
 export enum SocialPlatform {
   Instagram = 'instagram',
+  TikTok = 'tiktok',
+  YouTube = 'youtube',
   Threads = 'threads',
   Linktree = 'linktree',
   Email = 'email',

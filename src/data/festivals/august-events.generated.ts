@@ -8991,76 +8991,74 @@ export const generatedEvents: PrideEvent[] = [
   {
     "id": "246",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-17",
-    "dayLabel": "Thursday",
-    "name": "Pulse Prom Night - Lineup TBA",
-    "organizer": "Pulse",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Global Black Pride Music Festival 2026",
+    "organizer": "Global Black Pride, Paris",
     "types": [
-      "after-dark"
+      "day-party"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic"
+      "Queer"
     ],
-    "vibesRaw": "ass shaking flirt groove",
-    "free": false,
-    "price": "$23.00",
+    "vibesRaw": "ass shaking flirt community groove",
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Sapphic"
+      "Queer",
+      "Free"
     ],
-    "time": "10:30 PM",
-    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
+    "time": "2:00 PM",
+    "location": "Place de la République · Place de la République, 75011 Paris, France.",
     "vibeTags": [
       "Ass Shaking",
       "Flirt",
+      "Community",
       "Groove"
     ],
-    "ctaHref": "https://shotgun.live/fr/events/pulsepromnight",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "ctaHref": "https://www.instagram.com/p/Dc_sJ8JRLjj/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
     "id": "247",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-13",
-    "dayLabel": "Sunday",
-    "name": "Bbb Black Pride Edition Sunday Sept 13",
-    "organizer": "BBB",
+    "day": "wednesday",
+    "dayDate": "2026-09-09",
+    "dayLabel": "Wednesday",
+    "name": "Global Black Pride: Press conference",
+    "organizer": "Global Black Pride, Paris",
     "types": [
-      "after-dark"
+      "meetup"
     ],
     "audienceTags": [
       "Black",
-      "MLM",
       "Queer"
     ],
-    "vibesRaw": "flirt ass shaking groove",
+    "vibesRaw": "creative community",
     "free": false,
-    "price": "$23.00",
     "badges": [
       "Black",
-      "MLM",
       "Queer"
     ],
-    "time": "11:30 PM",
-    "location": "La Nuit · 8 Boulevard de la Madeleine, 75009 Paris, France",
+    "time": "9:30 AM",
+    "location": "Centre LGBTQI+ Paris-Île-de-France · 63 Rue Beaubourg, 75003 Paris, France",
     "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
+      "Creative",
+      "Community"
     ],
-    "ctaHref": "https://shotgun.live/en/events/bbbblackpride",
+    "ctaHref": "https://www.instagram.com/global_blackpride/",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-meetup",
     "city": "paris",
-    "prideSeries": "Global Black Pride"
+    "prideSeries": "Global Black Pride, Paris"
   },
   {
     "id": "248",
@@ -9068,52 +9066,8 @@ export const generatedEvents: PrideEvent[] = [
     "day": "saturday",
     "dayDate": "2026-09-12",
     "dayLabel": "Saturday",
-    "name": "Global Black Pride Music Festival 2026",
-    "organizer": "Global Black Pride, Paris",
-    "types": [],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [],
-    "time": "",
-    "location": "Paris",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/global_blackpride/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "249",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-12",
-    "dayLabel": "Saturday",
-    "name": "Dancehall by Neko Lean Lean",
-    "organizer": "Le Bunker X Neko Lean Lean",
-    "types": [],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [],
-    "time": "",
-    "location": "Paris",
-    "vibeTags": [],
-    "ctaHref": "",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "250",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-12",
-    "dayLabel": "Saturday",
     "name": "The Official Global Black Pride After Party",
-    "organizer": "The Unity Connection",
+    "organizer": "Global Black Pride, Paris",
     "types": [
       "after-dark"
     ],
@@ -9123,43 +9077,6 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "vibesRaw": "ass shaking flirt community groove",
     "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "11:00 PM",
-    "location": "Bowling Foch & LE VOGUE · En sous-sol, 1 Av. Foch, 75016 Paris, France\nParis,  France",
-    "vibeTags": [
-      "Ass Shaking",
-      "Flirt",
-      "Community",
-      "Groove"
-    ],
-    "ctaHref": "https://lybertine.com/events/the-unity-connection-the-official-global-black-pride-after-party?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafKPEkLau7GtmiTcHl39IEYIATQ_RAeXO0dGJcY7VorPjIcTx5cWx1q1emJrA_aem_7Bv--ObE3_Jr2BFmqOLONw",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "251",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-12",
-    "dayLabel": "Saturday",
-    "name": "The Official Global Black Pride After Party",
-    "organizer": "Global Black Pride, Paris",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "groove community",
-    "free": false,
     "price": "$17.00",
     "badges": [
       "Black",
@@ -9168,8 +9085,10 @@ export const generatedEvents: PrideEvent[] = [
     "time": "11:00 PM",
     "location": "Bowling Foch & LE VOGUE · En sous-sol, 1 Av. Foch, 75016 Paris, France , Paris , France",
     "vibeTags": [
-      "Groove",
-      "Community"
+      "Ass Shaking",
+      "Flirt",
+      "Community",
+      "Groove"
     ],
     "ctaHref": "https://lybertine.com/events/the-unity-connection-the-official-global-black-pride-after-party?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAac1iKxXK4h7CR8WzXy75e_xPQHubk25z24-wgtEPFZpZnaFE5_a_YiZggJPNg_aem_VtYG8JzGEVXDT-dvMOiqvw",
     "ctaLabel": "Get Tickets",
@@ -9179,43 +9098,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "252",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-11",
-    "dayLabel": "Friday",
-    "name": "Preto Novo XD*Ck Appointment: Global Black Pride",
-    "organizer": "Dick Appointment X Preto Novo",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Queer",
-      "MLM"
-    ],
-    "vibesRaw": "ass shaking flirt groove",
-    "free": false,
-    "price": "$17.50",
-    "badges": [
-      "Queer",
-      "MLM"
-    ],
-    "time": "11:59 PM",
-    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
-    "vibeTags": [
-      "Ass Shaking",
-      "Flirt",
-      "Groove"
-    ],
-    "ctaHref": "https://shotgun.live/fr/events/pretonovodickappt",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "253",
+    "id": "249",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9223,116 +9106,40 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Global Black Pride Awards & Gala",
     "organizer": "Global Black Pride, Paris",
     "types": [
-      "live-show"
+      "gala"
     ],
     "audienceTags": [
       "Black",
       "Queer"
     ],
-    "vibesRaw": "networking community cultural grown & sexy live show",
+    "vibesRaw": "networking community cultural grown & sexy live show food drinks gala",
     "free": false,
-    "price": "$135.00",
+    "price": "$81.00",
     "badges": [
       "Black",
       "Queer"
     ],
     "time": "6:00 PM",
-    "location": "To be announced",
+    "location": "Espace Reuilly · 21 Rue Antoine-Julien Hénard, 75012 Paris, France",
     "vibeTags": [
       "Networking",
       "Community",
       "Cultural",
       "Grown & Sexy",
-      "Live Show"
+      "Live Show",
+      "Food",
+      "Drinks",
+      "Gala"
     ],
     "ctaHref": "https://lybertine.com/events/global-black-pride-awards-gala",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
+    "cardClass": "tp-gala",
     "city": "paris",
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "254",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-11",
-    "dayLabel": "Friday",
-    "name": "DJ set by Watrfall",
-    "organizer": "Le Bunker X DJ Watrfall",
-    "types": [],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [],
-    "time": "",
-    "location": "Paris",
-    "vibeTags": [],
-    "ctaHref": "",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "255",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-10",
-    "dayLabel": "Thursday",
-    "name": "The Global Black Queer Assembly",
-    "organizer": "Global Black Pride, Paris",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "networking community",
-    "free": false,
-    "price": "$35.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "9:30 AM",
-    "location": "Mairie du 10e arrondissement · 72 Rue du Faubourg Saint-Martin, 75010",
-    "vibeTags": [
-      "Networking",
-      "Community"
-    ],
-    "ctaHref": "https://lybertine.com/events/the-global-black-queer-assembly",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "256",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-10",
-    "dayLabel": "Thursday",
-    "name": "Afterwork organized by Lesbi Travel",
-    "organizer": "Le Bunker X Lesbi Travel",
-    "types": [],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [],
-    "time": "",
-    "location": "Paris",
-    "vibeTags": [],
-    "ctaHref": "",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
-  },
-  {
-    "id": "257",
+    "id": "250",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -9346,21 +9153,21 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer"
     ],
-    "vibesRaw": "networking community cultural",
+    "vibesRaw": "networking community cultural groove",
     "free": false,
-    "price": "$58.00",
     "badges": [
       "Black",
       "Queer"
     ],
-    "time": "5:30 PM",
-    "location": "La Chapelle · 10 Boulevard du Palais, 75001 Paris, France",
+    "time": "5:00 PM",
+    "location": "La Chapelle Saint-Lazare, 75010 Paris · 10 Boulevard du Palais, 75001 Paris, France",
     "vibeTags": [
       "Networking",
       "Community",
-      "Cultural"
+      "Cultural",
+      "Groove"
     ],
-    "ctaHref": "https://lybertine.com/events/official-opening-reception-for-sponsors-and-partners-of-global-black-pride-paris-2026",
+    "ctaHref": "https://www.instagram.com/p/DajDt2mkaay/?img_index=1",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
@@ -9368,7 +9175,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "258",
+    "id": "251",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -9403,7 +9210,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "259",
+    "id": "252",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -9438,7 +9245,788 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
+    "id": "253",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Global Black Pride March",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "outdoors-hangout"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community cultural",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "2:00 PM",
+    "location": "List of connected neighborhoods known as \"Little Africa\" · Goutte d’Or – Château d’Eau – Château Rouge – République",
+    "vibeTags": [
+      "Community",
+      "Cultural"
+    ],
+    "ctaHref": "https://www.instagram.com/global_blackpride/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "254",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – Conference Welcome + Opening Ceremony",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "food drinks networking community",
+    "free": false,
+    "price": "$35.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "9:30 AM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Food",
+      "Drinks",
+      "Networking",
+      "Community"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "255",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – Official Conference Photograph",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "creative community",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "11:00 AM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Creative",
+      "Community"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "256",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – Networking lunch",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "food drinks networking community",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "11:15 AM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Food",
+      "Drinks",
+      "Networking",
+      "Community"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "257",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – \nConference Session: Opening Plenary: Building Inclusive Democracies",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "1:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "258",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – \nConference Session: Queer Power in Crisis",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "2:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "259",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – Conference Session: Refreshment break",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "food drinks networking community",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "3:30 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Food",
+      "Drinks",
+      "Networking",
+      "Community"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
     "id": "260",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – \nConference Session: Architectures of Radical Care",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "3:45 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "261",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights – \nConference Session: Youth Panel",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Youth/Family"
+    ],
+    "vibesRaw": "community workshop educational family",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer",
+      "Youth/Family"
+    ],
+    "time": "4:30 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational",
+      "Family"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "294",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights – Conference Session: Ball Performance",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "ball"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "live show creative community groove cultural",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "5:30 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Live Show",
+      "Creative",
+      "Community",
+      "Groove",
+      "Cultural"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-ball",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "295",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – \nConference Session: Fireside Chat with Kimahli Powell + Niecy Nash",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "5:45 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "296",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Global Black Pride International Conference on Human Rights  – \nConference Session: The Power of Pride: A Frank Discussion",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "7:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "297",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Global Black Pride International Conference on Human Rights – Conference Session: Opening Plenary — How Did We Get Here?",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "price": "$35.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "10:00 AM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "298",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Global Black Pride International Conference on Human Rights – Conference Session: Gender, Scholarship and Liberation — An Academic Conversation",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "11:00 AM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "299",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Global Black Pride International Conference on Human Rights – Conference Session: Flourish Global — LGBTQI+ Culture & Mental Health",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "12:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "300",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Global Black Pride International Conference on Human Rights – Networking Lunch",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "1:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "301",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Global Black Pride International Conference on Human Rights – Conference Session: From Invisibility to Representation — Who Gets to Tell Black LGBTQ+ Stories?",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "2:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "302",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Global Black Pride International Conference on Human Rights – Conference Session: Closing Plenary — What Are We Going to Do? A Funding Conversation",
+    "organizer": "Global Black Pride, Paris",
+    "types": [
+      "meetup",
+      "workshop",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community workshop educational",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "3:00 PM",
+    "location": "Mairie du 10e arrondissement / 10th Arrondissement Town Hall · 72 Rue du Faubourg Saint-Martin, 75010 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Workshop",
+      "Educational"
+    ],
+    "ctaHref": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "Global Black Pride, Paris"
+  },
+  {
+    "id": "303",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-17",
+    "dayLabel": "Thursday",
+    "name": "Pulse Prom Night - Lineup TBA",
+    "organizer": "Pulse",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "ass shaking flirt groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:30 PM",
+    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Groove"
+    ],
+    "ctaHref": "https://shotgun.live/fr/events/pulsepromnight",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "304",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-13",
+    "dayLabel": "Sunday",
+    "name": "Bbb Black Pride Edition Sunday Sept 13",
+    "organizer": "BBB",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "MLM",
+      "Queer"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "MLM",
+      "Queer"
+    ],
+    "time": "11:30 PM",
+    "location": "La Nuit · 8 Boulevard de la Madeleine, 75009 Paris, France",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/bbbblackpride",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "305",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-11",
+    "dayLabel": "Friday",
+    "name": "Preto Novo XD*Ck Appointment: Global Black Pride",
+    "organizer": "Dick Appointment X Preto Novo",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "MLM"
+    ],
+    "vibesRaw": "ass shaking flirt groove",
+    "free": false,
+    "price": "$17.50",
+    "badges": [
+      "Queer",
+      "MLM"
+    ],
+    "time": "11:59 PM",
+    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Groove"
+    ],
+    "ctaHref": "https://shotgun.live/fr/events/pretonovodickappt",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "306",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-06",
@@ -9474,10 +10062,10 @@ export const generatedEvents: PrideEvent[] = [
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
     "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "261",
+    "id": "307",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -9511,6 +10099,126 @@ export const generatedEvents: PrideEvent[] = [
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
     "city": "paris",
-    "prideSeries": "Global Black Pride, Paris"
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "308",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "AFRO QUEER FEMINIST Party sam. 12.09 ❤️‍🔥",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "11:30 PM",
+    "location": "Cabaret des Merveilles · 25 Rue de l’Hirondelle, 75006 Paris",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://www.instagram.com/cabaret_des_merveilles/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "309",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-25",
+    "dayLabel": "Friday",
+    "name": "The Mahogany Sessions: An Evening of Song Crystal Petit",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "Le Peloton Studio",
+    "vibeTags": [],
+    "ctaHref": "",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "310",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-26",
+    "dayLabel": "Saturday",
+    "name": "The Mahogany Sessions: An Evening of Song Crystal Petit",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "Le Peloton Studio",
+    "vibeTags": [],
+    "ctaHref": "",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "311",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Yoga with Black Lesbian Activist Elder, Nawo Crawford",
+    "organizer": "Nawo Crawford",
+    "types": [
+      "meetup",
+      "gynasium"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "community wellness cultural",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 AM",
+    "location": "L'Ecole de comedie musicale des Lilas · 174 rue de Paris, 93260 Les Lilas",
+    "vibeTags": [
+      "Community",
+      "Wellness",
+      "Cultural"
+    ],
+    "ctaHref": "To Reserve your place, please email nawo@free.fr",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
   }
 ];

@@ -977,6 +977,42 @@ nav.rooms button:hover {
   margin-bottom: 28px;
 }
 
+.hero-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.hero-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(139, 90, 43, 0.28);
+  background: rgba(139, 90, 43, 0.08);
+  color: var(--terracotta-dark);
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  text-decoration: none;
+}
+
+.hero-social a:hover {
+  border-color: rgba(139, 90, 43, 0.5);
+  background: rgba(139, 90, 43, 0.14);
+  color: var(--ink);
+}
+
+.hero-social svg {
+  width: 19px;
+  height: 19px;
+  display: block;
+}
+
 .mahogany-title {
   margin: 0 0 12px;
   font-size: 40px;
@@ -999,12 +1035,19 @@ nav.rooms button:hover {
   color: var(--ink-soft);
 }
 
-.mahogany-intro-copy .btn {
-  margin-top: 14px;
-}
-
 .mahogany-vibe-box {
   margin: 0;
+}
+
+.mahogany-intro-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+
+.mahogany-vibe-box + .hero-social {
+  margin-top: 0;
 }
 
 .mahogany-vibe-box h3 {
@@ -1021,18 +1064,9 @@ nav.rooms button:hover {
 
 .mahogany-controls {
   display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  gap: 14px;
-  margin-bottom: 28px;
-}
-
-.mahogany-featured-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  flex: 1;
-  min-width: min(100%, 240px);
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 12px;
 }
 
 .mahogany-city-filter {
@@ -1043,6 +1077,397 @@ nav.rooms button:hover {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 12px 16px;
+  align-self: flex-start;
+}
+
+.featured-carousel {
+  width: 100%;
+  min-width: 0;
+}
+
+.featured-section-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 10px;
+}
+
+.featured-scroll {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 4px 0 8px;
+  margin: 0 0 6px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.featured-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.featured-card {
+  flex: 0 0 min(78%, 320px);
+  scroll-snap-align: center;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  height: 170px;
+  border: 1px solid var(--mahogany);
+  box-shadow: var(--shadow);
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+}
+
+.featured-card.active {
+  outline: 2px solid var(--terracotta);
+  outline-offset: 2px;
+}
+
+.featured-card-photo {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #4a3b32, #2a2119);
+}
+
+.featured-card-photo.paris {
+  background: linear-gradient(135deg, #8b5a6b, #3a2a35);
+}
+
+.featured-card-photo.atlanta {
+  background: linear-gradient(135deg, #c9a24b, #8b3a4a);
+}
+
+.featured-card-photo.stamina {
+  background: linear-gradient(135deg, #7c8b65, #2a2119);
+}
+
+.featured-card-photo.nyc {
+  background: linear-gradient(135deg, #4a3b32, #1a1510);
+}
+
+.featured-card-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.15) 55%, transparent 100%);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--mahogany);
+  color: #fff;
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.featured-card-text {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  right: 14px;
+  z-index: 2;
+}
+
+.featured-card-text h3 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  margin: 0 0 3px;
+  line-height: 1.15;
+}
+
+.featured-card-text p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 11.5px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.tab-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 0 0 4px;
+  margin: 0 0 18px;
+  max-width: 100%;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tab-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-pill {
+  flex-shrink: 0;
+  border: 1.5px solid var(--line);
+  background: var(--cream-card);
+  padding: 10px 17px;
+  border-radius: 22px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.tab-pill.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.gbp-empty {
+  margin: 8px 0 20px;
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+.gbp-hos-intro {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 0 0 18px;
+}
+
+.hos-row {
+  display: flex;
+  gap: 12px;
+  margin: 0 0 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hos-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.hos-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.hos-badge {
+  display: inline-block;
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 20px;
+  background: #efe3cc;
+  color: var(--terracotta-dark);
+}
+
+.hos-info h5 {
+  margin: 0 0 2px;
+  font-size: 14.5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hos-price {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--terracotta-dark);
+  line-height: 1.2;
+}
+
+.hos-meta {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+}
+
+.hos-bio {
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.hos-code {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: -2px 0 10px;
+}
+
+.hos-code-value {
+  font-weight: 700;
+  color: var(--terracotta-dark);
+  letter-spacing: 0.02em;
+}
+
+.hos-action {
+  flex: 0 0 auto;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.hos-ig {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--terracotta-dark);
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+.hos-ig:hover {
+  text-decoration: underline;
+}
+
+.hos-book {
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--sage);
+  padding: 7px 12px;
+  border-radius: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gbp-travel-lede {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
+
+.attribution-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #efe3cc;
+  border-radius: 10px;
+  padding: 11px 14px;
+  margin: 0 0 18px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.travel-card {
+  background: var(--cream-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0 0 14px;
+}
+
+.travel-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.travel-card-ic {
+  font-size: 17px;
+}
+
+.travel-card-head h4 {
+  margin: 0;
+  font-size: 14.5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.travel-fact {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 4px 0;
+}
+
+.travel-check-lbl {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--terracotta-dark);
+  margin: 12px 0 6px;
+}
+
+.check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  padding: 4px 0;
+}
+
+.check-item .mark {
+  color: var(--sage);
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.app-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.app-chip {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.final-checklist {
+  background: var(--ink);
+  border-radius: 14px;
+  padding: 18px;
+  margin: 0 0 14px;
+}
+
+.final-checklist h4 {
+  color: #fff;
+  font-size: 14.5px;
+  margin: 0 0 12px;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+}
+
+.final-checklist .check-item {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.final-checklist .check-item .mark {
+  color: var(--gold);
 }
 
 .city-filter-label {
@@ -1073,58 +1498,6 @@ nav.rooms button:hover {
 .city-filter-select:focus {
   outline: 2px solid var(--terracotta);
   outline-offset: 2px;
-}
-
-.mahogany-wnba-card {
-  flex: 1;
-  min-width: min(100%, 240px);
-  max-width: 360px;
-  text-align: left;
-  background: var(--cream-card);
-  border: 1.5px solid var(--mahogany);
-  border-radius: 12px;
-  padding: 14px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  color: var(--ink);
-  box-shadow: 0 0 0 3px rgba(168, 75, 92, 0.08);
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-
-.mahogany-wnba-card:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--shadow);
-}
-
-.mahogany-wnba-card.active {
-  background: #f7ecef;
-  box-shadow: 0 0 0 3px rgba(168, 75, 92, 0.18);
-}
-
-.mahogany-wnba-chip {
-  display: inline-block;
-  align-self: flex-start;
-  font-size: 9.5px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  background: var(--mahogany);
-  color: #fff;
-  padding: 3px 8px;
-  border-radius: 20px;
-  margin-bottom: 2px;
-}
-
-.mahogany-wnba-title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.mahogany-wnba-meta {
-  font-size: 12px;
-  color: var(--ink-soft);
 }
 
 .mahogany-layout {
@@ -1323,6 +1696,9 @@ nav.rooms button:hover {
   font-weight: 600;
   color: var(--ink);
   margin: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .city-section--before-more .day-section:last-child .event-card:last-of-type {
@@ -1615,10 +1991,9 @@ nav.rooms button:hover {
   margin: 0 0 2px;
   color: var(--ink);
   line-height: 1.3;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .event-organizer {
@@ -1642,6 +2017,24 @@ nav.rooms button:hover {
   align-items: flex-start;
   gap: 5px;
   line-height: 1.5;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.meta-pill > svg {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+}
+
+.meta-pill--location {
+  width: 100%;
+}
+
+.meta-pill-location-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .meta-pill--price-free {
@@ -1969,8 +2362,27 @@ nav.rooms button:hover {
     grid-template-columns: 1fr;
   }
 
+  .mahogany-intro-aside {
+    width: 100%;
+  }
+
+  .hero-social {
+    width: 100%;
+  }
+
+  .gbp-tabs-wrap {
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: clip;
+  }
+
+  .featured-carousel {
+    max-width: 100%;
+    min-width: 0;
+  }
+
   .mahogany-layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .mahogany-filters-desktop {
@@ -2051,8 +2463,8 @@ nav.rooms button:hover {
     padding-bottom: 180px;
   }
 
-  .mahogany-wnba-card {
-    max-width: none;
+  .featured-card {
+    flex-basis: 78%;
   }
 }
 
@@ -2063,6 +2475,22 @@ nav.rooms button:hover {
 
   .mahogany-lede {
     font-size: 13.5px;
+    max-width: none;
+  }
+
+  .hos-info {
+    flex: 1 1 12rem;
+  }
+
+  .hos-action {
+    flex: 0 0 auto;
+    align-self: flex-end;
+  }
+
+  .hos-book {
+    min-height: 40px;
+    align-items: center;
+    padding: 8px 14px;
   }
 
   .event-card,
@@ -2085,22 +2513,28 @@ nav.rooms button:hover {
   }
 
   .event-body {
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     gap: 12px;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .event-main {
-    flex: 1 1 auto;
-    min-width: 0;
+    flex: 1 1 0;
     width: auto;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .event-action {
     flex: 0 0 auto;
     width: auto;
+    max-width: none;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
@@ -2122,23 +2556,66 @@ nav.rooms button:hover {
 
   .event-name {
     font-size: 14.5px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    max-width: 100%;
   }
 
   .event-organizer {
     font-size: 11.5px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    max-width: 100%;
+  }
+
+  .event-meta {
+    max-width: 100%;
+    min-width: 0;
   }
 
   .meta-pill,
   .meta-pill--location {
     white-space: normal;
     max-width: 100%;
+    min-width: 0;
     font-size: 11px;
   }
 
   .meta-pill-location-text,
-  .meta-pill-maplink {
+  .meta-pill-maplink,
+  .meta-pill-venue {
+    min-width: 0;
     overflow-wrap: anywhere;
     word-break: break-word;
+  }
+
+  .meta-pill--location .meta-pill-location-text {
+    flex: 1 1 auto;
+  }
+
+  .wrap,
+  .mahogany-layout,
+  .gbp-tabs-wrap,
+  .gbp-tab-panel,
+  .city-section,
+  .city-header,
+  .day-section,
+  .day-header,
+  .event-card {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .city-title,
+  .day-title {
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .wrap.section-pad {
+    overflow-x: clip;
   }
 
   .badge {
