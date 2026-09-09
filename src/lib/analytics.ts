@@ -20,6 +20,39 @@ function shouldTrackAnalytics(): boolean {
   return isAnalyticsEnabled() && typeof window !== 'undefined' && Boolean(window.gtag);
 }
 
+function shouldPushDataLayer(): boolean {
+  return (
+    isAnalyticsEnabled() &&
+    typeof window !== 'undefined' &&
+    Array.isArray(window.dataLayer)
+  );
+}
+
+/** GTM-friendly dataLayer push matching the button_click + eventModel shape. */
+export function trackDataLayerButtonClick(category: string, label: string): void {
+  if (!shouldPushDataLayer()) return;
+
+  window.dataLayer?.push({
+    event: 'button_click',
+    eventModel: {
+      event_category: category,
+      event_label: label,
+    },
+  });
+}
+
+export function trackCityFilterClick(cityLabel: string): void {
+  trackDataLayerButtonClick('City Filter', cityLabel);
+}
+
+export function trackDayFilterClick(dayLabel: string): void {
+  trackDataLayerButtonClick('Day Filter', dayLabel);
+}
+
+export function trackEventCardClick(eventName: string): void {
+  trackDataLayerButtonClick('Event Card', eventName);
+}
+
 export function trackPageView(pagePath: string): void {
   if (!shouldTrackAnalytics()) return;
 

@@ -1,5 +1,6 @@
 import { useCallback, useMemo, useState } from 'react';
-import { FilterKind } from '../constants/filters';
+import { FILTER_SECTIONS, FilterKind } from '../constants/filters';
+import { trackDayFilterClick } from '../lib/analytics';
 import { hasVisibleDiscountCode } from '../lib/parseDiscountDisplay';
 import type { PrideEvent } from '../types/event';
 
@@ -18,6 +19,12 @@ function toggleSetMember(set: Set<string>, value: string): Set<string> {
   if (next.has(v)) next.delete(v);
   else next.add(v);
   return next;
+}
+
+function dayFilterLabel(value: string): string {
+  const daySection = FILTER_SECTIONS.find((section) => section.label === 'Day');
+  const pill = daySection?.pills.find((p) => String(p.value).toLowerCase() === value.toLowerCase());
+  return pill?.label ?? value;
 }
 
 export function useEventFilters(allEvents: PrideEvent[]) {
@@ -64,6 +71,7 @@ export function useEventFilters(allEvents: PrideEvent[]) {
     } else if (kind === FilterKind.Vibe) {
       setActiveVibes((s) => toggleSetMember(s, v));
     } else if (kind === FilterKind.Day) {
+      trackDayFilterClick(dayFilterLabel(value));
       setActiveDays((s) => toggleSetMember(s, v));
     }
   }, []);

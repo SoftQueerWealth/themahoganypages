@@ -1,7 +1,7 @@
 import { Check, Clock, Lightbulb, MapPin } from 'lucide-react';
 import { useState } from 'react';
 import type { PrideEvent } from '../types/event';
-import { trackClick } from '../lib/analytics';
+import { trackClick, trackEventCardClick } from '../lib/analytics';
 import { eventCtaButtonClass, eventCtaLabel } from '../lib/eventCta';
 import { badgeClassForLabel } from '../lib/badgeClass';
 import { displayAudienceBadges } from '../lib/displayAudienceBadges';
@@ -93,7 +93,10 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
           type="button"
           className="event-flyer-thumb"
           aria-label={`View flyer for ${event.name}`}
-          onClick={() => setFlyerOpen(true)}
+          onClick={() => {
+            trackEventCardClick(event.name);
+            setFlyerOpen(true);
+          }}
         >
           <img
             src={event.flyerUrl}

@@ -8,7 +8,7 @@ import { EventFilterSidebar } from './EventFilterSidebar';
 import { FeaturedCarousel } from './FeaturedCarousel';
 import { GlobalBlackPrideTabs } from './GlobalBlackPrideTabs';
 import { HeroSocial } from '../HeroSocial';
-import { cityFilterOptionsForKeys } from '../../constants/cities';
+import { cityDisplayLabel, cityFilterOptionsForKeys } from '../../constants/cities';
 import {
   AUGUST_FESTIVAL_ID,
   featuredFestivalById,
@@ -21,7 +21,7 @@ import { FOOTER_BAND, FOOTER_COPY } from '../../data/home';
 import { useEvents } from '../../hooks/useEvents';
 import { useEventFilters } from '../../hooks/useEventFilters';
 import { useItinerary } from '../../hooks/useItinerary';
-import { trackItineraryShare } from '../../lib/analytics';
+import { trackCityFilterClick, trackItineraryShare } from '../../lib/analytics';
 import { eventMatchesPrideSeries, isUntaggedPrideSeries } from '../../lib/festivalCityFilter';
 import { formatItineraryShare } from '../../lib/formatItinerary';
 import { groupEventsByCityThenDate, groupFestivalEvents } from '../../lib/groupFestivalEvents';
@@ -134,6 +134,7 @@ export function MahoganyPages() {
     : !isLoading && cityFilteredEvents.length > 0 && !anyEventsVisible;
 
   const handleCityChange = (city: string) => {
+    trackCityFilterClick(city ? cityDisplayLabel(city) : 'All Cities');
     setSelectedCity(city);
     if (!city || (featured && city !== featured.city)) {
       setFeaturedId(null);
