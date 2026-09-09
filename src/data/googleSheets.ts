@@ -708,9 +708,12 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
       const priceRaw = readEventPriceField(headers, row, 'price', shifted);
       const freeRaw = readEventField(headers, row, 'free', shifted);
       const registrationRequired = isRegistrationRequired(freeRaw);
-      const registrationDirectionsRaw = registrationRequired
-        ? readEventField(headers, row, 'registrationDirections', shifted).trim()
-        : '';
+      const registrationDirectionsRaw = readEventField(
+        headers,
+        row,
+        'registrationDirections',
+        shifted,
+      ).trim();
       const registrationDirections = registrationDirectionsRaw || undefined;
       const free =
         registrationRequired ||
@@ -734,7 +737,7 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
         readCell(headers, row, 'ctaLabel') ||
         (free ? 'More Info' : 'Get Tickets');
       if (registrationDirections) {
-        ctaLabel = 'View registration instructions';
+        ctaLabel = 'View registration info';
       } else if (!statusCtaLabel && ctaHref && !isInstagramUrl(ctaHref)) {
         ctaLabel = free ? 'RSVP Free' : 'Get Tickets';
       }

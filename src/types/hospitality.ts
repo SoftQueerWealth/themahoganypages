@@ -5,6 +5,7 @@ export interface HospitalityItem {
   venueType: string;
   uiCategory: string;
   audienceTags: string[];
+  vibeTags: string[];
   description: string;
   venueName: string;
   venueAddress: string;
@@ -14,4 +15,6 @@ export interface HospitalityItem {
   code: string;
   bookingLink: string;
   prideSeries: string;
+  credit: string;
+  creditSourceLink: string;
 }

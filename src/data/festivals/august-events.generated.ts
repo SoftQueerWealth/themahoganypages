@@ -9319,7 +9319,7 @@ export const generatedEvents: PrideEvent[] = [
       "Community"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9356,7 +9356,7 @@ export const generatedEvents: PrideEvent[] = [
       "Community"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9397,7 +9397,7 @@ export const generatedEvents: PrideEvent[] = [
       "Community"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9437,7 +9437,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9477,7 +9477,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9518,7 +9518,7 @@ export const generatedEvents: PrideEvent[] = [
       "Community"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9558,7 +9558,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -9601,7 +9601,7 @@ export const generatedEvents: PrideEvent[] = [
       "Family"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10353,7 +10353,7 @@ export const generatedEvents: PrideEvent[] = [
       "Cultural"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-ball",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10393,7 +10393,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10433,7 +10433,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10473,7 +10473,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10513,7 +10513,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10553,7 +10553,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10593,7 +10593,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10633,7 +10633,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
@@ -10673,7 +10673,7 @@ export const generatedEvents: PrideEvent[] = [
       "Educational"
     ],
     "ctaHref": "",
-    "ctaLabel": "View registration instructions",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
     "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",

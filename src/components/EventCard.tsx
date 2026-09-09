@@ -137,7 +137,7 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
               ✕
             </button>
             <h2 id={`registration-directions-${event.id}`} className="registration-directions-title">
-              Registration instructions
+              Registration info
             </h2>
             <p className="registration-directions-body">{registrationDirections}</p>
           </div>
@@ -228,11 +228,11 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
               type="button"
               className="event-registration-link"
               onClick={() => {
-                trackClick(event.name, 'View registration instructions');
+                trackClick(event.name, 'View registration info');
                 setRegistrationOpen(true);
               }}
             >
-              View registration instructions
+              View registration info
             </button>
           ) : (
             <a

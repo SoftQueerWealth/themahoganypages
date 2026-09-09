@@ -37,6 +37,7 @@ export interface GbpHospitalityItem {
   nearbyStation?: string;
   price?: string;
   tags: string[];
+  vibeTags: string[];
   tone: HosThumbTone;
   bio: string;
   igHandle?: string;
@@ -45,6 +46,8 @@ export interface GbpHospitalityItem {
   discountCode?: string;
   /** True when the listing has a community perk but no discrete code string. */
   communityPerk?: boolean;
+  credit?: string;
+  creditSourceLink?: string;
 }
 
 export interface GbpTravelCard {

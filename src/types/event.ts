@@ -81,7 +81,7 @@ export interface PrideEvent {
   /** Shown under the ticket CTA when set (e.g. promo code from the sheet). */
   discountCode?: string;
   /**
-   * From sheet "registration directions" when Free Tickets? is "registration required".
+   * From sheet "registration directions" when that column has a value.
    * Shown in a dialog via clickable text instead of an external ticket link.
    */
   registrationDirections?: string;

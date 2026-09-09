@@ -81,6 +81,8 @@ function toHospitalityCard(
   const nearbyStation = options.includeNearbyStation
     ? item.nearbyStation.trim() || undefined
     : undefined;
+  const credit = item.credit.trim() || undefined;
+  const creditSourceLink = item.creditSourceLink.trim() || undefined;
 
   return {
     id: item.id,
@@ -90,12 +92,15 @@ function toHospitalityCard(
     nearbyStation,
     price: formatPrice(item.price),
     tags: item.audienceTags.length ? item.audienceTags : [options.fallbackTag],
+    vibeTags: item.vibeTags,
     tone: THUMB_TONES[index % THUMB_TONES.length],
     bio: options.includeBio ? item.description.trim() : '',
     bookUrl: bookingLink || undefined,
     bookLabel: bookingLink ? options.bookLabel : options.bookLabel.replace(/\s*→\s*$/, ''),
     discountCode,
     communityPerk: !discountCode && item.hasCommunityPerk ? true : undefined,
+    ...(credit ? { credit } : {}),
+    ...(creditSourceLink ? { creditSourceLink } : {}),
   };
 }
 

@@ -23,6 +23,7 @@ const COLUMN_ALIASES = {
   venueType: ['venuetype', 'type'],
   uiCategory: ['uicategory', 'category'],
   audienceTag: ['audiencetag', 'audience', 'tags'],
+  vibes: ['vibes', 'vibe', 'vibestags'],
   description: ['description', 'desc'],
   venueName: ['venuename'],
   venueAddress: ['venueaddress', 'address', 'location'],
@@ -32,6 +33,8 @@ const COLUMN_ALIASES = {
   code: ['code', 'discountcode', 'promocode'],
   bookingLink: ['bookinglink', 'booking', 'booklink', 'url', 'website'],
   prideSeries: ['blackpridefestival', 'blackpride', 'pridefestival', 'festival'],
+  credit: ['credit'],
+  creditSourceLink: ['creditsourcelink', 'creditsource', 'creditlink'],
 };
 
 function loadDotEnv() {
@@ -96,7 +99,7 @@ function parseBoolean(value) {
   return ['true', 'yes', 'y', '1'].includes(normalized);
 }
 
-function parseAudienceTags(value) {
+function parseListTags(value) {
   return String(value ?? '')
     .split(/[,;/|]+/)
     .map((tag) => tag.trim())
@@ -149,7 +152,8 @@ function parseHospitalityRows(values) {
         business,
         venueType,
         uiCategory: readCell(headers, row, 'uiCategory'),
-        audienceTags: parseAudienceTags(readCell(headers, row, 'audienceTag')),
+        audienceTags: parseListTags(readCell(headers, row, 'audienceTag')),
+        vibeTags: parseListTags(readCell(headers, row, 'vibes')),
         description: readCell(headers, row, 'description'),
         venueName,
         venueAddress: readCell(headers, row, 'venueAddress'),
@@ -159,6 +163,8 @@ function parseHospitalityRows(values) {
         code: readCell(headers, row, 'code'),
         bookingLink: readCell(headers, row, 'bookingLink'),
         prideSeries: readCell(headers, row, 'prideSeries'),
+        credit: readCell(headers, row, 'credit'),
+        creditSourceLink: readCell(headers, row, 'creditSourceLink'),
       };
     })
     .filter(Boolean);

@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import type { GbpHospitalityItem, GbpTabId, GbpTravelCard } from '../../data/globalBlackPride';
 import {
   GBP_TABS,
@@ -6,6 +6,8 @@ import {
   GBP_TRAVEL_CARDS,
   GBP_TRAVEL_FINAL_CHECKLIST,
 } from '../../data/globalBlackPride';
+import { badgeClassForLabel } from '../../lib/badgeClass';
+import { displayAudienceBadges } from '../../lib/displayAudienceBadges';
 import {
   getGbpDancePlaces,
   getGbpDrinkPlaces,
@@ -20,6 +22,51 @@ const GBP_DRINK = getGbpDrinkPlaces();
 const GBP_DANCE = getGbpDancePlaces();
 const GBP_EXPERIENCES = getGbpExperiences();
 
+type HosCredit = { credit: string; creditSourceLink?: string };
+
+function uniqueHosCredits(items: GbpHospitalityItem[]): HosCredit[] {
+  const seen = new Set<string>();
+  const credits: HosCredit[] = [];
+  for (const item of items) {
+    const credit = item.credit?.trim();
+    if (!credit) continue;
+    const key = credit.toLowerCase().replace(/\s+/g, ' ');
+    if (seen.has(key)) continue;
+    seen.add(key);
+    credits.push({
+      credit,
+      creditSourceLink: item.creditSourceLink?.trim() || undefined,
+    });
+  }
+  return credits;
+}
+
+function HosAudienceTags({ tags }: { tags: string[] }) {
+  const [expanded, setExpanded] = useState(false);
+  const { shown, overflow } = displayAudienceBadges(tags);
+  const visible = expanded ? [...shown, ...overflow] : shown;
+
+  return (
+    <div className="hos-tags event-badges">
+      {visible.map((tag) => (
+        <span key={tag} className={`badge ${badgeClassForLabel(tag)}`}>
+          {tag}
+        </span>
+      ))}
+      {!expanded && overflow.length > 0 ? (
+        <button
+          type="button"
+          className="badge badge-overflow"
+          aria-label={`Show ${overflow.length} more audience tags`}
+          onClick={() => setExpanded(true)}
+        >
+          +{overflow.length}
+        </button>
+      ) : null}
+    </div>
+  );
+}
+
 function HospitalityList({
   items,
   intro,
@@ -27,19 +74,15 @@ function HospitalityList({
   items: GbpHospitalityItem[];
   intro: string;
 }) {
+  const credits = uniqueHosCredits(items);
+
   return (
     <div className="gbp-hos-panel">
       <p className="gbp-hos-intro">{intro}</p>
       {items.map((item) => (
         <article key={item.id} className="hos-row">
           <div className="hos-info">
-            <div className="hos-tags">
-              {item.tags.map((tag) => (
-                <span key={tag} className="hos-badge">
-                  {tag}
-                </span>
-              ))}
-            </div>
+            <HosAudienceTags tags={item.tags} />
             <h5>{item.title}</h5>
             {item.price ? (
               <p className="hos-price" aria-label={`Price ${item.price}`}>
@@ -85,6 +128,15 @@ function HospitalityList({
                 {item.igHandle}
               </a>
             ) : null}
+            {item.vibeTags.length > 0 ? (
+              <div className="hos-vibes">
+                {item.vibeTags.map((vibe) => (
+                  <span key={vibe} className="vibes-tag">
+                    {vibe}
+                  </span>
+                ))}
+              </div>
+            ) : null}
           </div>
           {item.bookUrl ? (
             <div className="hos-action">
@@ -95,6 +147,28 @@ function HospitalityList({
           ) : null}
         </article>
       ))}
+      {credits.length > 0 ? (
+        <p className="hos-credits">
+          Sourced with help from{' '}
+          {credits.map((entry, index) => (
+            <span key={entry.credit}>
+              {index > 0 ? ', ' : null}
+              {entry.creditSourceLink ? (
+                <a
+                  className="hos-credit-link"
+                  href={entry.creditSourceLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {entry.credit}
+                </a>
+              ) : (
+                entry.credit
+              )}
+            </span>
+          ))}
+        </p>
+      ) : null}
     </div>
   );
 }
@@ -176,22 +250,13 @@ export function GlobalBlackPrideTabs({
           <HospitalityList items={GBP_STAY} intro="Queer-friendly stays, TMP-vetted." />
         ) : null}
         {activeTab === 'eat' ? (
-          <HospitalityList
-            items={GBP_EAT}
-            intro="Community favorites 😋"
-          />
+          <HospitalityList items={GBP_EAT} intro="Community favorites 😋" />
         ) : null}
         {activeTab === 'drink' ? (
-          <HospitalityList
-            items={GBP_DRINK}
-            intro="Bars, cafés & queer nightlife drinks."
-          />
+          <HospitalityList items={GBP_DRINK} intro="Bars, cafés & queer nightlife drinks." />
         ) : null}
         {activeTab === 'dance' ? (
-          <HospitalityList
-            items={GBP_DANCE}
-            intro="Clubs, cabaret & dance floors."
-          />
+          <HospitalityList items={GBP_DANCE} intro="Clubs, cabaret & dance floors." />
         ) : null}
         {activeTab === 'experience' ? (
           <HospitalityList

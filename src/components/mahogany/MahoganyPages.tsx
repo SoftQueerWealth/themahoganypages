@@ -304,7 +304,7 @@ export function MahoganyPages() {
                     queerParisPanel={
                       moreGrouped.length > 0 ? (
                         <CitySection
-                          cityLabel="Black Queer + Sapphic Paris"
+                          cityLabel="Black Queer & Sapphic Events"
                           dayGroups={moreGrouped}
                           isEventVisible={isEventShown}
                           isGoing={(event) => itinerary.isGoing(event.id)}

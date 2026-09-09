@@ -12,6 +12,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Rest",
+      "Replenish"
+    ],
     "description": "Paris hotel offering a dedicated TMP Community Perk for travelers who book directly.",
     "venueName": "Hôtel Mademoiselle",
     "venueAddress": "7, rue des Petits Hôtels\n75010 Paris – France",
@@ -20,7 +24,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": true,
     "code": "MADE10",
     "bookingLink": "https://hotel-mademoiselle-paris.com/en/",
-    "prideSeries": "GBP-associated / traveler-relevant, not an official GBP partnership"
+    "prideSeries": "GBP-associated / traveler-relevant, not an official GBP partnership",
+    "credit": "🤎 Global Black Pride",
+    "creditSourceLink": "https://www.instagram.com/global_blackpride/?hl=en"
   },
   {
     "id": "hospitality-okko-hotels-paris-gare-de-lest-2",
@@ -31,6 +37,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Rest",
+      "Replenish"
+    ],
     "description": "Official Global Black Pride host hotel offering convenient accommodations for attendees traveling to Paris for Pride week.",
     "venueName": "OKKO Hotels Paris Gare de lEst",
     "venueAddress": "30 a Rue D'alsace, Paris, 75010 France",
@@ -39,7 +49,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://globalblackpride.hotelplanner.com/Hotel/HotelRoomTypes.htm?hotelId=3781764&idTypeId=0&inDate=09/10/26&outDate=09/11/26&NumRooms=1#PageTop",
-    "prideSeries": "GBP-associated / traveler-relevant, not an official GBP partnership"
+    "prideSeries": "GBP-associated / traveler-relevant, not an official GBP partnership",
+    "credit": "🤎 Global Black Pride",
+    "creditSourceLink": "https://www.instagram.com/global_blackpride/?hl=en"
   },
   {
     "id": "hospitality-hotel-habituel-3",
@@ -50,6 +62,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Rest",
+      "Replenish"
+    ],
     "description": "Official Global Black Pride host hotel offering convenient accommodations for attendees traveling to Paris for Pride week.",
     "venueName": "Hôtel Habituel",
     "venueAddress": "168 Rue Du Faubourg Saint Denis, Paris, 75010 France",
@@ -58,7 +74,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://globalblackpride.hotelplanner.com/Hotel/HotelRoomTypes.htm?hotelId=3181782&idTypeId=0&inDate=09/10/26&outDate=09/11/26&NumRooms=1#PageTop",
-    "prideSeries": "GBP-associated / traveler-relevant, not an official GBP partnership"
+    "prideSeries": "GBP-associated / traveler-relevant, not an official GBP partnership",
+    "credit": "🤎 Global Black Pride",
+    "creditSourceLink": "https://www.instagram.com/global_blackpride/?hl=en"
   },
   {
     "id": "hospitality-hotel-josephine-spa-by-happyculture-4",
@@ -69,6 +87,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Rest",
+      "Replenish"
+    ],
     "description": "Boutique Paris hotel and spa near Moulin Rouge, with easy access to Pigalle nightlife, restaurants and public transportation.",
     "venueName": "Hôtel Joséphine & SPA by HappyCulture",
     "venueAddress": "67 Rue Blanche, 75009 Paris, France",
@@ -77,7 +99,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.hotels.com/ho432666/hotel-josephine-by-happyculture-paris-france/?semcid=HCOM-US.UB.GOOGLE.PT-DSA-c-EN.HOTEL&semdtl=a113512932875.b1126438050351.g1aud-2187993911458:dsa-1315439953433.e1c.m1CjwKCAjwwfnUBhAtEiwAfQpAYsn7W36YtpEqIEr2deiyxlWINdSVWsjtAlIBMj1oHrGUMV8Wf8U8NhoCRasQAvD_BwE.r1.c1.j19007526.k1.d1660080613038.h1.i1285262490480.l1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gad_source=1&gad_campaignid=13512932875&gbraid=0AAAAACTxZ9bIxfYzR99R6kX8TnJlLBNbH&gclid=CjwKCAjwwfnUBhAtEiwAfQpAYsn7W36YtpEqIEr2deiyxlWINdSVWsjtAlIBMj1oHrGUMV8Wf8U8NhoCRasQAvD_BwE",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-bonjour-madame-5",
@@ -89,6 +113,11 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food",
+      "Live Show"
+    ],
     "description": "Feminist, women-centered café-bar and queer-friendly gathering space for drinks, conversation and community.",
     "venueName": "Bonjour Madame",
     "venueAddress": "40 Rue de Montreuil, 75011 Paris, France",
@@ -97,7 +126,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/bonjourmadame_paris/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🌈 Quouch",
+    "creditSourceLink": "https://www.instagram.com/p/DN3E0qY2E4T/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-la-mutinerie-6",
@@ -109,6 +140,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Queer feminist bar centering trans and lesbian communities, with community events, nightlife and an intentionally inclusive atmosphere.",
     "venueName": "La Mutinerie",
     "venueAddress": "176 Rue Saint Martin 75003 Paris",
@@ -117,7 +152,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.lamutinerie.eu/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🌈 Quouch",
+    "creditSourceLink": "https://www.instagram.com/p/DN3E0qY2E4T/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-bar-les-aimant-7",
@@ -129,6 +166,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Queer-friendly Paris bar and gathering space for drinks, community and a casual night out.",
     "venueName": "Bar les Aimant",
     "venueAddress": "182 Rue Saint-Martin, 75003 Paris, France",
@@ -137,7 +178,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/barlesaimantes/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🌈 Quouch",
+    "creditSourceLink": "https://www.instagram.com/p/DN3E0qY2E4T/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-parc-des-buttes-chaumont-8",
@@ -149,6 +192,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Queer-friendly Paris bar and gathering space for drinks, community and a casual night out.",
     "venueName": "Parc des Buttes-Chaumont",
     "venueAddress": "2 allée de la Cascade, 75019 Paris",
@@ -157,7 +204,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/popular/rosa-bonheur-paris/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🌈 Quouch",
+    "creditSourceLink": "https://www.instagram.com/p/DN3E0qY2E4T/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-la-fleche-dor-9",
@@ -168,6 +217,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Queer-friendly Paris bar and gathering space for drinks, community and a casual night out.",
     "venueName": "La Fleche' dOr",
     "venueAddress": "102 Bis Rue de Bagnolet, 75020 Paris, France",
@@ -176,7 +229,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://flechedor.org/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 Soft Queer Wealth",
+    "creditSourceLink": "https://www.instagram.com/softqueerwealth/?hl=en"
   },
   {
     "id": "hospitality-briquet-10",
@@ -188,6 +243,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "Woman-owned"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Coffee by day, natural wine by night. A relaxed, women-led spot featuring specialty coffee, non-alcoholic options and rotating guest chefs.",
     "venueName": "Briquet",
     "venueAddress": "7bis Rue Riquet, 75019 Paris, France",
@@ -196,7 +255,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/briquet.paris/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "👯‍♀️  Lazy Women",
+    "creditSourceLink": "https://www.instagram.com/p/DPOxTULgrug/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-dirty-lemon-11",
@@ -211,6 +272,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Sapphic",
       "Nonbinary"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Women-founded cocktail bar centering queer women and nonbinary folks, with creative drinks, mocktails and regular sapphic and community events.",
     "venueName": "Dirty Lemon",
     "venueAddress": "24 Rue de la Folie Méricourt, 75011 Paris, France",
@@ -219,7 +284,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.dirtylemonbar.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "👯‍♀️  Lazy Women",
+    "creditSourceLink": "https://www.instagram.com/p/DPOxTULgrug/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-abricot-bar-12",
@@ -231,6 +298,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "Woman-owned"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Women-owned cocktail bar with a relaxed, inclusive atmosphere, creative drinks and regular queer community gatherings.",
     "venueName": "Abricot Bar",
     "venueAddress": "189 Rue Saint-Maur, 75010 Paris, France",
@@ -239,7 +310,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.abricotbar.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "👯‍♀️  Lazy Women",
+    "creditSourceLink": "https://www.instagram.com/p/DPOxTULgrug/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-sister-midnight-13",
@@ -251,6 +324,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "Woman-owned"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Women-owned glam-rock cocktail bar known for its playful atmosphere, queer-friendly crowd and regular cabaret, burlesque and drag programming.",
     "venueName": "Sister Midnight",
     "venueAddress": "4 Rue Viollet-le-Duc, 75009 Paris, France",
@@ -259,7 +336,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.sistermidnightparis.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "👯‍♀️  Lazy Women",
+    "creditSourceLink": "https://www.instagram.com/p/DPOxTULgrug/?hl=en&img_index=1"
   },
   {
     "id": "hospitality-kuti-food-14",
@@ -271,6 +350,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Casual Pan-African street food spot in Paris's 10th arrondissement serving bold flavors in a warm, vibrant and laid-back setting.",
     "venueName": "Kuti Food",
     "venueAddress": "6 Rue des Petites Écuries, 75010 Paris, France",
@@ -279,7 +362,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://bookings.zenchef.com/results?rid=366535&pid=1001&isPreview=1",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🥘 Cook Easy",
+    "creditSourceLink": "https://www.instagram.com/co.okeasy/?hl=en"
   },
   {
     "id": "hospitality-jamrock-paris-15",
@@ -291,6 +376,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Afro-Caribbean and Jamaican restaurant in the 11th arrondissement serving flavorful comfort food in a warm, casual and welcoming atmosphere.",
     "venueName": "Jamrock Paris",
     "venueAddress": "16 Rue de Candie, 75011 Paris, France",
@@ -299,7 +388,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://jamrock-paris.com/en/booking",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🥘 Cook Easy",
+    "creditSourceLink": "https://www.instagram.com/co.okeasy/?hl=en"
   },
   {
     "id": "hospitality-bmk-paris-bamako-16",
@@ -311,6 +402,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "West African-inspired restaurant in the 10th arrondissement serving flavorful dishes in a relaxed, modern setting.",
     "venueName": "BMK Paris-Bamako",
     "venueAddress": "14 Rue de la Fidélité, 75010 Paris, France",
@@ -319,7 +414,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.bmkparis.com/reservez-votre-table-",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 My Black Gallery HQ",
+    "creditSourceLink": "https://www.instagram.com/myblackgalleryhq/?hl=en"
   },
   {
     "id": "hospitality-chop-chop-love-17",
@@ -331,6 +428,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "POC",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Trendy natural wine bar and rotating culinary residency where guest chefs, creative food and Paris nightlife meet.",
     "venueName": "Chop Chop Love",
     "venueAddress": "48 Rue du Faubourg Saint-Martin, 75010 Paris, France",
@@ -339,7 +440,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://bookings.zenchef.com/results?rid=376716&pid=1001&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeJ59Ze8JEEOvKxVZgDMUJn8eQU7XaZ9dZ_UHAexbkFLdbFrFyjb1nLezFN9g_aem_CaDC2IwucGYnx8QuRyL57Q",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 Soft Queer Wealth",
+    "creditSourceLink": "https://www.instagram.com/softqueerwealth/?hl=en"
   },
   {
     "id": "hospitality-la-charrette-a-crepes-18",
@@ -351,6 +454,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "POC"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Cozy Paris crêperie serving sweet and savory crêpes in a casual, welcoming setting near the heart of the Marais.",
     "venueName": "La Charrette à Crêpes",
     "venueAddress": "19 Rue Ferdinand Duval, 75004 Paris, France",
@@ -359,7 +466,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.lacharretteacrepes.fr/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🎀 Dai Time",
+    "creditSourceLink": "https://www.instagram.com/officiallydaitime/?hl=en"
   },
   {
     "id": "hospitality-montvenus-19",
@@ -372,6 +481,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Queer and feminist cocktail bar blending drinks, arts, culture and community programming in an intentionally inclusive space.",
     "venueName": "Montvenus",
     "venueAddress": "16 Boulevard Paul Vaillant Couturier, 93100 Montreuil, France",
@@ -380,7 +493,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/montvenus.montreuil/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 Soft Queer Wealth",
+    "creditSourceLink": "https://www.instagram.com/softqueerwealth/?hl=en"
   },
   {
     "id": "hospitality-le-barlone-20",
@@ -392,6 +507,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Woman-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Queer-friendly lounge and cocktail bar pairing creative drinks with small plates in a stylish, intimate setting.",
     "venueName": "Le Barlone",
     "venueAddress": "13 Rue Bergère, 75009 Paris, France",
@@ -400,7 +519,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/lebarlone/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 Soft Queer Wealth",
+    "creditSourceLink": "https://www.instagram.com/softqueerwealth/?hl=en"
   },
   {
     "id": "hospitality-babylone-bis-21",
@@ -412,6 +533,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Long-running late-night Paris restaurant known for its lively atmosphere, diverse crowd and West African and Caribbean flavors.",
     "venueName": "Babylone Bis",
     "venueAddress": "34 Rue Tiquetonne, 75002 Paris, France",
@@ -420,7 +545,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://widget.thefork.com/en/5886f41b-f333-4e94-a41e-f5cf634b31ec?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafHSXuTt5UOf3jbCi2HzovBWAVAS1EiBgcGVeZVq03K-_b4QGG1687UfNbyvA_aem_U-j3W4QQPO8PqrIUEqP36g&step=date",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 My Black Gallery HQ",
+    "creditSourceLink": "https://www.instagram.com/myblackgalleryhq/?hl=en"
   },
   {
     "id": "hospitality-gumbo-yaya-chicken-and-waffles-22",
@@ -432,6 +559,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Black-owned chicken-and-waffles spot bringing Southern comfort food and bold flavors to Paris in a casual, energetic setting.",
     "venueName": "Gumbo Yaya Chicken and Waffles",
     "venueAddress": "3 Rue Charles Robin, 75010 Paris, France",
@@ -440,7 +571,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://3615gumbo.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacMOZ6qLBK8LOh5yUsAnjtpbU_H_BidMli-ZKk2b89kzgdMg8WoqXaqOa9OnA_aem_sB0fFpBjMgObFUiGtXF8ow",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 My Black Gallery HQ",
+    "creditSourceLink": "https://www.instagram.com/myblackgalleryhq/?hl=en"
   },
   {
     "id": "hospitality-jah-jah-by-le-tricycle-23",
@@ -452,6 +585,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Vegan Afro-Caribbean restaurant serving colorful, plant-based dishes in a relaxed space popular with Paris's creative and queer communities.",
     "venueName": "Jah Jah by Le Tricycle",
     "venueAddress": "11 Rue des Petites Écuries, 75010 Paris, France",
@@ -460,7 +597,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.jahjahparis.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 My Black Gallery HQ",
+    "creditSourceLink": "https://www.instagram.com/myblackgalleryhq/?hl=en"
   },
   {
     "id": "hospitality-a-l-africaine-24",
@@ -471,6 +610,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Black-owned"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Casual, family-style West African restaurant just outside central Paris, serving generous plates and comforting neighborhood flavors.",
     "venueName": "A L'Africaine",
     "venueAddress": "34 Rue Montcalm, 75018 Paris France",
@@ -479,7 +622,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.lafricaine.fr/mobile/index.php?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacPQBU_dEEnkKbGBXcVgqaZMpy4jeVBjdx0s3ina5BjZRhGmdFH5PIzm2AoLg_aem_EwRRIkG-6qVZo5790omP2A",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🥘 Cook Easy",
+    "creditSourceLink": "https://www.instagram.com/co.okeasy/?hl=en"
   },
   {
     "id": "hospitality-katoro-25",
@@ -491,6 +636,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Black-owned",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Warm neighborhood Caribbean restaurant in Paris's 13th arrondissement serving flavorful island-inspired dishes in a relaxed setting.",
     "venueName": "Katoro",
     "venueAddress": "85 Rue Albert, 75013 Paris, France",
@@ -499,7 +648,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/ktoro_/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🥘 Cook Easy",
+    "creditSourceLink": "https://www.instagram.com/co.okeasy/?hl=en"
   },
   {
     "id": "hospitality-ose-african-26",
@@ -510,6 +661,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Black-owned"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Casual African fast-good spot serving flavorful, modern takes on African cuisine in an easygoing Paris setting.",
     "venueName": "Ose African",
     "venueAddress": "14 Rue du Rocher, Paris, Ile-de-France 75008",
@@ -518,7 +673,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.oseafricancuisine.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🥘 Cook Easy",
+    "creditSourceLink": "https://www.instagram.com/co.okeasy/?hl=en"
   },
   {
     "id": "hospitality-gutea-27",
@@ -530,6 +687,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "POC"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
     "description": "Creative bubble tea and activity spot where you can sip real-fruit drinks while painting your own figurine — part café, part playful Paris experience.",
     "venueName": "GuTea",
     "venueAddress": "1 Rue des Tanneries, 75013 Paris, France",
@@ -538,10 +699,12 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/salon_gutea/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🎀 Dai Time",
+    "creditSourceLink": "https://www.instagram.com/officiallydaitime/?hl=en"
   },
   {
-    "id": "hospitality-various-tour-based-28",
+    "id": "hospitality-le-paris-noir-28",
     "city": "Paris",
     "business": "Le Paris Noir",
     "venueType": "Tour, Educational",
@@ -551,15 +714,22 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "Black"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural"
+    ],
     "description": "Explore Black Paris through history, culture and storytelling, including a special James Baldwin-centered experience examining his life as a Black gay writer in Paris and the city's wider African and Caribbean presence.",
-    "venueName": "Various / tour-based",
+    "venueName": "Le Paris Noir",
     "venueAddress": "Varies by experience",
     "nearbyStation": "",
     "price": "$$$",
     "hasCommunityPerk": true,
     "code": "Identify themselves as part of The Mahogany Pages when booking their tour.",
     "bookingLink": "https://www.tripadvisor.com/Attraction_Review-g187147-d4440931-Reviews-Le_Paris_Noir_Tours_Prives-Paris_Ile_de_France.html",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 Soft Queer Wealth",
+    "creditSourceLink": "https://www.instagram.com/softqueerwealth/?hl=en"
   },
   {
     "id": "hospitality-hotel-national-des-arts-et-metiers-29",
@@ -573,6 +743,11 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Sapphic",
       "Black-owned"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural"
+    ],
     "description": "Guided cultural walk through Black queer Paris, tracing overlooked icons, artists and activists from the 1920s to today, with stories of James Baldwin, Josephine Baker, queer nightlife and contemporary community.",
     "venueName": "Hôtel National des Arts et Métiers",
     "venueAddress": "243 Rue Saint-Martin, 75003 Paris*",
@@ -581,10 +756,12 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": true,
     "code": "Identify themselves as part of The Mahogany Pages when booking their tour.",
     "bookingLink": "https://www.airbnb.com/experiences/974110",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
-    "id": "hospitality-various-tour-based-30",
+    "id": "hospitality-entree-to-black-paris-30",
     "city": "Paris",
     "business": "Entrée to Black Paris",
     "venueType": "Tour, Educational",
@@ -594,15 +771,22 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer-friendly",
       "Black-owned"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural"
+    ],
     "description": "Discover Black Paris through guided experiences exploring the city's rich Black history, culture and contemporary life.",
-    "venueName": "Various / tour-based",
+    "venueName": "Entrée to Black Paris",
     "venueAddress": "Varies by experience",
     "nearbyStation": "",
     "price": "$$",
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.entreetoblackparis.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🤎 Soft Queer Wealth",
+    "creditSourceLink": "https://www.instagram.com/softqueerwealth/?hl=en"
   },
   {
     "id": "hospitality-the-norm-agency-31",
@@ -619,6 +803,15 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Trans",
       "GNC"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural",
+      "Museum",
+      "Gallery",
+      "Exhibits",
+      "Tours"
+    ],
     "description": "International queer arts agency behind QADS, bringing together queer art, design, culture and creative collaborations across cities.",
     "venueName": "The Norm Agency",
     "venueAddress": "35 Rue Blanche, 75009 Paris, France",
@@ -627,7 +820,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/thenorm_art/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-in-the-footsteps-of-josephine-baker-32",
@@ -640,6 +835,15 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural",
+      "Museum",
+      "Gallery",
+      "Exhibits",
+      "Tours"
+    ],
     "description": "A mobile and pop-up cultural experience dedicated to preserving Josephine Baker's legacy through walking tours, exhibits and programming connected to her life in Paris.",
     "venueName": "In the Footsteps of Josephine Baker",
     "venueAddress": "Reach out to founder directly via the Musée Joséphine Baker et des Afro-Descendants de Paris Instagram",
@@ -648,7 +852,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.airbnb.com/experiences/1120070?--&c=.pi0.pk22658761899_182381801642&gad_source=1&gad_campaignid=22658761899&gbraid=0AAAAADz55LkzWiJR-O_D7eVxMNBNdFKSI&gclid=Cj0KCQjw5P7UBhDaARIsAOSlS1Pe7IOqlXO4erwzmuSREk2MH0zZbtoakuOlRM8hGLgnXsyLcuFV4i4aAmmEEALw_wcB",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-place-andre-honnorat-75006-paris-33",
@@ -659,6 +865,11 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural"
+    ],
     "description": "A celebration of Paris, its history and its culture.",
     "venueName": "Place André Honnorat, 75006 Paris",
     "venueAddress": "Place André Honnorat, 75006 Paris, France",
@@ -667,7 +878,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://lafetedeparis.fr/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-reunion-market-34",
@@ -678,6 +891,12 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Black"
     ],
+    "vibeTags": [
+      "Educational",
+      "Creative",
+      "Cultural",
+      "Festival"
+    ],
     "description": "A lively, intergenerational celebration of West African music, dance, traditions and culture in Paris's 20th arrondissement, presented by Benkadi Afema 20.",
     "venueName": "Réunion Market",
     "venueAddress": "Place de la Réunion, Paris 20th",
@@ -686,7 +905,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://lafetedeparis.fr/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-cabaret-des-merveilles-35",
@@ -700,6 +921,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "WLW",
       "Lesbian"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Queer and lesbian-centered cabaret and arts space creating a home for feminist and FLINTA communities, performances and nightlife.",
     "venueName": "Cabaret des Merveilles",
     "venueAddress": "25 Rue de l'Hirondelle, 75006 Paris, France",
@@ -708,10 +936,12 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/cabaret_des_merveilles/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🎧 Canou Nella",
+    "creditSourceLink": "https://www.instagram.com/nelka.dj/?hl=en"
   },
   {
-    "id": "hospitality-various-pop-up-based-36",
+    "id": "hospitality-le-pulse-36",
     "city": "Paris",
     "business": "Le Pulse",
     "venueType": "Nightclub",
@@ -728,15 +958,24 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Lesbian",
       "Nonbinary"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Paris-based lesbian and FLINTA party collective known for inclusive club nights, DJ sets, pop-ups and a strong safer-space ethos.",
-    "venueName": "Various / pop-up based",
+    "venueName": "Le Pulse",
     "venueAddress": "Various / pop-up based",
     "nearbyStation": "",
     "price": "$",
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/pulseparis/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🎧 Canou Nella",
+    "creditSourceLink": "https://www.instagram.com/nelka.dj/?hl=en"
   },
   {
     "id": "hospitality-le-bunker-37",
@@ -752,6 +991,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "WLW",
       "Lesbian"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Black and POC-centered queer nightlife space bringing Afrobeat, dancehall, shatta and community energy to Paris.",
     "venueName": "Le Bunker",
     "venueAddress": "54 Rue Guy Môquet, 75017 Paris",
@@ -760,7 +1006,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/lebunkerparis/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🎧 Canou Nella",
+    "creditSourceLink": "https://www.instagram.com/nelka.dj/?hl=en"
   },
   {
     "id": "hospitality-le-raidd-38",
@@ -773,6 +1021,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Iconic Paris gay nightlife destination known for its high-energy crowd, late nights and signature shower performances.",
     "venueName": "Le Raidd",
     "venueAddress": "23 Rue du Temple in the heart of Le Marais",
@@ -781,7 +1036,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.raiddbar.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-troupe-venus-noire-39",
@@ -794,6 +1051,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "MLM"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Black queer cabaret collective bringing immersive performance, dance, music and theatrical nightlife to the stage.",
     "venueName": "Troupe Venus Noire",
     "venueAddress": "25 rue de l'Hirondelle in Paris's 6th arrondissement",
@@ -802,7 +1066,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/venus___noire/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-billetterie-rex-club-pari-40",
@@ -816,6 +1082,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "Sapphic"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Legendary Paris electronic music club known for late-night techno, house and an energetic dance floor that runs into the early morning.",
     "venueName": "Billetterie – Rex Club Pari",
     "venueAddress": "5 Boulevard Poissonnière, 75002 Paris, France",
@@ -824,7 +1097,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://shotgun.live/fr/venues/rex-club",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-afro-queer-rising-41",
@@ -837,6 +1112,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Black queer artist and performance collective blending African and Afro-diasporic culture with cabaret, music, dance and late-night club energy.",
     "venueName": "Afro Queer Rising",
     "venueAddress": "Various / pop-up based",
@@ -845,7 +1127,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/afroqueerrising/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-blatino-club-paris-gay-42",
@@ -858,6 +1142,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Recurring Black and Latino LGBTQ+ nightlife experience centering multicultural queer men and friends through music, dancing and community.",
     "venueName": "Blatino Club Paris Gay",
     "venueAddress": "Various / pop-up based",
@@ -866,7 +1157,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/blatinoclubparis/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-afro-boyz-club-43",
@@ -879,6 +1172,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Afro-Caribbean LGBTQ+ party collective bringing high-energy Black queer nightlife, DJs and dance-floor energy to Paris.",
     "venueName": "Afro Boyz Club",
     "venueAddress": "Various / pop-up based",
@@ -887,7 +1187,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/afroboyzclub/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-queer-salsa-paris-44",
@@ -900,6 +1202,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "LGBTQIA+ salsa, bachata and kizomba collective creating inclusive, gender-neutral social dance experiences in Paris.",
     "venueName": "Queer Salsa Paris",
     "venueAddress": "Various / pop-up based",
@@ -908,7 +1217,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/queersalsaparis/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-cud-bar-paris-45",
@@ -921,6 +1232,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Late-night gay bar and basement dance club in the Marais, known for its lively after-hours crowd and dancing until dawn.",
     "venueName": "CUD Bar Paris",
     "venueAddress": "12 Rue des Haudriettes, 75003 Paris, France",
@@ -929,7 +1247,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://cudbar.com/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-quetzal-bar-paris-46",
@@ -943,6 +1263,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "Queer",
       "30+"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Lively gay bar in the Marais with DJs, drinks and a social, high-energy atmosphere that gets especially busy on weekends.",
     "venueName": "Quetzal Bar Paris",
     "venueAddress": "10 Rue de la Verrerie, 75004 Paris, France",
@@ -951,7 +1278,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/quetzalparis/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-bienvenue-freedj-bar-47",
@@ -964,6 +1293,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Two-level gay bar and club in the heart of the Marais, with an upstairs lounge and basement dance floor playing pop and house.",
     "venueName": "Bienvenue Freedj Bar",
     "venueAddress": "35 Rue Sainte-Croix de la Bretonnerie, 75004 Paris, France",
@@ -972,7 +1308,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://freedj.fr/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-bears-den-paris-48",
@@ -985,6 +1323,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "MLM",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Long-running gay bear bar near the Marais with a lively terrace, indoor bar and downstairs dance floor and social space.",
     "venueName": "Bears'den Paris",
     "venueAddress": "6 Rue des Lombards, 75004 Paris, France",
@@ -993,7 +1338,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/bearsden_bearbar_paris/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-le-47-par-romeo-49",
@@ -1004,6 +1351,12 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Food",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Upscale restaurant and cocktail bar inside Hôtel Château Frontenac, offering a chic, intimate setting in Paris's Golden Triangle.",
     "venueName": "Le 47 par Romeo",
     "venueAddress": "47 Rue François 1er, 75008 Paris, France",
@@ -1012,7 +1365,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.hfrontenac.com/en/collection/restaurant-le-47.1870.html",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-causier-coffee-50",
@@ -1023,6 +1378,10 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "audienceTags": [
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Food",
+      "Chill"
+    ],
     "description": "Cozy neighborhood café in the 11th arrondissement serving coffee, lunch and brunch in a warm, laid-back setting.",
     "venueName": "Causier Coffee",
     "venueAddress": "50 Rue de Montreuil, 75011 Paris, France",
@@ -1031,7 +1390,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.causier.fr/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   },
   {
     "id": "hospitality-sister-midnight-51",
@@ -1044,6 +1405,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "POC",
       "Queer"
     ],
+    "vibeTags": [
+      "Drinks",
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
     "description": "Tiny Pigalle cocktail bar that comes alive on Saturday nights with drag and burlesque performances from local and visiting artists, all wrapped in Sister Midnight's signature glam-rock energy.",
     "venueName": "Sister Midnight",
     "venueAddress": "4 Rue Viollet-le-Duc, 75009 Paris, France",
@@ -1052,7 +1420,9 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.instagram.com/sistermidnightparis/?hl=en",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "👯‍♀️ Sister Midnight",
+    "creditSourceLink": "https://www.instagram.com/sistermidnightparis/?hl=en"
   },
   {
     "id": "hospitality-oh-cesar-palace-52",
@@ -1064,6 +1434,13 @@ export const generatedHospitalityItems: HospitalityItem[] = [
       "POC",
       "Queer-friendly"
     ],
+    "vibeTags": [
+      "Live Show",
+      "Creative",
+      "Flirt",
+      "Groove",
+      "Grown & Sexy"
+    ],
     "description": "Dinner, show and nightlife all in one: enjoy a lively meal alongside performances from dancers, comedians, aerial acrobats, musicians and magicians, then keep the night going with cocktails and dancing until 1:45 AM.",
     "venueName": "Oh! César Palace",
     "venueAddress": "23 Av. du Maine, 75015 Paris",
@@ -1072,6 +1449,8 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": true,
     "code": "",
     "bookingLink": "https://ohcesarparis.com/brian-scott-bagley/",
-    "prideSeries": "Independent"
+    "prideSeries": "Independent",
+    "credit": "🔑 Brian Scott Bagley",
+    "creditSourceLink": "https://www.instagram.com/museejosephinebakerdeparis/?hl=en"
   }
 ];
