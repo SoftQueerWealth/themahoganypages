@@ -21,7 +21,7 @@ import { FOOTER_BAND, FOOTER_COPY } from '../../data/home';
 import { useEvents } from '../../hooks/useEvents';
 import { useEventFilters } from '../../hooks/useEventFilters';
 import { useItinerary } from '../../hooks/useItinerary';
-import { trackCityFilterClick, trackItineraryShare } from '../../lib/analytics';
+import { trackCityFilterClick, trackFeaturedEventCardClick, trackItineraryShare } from '../../lib/analytics';
 import { eventMatchesPrideSeries, isUntaggedPrideSeries } from '../../lib/festivalCityFilter';
 import { formatItineraryShare } from '../../lib/formatItinerary';
 import { groupEventsByCityThenDate, groupFestivalEvents } from '../../lib/groupFestivalEvents';
@@ -150,6 +150,7 @@ export function MahoganyPages() {
     }
 
     const next = featuredFestivalById(id);
+    if (next?.tabLabel) trackFeaturedEventCardClick(next.tabLabel);
     setFeaturedId(id);
     setSelectedCity(next?.city ?? '');
     if (id === 'global-black-pride') setGbpTab('programme');

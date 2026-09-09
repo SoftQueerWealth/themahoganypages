@@ -20,37 +20,46 @@ function shouldTrackAnalytics(): boolean {
   return isAnalyticsEnabled() && typeof window !== 'undefined' && Boolean(window.gtag);
 }
 
-function shouldPushDataLayer(): boolean {
-  return (
-    isAnalyticsEnabled() &&
-    typeof window !== 'undefined' &&
-    Array.isArray(window.dataLayer)
-  );
-}
+/** Shared gtag button_click with event_category / event_label. */
+export function trackButtonClick(category: string, label: string): void {
+  if (!shouldTrackAnalytics()) return;
 
-/** GTM-friendly dataLayer push matching the button_click + eventModel shape. */
-export function trackDataLayerButtonClick(category: string, label: string): void {
-  if (!shouldPushDataLayer()) return;
-
-  window.dataLayer?.push({
-    event: 'button_click',
-    eventModel: {
-      event_category: category,
-      event_label: label,
-    },
+  window.gtag?.('event', 'button_click', {
+    event_category: category,
+    event_label: label,
   });
 }
 
 export function trackCityFilterClick(cityLabel: string): void {
-  trackDataLayerButtonClick('City Filter', cityLabel);
+  trackButtonClick('City Filter', cityLabel);
 }
 
 export function trackDayFilterClick(dayLabel: string): void {
-  trackDataLayerButtonClick('Day Filter', dayLabel);
+  trackButtonClick('Day Filter', dayLabel);
+}
+
+export function trackAudienceFilterClick(audienceLabel: string): void {
+  trackButtonClick('Audience Filter', audienceLabel);
+}
+
+export function trackVenueFilterClick(venueLabel: string): void {
+  trackButtonClick('Venue Filter', venueLabel);
+}
+
+export function trackVibesFilterClick(vibeLabel: string): void {
+  trackButtonClick('Vibes Filter', vibeLabel);
+}
+
+export function trackPriceFilterClick(priceLabel: string): void {
+  trackButtonClick('Price Filter', priceLabel);
 }
 
 export function trackEventCardClick(eventName: string): void {
-  trackDataLayerButtonClick('Event Card', eventName);
+  trackButtonClick('Event Card', eventName);
+}
+
+export function trackFeaturedEventCardClick(title: string): void {
+  trackButtonClick('Featured Event Card', title);
 }
 
 export function trackPageView(pagePath: string): void {

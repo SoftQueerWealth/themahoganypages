@@ -1,6 +1,12 @@
 import { useCallback, useMemo, useState } from 'react';
 import { FILTER_SECTIONS, FilterKind } from '../constants/filters';
-import { trackDayFilterClick } from '../lib/analytics';
+import {
+  trackAudienceFilterClick,
+  trackDayFilterClick,
+  trackPriceFilterClick,
+  trackVenueFilterClick,
+  trackVibesFilterClick,
+} from '../lib/analytics';
 import { hasVisibleDiscountCode } from '../lib/parseDiscountDisplay';
 import type { PrideEvent } from '../types/event';
 
@@ -21,10 +27,14 @@ function toggleSetMember(set: Set<string>, value: string): Set<string> {
   return next;
 }
 
-function dayFilterLabel(value: string): string {
-  const daySection = FILTER_SECTIONS.find((section) => section.label === 'Day');
-  const pill = daySection?.pills.find((p) => String(p.value).toLowerCase() === value.toLowerCase());
-  return pill?.label ?? value;
+function filterPillLabel(kind: FilterKind, value: string): string {
+  for (const section of FILTER_SECTIONS) {
+    const pill = section.pills.find(
+      (p) => p.kind === kind && String(p.value).toLowerCase() === value.toLowerCase(),
+    );
+    if (pill) return pill.label;
+  }
+  return value;
 }
 
 export function useEventFilters(allEvents: PrideEvent[]) {
@@ -60,18 +70,25 @@ export function useEventFilters(allEvents: PrideEvent[]) {
 
   const togglePill = useCallback((kind: FilterKind, value: string) => {
     const v = value.toLowerCase();
+    const label = filterPillLabel(kind, value);
+
     if (kind === FilterKind.Free) {
+      trackPriceFilterClick(label);
       setFreeOnly((f) => !f);
     } else if (kind === FilterKind.Discount) {
+      trackPriceFilterClick(label);
       setDiscountOnly((d) => !d);
     } else if (kind === FilterKind.Type) {
+      trackVenueFilterClick(label);
       setActiveTypes((s) => toggleSetMember(s, v));
     } else if (kind === FilterKind.Audience) {
+      trackAudienceFilterClick(label);
       setActiveAudiences((s) => toggleSetMember(s, v));
     } else if (kind === FilterKind.Vibe) {
+      trackVibesFilterClick(label);
       setActiveVibes((s) => toggleSetMember(s, v));
     } else if (kind === FilterKind.Day) {
-      trackDayFilterClick(dayFilterLabel(value));
+      trackDayFilterClick(label);
       setActiveDays((s) => toggleSetMember(s, v));
     }
   }, []);
