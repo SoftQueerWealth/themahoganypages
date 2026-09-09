@@ -1136,9 +1136,9 @@ nav.rooms button:hover {
   display: flex;
   gap: 12px;
   overflow-x: auto;
-  /* Side padding: room for active outline + first/last cards can center */
-  padding: 6px max(8px, calc((100% - min(78%, 320px)) / 2)) 10px;
-  scroll-padding-inline: max(8px, calc((100% - min(78%, 320px)) / 2));
+  /* Left-aligned; modest end padding so the last card can scroll into view */
+  padding: 6px 8px 10px;
+  scroll-padding-inline: 8px;
   margin: 0 0 6px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
@@ -1151,7 +1151,7 @@ nav.rooms button:hover {
 
 .featured-card {
   flex: 0 0 min(78%, 320px);
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   border-radius: 14px;
   overflow: hidden;
   position: relative;
@@ -2003,6 +2003,29 @@ nav.rooms button:hover {
   border-radius: 999px;
 }
 
+.badge-overflow {
+  appearance: none;
+  border: none;
+  font: inherit;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #e8e4df;
+  color: #5c534a;
+  line-height: inherit;
+}
+
+.badge-overflow:hover {
+  background: #ddd7d0;
+}
+
+.badge-overflow:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
 .badge.b-meetup {
   background: #e6ecf5;
   color: #4a6da8;
@@ -2523,12 +2546,6 @@ nav.rooms button:hover {
 
   .featured-card {
     flex-basis: 78%;
-  }
-
-  .featured-scroll {
-    padding-left: max(8px, calc((100% - 78%) / 2));
-    padding-right: max(8px, calc((100% - 78%) / 2));
-    scroll-padding-inline: max(8px, calc((100% - 78%) / 2));
   }
 }
 

@@ -178,7 +178,7 @@ export function GlobalBlackPrideTabs({
         {activeTab === 'eat' ? (
           <HospitalityList
             items={GBP_EAT}
-            intro="Black-owned, queer-owned & community favorites."
+            intro="Community favorites 😋"
           />
         ) : null}
         {activeTab === 'drink' ? (

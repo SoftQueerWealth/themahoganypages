@@ -66,6 +66,7 @@ function LocationDisplay({
 export function EventCard({ event, visible, going = false, onToggleGoing }: EventCardProps) {
   const [flyerOpen, setFlyerOpen] = useState(false);
   const [registrationOpen, setRegistrationOpen] = useState(false);
+  const [audienceExpanded, setAudienceExpanded] = useState(false);
   const registrationDirections = event.registrationDirections?.trim() || '';
   const ctaLabel = eventCtaLabel(event);
   const ctaButtonClass = eventCtaButtonClass(event);
@@ -74,7 +75,12 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
     ? parseDiscountDisplay(event.discountCode!)
     : null;
   const hasFlyer = Boolean(event.flyerUrl);
-  const audienceBadges = displayAudienceBadges(event.badges);
+  const { shown: shownAudienceBadges, overflow: overflowAudienceBadges } = displayAudienceBadges(
+    event.badges,
+  );
+  const visibleAudienceBadges = audienceExpanded
+    ? [...shownAudienceBadges, ...overflowAudienceBadges]
+    : shownAudienceBadges;
   const showTime = hasDisplayableTime(event.time);
 
   return (
@@ -141,11 +147,21 @@ export function EventCard({ event, visible, going = false, onToggleGoing }: Even
       <div className="event-body">
         <div className="event-main">
           <div className="event-badges">
-            {audienceBadges.map((b) => (
+            {visibleAudienceBadges.map((b) => (
               <span key={b} className={`badge ${badgeClassForLabel(b)}`}>
                 {b}
               </span>
             ))}
+            {!audienceExpanded && overflowAudienceBadges.length > 0 ? (
+              <button
+                type="button"
+                className="badge badge-overflow"
+                aria-label={`Show ${overflowAudienceBadges.length} more audience tags`}
+                onClick={() => setAudienceExpanded(true)}
+              >
+                +{overflowAudienceBadges.length}
+              </button>
+            ) : null}
           </div>
           <div className="event-name">{event.name}</div>
           {event.organizer ? <div className="event-organizer">{event.organizer}</div> : null}

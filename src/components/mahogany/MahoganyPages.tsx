@@ -232,14 +232,14 @@ export function MahoganyPages() {
 
         {itinerary.isInSharedView ? null : (
           <div className="mahogany-controls">
+            <FeaturedCarousel featuredId={featuredId} onSelect={handleSelectFeatured} />
+
             <CityFilter
               value={selectedCity}
               onChange={handleCityChange}
               className="mahogany-city-filter"
               options={cityOptions}
             />
-
-            <FeaturedCarousel featuredId={featuredId} onSelect={handleSelectFeatured} />
           </div>
         )}
 
