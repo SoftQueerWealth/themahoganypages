@@ -10137,17 +10137,38 @@ export const generatedEvents: PrideEvent[] = [
     "dayDate": "2026-09-17",
     "dayLabel": "Thursday",
     "name": "Silent Read in the Garden",
-    "types": [],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [],
-    "time": "",
-    "location": "",
-    "vibeTags": [],
+    "organizer": "Venusian Knots",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "POC",
+      "Sapphic"
+    ],
+    "vibesRaw": "community educational chill creative",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "POC",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "5:00 PM",
+    "location": "Bon Air Park Rose Garden · 850 North Lexington Street\nArlington, VA 22205",
+    "vibeTags": [
+      "Community",
+      "Educational",
+      "Chill",
+      "Creative"
+    ],
     "ctaHref": "https://www.eventbrite.com/e/silent-read-in-the-garden-tickets-1999271205996?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadvC8uZeB-Ps5r8UGKSizRkLdu-GPGrqVNCudGUXip8tMwUd4dYYMIXJ6FE7g_aem_S-X9SQCupyfyCXyabmNuFA",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party"
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
   },
   {
     "id": "276",
@@ -10318,6 +10339,167 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-happy-hour",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "280",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-20",
+    "dayLabel": "Sunday",
+    "name": "ADOVOS Central American Day Party",
+    "organizer": "ADOVOS",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "ass shaking flirt cultural groove",
+    "free": false,
+    "price": "$17.00",
+    "badges": [
+      "POC",
+      "Queer-friendly"
+    ],
+    "time": "4:00 PM",
+    "location": "530 Penn St NE · 530 Penn Street Northeast, Washington, District of Columbia 20002",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Cultural",
+      "Groove"
+    ],
+    "ctaHref": "https://dice.fm/partner/tickets/event/92n879-adobos-central-american-day-party-20th-sep-530-penn-st-ne-washington-tickets?dice_id=10317999&dice_channel=web&dice_tags=organic&dice_campaign=ADOBO+LLC&dice_feature=mio_marketing&_branch_match_id=1438716663862027753&utm_source=web&utm_campaign=ADOBO+LLC&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Xc0M0g2TTVNTTQytbCvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQA6zVRTOwAAAA%3D%3D",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "281",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "25+"
+    ],
+    "vibesRaw": "ass shaking flirt cultural groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "25+"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Cultural",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-9-13-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "282",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-26",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking flirt cultural groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Cultural",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-9-27-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "283",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-27",
+    "dayLabel": "Sunday",
+    "name": "Back to Life: Back to Queer Growth - A QTBIPOC Urban Farm Tour",
+    "types": [
+      "tour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "POC"
+    ],
+    "vibesRaw": "workshop educational wellness tour",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "POC",
+      "Free"
+    ],
+    "time": "1:00 PM",
+    "location": "Patchwork City Farms LLC · 902 Pinehurst Terrace Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Workshop",
+      "Educational",
+      "Wellness",
+      "Tour"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/back-to-life-back-to-queer-growth-a-qtbipoc-urban-farm-tour-tickets-1998997071051?aff=oddtdtcreator",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-tour",
+    "city": "atlanta",
     "prideSeries": "No -- standalone event"
   },
   {
@@ -10709,10 +10891,11 @@ export const generatedEvents: PrideEvent[] = [
       "Flirt",
       "Groove"
     ],
-    "ctaHref": "https://shotgun.live/fr/events/pulsepromnight",
-    "ctaLabel": "Get Tickets",
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
+    "registrationDirections": "Registration Required 🤎\nConference attendance is by invitation. To request access to registration, email info@globalblackpride.org for the conference access code.",
     "city": "paris",
     "prideSeries": "No -- standalone event"
   },
@@ -11011,14 +11194,15 @@ export const generatedEvents: PrideEvent[] = [
       "Cultural"
     ],
     "ctaHref": "",
-    "ctaLabel": "Get Tickets",
+    "ctaLabel": "View registration info",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
+    "registrationDirections": "To Reserve your place, please email nawo@free.fr",
     "city": "paris",
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "317",
+    "id": "304",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -11057,7 +11241,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "318",
+    "id": "305",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -11099,7 +11283,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "319",
+    "id": "306",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -11141,7 +11325,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "320",
+    "id": "307",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -11183,7 +11367,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "321",
+    "id": "308",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -11225,7 +11409,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "322",
+    "id": "309",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
