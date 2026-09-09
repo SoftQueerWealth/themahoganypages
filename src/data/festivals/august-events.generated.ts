@@ -10950,14 +10950,18 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Queer",
-      "MLM"
+      "MLM",
+      "Sapphic",
+      "Trans/GNC"
     ],
     "vibesRaw": "ass shaking flirt groove",
     "free": false,
     "price": "$17.50",
     "badges": [
       "Queer",
-      "MLM"
+      "MLM",
+      "Sapphic",
+      "Trans/GNC"
     ],
     "time": "11:59 PM",
     "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
