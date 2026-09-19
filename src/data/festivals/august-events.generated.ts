@@ -10503,7 +10503,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "286",
+    "id": "284",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10543,7 +10543,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "287",
+    "id": "285",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10583,7 +10583,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "288",
+    "id": "286",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10623,7 +10623,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "289",
+    "id": "287",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10663,7 +10663,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "290",
+    "id": "288",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10703,7 +10703,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "291",
+    "id": "289",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10743,7 +10743,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "292",
+    "id": "290",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10783,7 +10783,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "293",
+    "id": "291",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10823,7 +10823,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "294",
+    "id": "292",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10863,7 +10863,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "295",
+    "id": "293",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-17",
@@ -10900,7 +10900,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "296",
+    "id": "294",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -10938,7 +10938,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "297",
+    "id": "295",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -10978,7 +10978,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "298",
+    "id": "296",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-06",
@@ -11017,7 +11017,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "299",
+    "id": "297",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -11054,7 +11054,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "300",
+    "id": "298",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -11096,7 +11096,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "301",
+    "id": "299",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -11132,7 +11132,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "302",
+    "id": "300",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
@@ -11168,7 +11168,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "303",
+    "id": "301",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -11206,7 +11206,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "304",
+    "id": "302",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -11245,7 +11245,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "305",
+    "id": "303",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -11287,7 +11287,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "306",
+    "id": "304",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -11329,7 +11329,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "307",
+    "id": "305",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -11371,7 +11371,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "308",
+    "id": "306",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -11413,7 +11413,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "309",
+    "id": "307",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -11443,6 +11443,1899 @@ export const generatedEvents: PrideEvent[] = [
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
     "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "308",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-24",
+    "dayLabel": "Thursday",
+    "name": "FriendZoned’s Black Queer Movie Night & Discussion",
+    "organizer": "FriendZoned",
+    "types": [
+      "meetup",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill creative educational live show",
+    "free": false,
+    "price": "$8.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "time": "6:30 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Educational",
+      "Live Show"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-queer-movie-night-discussion-tickets-2000316392176?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr2emwYC20rRw0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "309",
+    "festival": "august-events",
+    "day": "tuesday",
+    "dayDate": "2026-09-29",
+    "dayLabel": "Tuesday",
+    "name": "Black Queer Art Club - Stamp Making",
+    "organizer": "FriendZoned",
+    "types": [
+      "meetup",
+      "educational",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill creative educational workshop",
+    "free": false,
+    "price": "$8.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Educational",
+      "Workshop"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/black-queer-art-club-stamp-making-tickets-2000524051290?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr2em38C20rRw0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "310",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "Last Home Game: The Dream Vs. The Sky",
+    "organizer": "Blaq ATL Events",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "community games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "State Farm Arena, Sec 106 · 1 State Farm Dr, Atlanta, GA 30303",
+    "vibeTags": [
+      "Community",
+      "Games"
+    ],
+    "ctaHref": "https://posh.vip/e/last-home-game-the-dream-vs-the-sky",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "311",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-27",
+    "dayLabel": "Sunday",
+    "name": "Back to Life: Back to Queer Growth - A QTBIPOC Urban Farm Tour",
+    "organizer": "SOUTHERN FRIED QUEER PRIDE",
+    "types": [
+      "outdoors-hangout",
+      "meetup"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "Black"
+    ],
+    "vibesRaw": "chill creative community wellness tour",
+    "free": false,
+    "price": "$8.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "Black"
+    ],
+    "time": "1:00 PM",
+    "location": "Patchwork City Farms LLC · 902 Pinehurst Terrace Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Wellness",
+      "Tour"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/back-to-life-back-to-queer-growth-a-qtbipoc-urban-farm-tour-tickets-1998997071051?aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-outdoors-hangout",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "312",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "SheShed Appreciation",
+    "organizer": "SheShed",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "grown & sexy groove community",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixxed · 2427 18th St NW, Washington, DC",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdUCo7kxwiA/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "313",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Fall For The Girls",
+    "organizer": "The Sunflower Child",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Femme"
+    ],
+    "vibesRaw": "groove community creative",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Femme"
+    ],
+    "time": "8:00 PM",
+    "location": "Mixxed · 2427 18th St NW, Washington, DC",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Creative"
+    ],
+    "ctaHref": "https://posh.vip/e/fall-for-the-girls?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacof3wDynpOoaO6ihwr1BPLLey4mlo07FPEiGqcmx57HcLjNlkl5yzPItdlxw_aem_-X1WU11NQwDKex3p5gp5AA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "314",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "The LinqUp Festival",
+    "organizer": "LesLinq",
+    "types": [
+      "festival",
+      "meetup",
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community creative cultural live show",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "1:00 PM",
+    "location": "Sycamore & Oak · 1110 Oak Dr SE Ste 9 Washington, DC 20032 USA",
+    "vibeTags": [
+      "Community",
+      "Creative",
+      "Cultural",
+      "Live Show"
+    ],
+    "ctaHref": "https://www.thelinqupfest.com/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "321",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-04",
+    "dayLabel": "Sunday",
+    "name": "Black Gay Flea: First Ever Summer Kickback",
+    "organizer": "QueerTalkDC",
+    "types": [
+      "festival"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community games creative",
+    "free": false,
+    "price": "$6.50",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "12:00 PM",
+    "location": "Wunder Garten · 1101 1st St NE, Washington, DC 20002",
+    "vibeTags": [
+      "Community",
+      "Games",
+      "Creative"
+    ],
+    "ctaHref": "https://www.instagram.com/queertalkdc/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "322",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-24",
+    "dayLabel": "Thursday",
+    "name": "DreamGirls: A Deep Cvnt Mini Ball",
+    "organizer": "Girliepop",
+    "types": [
+      "ball",
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans/GNC",
+      "Femme",
+      "Masc"
+    ],
+    "vibesRaw": "creative community live show",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans/GNC",
+      "Femme",
+      "Masc",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Live Show"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-ball",
+    "registrationDirections": "No RSVP needed",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "323",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-23",
+    "dayLabel": "Wednesday",
+    "name": "Ladies Love R&B: 5 Year Anniversary",
+    "organizer": "MIM Entertainment",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "grown & sexy groove community",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Saint-Ex · 1847 14th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "https://posh.vip/g/mim-entertainment",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "324",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-03",
+    "dayLabel": "Saturday",
+    "name": "The Ultimate Adult Day of Play",
+    "organizer": "The Big Kids Club",
+    "types": [
+      "outdoors-hangout",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community games wellness",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "11:00 AM",
+    "location": "West Potomac Park (M3 Field) · 2912 Independence Ave SW, Washington, DC 20004",
+    "vibeTags": [
+      "Community",
+      "Games",
+      "Wellness"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-outdoors-hangout",
+    "registrationDirections": "Select the cafeteria pass add-on for a full lunch",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "325",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "TasteTakeover's 10-Year Anniversary",
+    "organizer": "TasteTakeover",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Femme"
+    ],
+    "vibesRaw": "grown & sexy groove community",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "POC",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Femme"
+    ],
+    "time": "5:00 PM",
+    "location": "Metrobar · 640 Rhode Island Ave NE, Washington, DC 20002",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "registrationDirections": "Admission tickets sold separately from cabanas",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "326",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "Alphabet Soup X Transmission: Ny(D)C",
+    "organizer": "Alphabet Soup",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "community dating groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "POC",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "2:00 PM",
+    "location": "Transmission · 1353 H Street NE, Washington, DC 20002",
+    "vibeTags": [
+      "Community",
+      "Dating",
+      "Groove"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/alphabet-soup-pres-alphabetsoupxtransmission-nydc",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "327",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Kompet - Candy Édition",
+    "organizer": "Kompet",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "grown & sexy groove cultural dating",
+    "free": false,
+    "price": "$26.25",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "time": "11:59 PM",
+    "location": "La Péniche - Location Péniche Paris · 2 Quai de la Tournelle, 75005 Paris, France",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove",
+      "Cultural",
+      "Dating"
+    ],
+    "ctaHref": "https://shotgun.live/fr/events/kompet-candy-edition",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "328",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-17",
+    "dayLabel": "Thursday",
+    "name": "Bunker Poetry Club",
+    "organizer": "Le Bunker",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "creative community",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "8:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Creative",
+      "Community"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "329",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-18",
+    "dayLabel": "Friday",
+    "name": "Bouyon Pro Max",
+    "organizer": "Le Bunker",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "groove community cultural",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Cultural"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "330",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "Nou Célibataire",
+    "organizer": "Le Bunker",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "dating groove flirt",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Dating",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "331",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-20",
+    "dayLabel": "Sunday",
+    "name": "Sip and Paint",
+    "organizer": "Le Bunker",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "creative dating community",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "8:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Creative",
+      "Dating",
+      "Community"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "registrationDirections": "Register via DM",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "332",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-23",
+    "dayLabel": "Wednesday",
+    "name": "Classics Only",
+    "organizer": "Le Bunker",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "groove community",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "5:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "333",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-24",
+    "dayLabel": "Thursday",
+    "name": "Karaoke de Baddie",
+    "organizer": "Le Bunker",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "groove community games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "8:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Games"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "334",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-25",
+    "dayLabel": "Friday",
+    "name": "Edition Réunion",
+    "organizer": "Le Bunker",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "groove community cultural",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Cultural"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "335",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-26",
+    "dayLabel": "Saturday",
+    "name": "Afro-Caribbean Dance Battle",
+    "organizer": "Le Bunker",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "groove community cultural games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Cultural",
+      "Games"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "336",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-27",
+    "dayLabel": "Sunday",
+    "name": "Vide Grenier de Baddiiie",
+    "organizer": "Le Bunker",
+    "types": [
+      "festival",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Black"
+    ],
+    "vibesRaw": "community creative",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Black",
+      "Free"
+    ],
+    "time": "8:00 PM",
+    "location": "Le Bunker · 54 Rue Guy Môquet, 75017 Paris, France",
+    "vibeTags": [
+      "Community",
+      "Creative"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "registrationDirections": "Register via DM",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "337",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-03",
+    "dayLabel": "Saturday",
+    "name": "Raw Cuts X House Of Yes: DJ Minx",
+    "organizer": "House of Yes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer-friendly"
+    ],
+    "vibesRaw": "groove community",
+    "free": false,
+    "price": "$21.00",
+    "badges": [
+      "Queer-friendly"
+    ],
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/raw-cuts-dj-minx-oct-3?utm_medium=widget&utm_term=html_widget&_gl=1*bbykc7*_gcl_au*MTc4MTU0MjAwNS4xNzg5NjYzNzQ0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "338",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-12-18",
+    "dayLabel": "Friday",
+    "name": "Futch",
+    "organizer": "House of Yes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "dating groove community",
+    "free": false,
+    "price": "$11.00",
+    "badges": [
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Ave, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Dating",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "https://shotgun.live/fr/events/futch-december-18-2026?utm_medium=widget&utm_term=html_widget&_gl=1*1nv25ra*_gcl_au*MTc4MTU0MjAwNS4xNzg5NjYzNzQ0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "339",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-20",
+    "dayLabel": "Friday",
+    "name": "Futch",
+    "organizer": "House of Yes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "dating groove community",
+    "free": false,
+    "price": "$11.00",
+    "badges": [
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Ave, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Dating",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "registrationDirections": "$20 tickets also available at the door",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "340",
+    "festival": "august-events",
+    "day": "tuesday",
+    "dayDate": "2026-10-06",
+    "dayLabel": "Tuesday",
+    "name": "Fem Social: Relationships 101",
+    "organizer": "HD Productions",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Queer"
+    ],
+    "vibesRaw": "community dating cultural",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Queer",
+      "Free"
+    ],
+    "time": "7:30 PM",
+    "location": "The Baltimore Office of Promotion & The Arts · 7 St Paul St, Suite 100, Baltimore, MD 21202",
+    "vibeTags": [
+      "Community",
+      "Dating",
+      "Cultural"
+    ],
+    "ctaHref": "https://posh.vip/e/fem-social-relationships-101",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "341",
+    "festival": "august-events",
+    "day": "tuesday",
+    "dayDate": "2026-10-06",
+    "dayLabel": "Tuesday",
+    "name": "Masc Meet-Up: Relationships 101",
+    "organizer": "HD Productions",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Masc",
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "community dating cultural",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Masc",
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "7:30 PM",
+    "location": "The Baltimore Office of Promotion & The Arts · 7 St Paul St, Suite 100, Baltimore, MD 21202",
+    "vibeTags": [
+      "Community",
+      "Dating",
+      "Cultural"
+    ],
+    "ctaHref": "https://posh.vip/e/masc-meetup-relationships-101",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "342",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-07",
+    "dayLabel": "Wednesday",
+    "name": "On a Date. Kinda Nervous: Speed Dating",
+    "organizer": "HD Productions",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "30+",
+      "POC"
+    ],
+    "vibesRaw": "dating community flirt",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "30+",
+      "POC",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "The Baltimore Office of Promotion & The Arts · 7 St Paul St, Suite 100, Baltimore, MD 21202",
+    "vibeTags": [
+      "Dating",
+      "Community",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/on-a-date-kinda-nervous-speed-dating",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "343",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-08",
+    "dayLabel": "Thursday",
+    "name": "Black Pride Movie Night: Pariah",
+    "organizer": "HD Productions",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "cultural community creative",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "7:00 PM",
+    "location": "Impact Hub Baltimore · 10 E North Ave Ste 5, Baltimore, MD 21202",
+    "vibeTags": [
+      "Cultural",
+      "Community",
+      "Creative"
+    ],
+    "ctaHref": "https://posh.vip/e/black-pride-movie-night-pariah",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "344",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "The Orange Walk: Choosing Us",
+    "organizer": "HD Productions",
+    "types": [
+      "outdoors"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "vibesRaw": "community wellness",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "30+",
+      "Free"
+    ],
+    "time": "9:00 AM",
+    "location": "Druid Hill Park (The Loop) · 900 Druid Park Lake Dr, Baltimore, MD 21217",
+    "vibeTags": [
+      "Community",
+      "Wellness"
+    ],
+    "ctaHref": "https://posh.vip/e/the-orange-walk-choosing-us",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "345",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Flavors: Black Pride Happy Hour",
+    "organizer": "HD Productions",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "groove community food",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Broadway Market · 1640 Aliceanna St, Baltimore, MD 21231",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Food"
+    ],
+    "ctaHref": "https://posh.vip/e/flavors-black-pride-happy-hour",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "346",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "The Noir Experience: Black Pride Finale",
+    "organizer": "HD Productions",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "30+"
+    ],
+    "vibesRaw": "groove cultural community",
+    "free": false,
+    "price": "$17.50",
+    "badges": [
+      "Black",
+      "Queer",
+      "30+"
+    ],
+    "time": "4:00 PM",
+    "location": "World Trade Center Baltimore · 401 E Pratt St, 27th Floor, Baltimore, MD 21202",
+    "vibeTags": [
+      "Groove",
+      "Cultural",
+      "Community"
+    ],
+    "ctaHref": "https://posh.vip/e/the-noir-experience-black-pride-finale",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "347",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-03",
+    "dayLabel": "Saturday",
+    "name": "ONYX ~ THE [BLAQ PRIDE] FUNCTION VOL. IV",
+    "organizer": "The Function",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Nonbinary",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "groove community food",
+    "free": false,
+    "price": "$11.50",
+    "badges": [
+      "Black",
+      "Queer",
+      "Nonbinary",
+      "Trans/GNC"
+    ],
+    "time": "5:00 PM",
+    "location": "Our Time Kitchen · 117 W 24th St, Baltimore, MD 21218",
+    "vibeTags": [
+      "Groove",
+      "Community",
+      "Food"
+    ],
+    "ctaHref": "https://ra.co/events/2493826",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "baltimore"
+  },
+  {
+    "id": "348",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-23",
+    "dayLabel": "Wednesday",
+    "name": "HerVibe & Vocals: Karaoke & Game Night",
+    "organizer": "HerVibe Events",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer"
+    ],
+    "vibesRaw": "games groove community karaoke",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Salud Bar & Grill · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [
+      "Games",
+      "Groove",
+      "Community",
+      "Karaoke"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdXGsTTAAFQ/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore"
+  },
+  {
+    "id": "349",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-30",
+    "dayLabel": "Wednesday",
+    "name": "HerVibe & Vocals: Karaoke & Game Night",
+    "organizer": "HerVibe Events",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "games groove community karaoke",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Salud Bar & Grill · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [
+      "Games",
+      "Groove",
+      "Community",
+      "Karaoke"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdXGsTTAAFQ/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore"
+  },
+  {
+    "id": "350",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-07",
+    "dayLabel": "Wednesday",
+    "name": "HerVibe & Vocals: Karaoke & Game Night",
+    "organizer": "HerVibe Events",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "games groove community",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Salud Bar & Grill · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [
+      "Games",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdXGsTTAAFQ/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore"
+  },
+  {
+    "id": "351",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-14",
+    "dayLabel": "Wednesday",
+    "name": "HerVibe & Vocals: Karaoke & Game Night",
+    "organizer": "HerVibe Events",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "games groove community karaoke",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Salud Bar & Grill · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [
+      "Games",
+      "Groove",
+      "Community",
+      "Karaoke"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdXGsTTAAFQ/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore"
+  },
+  {
+    "id": "352",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-21",
+    "dayLabel": "Wednesday",
+    "name": "HerVibe & Vocals: Karaoke & Game Night",
+    "organizer": "HerVibe Events",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "games groove community karaoke",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Salud Bar & Grill · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [
+      "Games",
+      "Groove",
+      "Community",
+      "Karaoke"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdXGsTTAAFQ/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore"
+  },
+  {
+    "id": "353",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-28",
+    "dayLabel": "Wednesday",
+    "name": "HerVibe & Vocals: Karaoke & Game Night",
+    "organizer": "HerVibe Events",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "games groove community karaoke",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "Salud Bar & Grill · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [
+      "Games",
+      "Groove",
+      "Community",
+      "Karaoke"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DdXGsTTAAFQ/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "baltimore"
+  },
+  {
+    "id": "354",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "Clay & Connection: Pottery Wheel",
+    "organizer": "Lesbifriends Travel",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://www.lesbifriendstravel.com/events/clay-and-connection-pottery-2",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "355",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-07",
+    "dayLabel": "Saturday",
+    "name": "Protect Your Peace: Body & Spirit Series",
+    "organizer": "Lesbifriends Travel",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://www.lesbifriendstravel.com/events/protect-your-peace-1",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "356",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-11-12",
+    "dayLabel": "Thursday",
+    "name": "Monthly Coworking Day",
+    "organizer": "Lesbifriends Travel",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://www.lesbifriendstravel.com/events/lbf-group-outing-coworking-nov",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "357",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-12-10",
+    "dayLabel": "Thursday",
+    "name": "Monthly Coworking Day",
+    "organizer": "Lesbifriends Travel",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://www.lesbifriendstravel.com/events/lbf-group-outing-coworking-dec",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "358",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2027-01-14",
+    "dayLabel": "Thursday",
+    "name": "Monthly Coworking Day",
+    "organizer": "Lesbifriends Travel",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://www.lesbifriendstravel.com/events/lbf-group-outing-coworking-jan",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "359",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "NYCC BLxGL Yuri Yaoi Party",
+    "organizer": "DYKEMINT",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "SPIN Times Square · 1626 Broadway, New York, NY 10019",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://sonicboombox.com/events/blxgl-nycc-edition/sbb/?fbclid=PAVERFWAUWXJNwZG9mAmZkaWQWUOdKNWW_Dr1Q5V5a67oKxRTj6C3M92V4dG4DYWVtAjEwAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpy-YmbjY-fWllLyBQxMCV1FVx6FqSmmjvJpb2rvvXPg6_TKyAwPdqF04C3Eg_aem_CIvndn7p83s7JnP4Iz2bBA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "360",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Bad Witch, Good Butch: Mixtape Sapphics' Halloween Costume Party",
+    "organizer": "Mixtape Sapphics",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Sapphic"
+    ],
+    "vibesRaw": "dating groove community",
+    "free": false,
+    "badges": [
+      "Sapphic"
+    ],
+    "time": "5:00 PM",
+    "location": "Violet Lounge · 2014 9th St NW, Washington, DC 20001",
+    "vibeTags": [
+      "Dating",
+      "Groove",
+      "Community"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "registrationDirections": "Tickets on sale starting Oct 10, 2026, 8:00 PM",
+    "city": "dc"
+  },
+  {
+    "id": "361",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Lez Black Gurls/BLAQ Equity Takeover: Sapphic Brunch",
+    "organizer": "Lezblackgurls",
+    "types": [
+      "brunch"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "chill community food groove drinks",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "12:00 PM",
+    "location": "The Empanada Lady · 10 South Street\n#STE 100 Baltimore, MD 21202",
+    "vibeTags": [
+      "Chill",
+      "Community",
+      "Food",
+      "Groove",
+      "Drinks"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/lez-black-gurlsblaq-equity-takeover-sapphic-brunch-tickets-2001280848892?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkrzRK3V1REcRY0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-brunch",
+    "city": "baltimore",
+    "prideSeries": "Baltimore Blaq Pride"
+  },
+  {
+    "id": "362",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-25",
+    "dayLabel": "Friday",
+    "name": "Raw Honey: The Players Club",
+    "organizer": "Raw Honey",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "11:00 PM",
+    "location": "The Red Pavilion · 1241 Flushing Ave, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/nyc-raw-honey-players-club?u=gabriellehitchens124&_t=mt2ixkdm&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "363",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-25",
+    "dayLabel": "Friday",
+    "name": "(NYC) 30+ Haus of Honey",
+    "organizer": "Raw Honey",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$19.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/nyc-30-haus-of-honey-1",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "365",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-25",
+    "dayLabel": "Friday",
+    "name": "Bodega Baddie",
+    "organizer": "She Shed",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking groove flirt",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "ICON DC · 2001 11th St NW, Washington, DC 20001",
+    "vibeTags": [
+      "Ass Shaking",
+      "Groove",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/bodega-baddie",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "SQWFAM",
+    "city": "dc",
     "prideSeries": "No -- standalone event"
   }
 ];
