@@ -136,18 +136,7 @@ export interface FeaturedFestival {
   includeCityAsMoreEvents: boolean;
 }
 
-export const FEATURED_FESTIVALS: FeaturedFestival[] = [
-  {
-    id: 'global-black-pride',
-    monthId: SEPTEMBER_FESTIVAL_ID,
-    monthPrefix: '2026-09',
-    tabLabel: 'Global Black Pride',
-    location: 'Paris · September 2026',
-    city: 'paris',
-    prideSeries: GLOBAL_BLACK_PRIDE_SERIES,
-    includeCityAsMoreEvents: true,
-  },
-];
+export const FEATURED_FESTIVALS: FeaturedFestival[] = [];
 
 export const DEFAULT_FESTIVAL_ID = AUGUST_FESTIVAL_ID;
 

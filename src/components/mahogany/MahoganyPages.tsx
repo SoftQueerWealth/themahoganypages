@@ -11,6 +11,7 @@ import { HeroSocial } from '../HeroSocial';
 import { cityDisplayLabel, cityFilterOptionsForKeys } from '../../constants/cities';
 import {
   AUGUST_FESTIVAL_ID,
+  FEATURED_FESTIVALS,
   featuredFestivalById,
   type FeaturedFestival,
 } from '../../constants/festivals';
@@ -234,7 +235,9 @@ export function MahoganyPages() {
 
         {itinerary.isInSharedView ? null : (
           <div className="mahogany-controls">
-            <FeaturedCarousel featuredId={featuredId} onSelect={handleSelectFeatured} />
+            {FEATURED_FESTIVALS.length > 0 ? (
+              <FeaturedCarousel featuredId={featuredId} onSelect={handleSelectFeatured} />
+            ) : null}
 
             <CityFilter
               value={selectedCity}
