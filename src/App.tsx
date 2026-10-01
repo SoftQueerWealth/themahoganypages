@@ -10,8 +10,13 @@ export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
-    const pagePath = activeRoom === 'reading' ? '/soft-letters' : '/';
-    trackPageView(pagePath);
+    // Soft Letters uses a virtual path. Neighborhood pageviews are owned by
+    // MahoganyPages so city paths like /nyc are reported correctly.
+    if (activeRoom === 'reading') {
+      trackPageView('/soft-letters');
+      return;
+    }
+    trackPageView(window.location.pathname || '/');
   }, [activeRoom]);
 
   const go = useCallback((room: RoomId) => {

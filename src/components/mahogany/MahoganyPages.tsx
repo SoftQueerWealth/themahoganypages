@@ -22,7 +22,9 @@ import { FOOTER_BAND, FOOTER_COPY } from '../../data/home';
 import { useEvents } from '../../hooks/useEvents';
 import { useEventFilters } from '../../hooks/useEventFilters';
 import { useItinerary } from '../../hooks/useItinerary';
-import { trackCityFilterClick, trackFeaturedEventCardClick, trackItineraryShare } from '../../lib/analytics';
+import { trackCityFilterClick, trackFeaturedEventCardClick, trackItineraryShare, trackPageView } from '../../lib/analytics';
+import { applyCityDocumentMeta } from '../../lib/cityMeta';
+import { cityFromPathname, setCityPathname } from '../../lib/cityPath';
 import { eventMatchesPrideSeries, isUntaggedPrideSeries } from '../../lib/festivalCityFilter';
 import { formatItineraryShare } from '../../lib/formatItinerary';
 import { groupEventsByCityThenDate, groupFestivalEvents } from '../../lib/groupFestivalEvents';
@@ -45,9 +47,20 @@ function splitFeaturedEvents(
   return { official, more };
 }
 
+function syncCityToUrl(city: string, mode: 'push' | 'replace' = 'push'): void {
+  const previousPath = typeof window !== 'undefined' ? window.location.pathname : '';
+  const pathname = setCityPathname(city, mode);
+  applyCityDocumentMeta(city);
+  if (previousPath !== pathname) {
+    trackPageView(pathname);
+  }
+}
+
 export function MahoganyPages() {
   const [featuredId, setFeaturedId] = useState<string | null>(null);
-  const [selectedCity, setSelectedCity] = useState('');
+  const [selectedCity, setSelectedCity] = useState(() =>
+    typeof window !== 'undefined' ? cityFromPathname(window.location.pathname) : '',
+  );
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
 
@@ -137,6 +150,7 @@ export function MahoganyPages() {
   const handleCityChange = (city: string) => {
     trackCityFilterClick(city ? cityDisplayLabel(city) : 'All Cities');
     setSelectedCity(city);
+    syncCityToUrl(city);
     if (!city || (featured && city !== featured.city)) {
       setFeaturedId(null);
     }
@@ -153,10 +167,29 @@ export function MahoganyPages() {
     const next = featuredFestivalById(id);
     if (next?.tabLabel) trackFeaturedEventCardClick(next.tabLabel);
     setFeaturedId(id);
-    setSelectedCity(next?.city ?? '');
+    const nextCity = next?.city ?? '';
+    setSelectedCity(nextCity);
+    if (nextCity) syncCityToUrl(nextCity);
     if (id === 'global-black-pride') setGbpTab('programme');
     filter.clearAll();
   };
+
+  useEffect(() => {
+    applyCityDocumentMeta(selectedCity);
+  }, [selectedCity]);
+
+  useEffect(() => {
+    const onPopState = () => {
+      const city = cityFromPathname(window.location.pathname);
+      setSelectedCity(city);
+      applyCityDocumentMeta(city);
+      trackPageView(window.location.pathname || '/');
+      if (!city) setFeaturedId(null);
+    };
+
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
 
   useEffect(() => {
     if (itinerary.isInSharedView) setMobileFiltersOpen(false);
