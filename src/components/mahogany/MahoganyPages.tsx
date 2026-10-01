@@ -6,6 +6,7 @@ import { ItineraryBar } from '../ItineraryBar';
 import { SharedItineraryHeader } from '../SharedItineraryHeader';
 import { EventFilterSidebar } from './EventFilterSidebar';
 import { FeaturedCarousel } from './FeaturedCarousel';
+import { BaltimoreBlaqPrideTabs } from './BaltimoreBlaqPrideTabs';
 import { GlobalBlackPrideTabs } from './GlobalBlackPrideTabs';
 import { HeroSocial } from '../HeroSocial';
 import { cityDisplayLabel, cityFilterOptionsForKeys } from '../../constants/cities';
@@ -15,6 +16,7 @@ import {
   featuredFestivalById,
   type FeaturedFestival,
 } from '../../constants/festivals';
+import type { BlaqTabId } from '../../data/baltimoreBlaqPride';
 import type { GbpTabId } from '../../data/globalBlackPride';
 import { PUBLIC_SITE_ORIGIN } from '../../constants/site';
 import { LAST_UPDATED_LABEL } from '../../constants/lastUpdated';
@@ -62,9 +64,11 @@ export function MahoganyPages() {
     typeof window !== 'undefined' ? cityFromPathname(window.location.pathname) : '',
   );
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [blaqTab, setBlaqTab] = useState<BlaqTabId>('program');
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
+  const isBaltimoreBlaqPride = featuredId === 'baltimore-blaq-pride';
   const isGlobalBlackPride = featuredId === 'global-black-pride';
   const grouping = 'calendar';
 
@@ -170,6 +174,7 @@ export function MahoganyPages() {
     const nextCity = next?.city ?? '';
     setSelectedCity(nextCity);
     if (nextCity) syncCityToUrl(nextCity);
+    if (id === 'baltimore-blaq-pride') setBlaqTab('program');
     if (id === 'global-black-pride') setGbpTab('programme');
     filter.clearAll();
   };
@@ -322,7 +327,25 @@ export function MahoganyPages() {
                   />
                 ))
               ) : featured ? (
-                isGlobalBlackPride ? (
+                isBaltimoreBlaqPride ? (
+                  <BaltimoreBlaqPrideTabs
+                    activeTab={blaqTab}
+                    onTabChange={setBlaqTab}
+                    programPanel={
+                      officialGrouped.length > 0 ? (
+                        <CitySection
+                          cityLabel="Official Baltimore BLAQ Pride Program"
+                          dayGroups={officialGrouped}
+                          isEventVisible={isEventShown}
+                          isGoing={(event) => itinerary.isGoing(event.id)}
+                          onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                        />
+                      ) : (
+                        <p className="gbp-empty">No program events in the guide right now.</p>
+                      )
+                    }
+                  />
+                ) : isGlobalBlackPride ? (
                   <GlobalBlackPrideTabs
                     activeTab={gbpTab}
                     onTabChange={setGbpTab}

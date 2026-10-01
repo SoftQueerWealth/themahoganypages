@@ -1182,6 +1182,10 @@ nav.rooms button:hover {
     url('/featured-global-black-pride.jpg');
 }
 
+.featured-card-photo.baltimore {
+  background: linear-gradient(135deg, #1f4e79, #8b3a4a 55%, #2a2119);
+}
+
 .featured-card-photo.atlanta {
   background: linear-gradient(135deg, #c9a24b, #8b3a4a);
 }

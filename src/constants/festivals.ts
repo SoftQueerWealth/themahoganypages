@@ -7,6 +7,7 @@ export const NYC_BLACK_PRIDE_SERIES = 'NYC Black Pride (29th Annual)';
 export const ATL_BLACK_PRIDE_SERIES = 'Atlanta Black Pride';
 export const STAMINA_PRIDE_SERIES = 'STAMINA 2026: Queer Caribbean Festival';
 export const GLOBAL_BLACK_PRIDE_SERIES = 'Global Black Pride';
+export const BALTIMORE_BLAQ_PRIDE_SERIES = 'Baltimore Blaq Pride';
 
 export const AUGUST_FESTIVAL_ID = 'august-events';
 export const SEPTEMBER_FESTIVAL_ID = 'september-events';
@@ -136,7 +137,18 @@ export interface FeaturedFestival {
   includeCityAsMoreEvents: boolean;
 }
 
-export const FEATURED_FESTIVALS: FeaturedFestival[] = [];
+export const FEATURED_FESTIVALS: FeaturedFestival[] = [
+  {
+    id: 'baltimore-blaq-pride',
+    monthId: AUGUST_FESTIVAL_ID,
+    monthPrefix: '2026-10',
+    tabLabel: 'Baltimore BLAQ Pride',
+    location: 'Baltimore, MD',
+    city: 'baltimore',
+    prideSeries: BALTIMORE_BLAQ_PRIDE_SERIES,
+    includeCityAsMoreEvents: false,
+  },
+];
 
 export const DEFAULT_FESTIVAL_ID = AUGUST_FESTIVAL_ID;
 

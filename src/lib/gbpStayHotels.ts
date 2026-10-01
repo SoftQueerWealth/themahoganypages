@@ -15,6 +15,10 @@ function isHotel(item: HospitalityItem): boolean {
   return type.split(/[,;/|]+/).some((part) => part.trim() === 'hotel');
 }
 
+function isWhereToStay(item: HospitalityItem): boolean {
+  return normalizeToken(item.uiCategory) === 'where to stay';
+}
+
 function isWhereToEat(item: HospitalityItem): boolean {
   return normalizeToken(item.uiCategory) === 'where to eat';
 }
@@ -35,6 +39,10 @@ function prefersParis(item: HospitalityItem): boolean {
   const city = item.city.trim();
   if (!city) return true;
   return /paris/i.test(city);
+}
+
+function prefersBaltimore(item: HospitalityItem): boolean {
+  return /baltimore/i.test(item.city.trim());
 }
 
 function formatVenueAddress(address: string): string {
@@ -166,6 +174,77 @@ export function getGbpExperiences(): GbpHospitalityItem[] {
   return generatedHospitalityItems
     .filter(isExperiences)
     .filter(prefersParis)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: false,
+        bookLabel: 'More Info →',
+        fallbackTag: 'Experience',
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Stay" for Baltimore BLAQ Pride Stay tab. */
+export function getBlaqStayPlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToStay)
+    .filter(prefersBaltimore)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: false,
+        bookLabel: 'Book →',
+        fallbackTag: 'Stay',
+        includeNearbyStation: true,
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Eat" for Baltimore BLAQ Pride. */
+export function getBlaqEatPlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToEat)
+    .filter(prefersBaltimore)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: true,
+        bookLabel: 'Reserve →',
+        fallbackTag: 'Eat',
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Drink" for Baltimore BLAQ Pride. */
+export function getBlaqDrinkPlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToDrink)
+    .filter(prefersBaltimore)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: true,
+        bookLabel: 'More Info →',
+        fallbackTag: 'Drink',
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Dance" for Baltimore BLAQ Pride. */
+export function getBlaqDancePlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToDance)
+    .filter(prefersBaltimore)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: true,
+        bookLabel: 'More Info →',
+        fallbackTag: 'Dance',
+      }),
+    );
+}
+
+/** Places with UI Category "Experiences" for Baltimore BLAQ Pride. */
+export function getBlaqExperiences(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isExperiences)
+    .filter(prefersBaltimore)
     .map((item, index) =>
       toHospitalityCard(item, index, {
         includeBio: false,

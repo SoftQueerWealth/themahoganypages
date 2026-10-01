@@ -4,6 +4,8 @@ function photoClassForFeatured(id: string): string {
   switch (id) {
     case 'global-black-pride':
       return 'paris';
+    case 'baltimore-blaq-pride':
+      return 'baltimore';
     case 'atl-black-pride':
       return 'atlanta';
     case 'stamina-2026':
