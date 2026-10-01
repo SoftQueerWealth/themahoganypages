@@ -12,6 +12,13 @@ function hasFileExtension(pathname: string): boolean {
   return last.includes('.');
 }
 
+function escapeHtmlAttr(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;');
+}
+
 function rewriteHtmlMeta(html: string, city: string, requestUrl: URL): string {
   const { title, description } = getCityPageMeta(city);
   const pathname = city ? `/${city}` : '/';
@@ -20,27 +27,31 @@ function rewriteHtmlMeta(html: string, city: string, requestUrl: URL): string {
     : requestUrl.host;
   const canonicalUrl = `https://${canonicalHost}${pathname === '/' ? '/' : pathname}`;
 
+  const safeTitle = escapeHtmlAttr(title);
+  const safeDescription = escapeHtmlAttr(description);
+  const safeCanonical = escapeHtmlAttr(canonicalUrl);
+
   let next = html;
-  next = next.replace(/<title>[^<]*<\/title>/i, `<title>${title}</title>`);
+  next = next.replace(/<title>[^<]*<\/title>/i, `<title>${safeTitle}</title>`);
   next = next.replace(
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="description" content="${description}" />`,
+    `<meta name="description" content="${safeDescription}" />`,
   );
   next = next.replace(
     /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:title" content="${title}" />`,
+    `<meta property="og:title" content="${safeTitle}" />`,
   );
   next = next.replace(
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:description" content="${description}" />`,
+    `<meta property="og:description" content="${safeDescription}" />`,
   );
   next = next.replace(
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:url" content="${canonicalUrl}" />`,
+    `<meta property="og:url" content="${safeCanonical}" />`,
   );
   next = next.replace(
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,
-    `<link rel="canonical" href="${canonicalUrl}" />`,
+    `<link rel="canonical" href="${safeCanonical}" />`,
   );
   return next;
 }
@@ -50,20 +61,24 @@ async function serveSpaHtml(
   env: Env,
   city: string,
 ): Promise<Response> {
-  const indexUrl = new URL('/index.html', request.url);
-  const assetResponse = await env.ASSETS.fetch(new Request(indexUrl, request));
+  // Fetch the shell with a clean GET so we don't forward the original path/method.
+  const indexRequest = new Request(new URL('/index.html', request.url), {
+    method: 'GET',
+    headers: { accept: 'text/html' },
+  });
+  const assetResponse = await env.ASSETS.fetch(indexRequest);
   if (!assetResponse.ok) return assetResponse;
 
   const html = await assetResponse.text();
   const rewritten = rewriteHtmlMeta(html, city, new URL(request.url));
 
-  const headers = new Headers(assetResponse.headers);
-  headers.set('content-type', 'text/html; charset=utf-8');
-  headers.delete('content-length');
-
   return new Response(rewritten, {
     status: 200,
-    headers,
+    headers: {
+      'content-type': 'text/html; charset=utf-8',
+      'cache-control': 'public, max-age=0, must-revalidate',
+      'x-sqw-city': city || 'all',
+    },
   });
 }
 

@@ -16,7 +16,12 @@
 
   "env": {
     "staging": {
-      "name": "sqw-events-guide-staging"
+      "name": "sqw-events-guide-staging",
+      "assets": {
+        "directory": "./dist",
+        "binding": "ASSETS",
+        "run_worker_first": true
+      }
     }
   }
 }
