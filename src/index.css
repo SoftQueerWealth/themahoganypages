@@ -1183,11 +1183,21 @@ nav.rooms button:hover {
 }
 
 .featured-card-photo.baltimore {
-  background: linear-gradient(135deg, #1f4e79, #8b3a4a 55%, #2a2119);
+  background:
+    center / cover no-repeat
+    url('/featured-baltimore.png');
+}
+
+.featured-card-photo.uprise {
+  background:
+    center / cover no-repeat
+    url('/featured-uprise-live.png');
 }
 
 .featured-card-photo.atlanta {
-  background: linear-gradient(135deg, #c9a24b, #8b3a4a);
+  background:
+    center / cover no-repeat
+    url('/featured-atlanta.png');
 }
 
 .featured-card-photo.stamina {

@@ -45,6 +45,10 @@ function prefersBaltimore(item: HospitalityItem): boolean {
   return /baltimore/i.test(item.city.trim());
 }
 
+function prefersAtlanta(item: HospitalityItem): boolean {
+  return /^(atl|atlanta)\b/i.test(item.city.trim());
+}
+
 function formatVenueAddress(address: string): string {
   return address
     .split(/\r?\n/)
@@ -245,6 +249,77 @@ export function getBlaqExperiences(): GbpHospitalityItem[] {
   return generatedHospitalityItems
     .filter(isExperiences)
     .filter(prefersBaltimore)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: false,
+        bookLabel: 'More Info →',
+        fallbackTag: 'Experience',
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Stay" for Atlanta features. */
+export function getAtlStayPlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToStay)
+    .filter(prefersAtlanta)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: false,
+        bookLabel: 'Book →',
+        fallbackTag: 'Stay',
+        includeNearbyStation: true,
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Eat" for Atlanta features. */
+export function getAtlEatPlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToEat)
+    .filter(prefersAtlanta)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: true,
+        bookLabel: 'Reserve →',
+        fallbackTag: 'Eat',
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Drink" for Atlanta features. */
+export function getAtlDrinkPlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToDrink)
+    .filter(prefersAtlanta)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: true,
+        bookLabel: 'More Info →',
+        fallbackTag: 'Drink',
+      }),
+    );
+}
+
+/** Places with UI Category "Where to Dance" for Atlanta features. */
+export function getAtlDancePlaces(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isWhereToDance)
+    .filter(prefersAtlanta)
+    .map((item, index) =>
+      toHospitalityCard(item, index, {
+        includeBio: true,
+        bookLabel: 'More Info →',
+        fallbackTag: 'Dance',
+      }),
+    );
+}
+
+/** Places with UI Category "Experiences" for Atlanta features. */
+export function getAtlExperiences(): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(isExperiences)
+    .filter(prefersAtlanta)
     .map((item, index) =>
       toHospitalityCard(item, index, {
         includeBio: false,

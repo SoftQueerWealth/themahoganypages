@@ -1889,7 +1889,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "city": "DC",
     "business": "The Park at 14th",
     "venueType": "Restaurant, Bar, Nightclub",
-    "uiCategory": "Where to Drink",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Black"
     ],
@@ -1915,7 +1915,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "city": "DC",
     "business": "Thurst Lounge",
     "venueType": "Nightclub, Bar, After Dark",
-    "uiCategory": "Where to Drink",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Black",
       "Queer",
@@ -1970,7 +1970,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "city": "DC",
     "business": "A League of Her Own",
     "venueType": "Nightclub, Bar, After Dark",
-    "uiCategory": "Where to Drink",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Sapphic",
       "Queer",
@@ -2074,7 +2074,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "city": "DC",
     "business": "Crush Dance Bar",
     "venueType": "After Dark, Ball, Nightclub",
-    "uiCategory": "Where to Eat",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Queer",
       "MLM"
@@ -2607,39 +2607,12 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "hasCommunityPerk": false,
     "code": "",
     "bookingLink": "https://www.mamakokos.com/",
-    "prideSeries": "AFRAM + Baltimore Black Pride relevant",
+    "prideSeries": "AFRAM + Black Pride relevant",
     "credit": "Visit Baltimore",
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-terra-cafe-98",
-    "city": "Baltimore",
-    "business": "Terra Cafe",
-    "venueType": "Cafe",
-    "uiCategory": "Where to Eat",
-    "audienceTags": [
-      "Black"
-    ],
-    "vibeTags": [
-      "scratch cooking",
-      "neighborhood",
-      "artsy",
-      "casual"
-    ],
-    "description": "Community cafe serving an eclectic made-from-scratch menu, from jerk chicken to waffles and panini.",
-    "venueName": "Terra Cafe",
-    "venueAddress": "101 E 25th St, Baltimore, MD 21218",
-    "nearbyStation": "North Avenue Light Rail + bus",
-    "price": "$–$$",
-    "hasCommunityPerk": false,
-    "code": "",
-    "bookingLink": "https://terracafebmore.com/",
-    "prideSeries": "Year-round venue",
-    "credit": "Visit Baltimore",
-    "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
-  },
-  {
-    "id": "hospitality-tribe-social-cafe-99",
+    "id": "hospitality-tribe-social-cafe-98",
     "city": "Baltimore",
     "business": "Tribe Social Cafe",
     "venueType": "Cafe",
@@ -2667,7 +2640,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-blk-swan-100",
+    "id": "hospitality-blk-swan-99",
     "city": "Baltimore",
     "business": "BLK Swan",
     "venueType": "Restaurant",
@@ -2695,7 +2668,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-the-urban-oyster-101",
+    "id": "hospitality-the-urban-oyster-100",
     "city": "Baltimore",
     "business": "The Urban Oyster",
     "venueType": "Restaurant",
@@ -2722,7 +2695,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-water-for-chocolate-102",
+    "id": "hospitality-water-for-chocolate-101",
     "city": "Baltimore",
     "business": "Water for Chocolate",
     "venueType": "Restaurant",
@@ -2749,7 +2722,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-connie-s-chicken-waffles-lexington-market-103",
+    "id": "hospitality-connie-s-chicken-waffles-lexington-market-102",
     "city": "Baltimore",
     "business": "Connie's Chicken & Waffles – Lexington Market",
     "venueType": "Restaurant",
@@ -2776,7 +2749,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-rooted-rotisserie-104",
+    "id": "hospitality-rooted-rotisserie-103",
     "city": "Baltimore",
     "business": "Rooted Rotisserie",
     "venueType": "Restaurant",
@@ -2803,7 +2776,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-the-land-of-kush-105",
+    "id": "hospitality-the-land-of-kush-104",
     "city": "Baltimore",
     "business": "The Land of Kush",
     "venueType": "Restaurant",
@@ -2830,7 +2803,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-next-phaze-cafe-106",
+    "id": "hospitality-next-phaze-cafe-105",
     "city": "Baltimore",
     "business": "Next Phaze Cafe",
     "venueType": "Restaurant",
@@ -2857,7 +2830,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-the-empanada-lady-107",
+    "id": "hospitality-the-empanada-lady-106",
     "city": "Baltimore",
     "business": "The Empanada Lady",
     "venueType": "Restaurant",
@@ -2885,7 +2858,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-soul-smoked-bbq-108",
+    "id": "hospitality-soul-smoked-bbq-107",
     "city": "Baltimore",
     "business": "Soul Smoked BBQ",
     "venueType": "Restaurant",
@@ -2912,7 +2885,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-the-avenue-bakery-109",
+    "id": "hospitality-the-avenue-bakery-108",
     "city": "Baltimore",
     "business": "The Avenue Bakery",
     "venueType": "Cafe",
@@ -2939,7 +2912,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-matriarch-coffee-110",
+    "id": "hospitality-matriarch-coffee-109",
     "city": "Baltimore",
     "business": "Matriarch Coffee",
     "venueType": "Cafe",
@@ -2966,7 +2939,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-aunt-kelly-s-cookies-111",
+    "id": "hospitality-aunt-kelly-s-cookies-110",
     "city": "Baltimore",
     "business": "Aunt Kelly's Cookies",
     "venueType": "Cafe",
@@ -2993,7 +2966,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-sistahs-sweets-112",
+    "id": "hospitality-sistahs-sweets-111",
     "city": "Baltimore",
     "business": "Sistahs' Sweets",
     "venueType": "Cafe",
@@ -3020,7 +2993,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/african-american-owned-restaurants-in-baltimore/"
   },
   {
-    "id": "hospitality-sacre-sucre-113",
+    "id": "hospitality-sacre-sucre-112",
     "city": "Baltimore",
     "business": "Sacre Sucre",
     "venueType": "Cafe",
@@ -3047,7 +3020,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-bmore-licks-federal-hill-114",
+    "id": "hospitality-bmore-licks-federal-hill-113",
     "city": "Baltimore",
     "business": "Bmore Licks – Federal Hill",
     "venueType": "Non-alcoholic options",
@@ -3074,7 +3047,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-cajou-creamery-115",
+    "id": "hospitality-cajou-creamery-114",
     "city": "Baltimore",
     "business": "Cajou Creamery",
     "venueType": "Non-alcoholic options",
@@ -3101,7 +3074,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/black-owned-businesses/"
   },
   {
-    "id": "hospitality-taharka-brothers-broadway-market-116",
+    "id": "hospitality-taharka-brothers-broadway-market-115",
     "city": "Baltimore",
     "business": "Taharka Brothers – Broadway Market",
     "venueType": "Non-alcoholic options",
@@ -3128,11 +3101,11 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/black-owned-businesses/"
   },
   {
-    "id": "hospitality-baltimore-eagle-117",
+    "id": "hospitality-baltimore-eagle-116",
     "city": "Baltimore",
     "business": "Baltimore Eagle",
     "venueType": "Nightclub",
-    "uiCategory": "Where to Drink",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Queer"
     ],
@@ -3156,11 +3129,11 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimoreeagle.com/"
   },
   {
-    "id": "hospitality-ottobar-118",
+    "id": "hospitality-ottobar-117",
     "city": "Baltimore",
     "business": "Ottobar",
     "venueType": "Nightclub",
-    "uiCategory": "Experiences",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Queer-friendly"
     ],
@@ -3183,7 +3156,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-mixers-baltimore-119",
+    "id": "hospitality-mixers-baltimore-118",
     "city": "Baltimore",
     "business": "Mixers Baltimore",
     "venueType": "Bar",
@@ -3210,7 +3183,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://www.mixersbaltimore.com/"
   },
   {
-    "id": "hospitality-the-drinkery-120",
+    "id": "hospitality-the-drinkery-119",
     "city": "Baltimore",
     "business": "The Drinkery",
     "venueType": "Bar",
@@ -3237,7 +3210,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-club-charles-121",
+    "id": "hospitality-club-charles-120",
     "city": "Baltimore",
     "business": "Club Charles",
     "venueType": "Cocktail Bar",
@@ -3265,7 +3238,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-the-club-car-122",
+    "id": "hospitality-the-club-car-121",
     "city": "Baltimore",
     "business": "The Club Car",
     "venueType": "Cocktail Bar",
@@ -3293,7 +3266,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-the-rowan-tree-123",
+    "id": "hospitality-the-rowan-tree-122",
     "city": "Baltimore",
     "business": "The Rowan Tree",
     "venueType": "Cocktail Bar",
@@ -3320,7 +3293,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-peabody-heights-brewery-124",
+    "id": "hospitality-peabody-heights-brewery-123",
     "city": "Baltimore",
     "business": "Peabody Heights Brewery",
     "venueType": "Bar",
@@ -3348,7 +3321,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://peabodyheightsbrewery.com/events/"
   },
   {
-    "id": "hospitality-lord-baltimore-hotel-125",
+    "id": "hospitality-lord-baltimore-hotel-124",
     "city": "Baltimore",
     "business": "Lord Baltimore Hotel",
     "venueType": "Hotel",
@@ -3375,7 +3348,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-hotel-revival-126",
+    "id": "hospitality-hotel-revival-125",
     "city": "Baltimore",
     "business": "Hotel Revival",
     "venueType": "Hotel",
@@ -3402,7 +3375,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-reginald-f-lewis-museum-127",
+    "id": "hospitality-reginald-f-lewis-museum-126",
     "city": "Baltimore",
     "business": "Reginald F. Lewis Museum",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3429,7 +3402,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/experience-african-american-history-in-baltimore/"
   },
   {
-    "id": "hospitality-national-great-blacks-in-wax-museum-128",
+    "id": "hospitality-national-great-blacks-in-wax-museum-127",
     "city": "Baltimore",
     "business": "National Great Blacks in Wax Museum",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3456,7 +3429,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/experience-african-american-history-in-baltimore/"
   },
   {
-    "id": "hospitality-frederick-douglass-isaac-myers-maritime-park-museum-129",
+    "id": "hospitality-frederick-douglass-isaac-myers-maritime-park-museum-128",
     "city": "Baltimore",
     "business": "Frederick Douglass–Isaac Myers Maritime Park Museum",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3483,7 +3456,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/experience-african-american-history-in-baltimore/"
   },
   {
-    "id": "hospitality-james-e-lewis-museum-of-art-130",
+    "id": "hospitality-james-e-lewis-museum-of-art-129",
     "city": "Baltimore",
     "business": "James E. Lewis Museum of Art",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3510,7 +3483,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/experience-african-american-history-in-baltimore/"
   },
   {
-    "id": "hospitality-eubie-blake-cultural-center-131",
+    "id": "hospitality-eubie-blake-cultural-center-130",
     "city": "Baltimore",
     "business": "Eubie Blake Cultural Center",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3537,7 +3510,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/experience-african-american-history-in-baltimore/"
   },
   {
-    "id": "hospitality-sankofa-children-s-museum-of-african-cultures-132",
+    "id": "hospitality-sankofa-children-s-museum-of-african-cultures-131",
     "city": "Baltimore",
     "business": "Sankofa Children's Museum of African Cultures",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3564,7 +3537,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/experience-african-american-history-in-baltimore/"
   },
   {
-    "id": "hospitality-baltimore-center-stage-133",
+    "id": "hospitality-baltimore-center-stage-132",
     "city": "Baltimore",
     "business": "Baltimore Center Stage",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3591,7 +3564,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-creative-alliance-134",
+    "id": "hospitality-creative-alliance-133",
     "city": "Baltimore",
     "business": "Creative Alliance",
     "venueType": "Museum/Gallery/Exhibits",
@@ -3619,7 +3592,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-dreamers-make-believers-135",
+    "id": "hospitality-dreamers-make-believers-134",
     "city": "Baltimore",
     "business": "Dreamers & Make-Believers",
     "venueType": "Bookstore",
@@ -3646,7 +3619,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-red-emma-s-136",
+    "id": "hospitality-red-emma-s-135",
     "city": "Baltimore",
     "business": "Red Emma's",
     "venueType": "Bookstore",
@@ -3673,7 +3646,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-atomic-books-137",
+    "id": "hospitality-atomic-books-136",
     "city": "Baltimore",
     "business": "Atomic Books",
     "venueType": "Bookstore",
@@ -3700,7 +3673,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/guides/an-lgbtq-guide-to-baltimore"
   },
   {
-    "id": "hospitality-everyone-s-place-african-cultural-center-138",
+    "id": "hospitality-everyone-s-place-african-cultural-center-137",
     "city": "Baltimore",
     "business": "Everyone's Place African Cultural Center",
     "venueType": "Bookstore",
@@ -3727,11 +3700,11 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/what-to-do/black-owned-businesses/"
   },
   {
-    "id": "hospitality-arch-social-club-139",
+    "id": "hospitality-arch-social-club-138",
     "city": "Baltimore",
     "business": "Arch Social Club",
     "venueType": "Nightclub",
-    "uiCategory": "Experiences",
+    "uiCategory": "Where to Dance",
     "audienceTags": [
       "Black"
     ],
@@ -3754,7 +3727,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://baltimore.org/listings/arch-social-club/"
   },
   {
-    "id": "hospitality-kink-cafe-140",
+    "id": "hospitality-kink-cafe-139",
     "city": "Baltimore",
     "business": "Kink Cafe",
     "venueType": "Restaurant",
@@ -3782,5 +3755,1014 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "prideSeries": "Baltimore Black Pride relevant",
     "credit": "Official site + Baltimore Banner",
     "creditSourceLink": "https://kinkcafe.org/press-%26-media"
+  },
+  {
+    "id": "hospitality-the-baltimore-eagle-140",
+    "city": "Baltimore",
+    "business": "The Baltimore Eagle",
+    "venueType": "Nightclub",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "The Baltimore Eagle",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-leons-bar-141",
+    "city": "Baltimore",
+    "business": "Leons Bar",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "Leons Bar",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "🔑 Rae Henry",
+    "creditSourceLink": "https://www.instagram.com/_4theloveof22/"
+  },
+  {
+    "id": "hospitality-the-drinkery-142",
+    "city": "Baltimore",
+    "business": "The Drinkery",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "The Drinkery",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-the-club-car-143",
+    "city": "Baltimore",
+    "business": "The Club Car",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "The Club Car",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-the-rowan-tree-144",
+    "city": "Baltimore",
+    "business": "The Rowan Tree",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "The Rowan Tree",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-the-royal-blue-145",
+    "city": "Baltimore",
+    "business": "The Royal Blue",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "The Royal Blue",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "🔑 Rae Henry",
+    "creditSourceLink": "https://www.instagram.com/_4theloveof22/"
+  },
+  {
+    "id": "hospitality-no-land-beyond-146",
+    "city": "Baltimore",
+    "business": "No Land Beyond",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "No Land Beyond",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-nola-seafood-and-spirits-147",
+    "city": "Baltimore",
+    "business": "Nola Seafood and Spirits",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "Nola Seafood and Spirits",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "🔑 Rae Henry",
+    "creditSourceLink": "https://www.instagram.com/_4theloveof22/"
+  },
+  {
+    "id": "hospitality-yard-148",
+    "city": "Baltimore",
+    "business": "Yard",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "Yard",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-miss-toya-s-creole-kitchen-149",
+    "city": "Baltimore",
+    "business": "Miss Toya's Creole Kitchen",
+    "venueType": "Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [],
+    "vibeTags": [],
+    "description": "",
+    "venueName": "Miss Toya's Creole Kitchen",
+    "venueAddress": "",
+    "nearbyStation": "",
+    "price": "",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "",
+    "prideSeries": "",
+    "credit": "",
+    "creditSourceLink": ""
+  },
+  {
+    "id": "hospitality-my-sister-s-room-150",
+    "city": "ATL",
+    "business": "My Sister's Room",
+    "venueType": "Nightclub, Bar",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Sapphic",
+      "Queer",
+      "WLW",
+      "Lesbian"
+    ],
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking"
+    ],
+    "description": "Atlanta's long-running lesbian bar and one of the clearest sapphic nightlife anchors in the city.",
+    "venueName": "My Sister's Room",
+    "venueAddress": "1104 Crescent Ave NE, Atlanta, GA 30309",
+    "nearbyStation": "Midtown MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site / event tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Lesbian-owned / operated",
+    "creditSourceLink": "Discover Atlanta + official site"
+  },
+  {
+    "id": "hospitality-jolene-jolene-151",
+    "city": "ATL",
+    "business": "Jolene Jolene",
+    "venueType": "Bar",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Woman-owned"
+    ],
+    "vibeTags": [
+      "Drinks"
+    ],
+    "description": "Atlanta's first bar dedicated to women's sports — a strong daytime-to-night option for sapphics who want community without the club.",
+    "venueName": "Jolene Jolene",
+    "venueAddress": "1963 Hosea L Williams Dr SE, Atlanta, GA 30317",
+    "nearbyStation": "Edgewood/Candler Park MARTA + rideshare",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Woman-founded",
+    "creditSourceLink": "Official Jolene Jolene site"
+  },
+  {
+    "id": "hospitality-mary-s-152",
+    "city": "ATL",
+    "business": "Mary's",
+    "venueType": "Nightclub, Bar",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Queer"
+    ],
+    "vibeTags": [
+      "Drinks"
+    ],
+    "description": "An East Atlanta queer institution for karaoke, drag, DJs and an unpretentious neighborhood-bar night.",
+    "venueName": "Mary's",
+    "venueAddress": "1287 Glenwood Ave SE, Atlanta, GA 30316",
+    "nearbyStation": "Edgewood/Candler Park MARTA + rideshare",
+    "price": "$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-lore-153",
+    "city": "ATL",
+    "business": "Lore",
+    "venueType": "Nightclub, Bar",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Queer"
+    ],
+    "vibeTags": [
+      "Drinks"
+    ],
+    "description": "A newer queer third space on Edgewood with drag, themed parties, cocktails, food and room to actually hang out.",
+    "venueName": "Lore",
+    "venueAddress": "466 Edgewood Ave SE Suite B, Atlanta, GA 30312",
+    "nearbyStation": "King Memorial MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site / event tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "",
+    "creditSourceLink": "Official venue / current business listing"
+  },
+  {
+    "id": "hospitality-virgil-s-gullah-kitchen-bar-154",
+    "city": "ATL",
+    "business": "Virgil's Gullah Kitchen & Bar",
+    "venueType": "Restaurant, Bar",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Queer",
+      "Black"
+    ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
+    "description": "Gullah Geechee-inspired soul food with big portions, strong drinks and an energetic social atmosphere.",
+    "venueName": "Virgil's Gullah Kitchen & Bar",
+    "venueAddress": "822 Marietta St NW, Atlanta, GA 30318",
+    "nearbyStation": "Vine City / rideshare",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "OpenTable / official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Queer-owned",
+    "creditSourceLink": "The Infatuation queer-owned Atlanta guide"
+  },
+  {
+    "id": "hospitality-southern-queenz-155",
+    "city": "ATL",
+    "business": "Southern Queenz",
+    "venueType": "Restaurant, Bar",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
+    "description": "Black-owned East Atlanta brunch-and-dinner spot built for comfort food, drinks and a social outing.",
+    "venueName": "Southern Queenz",
+    "venueAddress": "1648 Memorial Dr SE Suite D, Atlanta, GA 30317",
+    "nearbyStation": "Edgewood/Candler Park MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-gocha-s-breakfast-bar-156",
+    "city": "ATL",
+    "business": "Gocha's Breakfast Bar",
+    "venueType": "Brunch, Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
+    "description": "High-energy Cascade brunch spot with Southern breakfast favorites, cocktails and a polished social vibe.",
+    "venueName": "Gocha's Breakfast Bar",
+    "venueAddress": "3695 Cascade Rd Suite 440, Atlanta, GA 30331",
+    "nearbyStation": "Oakland City MARTA + rideshare",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site / reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Atlanta Black-owned restaurant directories / official business"
+  },
+  {
+    "id": "hospitality-breakfast-at-barney-s-157",
+    "city": "ATL",
+    "business": "Breakfast at Barney's",
+    "venueType": "Brunch, Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
+    "description": "An Atlanta brunch destination mixing Southern comfort food with daytime-social-club energy.",
+    "venueName": "Breakfast at Barney's",
+    "venueAddress": "349 Decatur St SE, Atlanta, GA 30312",
+    "nearbyStation": "King Memorial MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Resy",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Atlanta Eats / business profile"
+  },
+  {
+    "id": "hospitality-the-busy-bee-cafe-158",
+    "city": "ATL",
+    "business": "The Busy Bee Cafe",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Drinks",
+      "Food"
+    ],
+    "description": "One of Atlanta's essential Black food institutions, serving classic soul food since 1947.",
+    "venueName": "The Busy Bee Cafe",
+    "venueAddress": "810 Martin Luther King Jr Dr SW, Atlanta, GA 30314",
+    "nearbyStation": "Ashby MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official ordering",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Current Black-owned restaurant directory / restaurant history"
+  },
+  {
+    "id": "hospitality-paschal-s-restaurant-bar-159",
+    "city": "ATL",
+    "business": "Paschal's",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Civil rights history",
+      "soul food",
+      "legacy",
+      "groups"
+    ],
+    "description": "Historic soul food restaurant whose story is intertwined with Atlanta's Civil Rights Movement.",
+    "venueName": "Paschal's Restaurant & Bar",
+    "venueAddress": "180 Northside Dr SW, Atlanta, GA 30313",
+    "nearbyStation": "Vine City MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "OpenTable / official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-founded / Black legacy",
+    "creditSourceLink": "Official restaurant history"
+  },
+  {
+    "id": "hospitality-rock-steady-160",
+    "city": "ATL",
+    "business": "Rock Steady",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Afro-Caribbean",
+      "grown",
+      "DJs",
+      "date night",
+      "late-night"
+    ],
+    "description": "Dinner can turn into a night out at this stylish Afro-Caribbean restaurant and DJ-driven music lounge.",
+    "venueName": "Rock Steady",
+    "venueAddress": "907 Marietta St NW, Atlanta, GA 30318",
+    "nearbyStation": "Arts Center MARTA + rideshare",
+    "price": "$$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Resy",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black cultural concept",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-marcus-bar-grille-161",
+    "city": "ATL",
+    "business": "Marcus Bar & Grille",
+    "venueType": "Restaurant, Bar",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Southern comfort",
+      "R&B",
+      "brunch",
+      "cocktails",
+      "celebratory"
+    ],
+    "description": "Lively Marcus Samuelsson restaurant celebrating Atlanta, community, music and elevated comfort food.",
+    "venueName": "Marcus Bar & Grille",
+    "venueAddress": "525 Edgewood Ave SE, Atlanta, GA 30312",
+    "nearbyStation": "King Memorial MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black chef-founded",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-twisted-soul-cookhouse-pours-162",
+    "city": "ATL",
+    "business": "Twisted Soul Cookhouse & Pours",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Elevated soul food",
+      "cocktails",
+      "date night",
+      "brunch"
+    ],
+    "description": "A polished option for globally influenced Southern food when you want the Black ATL food experience without a party-brunch atmosphere.",
+    "venueName": "Twisted Soul Cookhouse & Pours",
+    "venueAddress": "1133 Huff Rd NW #D, Atlanta, GA 30318",
+    "nearbyStation": "Arts Center MARTA + rideshare",
+    "price": "$$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black woman chef-led",
+    "creditSourceLink": "Official site / Chef Deborah VanTrece"
+  },
+  {
+    "id": "hospitality-southern-national-163",
+    "city": "ATL",
+    "business": "Southern National",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Modern Southern",
+      "cocktails",
+      "date night",
+      "sophisticated"
+    ],
+    "description": "Globally influenced Southern cooking and a serious cocktail program in Summerhill.",
+    "venueName": "Southern National",
+    "venueAddress": "72 Georgia Ave SE Suite 100, Atlanta, GA 30312",
+    "nearbyStation": "Georgia State MARTA + rideshare",
+    "price": "$$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black chef / hospitality-led",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-bar-vegan-164",
+    "city": "ATL",
+    "business": "Bar Vegan",
+    "venueType": "Restaurant, Bar",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Vegan",
+      "cocktails",
+      "playful",
+      "Ponce City Market"
+    ],
+    "description": "A high-energy plant-based restaurant and cocktail stop inside Ponce City Market.",
+    "venueName": "Bar Vegan",
+    "venueAddress": "675 Ponce De Leon Ave NE Suite N-215, Atlanta, GA 30308",
+    "nearbyStation": "North Avenue MARTA + rideshare",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-founded",
+    "creditSourceLink": "Bar Vegan / Pinky Cole"
+  },
+  {
+    "id": "hospitality-black-coffee-atl-165",
+    "city": "ATL",
+    "business": "Black Coffee ATL",
+    "venueType": "Cafe",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Coffee",
+      "hip-hop",
+      "R&B",
+      "art",
+      "BeltLine",
+      "creative"
+    ],
+    "description": "Black-owned specialty coffee shop where coffee, Atlanta music, local art and community all meet.",
+    "venueName": "Black Coffee ATL",
+    "venueAddress": "1246 Allene Ave SW, Atlanta, GA 30310",
+    "nearbyStation": "Oakland City MARTA + rideshare",
+    "price": "$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-urban-grind-166",
+    "city": "ATL",
+    "business": "Urban Grind",
+    "venueType": "Cafe",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Coffee",
+      "local art",
+      "community",
+      "creatives",
+      "Westside"
+    ],
+    "description": "Community coffeehouse with local art and an Atlanta creative-community feel.",
+    "venueName": "Urban Grind",
+    "venueAddress": "962 Marietta St NW, Atlanta, GA 30318",
+    "nearbyStation": "Arts Center MARTA + rideshare",
+    "price": "$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black woman-founded",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-just-add-honey-tea-company-167",
+    "city": "ATL",
+    "business": "Just Add Honey Tea Company",
+    "venueType": "Cafe",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Tea",
+      "cozy",
+      "BeltLine",
+      "daytime",
+      "slow vibe"
+    ],
+    "description": "Black-owned BeltLine tea shop for a softer daytime break from Pride and Homecoming crowds.",
+    "venueName": "Just Add Honey Tea Company",
+    "venueAddress": "684 John Wesley Dobbs Ave NE Unit E, Atlanta, GA 30312",
+    "nearbyStation": "King Memorial MARTA + BeltLine",
+    "price": "$-$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official booking",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Atlanta BeltLine"
+  },
+  {
+    "id": "hospitality-3-parks-wine-shop-old-fourth-ward-168",
+    "city": "ATL",
+    "business": "3 Parks Wine Shop",
+    "venueType": "Cocktail Bar",
+    "uiCategory": "Where to Drink",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Wine",
+      "Black-owned",
+      "tastings",
+      "BeltLine",
+      "chill"
+    ],
+    "description": "Black woman-owned wine shop making wine approachable through tastings, flights and community events.",
+    "venueName": "3 Parks Wine Shop — Old Fourth Ward",
+    "venueAddress": "405 N Angier Ave NE Suite 200, Atlanta, GA 30308",
+    "nearbyStation": "Civic Center MARTA + rideshare",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official events",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black woman-owned",
+    "creditSourceLink": "PATH Foundation / owner Sarah Pierre"
+  },
+  {
+    "id": "hospitality-the-james-room-169",
+    "city": "ATL",
+    "business": "The James Room",
+    "venueType": "Cocktail Bar",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Cocktails",
+      "R&B",
+      "intimate",
+      "grown",
+      "date night"
+    ],
+    "description": "An intimate BeltLine cocktail lounge with deliberately curated R&B, hip-hop, soul and late-night energy.",
+    "venueName": "The James Room",
+    "venueAddress": "661 Auburn Ave NE Suite 280, Atlanta, GA 30312",
+    "nearbyStation": "King Memorial MARTA + BeltLine",
+    "price": "$$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Intentionalist / ownership reporting"
+  },
+  {
+    "id": "hospitality-fellaship-atl-170",
+    "city": "ATL",
+    "business": "Fellaship ATL",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Southern",
+      "cigars",
+      "grown",
+      "jazz",
+      "cocktails",
+      "upscale"
+    ],
+    "description": "Cam and Cecil Newton's upscale restaurant and cigar lounge mixing Southern food, culture, music and grown-folks energy.",
+    "venueName": "Fellaship ATL",
+    "venueAddress": "110 Centennial Olympic Park Dr Suite 102-104, Atlanta, GA 30313",
+    "nearbyStation": "GWCC/CNN Center MARTA",
+    "price": "$$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned / Black-founded",
+    "creditSourceLink": "Official site / Discover Atlanta"
+  },
+  {
+    "id": "hospitality-cafe-circa-171",
+    "city": "ATL",
+    "business": "Cafe Circa",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Caribbean",
+      "rooftop",
+      "DJs",
+      "cocktails",
+      "late-night"
+    ],
+    "description": "Edgewood restaurant-lounge pairing food and cocktails with a rooftop and late-night Atlanta energy.",
+    "venueName": "Cafe Circa",
+    "venueAddress": "464 Edgewood Ave SE, Atlanta, GA 30312",
+    "nearbyStation": "King Memorial MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official reservations / events",
+    "prideSeries": "Atlanta Pride",
+    "credit": "",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-apache-xlr-172",
+    "city": "ATL",
+    "business": "Apache XLR",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Dance",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Live music",
+      "spoken word",
+      "creative",
+      "Black arts",
+      "intimate"
+    ],
+    "description": "Black woman-owned live arts venue where food, music, spoken word and Atlanta creative culture meet.",
+    "venueName": "Apache XLR",
+    "venueAddress": "393 Marietta St NW, Atlanta, GA 30313",
+    "nearbyStation": "GWCC/CNN Center MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official event tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black woman-owned",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-apex-museum-173",
+    "city": "ATL",
+    "business": "APEX Museum",
+    "venueType": "Museum/Gallery/Exhibits",
+    "uiCategory": "Experiences",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Black history",
+      "Sweet Auburn",
+      "educational",
+      "daytime"
+    ],
+    "description": "Atlanta's oldest Black history museum, telling African and African American history from a Black perspective.",
+    "venueName": "APEX Museum",
+    "venueAddress": "135 Auburn Ave NE, Atlanta, GA 30303",
+    "nearbyStation": "King Memorial / Peachtree Center MARTA",
+    "price": "$12",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black history institution",
+    "creditSourceLink": "Official museum"
+  },
+  {
+    "id": "hospitality-hammonds-house-museum-174",
+    "city": "ATL",
+    "business": "Hammonds House Museum",
+    "venueType": "Museum/Gallery/Exhibits",
+    "uiCategory": "Experiences",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Black art",
+      "West End",
+      "intimate",
+      "cultural"
+    ],
+    "description": "A historic West End museum dedicated to artists of African descent across Africa, the Caribbean and the Americas.",
+    "venueName": "Hammonds House Museum",
+    "venueAddress": "503 Peeples St SW, Atlanta, GA 30310",
+    "nearbyStation": "West End MARTA",
+    "price": "$15",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black arts institution",
+    "creditSourceLink": "Official museum"
+  },
+  {
+    "id": "hospitality-for-keeps-books-175",
+    "city": "ATL",
+    "business": "For Keeps Books",
+    "venueType": "Bookstore",
+    "uiCategory": "Experiences",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Black literature",
+      "rare books",
+      "Sweet Auburn",
+      "quiet gem"
+    ],
+    "description": "A rare-books destination devoted to putting classic and archival Black literature back into Black hands.",
+    "venueName": "For Keeps Books",
+    "venueAddress": "171 Auburn Ave NE, Atlanta, GA 30303",
+    "nearbyStation": "King Memorial MARTA",
+    "price": "$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official bookstore",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black woman-owned",
+    "creditSourceLink": "Storehouse Voices / bookstore profile"
+  },
+  {
+    "id": "hospitality-trap-music-museum-176",
+    "city": "ATL",
+    "business": "Trap Music Museum",
+    "venueType": "Museum/Gallery/Exhibits",
+    "uiCategory": "Experiences",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Hip-hop",
+      "trap",
+      "Atlanta culture",
+      "interactive",
+      "photos"
+    ],
+    "description": "An immersive celebration of Atlanta's trap music history, artists and global cultural influence.",
+    "venueName": "Trap Music Museum",
+    "venueAddress": "630 Travis St NW, Atlanta, GA 30318",
+    "nearbyStation": "Ashby MARTA + rideshare",
+    "price": "$33.30",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black cultural institution",
+    "creditSourceLink": "Official museum"
+  },
+  {
+    "id": "hospitality-the-black-hair-experience-177",
+    "city": "ATL",
+    "business": "The Black Hair Experience",
+    "venueType": "Museum/Gallery/Exhibits",
+    "uiCategory": "Experiences",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Black hair",
+      "Black women",
+      "photos",
+      "culture",
+      "immersive"
+    ],
+    "description": "A photo-friendly interactive experience celebrating Black hair, beauty, nostalgia and culture.",
+    "venueName": "The Black Hair Experience",
+    "venueAddress": "1540 Avenue Pl Suite C-180, Atlanta, GA 30329",
+    "nearbyStation": "Lindbergh Center MARTA + rideshare",
+    "price": "$28 GA",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official tickets",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black woman-created",
+    "creditSourceLink": "Official experience / creator profile"
+  },
+  {
+    "id": "hospitality-tassili-s-raw-reality-cafe-178",
+    "city": "ATL",
+    "business": "Tassili's Raw Reality Cafe",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Raw vegan",
+      "Afrocentric",
+      "West End",
+      "wellness",
+      "casual"
+    ],
+    "description": "A West End institution serving huge raw-vegan wraps and plant-based food in an intentionally Afrocentric, community-centered space.",
+    "venueName": "Tassili's Raw Reality Cafe",
+    "venueAddress": "1059 Ralph David Abernathy Blvd SW, Atlanta, GA 30310",
+    "nearbyStation": "West End MARTA",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official ordering",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned / Black cultural wellness concept",
+    "creditSourceLink": "Official site"
+  },
+  {
+    "id": "hospitality-hippin-hops-brewpub-oyster-bar-179",
+    "city": "ATL",
+    "business": "Hippin Hops Brewpub & Oyster Bar",
+    "venueType": "Restaurant",
+    "uiCategory": "Where to Eat",
+    "audienceTags": [
+      "Black"
+    ],
+    "vibeTags": [
+      "Black-owned brewery",
+      "oysters",
+      "beer",
+      "EAV",
+      "casual"
+    ],
+    "description": "Black-owned East Atlanta brewpub pairing house beer with oysters, seafood and a casual neighborhood hang.",
+    "venueName": "Hippin Hops Brewpub & Oyster Bar",
+    "venueAddress": "1308 Glenwood Ave SE, Atlanta, GA 30316",
+    "nearbyStation": "Edgewood/Candler Park MARTA + rideshare",
+    "price": "$$",
+    "hasCommunityPerk": false,
+    "code": "",
+    "bookingLink": "Official site",
+    "prideSeries": "Atlanta Pride",
+    "credit": "Black-owned",
+    "creditSourceLink": "Current business profile / Georgia business records"
   }
 ];

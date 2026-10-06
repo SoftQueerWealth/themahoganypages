@@ -22,6 +22,11 @@ export const BLAQ_TABS: BlaqTabDef[] = [
   { id: 'travelinfo', label: '✈️ Travel Info' },
 ];
 
+/** Same Stay/Eat/… tabs as BLAQ, with a custom program pill label. */
+export function featuredCityTabs(programLabel: string): BlaqTabDef[] {
+  return BLAQ_TABS.map((tab) => (tab.id === 'program' ? { ...tab, label: programLabel } : tab));
+}
+
 export interface BlaqTravelCard {
   icon: string;
   title: string;

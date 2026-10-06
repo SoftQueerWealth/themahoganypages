@@ -6,7 +6,7 @@ import { ItineraryBar } from '../ItineraryBar';
 import { SharedItineraryHeader } from '../SharedItineraryHeader';
 import { EventFilterSidebar } from './EventFilterSidebar';
 import { FeaturedCarousel } from './FeaturedCarousel';
-import { BaltimoreBlaqPrideTabs } from './BaltimoreBlaqPrideTabs';
+import { FeaturedCityFestivalTabs } from './FeaturedCityFestivalTabs';
 import { GlobalBlackPrideTabs } from './GlobalBlackPrideTabs';
 import { HeroSocial } from '../HeroSocial';
 import { cityDisplayLabel, cityFilterOptionsForKeys } from '../../constants/cities';
@@ -17,6 +17,7 @@ import {
   type FeaturedFestival,
 } from '../../constants/festivals';
 import type { BlaqTabId } from '../../data/baltimoreBlaqPride';
+import { featuredCityUiById, isFeaturedCityFestival } from '../../data/featuredCityFestivals';
 import type { GbpTabId } from '../../data/globalBlackPride';
 import { PUBLIC_SITE_ORIGIN } from '../../constants/site';
 import { LAST_UPDATED_LABEL } from '../../constants/lastUpdated';
@@ -38,14 +39,17 @@ function splitFeaturedEvents(
   guideEvents: PrideEvent[],
   featured: FeaturedFestival,
 ): { official: PrideEvent[]; more: PrideEvent[] } {
-  const cityMonthEvents = guideEvents.filter(
-    (event) =>
-      event.city === featured.city && Boolean(event.dayDate?.startsWith(featured.monthPrefix)),
+  const monthEvents = guideEvents.filter((event) =>
+    Boolean(event.dayDate?.startsWith(featured.monthPrefix)),
   );
-  const official = cityMonthEvents.filter((event) =>
+  const official = monthEvents.filter((event) =>
     eventMatchesPrideSeries(event, featured.prideSeries),
   );
-  const more = cityMonthEvents.filter((event) => isUntaggedPrideSeries(event));
+  const more = featured.includeCityAsMoreEvents
+    ? monthEvents.filter(
+        (event) => event.city === featured.city && isUntaggedPrideSeries(event),
+      )
+    : [];
   return { official, more };
 }
 
@@ -68,7 +72,8 @@ export function MahoganyPages() {
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
-  const isBaltimoreBlaqPride = featuredId === 'baltimore-blaq-pride';
+  const featuredCityUi = featuredId ? featuredCityUiById(featuredId) : undefined;
+  const isCityFeatured = isFeaturedCityFestival(featuredId);
   const isGlobalBlackPride = featuredId === 'global-black-pride';
   const grouping = 'calendar';
 
@@ -174,7 +179,7 @@ export function MahoganyPages() {
     const nextCity = next?.city ?? '';
     setSelectedCity(nextCity);
     if (nextCity) syncCityToUrl(nextCity);
-    if (id === 'baltimore-blaq-pride') setBlaqTab('program');
+    if (isFeaturedCityFestival(id)) setBlaqTab('program');
     if (id === 'global-black-pride') setGbpTab('programme');
     filter.clearAll();
   };
@@ -327,14 +332,19 @@ export function MahoganyPages() {
                   />
                 ))
               ) : featured ? (
-                isBaltimoreBlaqPride ? (
-                  <BaltimoreBlaqPrideTabs
+                isCityFeatured && featuredCityUi ? (
+                  <FeaturedCityFestivalTabs
+                    ariaLabel={featuredCityUi.ariaLabel}
+                    tabs={featuredCityUi.tabs}
                     activeTab={blaqTab}
                     onTabChange={setBlaqTab}
+                    hospitality={featuredCityUi.hospitality}
+                    hospitalityIntros={featuredCityUi.hospitalityIntros}
+                    travel={featuredCityUi.travel}
                     programPanel={
                       officialGrouped.length > 0 ? (
                         <CitySection
-                          cityLabel="Official Baltimore BLAQ Pride Program"
+                          cityLabel={featuredCityUi.programSectionLabel}
                           dayGroups={officialGrouped}
                           isEventVisible={isEventShown}
                           isGoing={(event) => itinerary.isGoing(event.id)}
