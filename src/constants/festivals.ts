@@ -9,9 +9,7 @@ export const STAMINA_PRIDE_SERIES = 'STAMINA 2026: Queer Caribbean Festival';
 export const GLOBAL_BLACK_PRIDE_SERIES = 'Global Black Pride';
 export const BALTIMORE_BLAQ_PRIDE_SERIES = 'Baltimore Blaq Pride';
 export const UPRISE_LIVE_SERIES = 'UPRISE LIVE';
-export const CHARM_CITY_BURLESQUE_SERIES =
-  '4th Annual Charm City Burlesque & Variety Festival | OCT 2026';
-export const ATLANTA_PRIDE_2026_SERIES = 'Atlanta Pride 2026';
+export const ATLANTA_PRIDE_2026_SERIES = 'Atlanta Pride';
 
 export const AUGUST_FESTIVAL_ID = 'august-events';
 export const SEPTEMBER_FESTIVAL_ID = 'september-events';
@@ -163,20 +161,10 @@ export const FEATURED_FESTIVALS: FeaturedFestival[] = [
     includeCityAsMoreEvents: false,
   },
   {
-    id: 'charm-city-burlesque',
-    monthId: AUGUST_FESTIVAL_ID,
-    monthPrefix: '2026-10',
-    tabLabel: 'Charm City Burlesque',
-    location: 'Baltimore, MD',
-    city: 'baltimore',
-    prideSeries: CHARM_CITY_BURLESQUE_SERIES,
-    includeCityAsMoreEvents: false,
-  },
-  {
     id: 'atlanta-pride-2026',
     monthId: AUGUST_FESTIVAL_ID,
     monthPrefix: '2026-10',
-    tabLabel: 'Atlanta Pride 2026',
+    tabLabel: 'Atlanta Pride',
     location: 'Atlanta, GA',
     city: 'atlanta',
     prideSeries: ATLANTA_PRIDE_2026_SERIES,

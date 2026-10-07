@@ -72,7 +72,7 @@ const FEATURED_CITY_UI: Record<string, FeaturedCityUiConfig> = {
   'baltimore-blaq-pride': {
     ariaLabel: 'Baltimore BLAQ Pride',
     programSectionLabel: 'Official Baltimore BLAQ Pride Program',
-    tabs: featuredCityTabs('🌈 BLAQ Program'),
+    tabs: featuredCityTabs('🌈 BLAQ Program', { hideStay: true }),
     hospitality: BALTIMORE_HOSPITALITY,
     hospitalityIntros: BALTIMORE_HOS_INTROS,
     travel: {
@@ -86,7 +86,7 @@ const FEATURED_CITY_UI: Record<string, FeaturedCityUiConfig> = {
   'uprise-live': {
     ariaLabel: 'UPRISE LIVE',
     programSectionLabel: 'Official UPRISE LIVE Program',
-    tabs: featuredCityTabs('🌈 UPRISE Program'),
+    tabs: featuredCityTabs('🌈 UPRISE Program', { hideStay: true }),
     hospitality: BALTIMORE_HOSPITALITY,
     hospitalityIntros: BALTIMORE_HOS_INTROS,
     travel: {
@@ -97,24 +97,10 @@ const FEATURED_CITY_UI: Record<string, FeaturedCityUiConfig> = {
       finalChecklist: BLAQ_TRAVEL_FINAL_CHECKLIST,
     },
   },
-  'charm-city-burlesque': {
-    ariaLabel: 'Charm City Burlesque',
-    programSectionLabel: 'Official Charm City Burlesque Program',
-    tabs: featuredCityTabs('🌈 Festival Program'),
-    hospitality: BALTIMORE_HOSPITALITY,
-    hospitalityIntros: BALTIMORE_HOS_INTROS,
-    travel: {
-      eyebrow: 'Baltimore Know Before You Go',
-      lede: 'Quick travel essentials for Charm City Burlesque weekend.',
-      attribution: BLAQ_TRAVEL_ATTRIBUTION,
-      cards: BLAQ_TRAVEL_CARDS,
-      finalChecklist: BLAQ_TRAVEL_FINAL_CHECKLIST,
-    },
-  },
   'atlanta-pride-2026': {
-    ariaLabel: 'Atlanta Pride 2026',
-    programSectionLabel: 'Official Atlanta Pride 2026 Program',
-    tabs: featuredCityTabs('🌈 Pride Program'),
+    ariaLabel: 'Atlanta Pride',
+    programSectionLabel: 'Official Atlanta Pride Program',
+    tabs: featuredCityTabs('🌈 Pride Program', { hideStay: true }),
     hospitality: ATLANTA_HOSPITALITY,
     hospitalityIntros: ATLANTA_HOS_INTROS,
     travel: {

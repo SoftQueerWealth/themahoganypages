@@ -35,7 +35,7 @@ export function BaltimoreBlaqPrideTabs({
   return (
     <FeaturedCityFestivalTabs
       ariaLabel="Baltimore BLAQ Pride"
-      tabs={BLAQ_TABS}
+      tabs={BLAQ_TABS.filter((tab) => tab.id !== 'stay')}
       activeTab={activeTab}
       onTabChange={onTabChange}
       programPanel={programPanel}

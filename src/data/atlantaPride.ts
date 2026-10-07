@@ -56,4 +56,4 @@ export const ATL_TRAVEL_FINAL_CHECKLIST = [
 ];
 
 export const ATL_TRAVEL_ATTRIBUTION =
-  'Travel tips curated for SoftQueerWealth · Atlanta Pride 2026';
+  'Travel tips curated for SoftQueerWealth · Atlanta Pride';

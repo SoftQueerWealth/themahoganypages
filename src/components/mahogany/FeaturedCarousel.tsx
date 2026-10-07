@@ -5,7 +5,6 @@ function photoClassForFeatured(id: string): string {
     case 'global-black-pride':
       return 'paris';
     case 'baltimore-blaq-pride':
-    case 'charm-city-burlesque':
       return 'baltimore';
     case 'uprise-live':
       return 'uprise';
