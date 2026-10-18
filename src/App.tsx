@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { MahoganyPages } from './components/mahogany/MahoganyPages';
+import { SexualWellnessPage } from './components/sexualWellness/SexualWellnessPage';
 import { SoftLettersPage } from './components/softLetters/SoftLettersPage';
 import { Topbar } from './components/Topbar';
 import { SOFT_LETTERS_ENABLED, type RoomId } from './data/rooms';
@@ -10,10 +11,15 @@ export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
-    // Soft Letters uses a virtual path. Neighborhood pageviews are owned by
-    // MahoganyPages so city paths like /nyc are reported correctly.
+    // Soft Letters and Sexual Wellness use virtual paths. Neighborhood
+    // pageviews are owned by MahoganyPages so city paths like /nyc are
+    // reported correctly.
     if (activeRoom === 'reading') {
       trackPageView('/soft-letters');
+      return;
+    }
+    if (activeRoom === 'wellness') {
+      trackPageView('/sexual-wellness');
       return;
     }
     trackPageView(window.location.pathname || '/');
@@ -90,6 +96,8 @@ export default function App() {
 
       {activeRoom === 'reading' && SOFT_LETTERS_ENABLED ? (
         <SoftLettersPage onGo={go} />
+      ) : activeRoom === 'wellness' ? (
+        <SexualWellnessPage />
       ) : (
         <MahoganyPages />
       )}

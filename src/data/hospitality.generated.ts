@@ -3325,7 +3325,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "city": "Baltimore",
     "business": "Lord Baltimore Hotel",
     "venueType": "Hotel",
-    "uiCategory": "Experiences",
+    "uiCategory": "Where to Stay",
     "audienceTags": [
       "Queer-friendly"
     ],
@@ -3352,7 +3352,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "city": "Baltimore",
     "business": "Hotel Revival",
     "venueType": "Hotel",
-    "uiCategory": "Experiences",
+    "uiCategory": "Where to Stay",
     "audienceTags": [
       "Queer-friendly"
     ],
@@ -3757,27 +3757,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://kinkcafe.org/press-%26-media"
   },
   {
-    "id": "hospitality-the-baltimore-eagle-140",
-    "city": "Baltimore",
-    "business": "The Baltimore Eagle",
-    "venueType": "Nightclub",
-    "uiCategory": "Where to Dance",
-    "audienceTags": [],
-    "vibeTags": [],
-    "description": "",
-    "venueName": "The Baltimore Eagle",
-    "venueAddress": "",
-    "nearbyStation": "",
-    "price": "",
-    "hasCommunityPerk": false,
-    "code": "",
-    "bookingLink": "",
-    "prideSeries": "",
-    "credit": "",
-    "creditSourceLink": ""
-  },
-  {
-    "id": "hospitality-leons-bar-141",
+    "id": "hospitality-leons-bar-140",
     "city": "Baltimore",
     "business": "Leons Bar",
     "venueType": "Bar",
@@ -3797,7 +3777,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://www.instagram.com/_4theloveof22/"
   },
   {
-    "id": "hospitality-the-drinkery-142",
+    "id": "hospitality-the-drinkery-141",
     "city": "Baltimore",
     "business": "The Drinkery",
     "venueType": "Bar",
@@ -3817,7 +3797,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": ""
   },
   {
-    "id": "hospitality-the-club-car-143",
+    "id": "hospitality-the-club-car-142",
     "city": "Baltimore",
     "business": "The Club Car",
     "venueType": "Bar",
@@ -3837,7 +3817,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": ""
   },
   {
-    "id": "hospitality-the-rowan-tree-144",
+    "id": "hospitality-the-rowan-tree-143",
     "city": "Baltimore",
     "business": "The Rowan Tree",
     "venueType": "Bar",
@@ -3857,7 +3837,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": ""
   },
   {
-    "id": "hospitality-the-royal-blue-145",
+    "id": "hospitality-the-royal-blue-144",
     "city": "Baltimore",
     "business": "The Royal Blue",
     "venueType": "Bar",
@@ -3877,7 +3857,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://www.instagram.com/_4theloveof22/"
   },
   {
-    "id": "hospitality-no-land-beyond-146",
+    "id": "hospitality-no-land-beyond-145",
     "city": "Baltimore",
     "business": "No Land Beyond",
     "venueType": "Bar",
@@ -3897,7 +3877,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": ""
   },
   {
-    "id": "hospitality-nola-seafood-and-spirits-147",
+    "id": "hospitality-nola-seafood-and-spirits-146",
     "city": "Baltimore",
     "business": "Nola Seafood and Spirits",
     "venueType": "Bar",
@@ -3917,7 +3897,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "https://www.instagram.com/_4theloveof22/"
   },
   {
-    "id": "hospitality-yard-148",
+    "id": "hospitality-yard-147",
     "city": "Baltimore",
     "business": "Yard",
     "venueType": "Bar",
@@ -3937,7 +3917,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": ""
   },
   {
-    "id": "hospitality-miss-toya-s-creole-kitchen-149",
+    "id": "hospitality-miss-toya-s-creole-kitchen-148",
     "city": "Baltimore",
     "business": "Miss Toya's Creole Kitchen",
     "venueType": "Bar",
@@ -3957,7 +3937,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": ""
   },
   {
-    "id": "hospitality-my-sister-s-room-150",
+    "id": "hospitality-my-sister-s-room-149",
     "city": "ATL",
     "business": "My Sister's Room",
     "venueType": "Nightclub, Bar",
@@ -3985,7 +3965,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Discover Atlanta + official site"
   },
   {
-    "id": "hospitality-jolene-jolene-151",
+    "id": "hospitality-jolene-jolene-150",
     "city": "ATL",
     "business": "Jolene Jolene",
     "venueType": "Bar",
@@ -4009,7 +3989,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official Jolene Jolene site"
   },
   {
-    "id": "hospitality-mary-s-152",
+    "id": "hospitality-mary-s-151",
     "city": "ATL",
     "business": "Mary's",
     "venueType": "Nightclub, Bar",
@@ -4033,7 +4013,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-lore-153",
+    "id": "hospitality-lore-152",
     "city": "ATL",
     "business": "Lore",
     "venueType": "Nightclub, Bar",
@@ -4057,7 +4037,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official venue / current business listing"
   },
   {
-    "id": "hospitality-virgil-s-gullah-kitchen-bar-154",
+    "id": "hospitality-virgil-s-gullah-kitchen-bar-153",
     "city": "ATL",
     "business": "Virgil's Gullah Kitchen & Bar",
     "venueType": "Restaurant, Bar",
@@ -4083,7 +4063,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "The Infatuation queer-owned Atlanta guide"
   },
   {
-    "id": "hospitality-southern-queenz-155",
+    "id": "hospitality-southern-queenz-154",
     "city": "ATL",
     "business": "Southern Queenz",
     "venueType": "Restaurant, Bar",
@@ -4108,7 +4088,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-gocha-s-breakfast-bar-156",
+    "id": "hospitality-gocha-s-breakfast-bar-155",
     "city": "ATL",
     "business": "Gocha's Breakfast Bar",
     "venueType": "Brunch, Restaurant",
@@ -4133,7 +4113,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Atlanta Black-owned restaurant directories / official business"
   },
   {
-    "id": "hospitality-breakfast-at-barney-s-157",
+    "id": "hospitality-breakfast-at-barney-s-156",
     "city": "ATL",
     "business": "Breakfast at Barney's",
     "venueType": "Brunch, Restaurant",
@@ -4158,7 +4138,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Atlanta Eats / business profile"
   },
   {
-    "id": "hospitality-the-busy-bee-cafe-158",
+    "id": "hospitality-the-busy-bee-cafe-157",
     "city": "ATL",
     "business": "The Busy Bee Cafe",
     "venueType": "Restaurant",
@@ -4183,7 +4163,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Current Black-owned restaurant directory / restaurant history"
   },
   {
-    "id": "hospitality-paschal-s-restaurant-bar-159",
+    "id": "hospitality-paschal-s-restaurant-bar-158",
     "city": "ATL",
     "business": "Paschal's",
     "venueType": "Restaurant",
@@ -4210,7 +4190,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official restaurant history"
   },
   {
-    "id": "hospitality-rock-steady-160",
+    "id": "hospitality-rock-steady-159",
     "city": "ATL",
     "business": "Rock Steady",
     "venueType": "Restaurant",
@@ -4238,7 +4218,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-marcus-bar-grille-161",
+    "id": "hospitality-marcus-bar-grille-160",
     "city": "ATL",
     "business": "Marcus Bar & Grille",
     "venueType": "Restaurant, Bar",
@@ -4266,7 +4246,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-twisted-soul-cookhouse-pours-162",
+    "id": "hospitality-twisted-soul-cookhouse-pours-161",
     "city": "ATL",
     "business": "Twisted Soul Cookhouse & Pours",
     "venueType": "Restaurant",
@@ -4293,7 +4273,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site / Chef Deborah VanTrece"
   },
   {
-    "id": "hospitality-southern-national-163",
+    "id": "hospitality-southern-national-162",
     "city": "ATL",
     "business": "Southern National",
     "venueType": "Restaurant",
@@ -4320,7 +4300,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-bar-vegan-164",
+    "id": "hospitality-bar-vegan-163",
     "city": "ATL",
     "business": "Bar Vegan",
     "venueType": "Restaurant, Bar",
@@ -4347,7 +4327,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Bar Vegan / Pinky Cole"
   },
   {
-    "id": "hospitality-black-coffee-atl-165",
+    "id": "hospitality-black-coffee-atl-164",
     "city": "ATL",
     "business": "Black Coffee ATL",
     "venueType": "Cafe",
@@ -4376,7 +4356,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-urban-grind-166",
+    "id": "hospitality-urban-grind-165",
     "city": "ATL",
     "business": "Urban Grind",
     "venueType": "Cafe",
@@ -4404,7 +4384,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-just-add-honey-tea-company-167",
+    "id": "hospitality-just-add-honey-tea-company-166",
     "city": "ATL",
     "business": "Just Add Honey Tea Company",
     "venueType": "Cafe",
@@ -4432,7 +4412,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Atlanta BeltLine"
   },
   {
-    "id": "hospitality-3-parks-wine-shop-old-fourth-ward-168",
+    "id": "hospitality-3-parks-wine-shop-old-fourth-ward-167",
     "city": "ATL",
     "business": "3 Parks Wine Shop",
     "venueType": "Cocktail Bar",
@@ -4460,7 +4440,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "PATH Foundation / owner Sarah Pierre"
   },
   {
-    "id": "hospitality-the-james-room-169",
+    "id": "hospitality-the-james-room-168",
     "city": "ATL",
     "business": "The James Room",
     "venueType": "Cocktail Bar",
@@ -4488,7 +4468,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Intentionalist / ownership reporting"
   },
   {
-    "id": "hospitality-fellaship-atl-170",
+    "id": "hospitality-fellaship-atl-169",
     "city": "ATL",
     "business": "Fellaship ATL",
     "venueType": "Restaurant",
@@ -4517,7 +4497,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site / Discover Atlanta"
   },
   {
-    "id": "hospitality-cafe-circa-171",
+    "id": "hospitality-cafe-circa-170",
     "city": "ATL",
     "business": "Cafe Circa",
     "venueType": "Restaurant",
@@ -4545,7 +4525,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-apache-xlr-172",
+    "id": "hospitality-apache-xlr-171",
     "city": "ATL",
     "business": "Apache XLR",
     "venueType": "Restaurant",
@@ -4573,7 +4553,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-apex-museum-173",
+    "id": "hospitality-apex-museum-172",
     "city": "ATL",
     "business": "APEX Museum",
     "venueType": "Museum/Gallery/Exhibits",
@@ -4600,7 +4580,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official museum"
   },
   {
-    "id": "hospitality-hammonds-house-museum-174",
+    "id": "hospitality-hammonds-house-museum-173",
     "city": "ATL",
     "business": "Hammonds House Museum",
     "venueType": "Museum/Gallery/Exhibits",
@@ -4627,7 +4607,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official museum"
   },
   {
-    "id": "hospitality-for-keeps-books-175",
+    "id": "hospitality-for-keeps-books-174",
     "city": "ATL",
     "business": "For Keeps Books",
     "venueType": "Bookstore",
@@ -4654,7 +4634,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Storehouse Voices / bookstore profile"
   },
   {
-    "id": "hospitality-trap-music-museum-176",
+    "id": "hospitality-trap-music-museum-175",
     "city": "ATL",
     "business": "Trap Music Museum",
     "venueType": "Museum/Gallery/Exhibits",
@@ -4682,7 +4662,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official museum"
   },
   {
-    "id": "hospitality-the-black-hair-experience-177",
+    "id": "hospitality-the-black-hair-experience-176",
     "city": "ATL",
     "business": "The Black Hair Experience",
     "venueType": "Museum/Gallery/Exhibits",
@@ -4710,7 +4690,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official experience / creator profile"
   },
   {
-    "id": "hospitality-tassili-s-raw-reality-cafe-178",
+    "id": "hospitality-tassili-s-raw-reality-cafe-177",
     "city": "ATL",
     "business": "Tassili's Raw Reality Cafe",
     "venueType": "Restaurant",
@@ -4738,7 +4718,7 @@ export const generatedHospitalityItems: HospitalityItem[] = [
     "creditSourceLink": "Official site"
   },
   {
-    "id": "hospitality-hippin-hops-brewpub-oyster-bar-179",
+    "id": "hospitality-hippin-hops-brewpub-oyster-bar-178",
     "city": "ATL",
     "business": "Hippin Hops Brewpub & Oyster Bar",
     "venueType": "Restaurant",

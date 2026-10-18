@@ -328,3 +328,74 @@ export function getAtlExperiences(): GbpHospitalityItem[] {
       }),
     );
 }
+
+function prefersDc(item: HospitalityItem): boolean {
+  return /^dc$/i.test(item.city.trim());
+}
+
+type CityMatcher = (item: HospitalityItem) => boolean;
+
+function cityPlaces(
+  match: CityMatcher,
+  category: (item: HospitalityItem) => boolean,
+  options: {
+    includeBio: boolean;
+    bookLabel: string;
+    fallbackTag: string;
+    includeNearbyStation?: boolean;
+  },
+): GbpHospitalityItem[] {
+  return generatedHospitalityItems
+    .filter(category)
+    .filter(match)
+    .map((item, index) => toHospitalityCard(item, index, options));
+}
+
+export type HospitalityCity = 'baltimore' | 'atlanta' | 'dc';
+
+export interface CityHospitalityLists {
+  stay: GbpHospitalityItem[];
+  eat: GbpHospitalityItem[];
+  drink: GbpHospitalityItem[];
+  dance: GbpHospitalityItem[];
+  experience: GbpHospitalityItem[];
+}
+
+const CITY_MATCH: Record<HospitalityCity, CityMatcher> = {
+  baltimore: prefersBaltimore,
+  atlanta: prefersAtlanta,
+  dc: prefersDc,
+};
+
+/** Stay, eat, drink, dance, and experiences for a city guide. */
+export function getCityHospitality(city: HospitalityCity): CityHospitalityLists {
+  const match = CITY_MATCH[city];
+  return {
+    stay: cityPlaces(match, isWhereToStay, {
+      includeBio: false,
+      bookLabel: 'Book →',
+      fallbackTag: 'Stay',
+      includeNearbyStation: true,
+    }),
+    eat: cityPlaces(match, isWhereToEat, {
+      includeBio: true,
+      bookLabel: 'Reserve →',
+      fallbackTag: 'Eat',
+    }),
+    drink: cityPlaces(match, isWhereToDrink, {
+      includeBio: true,
+      bookLabel: 'More Info →',
+      fallbackTag: 'Drink',
+    }),
+    dance: cityPlaces(match, isWhereToDance, {
+      includeBio: true,
+      bookLabel: 'More Info →',
+      fallbackTag: 'Dance',
+    }),
+    experience: cityPlaces(match, isExperiences, {
+      includeBio: false,
+      bookLabel: 'More Info →',
+      fallbackTag: 'Experience',
+    }),
+  };
+}

@@ -228,7 +228,7 @@ export interface FeaturedCityFestivalTabsProps {
     dance: string;
     experience: string;
   };
-  travel: FeaturedCityTravelContent;
+  travel?: FeaturedCityTravelContent;
 }
 
 export function FeaturedCityFestivalTabs({
@@ -295,7 +295,7 @@ export function FeaturedCityFestivalTabs({
             emptyMessage="No experiences in the guide right now."
           />
         ) : null}
-        {activeTab === 'travelinfo' ? (
+        {activeTab === 'travelinfo' && travel ? (
           <div className="gbp-travel-panel">
             <p className="eyebrow">{travel.eyebrow}</p>
             <p className="gbp-travel-lede">{travel.lede}</p>

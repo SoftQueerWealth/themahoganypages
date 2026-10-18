@@ -17,7 +17,7 @@ import {
   type FeaturedFestival,
 } from '../../constants/festivals';
 import type { BlaqTabId } from '../../data/baltimoreBlaqPride';
-import { featuredCityUiById, isFeaturedCityFestival } from '../../data/featuredCityFestivals';
+import { cityGuideByKey, cityGuideTabs, featuredCityUiById, isFeaturedCityFestival } from '../../data/featuredCityFestivals';
 import type { GbpTabId } from '../../data/globalBlackPride';
 import { PUBLIC_SITE_ORIGIN } from '../../constants/site';
 import { LAST_UPDATED_LABEL } from '../../constants/lastUpdated';
@@ -75,6 +75,7 @@ export function MahoganyPages() {
   const featuredCityUi = featuredId ? featuredCityUiById(featuredId) : undefined;
   const isCityFeatured = isFeaturedCityFestival(featuredId);
   const isGlobalBlackPride = featuredId === 'global-black-pride';
+  const selectedCityGuide = !featured && selectedCity ? cityGuideByKey(selectedCity) : undefined;
   const grouping = 'calendar';
 
   const { allEvents, eventsForFestival, error, isLoading } = useEvents();
@@ -160,6 +161,7 @@ export function MahoganyPages() {
     trackCityFilterClick(city ? cityDisplayLabel(city) : 'All Cities');
     setSelectedCity(city);
     syncCityToUrl(city);
+    setBlaqTab('program');
     if (!city || (featured && city !== featured.city)) {
       setFeaturedId(null);
     }
@@ -194,6 +196,7 @@ export function MahoganyPages() {
       setSelectedCity(city);
       applyCityDocumentMeta(city);
       trackPageView(window.location.pathname || '/');
+      setBlaqTab('program');
       if (!city) setFeaturedId(null);
     };
 
@@ -412,6 +415,34 @@ export function MahoganyPages() {
                     ) : null}
                   </>
                 )
+              ) : selectedCityGuide ? (
+                <FeaturedCityFestivalTabs
+                  ariaLabel={`${cityDisplayLabel(selectedCity)} guide`}
+                  tabs={cityGuideTabs(selectedCityGuide.eventsTabLabel, selectedCityGuide)}
+                  activeTab={blaqTab}
+                  onTabChange={setBlaqTab}
+                  hospitality={selectedCityGuide.hospitality}
+                  hospitalityIntros={selectedCityGuide.hospitalityIntros}
+                  travel={selectedCityGuide.travel}
+                  programPanel={
+                    grouped.length > 0 ? (
+                      grouped.map((dayGroup) => (
+                        <DaySection
+                          key={dayGroup.key}
+                          day={dayGroup.day}
+                          dayLabel={dayGroup.dayLabel}
+                          dayDate={dayGroup.dayDate}
+                          events={dayGroup.events}
+                          isEventVisible={isEventShown}
+                          isGoing={(event) => itinerary.isGoing(event.id)}
+                          onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                        />
+                      ))
+                    ) : (
+                      <p className="gbp-empty">No events in the guide right now.</p>
+                    )
+                  }
+                />
               ) : selectedCity ? (
                 grouped.map((dayGroup) => (
                   <DaySection

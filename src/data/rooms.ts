@@ -1,4 +1,4 @@
-export type RoomId = 'neighborhood' | 'reading' | 'about';
+export type RoomId = 'neighborhood' | 'reading' | 'wellness' | 'about';
 
 export type RoomDef = {
   id: RoomId;
@@ -21,6 +21,13 @@ const ALL_ROOMS: RoomDef[] = [
     placeholderTitle: 'Soft Letters',
     placeholderBody:
       'Issues, exhibitions, and Softies of the Month — coming soon. The Soft Letter is where we tell our stories.',
+  },
+  {
+    id: 'wellness',
+    label: 'Sexual Wellness',
+    placeholderTitle: 'Sexual Wellness',
+    placeholderBody:
+      'Black queer sapphic education, pleasure and care, shared by the people who know.',
   },
 ];
 
