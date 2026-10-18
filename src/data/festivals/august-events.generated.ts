@@ -82,6 +82,50 @@ export const generatedEvents: PrideEvent[] = [
   {
     "id": "4",
     "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-28",
+    "dayLabel": "Saturday",
+    "name": "Rumba VENEZOLANA",
+    "organizer": "TASTE TAKEOVER",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Latina",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "creative community groove dancing food",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "POC",
+      "Latina",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "El Secreto De Rosita · 1624 U St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Groove",
+      "Dancing",
+      "Food"
+    ],
+    "ctaHref": "https://www.tastetakeover.com/event-details-registration/rumba-venezolana",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "5",
+    "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-11-20",
     "dayLabel": "Friday",
@@ -117,7 +161,90 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "5",
+    "id": "6",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-15",
+    "dayLabel": "Sunday",
+    "name": "Lez Black Gurls Presents: The Black and Proud Market",
+    "organizer": "@lezblackgurls",
+    "types": [
+      "meetup",
+      "festival"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill creative community merch",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "12:00 PM",
+    "location": "Checkerspot Brewing Company · 1421 Ridgely Street\nBaltimore, MD 21230",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Merch"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/lez-black-gurls-presents-the-black-and-proud-market-tickets-2002491279322?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkrwPgzpR2CN0g0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "baltimore",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "7",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "Latin Karaoke Social & RUMBA!",
+    "organizer": "TASTE TAKEOVER",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Latina",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "karaoke chill groove",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "POC",
+      "Latina",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Karaoke",
+      "Chill",
+      "Groove"
+    ],
+    "ctaHref": "https://www.tastetakeover.com/event-details-registration/latin-karaoke-social-rumba",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "8",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-11-13",
@@ -155,124 +282,86 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "7",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-08-23",
-    "dayLabel": "Sunday",
-    "name": "Trans Bike Ride & Hangout (Special Evening Bike Ride Edition)",
-    "organizer": "SOUTHERN FRIED QUEER PRIDE",
-    "types": [
-      "outdoors-hangout",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "chill community wellness",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "7:00 PM",
-    "location": "CreateATL · 900 Murphy Avenue Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Chill",
-      "Community",
-      "Wellness"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/trans-bike-ride-hangout-special-evening-bike-ride-edition-tickets-1994870806282?aff=oddtdtcreator",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-outdoors-hangout",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "9",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-08-23",
-    "dayLabel": "Sunday",
-    "name": "THE AFFAIR DAY PARTY: CRÈME DE LA CREAM",
-    "organizer": "The AFFAIR Day Party",
-    "types": [
-      "happy-hour",
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "flirt community ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "5:00 PM",
-    "location": "REVERB ROOFTOP · 89 Centennial Olympic Park Dr NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/the-affair-day-party-double-the-luxury?u=afterfivesocial&_t=mslzbvvy&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaff1IMqRGcvXAU3hjfBUD5L95wY867vyW8lVTICYNbqDhpPoQgV8L1rJOk4gg_aem_-h8DOozLfPP_SAG559WQMQ",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-happy-hour",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
     "id": "11",
     "festival": "august-events",
     "day": "saturday",
-    "dayDate": "2026-08-29",
+    "dayDate": "2026-11-07",
     "dayLabel": "Saturday",
-    "name": "Something Lit For The Ladies: Countdown To Atlanta Black Pride",
-    "organizer": "🚺 Xxclusive Vibes 🚺",
+    "name": "Brutalismus 3000: Harmony US Tour",
+    "organizer": "Brutalismus 3000",
     "types": [
       "after-dark"
     ],
     "audienceTags": [
+      "POC",
       "Black",
-      "Sapphic"
+      "Queer"
     ],
-    "vibesRaw": "ass shaking community flirt grown & sexy groove",
+    "vibesRaw": "flirt ass shaking groove",
     "free": false,
-    "price": "$23.00",
+    "price": "$48.00",
     "badges": [
+      "POC",
       "Black",
-      "Sapphic"
+      "Queer"
     ],
     "time": "10:00 PM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "location": "The Eastern · 800 Old Flat Shoals Road, Atlanta, GA, 30312",
     "vibeTags": [
-      "Ass Shaking",
-      "Community",
       "Flirt",
-      "Grown & Sexy",
+      "Ass Shaking",
       "Groove"
     ],
-    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-8-30-7-0?t=series",
+    "ctaHref": "https://drop.cobrand.com/d/Brutalismus3000/northamerica-fall-2026?drop_link_collection_link_id_to_open=0fd6797c-4b3f-4342-9eb7-4458a05e73c1&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeMQlFGeQ0dycjAF2cUM_htYINmzUudXGM7RPI45MvAhbTlR8Sz7NU1hRA__A_aem_bgB0HbKmRQg9Pww4FOxyEg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "No -- standalone event"
   },
   {
     "id": "12",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-07",
+    "dayLabel": "Saturday",
+    "name": "Scorpio Stings: Junior Sanchez, Ultra Violet and More!",
+    "organizer": "House of Yes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt ass shaking dancing",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Dancing"
+    ],
+    "ctaHref": "https://link.dice.fm/R808117106d3",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "14",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-31",
@@ -309,7 +398,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "13",
+    "id": "15",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-31",
@@ -348,7 +437,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "14",
+    "id": "16",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-31",
@@ -381,7 +470,7 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "16",
+    "id": "18",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-31",
@@ -423,12 +512,13 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "17",
+    "id": "19",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-31",
     "dayLabel": "Saturday",
     "name": "Halloween Block Party w/ @joybaltimore @create_baltimore",
+    "organizer": "Baltimore BLAQ Pride",
     "types": [
       "after-dark",
       "outdoors-hangout"
@@ -458,7 +548,215 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "18",
+    "id": "20",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies: FREAKFEST (Halloween Party For WLW)",
+    "organizer": "🚺 Xxclusive Vibes 🚺",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Queer"
+    ],
+    "vibesRaw": "ass shaking grown & sexy",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "WLW/Lesbian",
+      "Sapphic",
+      "Queer"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-11-1-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "21",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "ASN HALLOWEEN BLACKOUT - Atlanta GA",
+    "organizer": "Adult Supervision Needed (A.S.N.)",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Queer",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "30+",
+      "MLM"
+    ],
+    "vibesRaw": "ass shaking creative",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "POC",
+      "Queer",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "30+",
+      "MLM"
+    ],
+    "time": "10:00 PM",
+    "location": "TBD",
+    "vibeTags": [
+      "Ass Shaking",
+      "Creative"
+    ],
+    "ctaHref": "https://posh.vip/e/asn-halloween-blackout-atlanta-ga",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "22",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "HALLOWEEN KARAOKE BRUNCH Costume Party",
+    "organizer": "DJ Vybez Live",
+    "types": [
+      "happy-hour",
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer-friendly",
+      "Free"
+    ],
+    "time": "12:00 PM",
+    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/g/vybezxperience",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "23",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "TRAPPED : DC's ULTIMATE Halloween Party",
+    "organizer": "A 2 Zee Events",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "10:00 PM",
+    "location": "Next Level Nightclub · 15 K St. NE, Washington, DC",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbee.com/v/trapped#/tickets",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "24",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "QUEER HALLOWEEN REGGAETON PARTY!!",
+    "organizer": "TASTE TAKEOVER",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Latina",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "POC",
+      "Latina",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "9:00 PM",
+    "location": "Taqueria Picoso · 1472 N Beauregard St, Alexandria, VA 22311",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.tastetakeover.com/event-details-registration/queer-halloween-reggaeton-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dmv",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "25",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-30",
@@ -501,7 +799,125 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "19",
+    "id": "26",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Raw Honey Halloween: Unhinged",
+    "organizer": "Raw Honey",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "10:30 PM",
+    "location": "The location will be revealed on the event date",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/raw-honey-halloween-bash?u=gabriellehitchens124&_t=mupydn96&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "27",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "GURLS & GHOULS 2",
+    "organizer": "DJ Mim",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "time": "9:00 PM",
+    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/gurls-ghouls-2",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "28",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Out N Bad: CREATURES | NYC | Queer Caribbean Halloween Bashment",
+    "organizer": "Out N Bad",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$17.00",
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "time": "11:00 PM",
+    "location": "Littlefield · 635 Sackett Street\nBrooklyn, NY 11217",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/out-n-bad-creatures-nyc-queer-caribbean-halloween-bashment-tickets-2002653429317",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "29",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-29",
@@ -543,7 +959,132 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "20",
+    "id": "30",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "DYKE-o-Ween ft. DJ Ultra violet, DJ Purr, DJ Kye, Dj Jeremy Kost",
+    "organizer": "Alphabet Soup DC",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "The Sultan Room · 234 Starr St, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://dice.fm/partner/tickets/event/oemxnm-dyke-o-ween-ft-dj-ultra-violet-dj-purr-dj-kye-dj-jeremy-kost-29th-oct-the-sultan-room-new-york-the-turks-inn-brooklyn-the-sultan-room-rooftop-brooklyn-tickets?dice_id=10696358&dice_channel=web&dice_tags=organic&dice_campaign=DYKE-o-Ween&dice_feature=mio_marketing&_branch_match_id=1438716663862027753&utm_source=web&utm_campaign=DYKE-o-Ween&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1XeJ9HbVzdcNT03Ns68rSk1LLSrKzEuPTyrKLy9OLbJ1zijKz00FAIhN5ps6AAAA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "31",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "Hot & Fresh Burlesque: Halloween Edition",
+    "organizer": "House of Yes",
+    "types": [
+      "stage"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking games live show",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "6:30 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Games",
+      "Live Show"
+    ],
+    "ctaHref": "https://link.dice.fm/h70f78bae62d",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-stage",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "32",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "Gaydar Halloween",
+    "organizer": "House of Yes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking live show dancing",
+    "free": false,
+    "price": "$20.83",
+    "badges": [
+      "Black",
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Live Show",
+      "Dancing"
+    ],
+    "ctaHref": "https://link.dice.fm/Yf1f5b18cc7d",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "33",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-28",
@@ -585,7 +1126,47 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "23",
+    "id": "36",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-28",
+    "dayLabel": "Wednesday",
+    "name": "Spooky Sapphic Astro Mixer at Spark Social",
+    "organizer": "Alphabet Soup DC",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "8:00 PM",
+    "location": "Spark Social · 2009 14th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/spookysapphics",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "37",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-27",
@@ -624,7 +1205,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "24",
+    "id": "38",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-10-26",
@@ -644,7 +1225,7 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "25",
+    "id": "39",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-25",
@@ -683,7 +1264,48 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "26",
+    "id": "40",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "The LinqUp Fest",
+    "organizer": "LesLinq events",
+    "types": [
+      "day-party",
+      "festival"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "1:00 PM",
+    "location": "Sycamore & Oak · 1110 Oak Dr SE Ste 9, Washington, DC 20032",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/the-linqup-fest?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadAozusugy0Co5HOshlCUkRW-2Aa1Yi0sid-VlbCBKpbJyVd36c0PN7L984aQ_aem_dQQkXlmavNg3Qrz-YZ7T8g",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "41",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-24",
@@ -720,7 +1342,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "27",
+    "id": "42",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-24",
@@ -763,7 +1385,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "28",
+    "id": "43",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-24",
@@ -804,7 +1426,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "29",
+    "id": "44",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-24",
@@ -826,7 +1448,7 @@ export const generatedEvents: PrideEvent[] = [
     "city": "baltimore"
   },
   {
-    "id": "30",
+    "id": "45",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-24",
@@ -867,7 +1489,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "31",
+    "id": "46",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-24",
@@ -901,7 +1523,164 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "32",
+    "id": "47",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "Damn Y'all Fine: The 1 Year Anniversary Screening",
+    "organizer": "Rooted Collective",
+    "types": [
+      "meetup",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "creative chill cultural educational",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "6:00 PM",
+    "location": "Parkway Theatre · 5 West North Avenue\nBaltimore, MD 21201",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Cultural",
+      "Educational"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/damn-yall-fine-the-1-year-anniversary-screening-tickets-2002241099026?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadnG9ZGkZGBlgRg9grqJJtIRS5KNH11EtMRaVrwzql5iTyfvzDibCGNE9dPdA_aem_AJX2b8JM-wnHN7z1rvjSDQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "baltimore",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "48",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "(NYC) Raw Honey: Pressure",
+    "organizer": "Raw Honey",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "5:00 PM",
+    "location": "Dive Bar · 408 Troutman St, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/nyc-raw-honey-pressure?u=gabriellehitchens124&_t=mux0jeub&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "49",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "(DC) 30+ Haus of Honey x She Shed",
+    "organizer": "Haus of Honey X She Shed",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "time": "5:00 PM",
+    "location": "Prima DC · 900 Florida Ave NW, Washington, DC 20001",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/dc-30-haus-of-honey?u=zemi&_t=mur8hxg5&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "50",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "(NYC) ZESTYWORLD: Halloween",
+    "organizer": "Zestyworld",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "time": "10:30 PM",
+    "location": "The location will be revealed on the event date",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/nyc-zestyworld-halloween?u=gabriellehitchens124&_t=muovb0di&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "51",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-23",
@@ -941,7 +1720,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "33",
+    "id": "52",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-23",
@@ -981,7 +1760,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "34",
+    "id": "53",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-23",
@@ -1023,7 +1802,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "35",
+    "id": "54",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-23",
@@ -1059,76 +1838,156 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "36",
+    "id": "55",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-08-30",
-    "dayLabel": "Sunday",
-    "name": "A Blaq Pickleball Social",
-    "organizer": "blaq.atl",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "(DC) Raw Honey x She Shed: Seduction",
+    "organizer": "Haus of Honey X She Shed",
     "types": [
-      "meetup",
-      "gynasium"
+      "after-dark"
     ],
     "audienceTags": [
       "Black",
       "Sapphic",
+      "Trans/GNC",
       "30+"
     ],
-    "vibesRaw": "creative community games wellness",
+    "vibesRaw": "flirt ass shaking groove",
     "free": false,
-    "price": "$18.00",
+    "price": "$17.00",
     "badges": [
       "Black",
       "Sapphic",
+      "Trans/GNC",
       "30+"
     ],
-    "time": "12:00 PM",
-    "location": "Dill Dinker · 1200 White St SW, Atlanta, GA 30310",
+    "time": "10:00 PM",
+    "location": "Icon DC · 2001 11th St NW, Washington, DC 20001",
     "vibeTags": [
-      "Creative",
-      "Community",
-      "Games",
-      "Wellness"
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
     ],
-    "ctaHref": "https://posh.vip/e/a-blaq-queer-pickleball-social?u=blaq_atl&_t=msngh8ag&os=ios&src=event_page",
+    "ctaHref": "https://posh.vip/e/dc-raw-honey-x-she-shed-seduction?u=zemi&_t=mulrikfh&os=ios&src=event_page",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "atlanta"
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "37",
+    "id": "56",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-08-30",
-    "dayLabel": "Sunday",
-    "name": "QUEER THREADS! A Pop-Up Thrift Shop & Barbershop",
-    "organizer": "SOUTHERN FRIED QUEER PRIDE",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "Alphabet Soup Pres. Nightmare On H Street",
+    "organizer": "Alphabet Soup DC",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "9:00 PM",
+    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/alphabet-soup-pres-nightmare-on-h-street",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "57",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "Rhythm & BLISS",
+    "organizer": "Haüs of Bliss LLC",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Kink",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "creative grown & sexy groove kink",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "Black",
+      "Kink",
+      "Queer-friendly"
+    ],
+    "time": "9:00 PM",
+    "location": "Lydia On H · 1427 H St NE, Washington, DC 20002",
+    "vibeTags": [
+      "Creative",
+      "Grown & Sexy",
+      "Groove",
+      "Kink"
+    ],
+    "ctaHref": "https://posh.vip/e/rhythm-bliss-1",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "58",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-22",
+    "dayLabel": "Thursday",
+    "name": "Speed Friending - Friendship for Black & Queer/Trans Couples - 21 & Up",
+    "organizer": "FriendZoned ATL",
     "types": [
       "meetup"
     ],
     "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
+      "Trans/GNC",
+      "Queer",
+      "Black"
     ],
-    "vibesRaw": "creative community chill",
+    "vibesRaw": "chill networking community",
     "free": false,
-    "price": "$10.00",
+    "price": "$12.50",
     "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
+      "Trans/GNC",
+      "Queer",
+      "Black"
     ],
-    "time": "1:00 PM",
-    "location": "Wild Heaven Brewery in the West End · 1010 White Street SW Atlanta, GA 30310",
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
     "vibeTags": [
-      "Creative",
-      "Community",
-      "Chill"
+      "Chill",
+      "Networking",
+      "Community"
     ],
-    "ctaHref": "https://www.southernfriedqueerpride.com/all-events/queer-threads-a-pop-up-thrift-shop-barbershop-yd628",
+    "ctaHref": "https://www.eventbrite.com/e/speed-friending-friendship-for-black-queertrans-couples-21-up-tickets-2002301972099",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
@@ -1136,7 +1995,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "38",
+    "id": "59",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-21",
@@ -1178,7 +2037,47 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "40",
+    "id": "61",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-21",
+    "dayLabel": "Wednesday",
+    "name": "OCTOBER Black Queer & Trans Artist Club: Portrait in Paper",
+    "organizer": "FriendZoned ATL",
+    "types": [
+      "meetup",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Trans/GNC",
+      "Queer",
+      "Black"
+    ],
+    "vibesRaw": "creative networking community educational",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Trans/GNC",
+      "Queer",
+      "Black"
+    ],
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Networking",
+      "Community",
+      "Educational"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/october-black-queer-trans-artist-club-portrait-in-paper-tickets-2002301615031",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "62",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-20",
@@ -1217,7 +2116,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "41",
+    "id": "63",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-20",
@@ -1259,7 +2158,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "42",
+    "id": "64",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-18",
@@ -1299,7 +2198,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "43",
+    "id": "65",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-18",
@@ -1339,7 +2238,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "44",
+    "id": "66",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-18",
@@ -1370,7 +2269,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2038"
   },
   {
-    "id": "45",
+    "id": "67",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-18",
@@ -1402,7 +2301,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2039"
   },
   {
-    "id": "46",
+    "id": "68",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-18",
@@ -1444,7 +2343,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "47",
+    "id": "69",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-18",
@@ -1489,7 +2388,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "UPRISE LIVE"
   },
   {
-    "id": "48",
+    "id": "70",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1522,7 +2421,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2033"
   },
   {
-    "id": "49",
+    "id": "71",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1551,7 +2450,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2034"
   },
   {
-    "id": "50",
+    "id": "72",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1582,7 +2481,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2035"
   },
   {
-    "id": "51",
+    "id": "73",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1611,7 +2510,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2036"
   },
   {
-    "id": "52",
+    "id": "74",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1642,7 +2541,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2037"
   },
   {
-    "id": "53",
+    "id": "75",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1687,7 +2586,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "UPRISE LIVE"
   },
   {
-    "id": "54",
+    "id": "76",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1731,7 +2630,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "UPRISE LIVE"
   },
   {
-    "id": "55",
+    "id": "77",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-17",
@@ -1772,7 +2671,87 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "56",
+    "id": "78",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "Scary Jane",
+    "organizer": "Lavender Evolutions",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "time": "7:00 PM",
+    "location": "Femme Fatale · 3409 Connecticut Ave NW, Washington, DC 20008",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/scary-jane?u=lavenderevolutions&_t=muvfvs9a&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafTTRybbT1hPF2Zq7iNXIiztdLNaNXSEmYJwtIHHiAVCKx-daXqoTG22fmE3Q_aem_M8eICXhEE16RqcX-mf__aA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "79",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "Alphabet Soup PRESENTS: Slut – O – Ween",
+    "organizer": "Alphabet Soup DC",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "DC9 · 1940 9th St NW, Washington, DC 20001",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://dc9.club/event/alphabet-soup-presents-slut-o-ween/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "80",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-16",
@@ -1805,7 +2784,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2029"
   },
   {
-    "id": "57",
+    "id": "81",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-16",
@@ -1838,7 +2817,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2030"
   },
   {
-    "id": "58",
+    "id": "82",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-16",
@@ -1869,7 +2848,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2031"
   },
   {
-    "id": "59",
+    "id": "83",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-16",
@@ -1898,7 +2877,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2032"
   },
   {
-    "id": "60",
+    "id": "84",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-16",
@@ -1943,7 +2922,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "UPRISE LIVE"
   },
   {
-    "id": "61",
+    "id": "85",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-16",
@@ -1990,7 +2969,90 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "UPRISE LIVE"
   },
   {
-    "id": "62",
+    "id": "86",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-16",
+    "dayLabel": "Friday",
+    "name": "Raw Honey: Cuffing SZN Game Night",
+    "organizer": "Raw Honey",
+    "types": [
+      "meetup",
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill creative community groove games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "8:00 PM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Groove",
+      "Games"
+    ],
+    "ctaHref": "https://posh.vip/e/raw-honey-cuffing-szn-game-night?u=gabriellehitchens124&_t=muo67f7r&os=ios&src=event_page",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "87",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-16",
+    "dayLabel": "Friday",
+    "name": "Dj Fuckoff & Lovefoxy",
+    "organizer": "Transmission",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking live show dancing",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "Transmission · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Live Show",
+      "Dancing"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/dj-fuckoff-lovefoxy",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "88",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-15",
@@ -2031,43 +3093,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "63",
-    "festival": "august-events",
-    "day": "tuesday",
-    "dayDate": "2026-09-01",
-    "dayLabel": "Tuesday",
-    "name": "SEPTEMBER Black Queer Writers Club: Pride On Paper",
-    "organizer": "friendzonedatl",
-    "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "creative community cultural",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "7:00 PM",
-    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Cultural"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/september-black-queer-writers-club-pride-on-paper-tickets-1997898776021?aff=oddtdtcreator",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "64",
+    "id": "89",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-15",
@@ -2099,7 +3125,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2028"
   },
   {
-    "id": "65",
+    "id": "90",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-15",
@@ -2135,7 +3161,169 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "66",
+    "id": "91",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "FriendZoned's Black Classics Movie Night & Trivia",
+    "organizer": "FriendZoned ATL",
+    "types": [
+      "theatre",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Trans/GNC",
+      "Queer",
+      "Black"
+    ],
+    "vibesRaw": "creative chill live show",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Trans/GNC",
+      "Queer",
+      "Black"
+    ],
+    "time": "6:30 PM",
+    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Chill",
+      "Live Show"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-classics-movie-night-trivia-tickets-2002301431482",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-theatre",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "92",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "Lesbian Night Out At Fever Dream",
+    "organizer": "Alphabet Soup DC",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "6:00 PM",
+    "location": "Tigres de la Noche · Alley Entrance, 405 Morse Street Northeast 2nd Floor, Washington, DC 20002",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/lesbian-night-out-at-fever-dream",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "93",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "Jazz Night for Lovers & Loners",
+    "organizer": "Saint James Libations",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "vibesRaw": "creative grown & sexy groove",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Black"
+    ],
+    "time": "7:00 PM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237",
+    "vibeTags": [
+      "Creative",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/jazz-night-for-lovers-loners-2?u=saintjameslibations&_t=muwonfnt&os=web&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "94",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "Gasolina Presents: Un Perreo Bien Spooky with Da Da Cozmic & Ultra Violet AND Onyx Room Takeover with Silky Black, Bodegaparty, Jo Sway, & IGOTLOUD",
+    "organizer": "Ultra Violet and Planet Yes: Gasolina",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "flirt ass shaking live show dancing",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "POC",
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Live Show",
+      "Dancing"
+    ],
+    "ctaHref": "https://link.dice.fm/n66e743046ec",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "nyc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "95",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-14",
@@ -2177,7 +3365,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "67",
+    "id": "96",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-14",
@@ -2218,7 +3406,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2027"
   },
   {
-    "id": "68",
+    "id": "97",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-13",
@@ -2257,7 +3445,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "69",
+    "id": "98",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-13",
@@ -2288,7 +3476,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2026"
   },
   {
-    "id": "70",
+    "id": "99",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-10-12",
@@ -2327,7 +3515,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "71",
+    "id": "100",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2363,79 +3551,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "72",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-09-02",
-    "dayLabel": "Wednesday",
-    "name": "Black Queer and Trans Movie Night & Discussion",
-    "organizer": "friendzonedatl",
-    "types": [
-      "meetup",
-      "educational"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "creative community cultural",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "6:30 PM",
-    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Cultural"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-queer-movie-night-discussion-tickets-1997898881336?aff=oddtdtcreator",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "73",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-09-02",
-    "dayLabel": "Wednesday",
-    "name": "20 YEAR ANNIVERSARY - ALL ACCESS PASS",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark",
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "community",
-    "free": false,
-    "price": "$221.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "5:00 PM",
-    "location": "Atlanta, GA, USA",
-    "vibeTags": [
-      "Community"
-    ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-2026-20-year-anniversary-1",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "74",
+    "id": "101",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2473,7 +3589,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "75",
+    "id": "102",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2504,7 +3620,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming"
   },
   {
-    "id": "76",
+    "id": "103",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2535,7 +3651,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Howard Homecoming 2026"
   },
   {
-    "id": "77",
+    "id": "104",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2571,7 +3687,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "78",
+    "id": "105",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2600,115 +3716,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "79",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-09-02",
-    "dayLabel": "Wednesday",
-    "name": "ROLL CALL SKATE PARTY",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "creative games groove",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "8:00 PM",
-    "location": "SKATE TOWNE · 5570 Old National Hwy, Atlanta, GA 30349, USA",
-    "vibeTags": [
-      "Creative",
-      "Games",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/roll-call-skate-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "80",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "Almost Saturn's Return",
-    "organizer": "Alt Atl",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "flirt ass shaking groove grown & sexy",
-    "free": false,
-    "price": "$22.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "8:00 PM",
-    "location": "Spaceman Rooftop · 3301 Lenox Parkway Northeast NE, Atlanta, GA 30326",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://shotgun.live/en/events/saturnsreturnblkpride",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "81",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "Dragon Con",
-    "organizer": "Dragon Con",
-    "types": [
-      "festival"
-    ],
-    "audienceTags": [
-      "Queer-friendly"
-    ],
-    "vibesRaw": "creative community cultural games",
-    "free": false,
-    "price": "$35.00",
-    "badges": [
-      "Queer-friendly"
-    ],
-    "time": "",
-    "location": "Atlanta, GA",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Cultural",
-      "Games"
-    ],
-    "ctaHref": "https://www.dragoncon.org/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-festival",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "82",
+    "id": "106",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2751,7 +3759,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "83",
+    "id": "107",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-11",
@@ -2794,76 +3802,196 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "84",
+    "id": "108",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "Gatsby & Daisy Champagne Ball",
-    "organizer": "Dragon Con",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "2026 Atlanta Pride Parade",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM",
+      "Free"
+    ],
+    "time": "12:00 PM",
+    "location": "Atlanta Pride Parade Route",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "109",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "Brown Sugar & Beats: Atlanta Pride Brunch & Day Party",
+    "organizer": "Brown Sugar and Beats ATL",
     "types": [
-      "festival"
+      "day-party",
+      "rooftop"
     ],
     "audienceTags": [
-      "POC",
-      "Queer-friendly"
+      "WLW/Lesbian",
+      "Queer",
+      "Black"
     ],
-    "vibesRaw": "creative games",
+    "vibesRaw": "ass shaking food flirt wlw only",
     "free": false,
-    "price": "$49.00",
+    "price": "$22.50",
     "badges": [
-      "POC",
-      "Queer-friendly"
+      "WLW/Lesbian",
+      "Queer",
+      "Black"
     ],
-    "time": "7:00 PM",
-    "location": "Southern Exchange Ballrooms · 200 Peachtree St, Atlanta, GA 30303",
+    "time": "2:00 PM",
+    "location": "Moxy Atlanta Midtown · 48 13th St NE, Atlanta, GA 30309",
     "vibeTags": [
-      "Creative",
-      "Games"
+      "Ass Shaking",
+      "Food",
+      "Flirt",
+      "wlw only"
     ],
-    "ctaHref": "https://www.eventbrite.com/e/gatsby-daisy-champagne-ball-tickets-1992369141736?aff=oddtdtcreator",
+    "ctaHref": "https://www.eventbrite.com/e/brown-sugar-beats-atlanta-pride-brunch-day-party-tickets-2001776427180",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-festival",
+    "cardClass": "tp-day-party",
     "city": "atlanta",
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "85",
+    "id": "110",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "Kehlani Concert, ATL",
-    "organizer": "Kehlani",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "Queer Figure Drawing",
+    "organizer": "Southern Fried Queer Pride",
     "types": [
-      "after-dark"
+      "meetup"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic"
+      "POC",
+      "Queer",
+      "Trans/GNC"
     ],
-    "vibesRaw": "live show",
-    "free": false,
-    "price": "$40.00",
+    "vibesRaw": "creative community chill workshop",
+    "free": true,
+    "price": "$5.00",
     "badges": [
       "Black",
-      "Sapphic"
+      "POC",
+      "Queer",
+      "Trans/GNC",
+      "Free"
     ],
-    "time": "6:30 PM",
-    "location": "Lakewood Amphitheatre · 2002 Lakewood Way SW, Atlanta, GA 30315",
+    "time": "2:00 PM",
+    "location": "Create ATL · 900 Murphy Ave SW, Atlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Chill",
+      "Workshop"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "registrationDirections": "https://sfqp.info/qfdoct4",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "111",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "SWEET TEA! A Queer Variety Show at Atlanta Pride",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "outdoors-hangout",
+      "stage"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Queer",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "live show",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "POC",
+      "Queer",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "5:00 PM",
+    "location": "Community Stage, Piedmont Park (Oak Hill) · Piedmont Park, Atlanta, GA",
     "vibeTags": [
       "Live Show"
     ],
-    "ctaHref": "https://www.stubhub.com/kehlani-atlanta-tickets-9-3-2026/event/161229219/?backUrl=%2Fkehlani-tickets%2Fperformer%2F1503568&lt=33.7489954&lg=-84.3879824",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "ctaHref": "https://www.southernfriedqueerpride.com/all-events/sweet-tea-a-queer-variety-show-at-atlanta-pride-1",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors-hangout",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "86",
+    "id": "112",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-11",
+    "dayLabel": "Sunday",
+    "name": "Closing Worship Service",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black"
+    ],
+    "time": "1:00 PM",
+    "location": "Sisters Chapel · 350 Spelman Lane SW, Atlanta, GA 30314",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming 2026"
+  },
+  {
+    "id": "113",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -2904,235 +4032,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "87",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "7th Annual Mayor's Black Pride Reception",
-    "organizer": "Official Atlanta Black Pride Community Event",
-    "types": [
-      "live-show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "live show chill cultural",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Free"
-    ],
-    "time": "6:00 PM",
-    "location": "Atlanta City Hall · Atlanta City Hall\n55 Trinity Ave SW Atlanta GA 30303",
-    "vibeTags": [
-      "Live Show",
-      "Chill",
-      "Cultural"
-    ],
-    "ctaHref": "https://wannago.show/shop/wa/instance?id=427&k=iz7f0bqa797w3wez80p878jp4tbjt6&e=WNGInstance",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-live-show",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "88",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "WELCOME TO ATLANTA: OFFICIAL KICKOFF PARTY",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "community ass shaking groove grown & sexy flirt",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "9:00 PM",
-    "location": "MSR My Sister's Room · 1104 Crescent Ave NE, Atlanta, GA 30309, USA",
-    "vibeTags": [
-      "Community",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy",
-      "Flirt"
-    ],
-    "ctaHref": "https://posh.vip/e/welcome-to-atlanta-official-kickoff-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "89",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "The Wine Down ATL",
-    "organizer": "Queer Aunties",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
-    "free": false,
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "8:00 PM",
-    "location": "RT60 Rooftop Bar · 89 Centennial Olympic Park Dr NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/the-wine-down-atl",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "90",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-03",
-    "dayLabel": "Thursday",
-    "name": "Black Lesbian Collage Night & Zine Making",
-    "organizer": "SOUTHERN FRIED QUEER PRIDE",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "creative community groove",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "6:00 PM",
-    "location": "CreateATL · 900 Murphy Avenue Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/black-lesbian-collage-night-zine-making-tickets-1996758006950?aff=oddtdtcreator",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-workshop",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "91",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "Hot Honey",
-    "organizer": "Alt Atl",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "flirt ass shaking groove grown & sexy",
-    "free": false,
-    "price": "$11.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "10:00 PM",
-    "location": "Wild Leap Atlanta ⎸ Brewery ⎸ Distillery · 125 Ted Turner Drive Southwest, Atlanta, GA 30313",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://shotgun.live/en/events/hotthoneyblkprd",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "92",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "Afterglow",
-    "organizer": "blaq.atl",
-    "types": [
-      "happy-hour",
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "30+"
-    ],
-    "vibesRaw": "chill flirt grown & sexy groove",
-    "free": false,
-    "price": "$18.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "30+"
-    ],
-    "time": "8:00 PM",
-    "location": "RT60 · 89 Centennial Olympic Park Dr NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Chill",
-      "Flirt",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/afterglow-28",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-happy-hour",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "93",
+    "id": "114",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3172,7 +4072,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "94",
+    "id": "115",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3212,7 +4112,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "95",
+    "id": "116",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3250,7 +4150,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "96",
+    "id": "117",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3291,7 +4191,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "97",
+    "id": "118",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3332,7 +4232,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "98",
+    "id": "119",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3373,7 +4273,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "99",
+    "id": "120",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3414,7 +4314,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "100",
+    "id": "121",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3443,7 +4343,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "101",
+    "id": "122",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3472,7 +4372,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "102",
+    "id": "123",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3501,7 +4401,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "103",
+    "id": "124",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3530,7 +4430,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "104",
+    "id": "125",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3559,7 +4459,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "105",
+    "id": "126",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3588,7 +4488,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "106",
+    "id": "127",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3617,7 +4517,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "107",
+    "id": "128",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3646,7 +4546,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "108",
+    "id": "129",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3685,7 +4585,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "109",
+    "id": "130",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3726,83 +4626,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "110",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "THROWBACK PRIDE",
-    "organizer": "Capone",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$30.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 PM",
-    "location": "Marquette Lounge · 868 Joseph E. Boone Blvd, Atlanta, GA",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://www.facebook.com/capone.stroud/photos/atl-pride-weekend-just-got-lit%EF%B8%8F-lit-fest-atl-pride-weekend-the-take-over-one-wee/1582423236736144/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "Priority Entry",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "111",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "The Link Up!",
-    "organizer": "Chosen Kin Podcast",
-    "types": [
-      "happy-hour",
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "chill flirt community grown & sexy groove",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "5:00 PM",
-    "location": "The Waiting Room · 674 Myrtle St NE, Atlanta, GA 30308",
-    "vibeTags": [
-      "Chill",
-      "Flirt",
-      "Community",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/chosen-kin-podcast-presents-the-link-up?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacRT49f0b56s5TTxa5Y5-8rbL80u5rpa44h1Y-FG03Oy3PtUz_GGBwLrDLl4g_aem_I2iv4p_t8yR2q9yRDYvcWg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-happy-hour",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "112",
+    "id": "131",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3843,7 +4667,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "113",
+    "id": "132",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-10",
@@ -3884,7 +4708,352 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "115",
+    "id": "134",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Studs Fest: All Stud Review!",
+    "organizer": "#IamThePartyGirls Capone & What's Your Stud Name",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Masc",
+      "Queer",
+      "Black",
+      "WLW/Lesbian",
+      "Sapphic",
+      "POC"
+    ],
+    "vibesRaw": "grown & sexy ass shaking",
+    "free": false,
+    "price": "$14.00",
+    "badges": [
+      "Masc",
+      "Queer",
+      "Black",
+      "WLW/Lesbian",
+      "Sapphic",
+      "POC"
+    ],
+    "time": "10:30 PM",
+    "location": "Best Friends Lounge · 2672 Godby Rd, College Park, GA",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Ass Shaking"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/studs-fest-all-stud-review-atl-stud-takeover-tickets-2000063961148",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "135",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: R&B Dance Experience For 25+ WLW -- Everything Pinka",
+    "organizer": "🚺 Xxclusive Vibes 🚺",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "25+"
+    ],
+    "vibesRaw": "ass shaking grown & sexy",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "25+"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-10-11-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "136",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "2026 Atlanta Pride Festival",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM",
+      "Free"
+    ],
+    "time": "",
+    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "137",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Pride Yoga",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "time": "9:00 AM",
+    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "138",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "2026 Atlanta Pride: Recovery Meetup",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "time": "12:00 PM",
+    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "139",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "2026 Atlanta Pride: Trans March",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Trans/GNC"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "1:15 PM",
+    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "140",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "2026 Atlanta Pride: Bi+Pan March",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Sapphic",
+      "Bisexual",
+      "Pansexual"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Sapphic",
+      "Bisexual",
+      "Pansexual",
+      "Free"
+    ],
+    "time": "3:00 PM",
+    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "141",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "2026 Atlanta Pride: Dyke March",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Sapphic",
+      "WLW/Lesbian",
+      "Free"
+    ],
+    "time": "4:30 PM",
+    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "142",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Alumnae Welcome Home Check-In",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black"
+    ],
+    "time": "12:00 PM",
+    "location": "ATL",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming"
+  },
+  {
+    "id": "143",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "Spelman Sensory and Family-Friendly Tailgate Experience",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$35.00",
+    "badges": [
+      "Black"
+    ],
+    "time": "",
+    "location": "Beverly Daniel Tatum Suites Amphitheater",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming"
+  },
+  {
+    "id": "144",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -3922,118 +5091,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "116",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "Speed Friending - Friendship for Black &Queer/Trans Ppl - 21 & Up",
-    "organizer": "friendzonedatl",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "chill community dating games groove",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "7:00 PM",
-    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Chill",
-      "Community",
-      "Dating",
-      "Games",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/speed-friending-friendship-for-black-queertrans-ppl-21-up-tickets-1997898809120?aff=oddtdtcreator&keep_tld=true",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "117",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "BODY LANGUAGE: STRIPHER DAY PARTY",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "grown & sexy flirt groove",
-    "free": false,
-    "price": "$29.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 PM",
-    "location": "Magic City · 241 Forsyth St SW, Atlanta, GA 30303, USA",
-    "vibeTags": [
-      "Grown & Sexy",
-      "Flirt",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/body-language-stripher-day-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "118",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "FRIDAY NIGHT LIGHTS",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy creative",
-    "free": false,
-    "price": "$45.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 PM",
-    "location": "Cover Lounge · 4110 Memorial Dr Ste A, Decatur, GA 30032",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Creative"
-    ],
-    "ctaHref": "https://posh.vip/e/friday-night-lights-425",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "119",
+    "id": "145",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4071,7 +5129,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "120",
+    "id": "146",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4112,7 +5170,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "121",
+    "id": "147",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4152,7 +5210,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "122",
+    "id": "148",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4193,7 +5251,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "123",
+    "id": "149",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4222,7 +5280,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "124",
+    "id": "150",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4251,7 +5309,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "125",
+    "id": "151",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4280,7 +5338,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "126",
+    "id": "152",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4309,7 +5367,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "127",
+    "id": "153",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4350,158 +5408,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "128",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "NO CURFEW: AFTER HOURS FRIDAY",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "community ass shaking groove grown & sexy flirt",
-    "free": false,
-    "price": "$29.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 AM",
-    "location": "Apache XLR · 393 Marietta St NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Community",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy",
-      "Flirt"
-    ],
-    "ctaHref": "https://posh.vip/e/no-curfew-after-hours-friday",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "129",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "Queer Aunties and B Hen Presents: Cousins and 'Nem ATL",
-    "organizer": "Queer Aunties",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$40.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 PM",
-    "location": "Rose and Rye · 3377 Peachtree Rd NE, Atlanta, GA 30326",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/queer-aunties-and-b-hen-presents-cousins-and-nem-atl",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "130",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "2026 ABPW Black Excellence Dinner & Influencers Awards Gala",
-    "organizer": "RockStars Production",
-    "types": [
-      "live-show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "live show creative community cultural grown & sexy",
-    "free": false,
-    "price": "$177.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "5:00 PM",
-    "location": "The Starling Atlanta Midtown, Curio Collection by Hilton · 188 14th Street Northeast\nAtlanta, GA 30361",
-    "vibeTags": [
-      "Live Show",
-      "Creative",
-      "Community",
-      "Cultural",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/2026-abpw-black-excellence-dinner-influencers-awards-gala-tickets-1988880007642",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "131",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "5Y ANNIVERSARY ALL ACCESS PASS",
-    "organizer": "Sidequa MsDiva Brisha",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "grown & sexy groove ass shaking flirt",
-    "free": false,
-    "price": "$110.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "8:00 PM",
-    "location": "Location Revealed To Pass Holders",
-    "vibeTags": [
-      "Grown & Sexy",
-      "Groove",
-      "Ass Shaking",
-      "Flirt"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/atlanta-black-pride-2k26-5-year-anniversary-tickets-1977564777484?aff=SOFTQUEER",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "SOFTQUEER",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "132",
+    "id": "154",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-09",
@@ -4541,7 +5448,293 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "133",
+    "id": "155",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Queer AF Comedy Show: Paris Sashay",
+    "organizer": "#IamThePartyGirls Capone",
+    "types": [
+      "stage",
+      "meetup"
+    ],
+    "audienceTags": [
+      "POC",
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "vibesRaw": "live show groove",
+    "free": false,
+    "price": "$31.00",
+    "badges": [
+      "POC",
+      "Black",
+      "Queer",
+      "WLW/Lesbian",
+      "Sapphic"
+    ],
+    "time": "7:00 PM",
+    "location": "Apache · 393 Marietta St NW, Atlanta, GA",
+    "vibeTags": [
+      "Live Show",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/queer-af-comedy-show-paris-sashay-tickets-2001090569762",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-stage",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "156",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Sip & Chill (30+ Listening Experience)",
+    "organizer": "Adult Supervision Needed (A.S.N.)",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Queer",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "30+",
+      "MLM"
+    ],
+    "vibesRaw": "grown & sexy groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "POC",
+      "Queer",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "30+",
+      "MLM"
+    ],
+    "time": "9:00 PM",
+    "location": "TBD",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/sip-chill-30-listening-experience-copy",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "157",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "2026 Pride Kickoff",
+    "organizer": "Atlanta Pride Committee",
+    "types": [],
+    "audienceTags": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Queer",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Nonbinary",
+      "MLM"
+    ],
+    "time": "7:00 PM",
+    "location": "Georgia Aquarium - Oceans Ballroom · 246 Ivan Allen Junior Boulevard Northwest, Atlanta, GA",
+    "vibeTags": [],
+    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Pride"
+  },
+  {
+    "id": "158",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "HAWT SAUCE! A Queer Dance Party",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Trans/GNC",
+      "Queer"
+    ],
+    "vibesRaw": "ass shaking grown & sexy",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "POC",
+      "Trans/GNC",
+      "Queer"
+    ],
+    "time": "10:00 PM",
+    "location": "Drunken Unicorn · 736 Ponce De Leon Ave NE, Atlanta, GA 30306",
+    "vibeTags": [
+      "Ass Shaking",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "registrationDirections": "https://sfqp.info/hawtpride26",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "159",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Alumnae Welcome Home Check-In",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black"
+    ],
+    "time": "12:00 PM",
+    "location": "Bessie Strong Parking Lot",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming"
+  },
+  {
+    "id": "160",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Market Friday",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black"
+    ],
+    "time": "",
+    "location": "The Oval · 350 Spelman Lane SW, Atlanta, GA 30314",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming"
+  },
+  {
+    "id": "161",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Spelman College Art Collection 30th Birthday Celebration",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black"
+    ],
+    "time": "2:00 PM",
+    "location": "Spelman College Museum of Fine Art",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming"
+  },
+  {
+    "id": "162",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "Friday Night Karaoke Howard University TAKEOVA 🎤",
+    "organizer": "DJ Vybez Live",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer-friendly",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "DC",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://www.instagram.com/p/DeKM_ECx2DI/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "163",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-08",
@@ -4581,7 +5774,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "134",
+    "id": "164",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-08",
@@ -4620,7 +5813,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "135",
+    "id": "165",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-08",
@@ -4656,45 +5849,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "136",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "THE ALL WHITE AFFAIR",
-    "organizer": "Sidequa MsDiva Brisha",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "grown & sexy groove ass shaking flirt",
-    "free": false,
-    "price": "$29.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "8:00 PM",
-    "location": "Wyndham Atlanta Buckhead Hotel · 3405 Lenox Rd NE Atlanta, GA 30326",
-    "vibeTags": [
-      "Grown & Sexy",
-      "Groove",
-      "Ass Shaking",
-      "Flirt"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/atlanta-black-pride-2k26-5-year-anniversary-tickets-1977564777484?aff=oddtdtcreator",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "SOFTQUEER",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "137",
+    "id": "166",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-08",
@@ -4723,7 +5878,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "138",
+    "id": "167",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-08",
@@ -4752,161 +5907,151 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "139",
+    "id": "168",
     "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-09-04",
-    "dayLabel": "Friday",
-    "name": "Grown Folks Takeover Friday Night The Function",
-    "organizer": "Traxx Girls Inc",
+    "day": "thursday",
+    "dayDate": "2026-10-08",
+    "dayLabel": "Thursday",
+    "name": "HYPERQUEER: DJ HYPE ME UP",
+    "organizer": "HyperQueer",
     "types": [
       "after-dark"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic"
+      "Queer"
     ],
-    "vibesRaw": "30+ flirt community ass shaking grown & sexy groove",
+    "vibesRaw": "groove ass shaking",
     "free": false,
     "price": "$23.00",
     "badges": [
       "Black",
-      "Sapphic"
+      "Queer"
     ],
     "time": "9:00 PM",
-    "location": "Rose Bar · 3115 Piedmont Rd NE, Atlanta, Ga 30305",
+    "location": "Hyper Queer Headquarters at Mixx Atlanta · 1492 Piedmont Ave NE Ste b, Atlanta, GA 30309",
     "vibeTags": [
-      "30+",
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
+      "Groove",
+      "Ass Shaking"
     ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-weekend-presents-grown-folks-takeover-the-function",
+    "ctaHref": "https://posh.vip/e/hyperqueer",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
+    "discountCode": "4 FREE ticket giveaway",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "140",
+    "id": "169",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "HOEDOWN THROWDOWN - ATLANTA BLACK PRIDE",
-    "organizer": "Adult Supervision Needed",
-    "types": [
-      "day-party"
-    ],
+    "day": "thursday",
+    "dayDate": "2026-10-08",
+    "dayLabel": "Thursday",
+    "name": "Jewel Chat and Chew",
+    "organizer": "Spelman College",
+    "types": [],
     "audienceTags": [
-      "Black",
-      "Sapphic",
-      "30+"
+      "Black"
     ],
-    "vibesRaw": "flirt ass shaking groove",
+    "vibesRaw": "",
     "free": false,
-    "price": "$18.00",
     "badges": [
-      "Black",
-      "Sapphic",
-      "30+"
+      "Black"
     ],
-    "time": "3:00 PM",
-    "location": "THChill Lounge · 116 Krog St NE, Atlanta, GA 30307",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/hoedown-throwdown-atlanta-black-pride",
+    "time": "9:00 AM",
+    "location": "Wellness Center Kitchen at Read Hall",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-day-party",
-    "discountCode": "SOFTQUEER",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "Spelman Homecoming"
   },
   {
-    "id": "141",
+    "id": "170",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "Pride After Dark (ATL BLACK PRIDE)",
-    "organizer": "Adult Supervision Needed",
-    "types": [
-      "after-dark"
-    ],
+    "day": "thursday",
+    "dayDate": "2026-10-08",
+    "dayLabel": "Thursday",
+    "name": "Homecoming Convocation: In Our Image",
+    "organizer": "Spelman College",
+    "types": [],
     "audienceTags": [
-      "Black",
-      "Sapphic",
-      "30+"
+      "Black"
     ],
-    "vibesRaw": "flirt ass shaking groove grown & sexy",
+    "vibesRaw": "",
     "free": false,
-    "price": "$18.00",
     "badges": [
-      "Black",
-      "Sapphic",
-      "30+"
+      "Black"
     ],
-    "time": "10:00 PM",
-    "location": "Cam Kirk Studios · 112 Krog St NE D125, Atlanta, GA 30307",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://posh.vip/e/pride-after-dark-atl-black-pride",
+    "time": "11:00 AM",
+    "location": "Sisters Chapel · 350 Spelman Lane SW, Atlanta, GA 30314",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "SOFTQUEER",
+    "cardClass": "tp-day-party",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "Spelman Homecoming"
   },
   {
-    "id": "142",
+    "id": "171",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "QAF - QUEER AF PRIDE COMEDY SHOW",
-    "organizer": "Capone",
-    "types": [
-      "live-show"
-    ],
+    "day": "thursday",
+    "dayDate": "2026-10-08",
+    "dayLabel": "Thursday",
+    "name": "Homecoming Symposium: AI and Emerging Technologies",
+    "organizer": "Spelman College",
+    "types": [],
     "audienceTags": [
-      "Black",
-      "Sapphic"
+      "Black"
     ],
-    "vibesRaw": "live show creative",
+    "vibesRaw": "",
     "free": false,
-    "price": "$30.00",
     "badges": [
-      "Black",
-      "Sapphic"
+      "Black"
     ],
-    "time": "5:00 PM",
-    "location": "CODE RED BAR & GRILL · 1511 Memorial Drive Southeast\nAtlanta, GA 30317",
-    "vibeTags": [
-      "Live Show",
-      "Creative"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/qaf-queer-af-pride-comedy-show-tickets-1992604167705",
+    "time": "1:00 PM",
+    "location": "Mary Schmidt Campbell Center for Innovation & the Arts",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
-    "discountCode": "Priority Entry",
+    "cardClass": "tp-day-party",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "Spelman Homecoming"
   },
   {
-    "id": "143",
+    "id": "172",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-08",
+    "dayLabel": "Thursday",
+    "name": "Technology Networking Reception",
+    "organizer": "Spelman College",
+    "types": [],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black"
+    ],
+    "time": "4:00 PM",
+    "location": "Mary Schmidt Campbell Center for Innovation & the Arts",
+    "vibeTags": [],
+    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Spelman Homecoming"
+  },
+  {
+    "id": "173",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -4946,7 +6091,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "144",
+    "id": "174",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -4987,7 +6132,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "145",
+    "id": "175",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -5028,7 +6173,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "146",
+    "id": "176",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -5069,7 +6214,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "147",
+    "id": "177",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -5098,7 +6243,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "148",
+    "id": "178",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -5139,7 +6284,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "149",
+    "id": "179",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -5177,7 +6322,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "150",
+    "id": "180",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-10-07",
@@ -5219,7 +6364,47 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "152",
+    "id": "182",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-07",
+    "dayLabel": "Wednesday",
+    "name": "LADIES LOVE R&B ❤️",
+    "organizer": "DJ Mim",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "30+"
+    ],
+    "time": "9:00 PM",
+    "location": "Saint-Ex · 1847 14th St NW, Washington, DC 20009",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/ladies-love-rb--25?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacLXSMyskfkNv0xC4jfFjj-SZokvty6ERb9QrsdKMP6Gf-XNvI9lyeeLmdmTg_aem_ijUygK1Ffh8z8A3GI2QGtw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "183",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-06",
@@ -5259,7 +6444,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "153",
+    "id": "184",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-06",
@@ -5298,44 +6483,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "154",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "La Biggie’s Atl Pride Block Party Takeover!",
-    "organizer": "Capone",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$28.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 PM",
-    "location": "Apache XLR · 393 Marietta Street NorthWest Atlanta, GA 30313",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/la-biggies-atl-pride-block-party-takeover-tickets-1994628190612",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "Priority Entry",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "155",
+    "id": "185",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-06",
@@ -5374,7 +6522,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "156",
+    "id": "186",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-10-06",
@@ -5413,7 +6561,47 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "157",
+    "id": "187",
+    "festival": "august-events",
+    "day": "tuesday",
+    "dayDate": "2026-10-06",
+    "dayLabel": "Tuesday",
+    "name": "OCTOBER Black Queer & Trans Writers Club: Free Write",
+    "organizer": "FriendZoned ATL",
+    "types": [
+      "meetup",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Trans/GNC",
+      "Queer",
+      "Black"
+    ],
+    "vibesRaw": "chill creative community educational",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Trans/GNC",
+      "Queer",
+      "Black"
+    ],
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Educational"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/october-black-queer-trans-writers-club-free-write-tickets-2002298806631",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "188",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-10-05",
@@ -5453,7 +6641,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "158",
+    "id": "189",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-10-05",
@@ -5489,7 +6677,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "159",
+    "id": "190",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-10-05",
@@ -5525,7 +6713,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "160",
+    "id": "191",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5566,7 +6754,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "161",
+    "id": "192",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5610,7 +6798,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "162",
+    "id": "193",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5654,7 +6842,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "163",
+    "id": "194",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5691,7 +6879,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "164",
+    "id": "195",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5727,7 +6915,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Morgan State Homecoming"
   },
   {
-    "id": "165",
+    "id": "196",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5770,79 +6958,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "166",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "Official Afterparty: THROWBACK PRIDE",
-    "organizer": "Capone",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$30.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 AM",
-    "location": "Marquette Lounge · 868 Joseph E. Boone Blvd, Atlanta, GA",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://www.facebook.com/capone.stroud/photos/atl-pride-weekend-just-got-lit%EF%B8%8F-lit-fest-atl-pride-weekend-the-take-over-one-wee/1582423236736144/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "Priority Entry",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "167",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "Dragon Con Night at the Aquarium",
-    "organizer": "Dragon Con",
-    "types": [
-      "festival"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "creative games",
-    "free": false,
-    "price": "$63.00",
-    "badges": [
-      "POC",
-      "Queer-friendly"
-    ],
-    "time": "7:00 PM",
-    "location": "Georgia Aquarium · 225 Baker St NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Creative",
-      "Games"
-    ],
-    "ctaHref": "https://www.georgiaaquarium.org/events/event/dragon-con-night-2026/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-festival",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "168",
+    "id": "197",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-10-04",
@@ -5885,7 +7001,90 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Broadcast: One Year Of Transmission"
   },
   {
-    "id": "169",
+    "id": "198",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-04",
+    "dayLabel": "Sunday",
+    "name": "Queer Figure Drawing",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "POC",
+      "Queer",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "creative workshop community chill",
+    "free": true,
+    "price": "$5.00",
+    "badges": [
+      "Black",
+      "POC",
+      "Queer",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "2:00 PM",
+    "location": "Create ATL · 900 Murphy Ave SW, Atlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Workshop",
+      "Community",
+      "Chill"
+    ],
+    "ctaHref": "",
+    "ctaLabel": "View registration info",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "registrationDirections": "https://sfqp.info/qfdoct4",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "199",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-04",
+    "dayLabel": "Sunday",
+    "name": "The Affair: FEM FEST Pt. 2",
+    "organizer": "The Affair Day Party",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "WLW/Lesbian",
+      "Sapphic",
+      "Black",
+      "25+"
+    ],
+    "vibesRaw": "community grown & sexy wlw only",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "WLW/Lesbian",
+      "Sapphic",
+      "Black",
+      "25+"
+    ],
+    "time": "4:00 PM",
+    "location": "Penthouse Atlanta · 2847 Buford Hwy NE, Atlanta, GA 30329",
+    "vibeTags": [
+      "Community",
+      "Grown & Sexy",
+      "wlw only"
+    ],
+    "ctaHref": "https://posh.vip/e/the-affair-day-party-fem-fest-pt2",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "200",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -5926,7 +7125,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "170",
+    "id": "201",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -5970,7 +7169,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "4th Annual Charm City Burlesque & Variety Festival | OCT 2026"
   },
   {
-    "id": "171",
+    "id": "202",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -6008,7 +7207,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "172",
+    "id": "203",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -6041,7 +7240,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "173",
+    "id": "204",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -6081,7 +7280,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "174",
+    "id": "205",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -6119,7 +7318,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "175",
+    "id": "206",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -6165,7 +7364,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "176",
+    "id": "207",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-10-03",
@@ -6208,44 +7407,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Broadcast: One Year Of Transmission"
   },
   {
-    "id": "177",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "Ladies at Play's Atlanta Gay Pride Labor Day-Party 2026",
-    "organizer": "Ladies at Play's",
-    "types": [
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$30.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "5:00 PM",
-    "location": "Tongue & Groove · 565 Main St NE, Atlanta, GA 30324",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://tixfox.co/e/laplaborday2026?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeL5gq2RA0LxPPciYkzGiSos45oVgYk6vBNKXKPmWpnuZw4WUWMiB4l0tCypQ_aem_RpViN-wjJFvuXxPRbDOUfQ",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "178",
+    "id": "208",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-02",
@@ -6283,7 +7445,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "179",
+    "id": "209",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-02",
@@ -6324,7 +7486,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "180",
+    "id": "210",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-02",
@@ -6368,7 +7530,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "4th Annual Charm City Burlesque & Variety Festival | OCT 2026"
   },
   {
-    "id": "181",
+    "id": "211",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-10-02",
@@ -6411,7 +7573,46 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Broadcast: One Year Of Transmission"
   },
   {
-    "id": "183",
+    "id": "213",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-02",
+    "dayLabel": "Friday",
+    "name": "First Fridays: BLACK OUT",
+    "organizer": "🚺 Xxclusive Vibes 🚺",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer"
+    ],
+    "vibesRaw": "ass shaking grown & sexy",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer"
+    ],
+    "time": "10:00 PM",
+    "location": "Flō · 2196 Cheshire Bridge Rd NE, Atlanta, GA 30324",
+    "vibeTags": [
+      "Ass Shaking",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://posh.vip/e/first-fridays-the-biggest-party-in-atl-for-women-who-love-women-2026-10-3-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "214",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-01",
@@ -6450,7 +7651,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "184",
+    "id": "215",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-01",
@@ -6491,7 +7692,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Baltimore BLAQ Pride"
   },
   {
-    "id": "185",
+    "id": "216",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-01",
@@ -6533,7 +7734,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "186",
+    "id": "217",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-01",
@@ -6574,7 +7775,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "187",
+    "id": "218",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-10-01",
@@ -6619,7 +7820,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "UPRISE LIVE"
   },
   {
-    "id": "188",
+    "id": "219",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-30",
@@ -6662,7 +7863,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "189",
+    "id": "220",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-30",
@@ -6684,7 +7885,7 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "190",
+    "id": "221",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-30",
@@ -6726,7 +7927,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "191",
+    "id": "222",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-09-29",
@@ -6765,44 +7966,49 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "192",
+    "id": "223",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "WETHER DAY PARTY",
-    "organizer": "PURE ENHERGY x SHEFEST",
+    "day": "tuesday",
+    "dayDate": "2026-09-29",
+    "dayLabel": "Tuesday",
+    "name": "Black Queer Art Club - Stamp Making",
+    "organizer": "FriendZoned",
     "types": [
-      "day-party"
+      "meetup",
+      "educational"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic"
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
     ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "vibesRaw": "chill creative educational workshop",
     "free": false,
-    "price": "$34.00",
+    "price": "$8.00",
     "badges": [
       "Black",
-      "Sapphic"
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
     ],
-    "time": "3:00 PM",
-    "location": "Believe Music Hall · 181 Ralph David Abernathy Blvd SW, Atlanta, GA 30312",
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
     "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
+      "Chill",
+      "Creative",
+      "Educational",
+      "Workshop"
     ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-wether-day-party",
+    "ctaHref": "https://www.eventbrite.com/e/black-queer-art-club-stamp-making-tickets-2000524051290?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr2em38C20rRw0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-meetup",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "193",
+    "id": "224",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-28",
@@ -6856,7 +8062,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "195",
+    "id": "226",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-27",
@@ -6894,7 +8100,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "197",
+    "id": "228",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-27",
@@ -6932,44 +8138,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "198",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "THE BLUEPRINT",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$56.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 PM",
-    "location": "4 ELEMENTS {Formally SUITE LOUNGE} · 375 Luckie St NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-the-blueprint",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "199",
+    "id": "229",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-27",
@@ -7010,7 +8179,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "200",
+    "id": "230",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-27",
@@ -7051,7 +8220,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "209",
+    "id": "239",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-27",
@@ -7093,45 +8262,93 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "210",
+    "id": "240",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "NO CURFEW: AFTER HOURS SATURDAY",
-    "organizer": "PURE ENHERGY x SHEFEST",
+    "day": "sunday",
+    "dayDate": "2026-09-27",
+    "dayLabel": "Sunday",
+    "name": "Back to Life: Back to Queer Growth - A QTBIPOC Urban Farm Tour",
+    "organizer": "SOUTHERN FRIED QUEER PRIDE",
     "types": [
-      "after-dark"
+      "outdoors-hangout",
+      "meetup"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "Black"
+    ],
+    "vibesRaw": "chill creative community wellness tour",
+    "free": false,
+    "price": "$8.00",
+    "badges": [
+      "POC",
+      "Queer",
+      "Sapphic",
+      "Black"
+    ],
+    "time": "1:00 PM",
+    "location": "Patchwork City Farms LLC · 902 Pinehurst Terrace Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Wellness",
+      "Tour"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/back-to-life-back-to-queer-growth-a-qtbipoc-urban-farm-tour-tickets-1998997071051?aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-outdoors-hangout",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "241",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-27",
+    "dayLabel": "Sunday",
+    "name": "Back to Life: Back to Queer Growth - A QTBIPOC Urban Farm Tour",
+    "types": [
+      "tour"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic"
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "POC"
     ],
-    "vibesRaw": "community ass shaking groove grown & sexy flirt",
-    "free": false,
-    "price": "$29.00",
+    "vibesRaw": "workshop educational wellness tour",
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
-      "Sapphic"
+      "Sapphic",
+      "WLW/Lesbian",
+      "Queer",
+      "POC",
+      "Free"
     ],
-    "time": "3:00 AM",
-    "location": "Apache XLR · 393 Marietta St NW, Atlanta, GA 30313",
+    "time": "1:00 PM",
+    "location": "Patchwork City Farms LLC · 902 Pinehurst Terrace Southwest\nAtlanta, GA 30310",
     "vibeTags": [
-      "Community",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy",
-      "Flirt"
+      "Workshop",
+      "Educational",
+      "Wellness",
+      "Tour"
     ],
-    "ctaHref": "https://posh.vip/e/no-curfew-after-hours-saturday",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "ctaHref": "https://www.eventbrite.com/e/back-to-life-back-to-queer-growth-a-qtbipoc-urban-farm-tour-tickets-1998997071051?aff=oddtdtcreator",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-tour",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "211",
+    "id": "242",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
@@ -7167,7 +8384,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "212",
+    "id": "243",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
@@ -7205,7 +8422,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "214",
+    "id": "245",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
@@ -7242,7 +8459,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "215",
+    "id": "246",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
@@ -7278,46 +8495,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "216",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "PRIVÉ — An Exclusive Social Experience",
-    "organizer": "Sidequa MsDiva Brisha",
-    "types": [
-      "live-show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "creative grown & sexy live show flirt groove",
-    "free": false,
-    "price": "$109.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "5:00 PM",
-    "location": "Atlanta Black Pride 2K26 · 3405 Lenox Rd NE Atlanta, GA 30326",
-    "vibeTags": [
-      "Creative",
-      "Grown & Sexy",
-      "Live Show",
-      "Flirt",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/prive-an-exclusive-jazz-experience-atlanta-black-pride-2k26-tickets-1998158086626?aff=erelpanelorg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
-    "discountCode": "SOFTQUEER",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "225",
+    "id": "255",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-26",
@@ -7352,7 +8530,46 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "226",
+    "id": "256",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-26",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "vibesRaw": "ass shaking flirt cultural groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Cultural",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-9-27-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "257",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7388,7 +8605,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "227",
+    "id": "258",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7423,7 +8640,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "228",
+    "id": "259",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7460,7 +8677,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "229",
+    "id": "260",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7495,7 +8712,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "230",
+    "id": "261",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7533,7 +8750,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "231",
+    "id": "262",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7571,7 +8788,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "232",
+    "id": "263",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7610,7 +8827,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "233",
+    "id": "264",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-25",
@@ -7650,46 +8867,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "235",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "The Hardbody Collective - Atlanta Black Pride Workout 2026",
-    "organizer": "The Hardbody Collective",
-    "types": [
-      "outdoors-hangout",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Masc"
-    ],
-    "vibesRaw": "community wellness",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Masc",
-      "Free"
-    ],
-    "time": "9:00 AM",
-    "location": "Pittsburgh Yards · 352 University Ave SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Community",
-      "Wellness"
-    ],
-    "ctaHref": "https://posh.vip/e/the-hardbody-collective-atlanta-black-pride-workout-2026?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafmwtwyg6_tHcOrPL8f8uQJSRFb-M_SY3PY2xE6bB3YRu1kwUWHPfgI2STtVA_aem_w9p6SvYx64KOStgNvaZZVw",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-outdoors-hangout",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "236",
+    "id": "266",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-24",
@@ -7734,7 +8912,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "237",
+    "id": "267",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-24",
@@ -7771,7 +8949,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "238",
+    "id": "268",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-24",
@@ -7808,7 +8986,49 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "239",
+    "id": "269",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-24",
+    "dayLabel": "Thursday",
+    "name": "FriendZoned’s Black Queer Movie Night & Discussion",
+    "organizer": "FriendZoned",
+    "types": [
+      "meetup",
+      "educational"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill creative educational live show",
+    "free": false,
+    "price": "$8.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "time": "6:30 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Educational",
+      "Live Show"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-queer-movie-night-discussion-tickets-2000316392176?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr2emwYC20rRw0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "270",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-23",
@@ -7849,7 +9069,7 @@ export const generatedEvents: PrideEvent[] = [
     "city": "baltimore"
   },
   {
-    "id": "240",
+    "id": "271",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-23",
@@ -7885,7 +9105,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "241",
+    "id": "272",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-23",
@@ -7926,7 +9146,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "242",
+    "id": "273",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-09-22",
@@ -7968,7 +9188,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "245",
+    "id": "276",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-20",
@@ -8005,7 +9225,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "246",
+    "id": "277",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-20",
@@ -8043,7 +9263,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "248",
+    "id": "279",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8083,46 +9303,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "249",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-05",
-    "dayLabel": "Saturday",
-    "name": "Grown Folks Takeover Saturday Night- CLIQ: All Shades of Nude",
-    "organizer": "Traxx Girls Inc",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "30+ flirt community ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "9:00 PM",
-    "location": "High Society Buckhead · 3201 Cains Hill Pl NW, Atlanta, GA 30305",
-    "vibeTags": [
-      "30+",
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-weekend-presents-grown-folks-takeover-cliq-all-shades-of-nude",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "250",
+    "id": "280",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8165,7 +9346,7 @@ export const generatedEvents: PrideEvent[] = [
     "city": "nyc"
   },
   {
-    "id": "251",
+    "id": "281",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8202,7 +9383,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "252",
+    "id": "282",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8242,7 +9423,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "254",
+    "id": "284",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8281,7 +9462,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "255",
+    "id": "285",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8319,7 +9500,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "256",
+    "id": "286",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-19",
@@ -8360,7 +9541,47 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "257",
+    "id": "287",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-19",
+    "dayLabel": "Saturday",
+    "name": "Last Home Game: The Dream Vs. The Sky",
+    "organizer": "Blaq ATL Events",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "community games",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "State Farm Arena, Sec 106 · 1 State Farm Dr, Atlanta, GA 30303",
+    "vibeTags": [
+      "Community",
+      "Games"
+    ],
+    "ctaHref": "https://posh.vip/e/last-home-game-the-dream-vs-the-sky",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "288",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-18",
@@ -8401,7 +9622,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "258",
+    "id": "289",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-18",
@@ -8438,7 +9659,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "260",
+    "id": "291",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-18",
@@ -8478,7 +9699,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "261",
+    "id": "292",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-18",
@@ -8514,7 +9735,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "262",
+    "id": "293",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-17",
@@ -8558,7 +9779,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "263",
+    "id": "294",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-17",
@@ -8594,7 +9815,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "264",
+    "id": "295",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-17",
@@ -8631,7 +9852,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "266",
+    "id": "297",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-17",
@@ -8671,7 +9892,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "268",
+    "id": "299",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -8709,7 +9930,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "269",
+    "id": "300",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -8746,7 +9967,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "270",
+    "id": "301",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-13",
@@ -8785,7 +10006,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "271",
+    "id": "302",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -8827,45 +10048,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "272",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Altnik Day Party",
-    "organizer": "Alt Atl",
-    "types": [
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "flirt ass shaking groove grown & sexy food",
-    "free": false,
-    "price": "$22.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "5:00 PM",
-    "location": "Westside Motor Lounge · 725 Echo St NW, Atlanta, GA 3031",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy",
-      "Food"
-    ],
-    "ctaHref": "https://shotgun.live/en/events/altnik2026",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "273",
+    "id": "303",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -8904,7 +10087,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "274",
+    "id": "304",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -8946,7 +10129,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "275",
+    "id": "305",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -8988,7 +10171,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "276",
+    "id": "306",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9033,7 +10216,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "277",
+    "id": "307",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9071,7 +10254,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "278",
+    "id": "308",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9108,7 +10291,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "279",
+    "id": "309",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9145,7 +10328,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "280",
+    "id": "310",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9182,7 +10365,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "281",
+    "id": "311",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9218,7 +10401,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "282",
+    "id": "312",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9259,7 +10442,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "283",
+    "id": "313",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9303,7 +10486,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "284",
+    "id": "314",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9340,7 +10523,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "286",
+    "id": "316",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9381,44 +10564,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "287",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Altnik Uncut",
-    "organizer": "Alt Atl",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "flirt ass shaking groove grown & sexy",
-    "free": false,
-    "price": "$17.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "10:00 PM",
-    "location": "404.EXE · 736 Ponce De Leon Avenue Northeast, Atlanta, GA 30306",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://shotgun.live/en/events/altnik-uncut",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "288",
+    "id": "317",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-12",
@@ -9453,7 +10599,85 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "289",
+    "id": "318",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
+    "organizer": "🚺 Xxclusive Vibes 🚺",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "ass shaking community flirt grown & sexy groove",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Community",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-9-13-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta"
+  },
+  {
+    "id": "319",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-12",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "25+"
+    ],
+    "vibesRaw": "ass shaking flirt cultural groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "WLW/Lesbian",
+      "25+"
+    ],
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Cultural",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-9-13-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "320",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9495,7 +10719,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "290",
+    "id": "321",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9537,7 +10761,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "291",
+    "id": "322",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9577,7 +10801,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "292",
+    "id": "323",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9618,7 +10842,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "293",
+    "id": "324",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9658,7 +10882,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "294",
+    "id": "325",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9698,7 +10922,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "295",
+    "id": "326",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9738,7 +10962,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "296",
+    "id": "327",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9778,7 +11002,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "297",
+    "id": "328",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9818,7 +11042,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "298",
+    "id": "329",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9858,7 +11082,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "299",
+    "id": "330",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9902,7 +11126,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "300",
+    "id": "331",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9939,7 +11163,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "301",
+    "id": "332",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-11",
@@ -9981,7 +11205,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "303",
+    "id": "334",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10023,7 +11247,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "304",
+    "id": "335",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10064,7 +11288,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "305",
+    "id": "336",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10101,7 +11325,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "306",
+    "id": "337",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10142,7 +11366,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "307",
+    "id": "338",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10182,7 +11406,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "308",
+    "id": "339",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10222,7 +11446,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "309",
+    "id": "340",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10263,7 +11487,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "310",
+    "id": "341",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10303,7 +11527,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "311",
+    "id": "342",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10346,7 +11570,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "312",
+    "id": "343",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10386,7 +11610,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "313",
+    "id": "344",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10426,7 +11650,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "314",
+    "id": "345",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10466,7 +11690,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "315",
+    "id": "346",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10499,7 +11723,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "316",
+    "id": "347",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-10",
@@ -10537,43 +11761,45 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "317",
+    "id": "348",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "BROWN SUGAR & BEATS ATL BLACK PRIDE",
-    "organizer": "Brown Sugar and Beats ATL",
+    "day": "thursday",
+    "dayDate": "2026-09-10",
+    "dayLabel": "Thursday",
+    "name": "Cruising: A Film Screening & Discussion Panel",
+    "organizer": "SOUTHERN FRIED QUEER PRIDE",
     "types": [
-      "day-party"
+      "educational",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic"
+      "Queer"
     ],
-    "vibesRaw": "chill groove grown & sexy",
+    "vibesRaw": "chill creative community cultural",
     "free": false,
-    "price": "$20.00",
+    "price": "$16.50",
     "badges": [
       "Black",
-      "Sapphic"
+      "Queer"
     ],
-    "time": "6:00 PM",
-    "location": "420 Garden Bar · 420 Edgewood Avenue Southeast Atlanta, GA 30312",
+    "time": "7:00 PM",
+    "location": "The Tara · 2345 Cheshire Bridge Rd NE\nAtlanta, GA 30324",
     "vibeTags": [
       "Chill",
-      "Groove",
-      "Grown & Sexy"
+      "Creative",
+      "Community",
+      "Cultural"
     ],
-    "ctaHref": "https://www.eventbrite.com/e/brown-sugar-beats-atl-black-pride-tickets-1998801124971?aff=oddtdtcreator",
+    "ctaHref": "https://www.taraatlanta.com/movie/sfqp-cruising-1980/",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-educational",
     "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
+    "prideSeries": "No -- standalone event"
   },
   {
-    "id": "318",
+    "id": "349",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -10609,7 +11835,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "319",
+    "id": "350",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -10647,7 +11873,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "320",
+    "id": "351",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -10689,7 +11915,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "321",
+    "id": "352",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-09",
@@ -10728,7 +11954,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "322",
+    "id": "353",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-09-08",
@@ -10765,44 +11991,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "323",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "ALL WHITE PRIDE FINALE",
-    "organizer": "Capone",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$30.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 AM",
-    "location": "The Atrium · 5479 Memorial Drive Stone Mountain Ga",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://www.facebook.com/capone.stroud/photos/atl-pride-weekend-just-got-lit%EF%B8%8F-lit-fest-atl-pride-weekend-the-take-over-one-wee/1582423236736144/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "Priority Entry",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "324",
+    "id": "354",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -10837,7 +12026,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "325",
+    "id": "355",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -10872,80 +12061,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Global Black Pride, Paris"
   },
   {
-    "id": "326",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "THE RNB MIXTAPE DAY PARTY",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "chill groove grown & sexy",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 PM",
-    "location": "PALM BEACH · 330 Edgewood Ave SE, Atlanta, GA 30312",
-    "vibeTags": [
-      "Chill",
-      "Groove",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-the-rnb-mixtape-day-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "327",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "SCARLET NIGHT ALL RED PARTY",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$29.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "10:00 PM",
-    "location": "REVEL · 1778 Ellsworth Industrial Blvd NW, Atlanta, GA 3031",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/atlanta-black-pride-scarlet-night-all-red-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "328",
+    "id": "356",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -10983,7 +12099,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "329",
+    "id": "357",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -11022,45 +12138,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "330",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "NO CURFEW: AFTER HOURS SUNDAY NIGHT",
-    "organizer": "PURE ENHERGY x SHEFEST",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "community ass shaking groove grown & sexy flirt",
-    "free": false,
-    "price": "$29.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 AM",
-    "location": "Apache XLR · 393 Marietta St NW, Atlanta, GA 30313",
-    "vibeTags": [
-      "Community",
-      "Ass Shaking",
-      "Groove",
-      "Grown & Sexy",
-      "Flirt"
-    ],
-    "ctaHref": "https://posh.vip/e/no-curfew-after-hours-sunday-night",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "331",
+    "id": "358",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -11099,391 +12177,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "332",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "ANNUAL POETRY SLAM R&B BRUNCH",
-    "organizer": "PURE Heat + ENHERGY",
-    "types": [
-      "live-show",
-      "brunch"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "live show creative community cultural grown & sexy food groove",
-    "free": false,
-    "price": "$66.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "12:00 PM",
-    "location": "The Starling Atlanta Midtown, Curio Collection by Hilton · 188 14th Street Northeast\nAtlanta, GA 30361",
-    "vibeTags": [
-      "Live Show",
-      "Creative",
-      "Community",
-      "Cultural",
-      "Grown & Sexy",
-      "Food",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/annual-poetry-slam-rb-brunch-tickets-1991989029811?aff=oddtdtcreator",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "333",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Queer Aunties Presents: Aunties in Atlanta",
-    "organizer": "Queer Aunties",
-    "types": [
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$40.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "4:00 PM",
-    "location": "The Tess, Autograph Collection · 415 East Paces Ferry Rd NE, Atlanta, GA 30305",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/queer-aunties-presents-aunties-in-atlanta",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "334",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Stasha Sanchez Atlanta Black Pride Annual Drag Brunch",
-    "organizer": "RockStars Production",
-    "types": [
-      "live-show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "live show food grown & sexy groove",
-    "free": false,
-    "price": "$25.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "12:00 PM",
-    "location": "Cirque Daiquiri Bar & Grill · 2160 Monroe Drive Northeast\nAtlanta, GA 30324",
-    "vibeTags": [
-      "Live Show",
-      "Food",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/stasha-sanchez-atlanta-black-pride-annual-drag-brunch-tickets-1994582903156?aff=ebdsoporgprofile",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "335",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Scarlet Kiss After Dark — Sunday, September 6",
-    "organizer": "Sidequa MsDiva Brisha",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "flirt grown & sexy groove",
-    "free": false,
-    "price": "$29.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "9:00 PM",
-    "location": "Atlanta Black Pride 2K26 · 3405 Lenox Rd NE Atlanta, GA 30326",
-    "vibeTags": [
-      "Flirt",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/scarlet-kiss-after-dark-an-exclusive-pride-night-poolside-experience-tickets-1998016035748?aff=erelpanelorg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "SOFTQUEER",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "336",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Pitch Your Friends: Live Show Applications",
-    "organizer": "DMV Black Sapphics",
-    "types": [
-      "live-show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "creative flirt community dating",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Free"
-    ],
-    "time": "8:00 AM",
-    "location": "Online App",
-    "vibeTags": [
-      "Creative",
-      "Flirt",
-      "Community",
-      "Dating"
-    ],
-    "ctaHref": "https://docs.google.com/forms/d/e/1FAIpQLSel9B3Pq-1suTolTaR4Hl0rNiBA8y1q7c0_ohFmqjnfNSgiEg/viewform",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-live-show",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "337",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "The All Black Everything Kiki Ball",
-    "organizer": "La Creole X La Station - Gare des Mines",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "ass shaking flirt grown & sexy groove",
-    "free": false,
-    "price": "$13.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Trans/GNC"
-    ],
-    "time": "4:00 PM",
-    "location": "La Station - Gare des Mines · 29 avenue de la Porte d’Aubervilliers Paris",
-    "vibeTags": [
-      "Ass Shaking",
-      "Flirt",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://ra.co/events/2487384",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "paris",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "338",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Taste It! Cabo Verde",
-    "organizer": "Lesbifriends Travel",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "30+"
-    ],
-    "vibesRaw": "chill creative community food cultural",
-    "free": false,
-    "price": "$100.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "30+"
-    ],
-    "time": "2:00 PM",
-    "location": "Location To Be Announced with Ticket · Private Location",
-    "vibeTags": [
-      "Chill",
-      "Creative",
-      "Community",
-      "Food",
-      "Cultural"
-    ],
-    "ctaHref": "https://www.lesbifriendstravel.com/events/taste-it-cabo-verde",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "339",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "COLORS — The Rebellion of Athena (Paint & Powder Fete)",
-    "organizer": "Out N Bad (STAMINA Festival)",
-    "types": [
-      "live-show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "creative community live show",
-    "free": false,
-    "price": "$30.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 PM",
-    "location": "Parklife · 636 Degraw Street, Brooklyn, NY 11217",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Live Show"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/stamina-colors-paint-powder-fete-queer-caribbean-festival-parklife-tickets-1990813310202",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-live-show",
-    "discountCode": "SQWFAM",
-    "city": "nyc",
-    "prideSeries": "STAMINA 2026: Queer Caribbean Festival"
-  },
-  {
-    "id": "340",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "Back Outside Day Party",
-    "organizer": "Party Girls by DJ Fay",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic"
-    ],
-    "vibesRaw": "ass shaking flirt groove",
-    "free": false,
-    "price": "$15.00",
-    "badges": [
-      "Black",
-      "Sapphic"
-    ],
-    "time": "3:00 PM",
-    "location": "Ivy City Smokehouse · 1356 Okie St NE, Washington, DC 20002",
-    "vibeTags": [
-      "Ass Shaking",
-      "Flirt",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/back-outside-day-party-5?u=fayfayjay&_t=mtaos60a&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacFC-2-DT_kjuoUn7zFt8jjIm2uSohFhi-sekMkzLjl7KSDUGkXYPRquNcpNw_aem_b5pGhrdkucPjGz6mRW-VPg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "341",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-06",
-    "dayLabel": "Sunday",
-    "name": "THE AFFAIR DAY PARTY: ATL BLK PRIDE 26'",
-    "organizer": "The AFFAIR Day Party",
-    "types": [
-      "happy-hour",
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "flirt community ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "3:00 PM",
-    "location": "Elite Hookah Lounge Atl · 3043 Buford Hwy NE, Atlanta, GA 30329",
-    "vibeTags": [
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/the-affair-day-party-atl-blk-pride-26",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-happy-hour",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Black Pride"
-  },
-  {
-    "id": "342",
+    "id": "359",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -11523,7 +12217,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "343",
+    "id": "360",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -11562,7 +12256,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "344",
+    "id": "361",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -11603,7 +12297,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "345",
+    "id": "362",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-09-07",
@@ -11643,51 +12337,124 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "346",
+    "id": "363",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-10",
-    "dayLabel": "Thursday",
-    "name": "Cruising: A Film Screening & Discussion Panel",
-    "organizer": "SOUTHERN FRIED QUEER PRIDE",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Altnik Day Party",
+    "organizer": "Alt Atl",
     "types": [
-      "educational",
-      "meetup"
+      "day-party"
     ],
     "audienceTags": [
       "Black",
       "Queer"
     ],
-    "vibesRaw": "chill creative community cultural",
+    "vibesRaw": "flirt ass shaking groove grown & sexy food",
     "free": false,
-    "price": "$16.50",
+    "price": "$22.00",
     "badges": [
       "Black",
       "Queer"
     ],
-    "time": "7:00 PM",
-    "location": "The Tara · 2345 Cheshire Bridge Rd NE\nAtlanta, GA 30324",
+    "time": "5:00 PM",
+    "location": "Westside Motor Lounge · 725 Echo St NW, Atlanta, GA 3031",
     "vibeTags": [
-      "Chill",
-      "Creative",
-      "Community",
-      "Cultural"
+      "Flirt",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy",
+      "Food"
     ],
-    "ctaHref": "https://www.taraatlanta.com/movie/sfqp-cruising-1980/",
+    "ctaHref": "https://shotgun.live/en/events/altnik2026",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-educational",
+    "cardClass": "tp-day-party",
     "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "347",
+    "id": "364",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-12",
-    "dayLabel": "Saturday",
-    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
-    "organizer": "🚺 Xxclusive Vibes 🚺",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Altnik Uncut",
+    "organizer": "Alt Atl",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "flirt ass shaking groove grown & sexy",
+    "free": false,
+    "price": "$17.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "10:00 PM",
+    "location": "404.EXE · 736 Ponce De Leon Avenue Northeast, Atlanta, GA 30306",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/altnik-uncut",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "365",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "BROWN SUGAR & BEATS ATL BLACK PRIDE",
+    "organizer": "Brown Sugar and Beats ATL",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "chill groove grown & sexy",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "6:00 PM",
+    "location": "420 Garden Bar · 420 Edgewood Avenue Southeast Atlanta, GA 30312",
+    "vibeTags": [
+      "Chill",
+      "Groove",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/brown-sugar-beats-atl-black-pride-tickets-1998801124971?aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "366",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "ALL WHITE PRIDE FINALE",
+    "organizer": "Capone",
     "types": [
       "after-dark"
     ],
@@ -11695,71 +12462,525 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Sapphic"
     ],
-    "vibesRaw": "ass shaking community flirt grown & sexy groove",
+    "vibesRaw": "flirt ass shaking groove",
     "free": false,
-    "price": "$12.00",
+    "price": "$30.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 AM",
+    "location": "The Atrium · 5479 Memorial Drive Stone Mountain Ga",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.facebook.com/capone.stroud/photos/atl-pride-weekend-just-got-lit%EF%B8%8F-lit-fest-atl-pride-weekend-the-take-over-one-wee/1582423236736144/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "Priority Entry",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "367",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "THE RNB MIXTAPE DAY PARTY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "chill groove grown & sexy",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 PM",
+    "location": "PALM BEACH · 330 Edgewood Ave SE, Atlanta, GA 30312",
+    "vibeTags": [
+      "Chill",
+      "Groove",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-the-rnb-mixtape-day-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "368",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "SCARLET NIGHT ALL RED PARTY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$29.00",
     "badges": [
       "Black",
       "Sapphic"
     ],
     "time": "10:00 PM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "location": "REVEL · 1778 Ellsworth Industrial Blvd NW, Atlanta, GA 3031",
     "vibeTags": [
-      "Ass Shaking",
-      "Community",
       "Flirt",
+      "Ass Shaking",
       "Grown & Sexy",
       "Groove"
     ],
-    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-9-13-7-0",
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-scarlet-night-all-red-party",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta"
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "348",
+    "id": "369",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-12",
-    "dayLabel": "Saturday",
-    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
-    "organizer": "Xxclusive Vibes",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "NO CURFEW: AFTER HOURS SUNDAY NIGHT",
+    "organizer": "PURE ENHERGY x SHEFEST",
     "types": [
       "after-dark"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "25+"
+      "Sapphic"
     ],
-    "vibesRaw": "ass shaking flirt cultural groove",
+    "vibesRaw": "community ass shaking groove grown & sexy flirt",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 AM",
+    "location": "Apache XLR · 393 Marietta St NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Community",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/no-curfew-after-hours-sunday-night",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "370",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "ANNUAL POETRY SLAM R&B BRUNCH",
+    "organizer": "PURE Heat + ENHERGY",
+    "types": [
+      "live-show",
+      "brunch"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "live show creative community cultural grown & sexy food groove",
+    "free": false,
+    "price": "$66.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "12:00 PM",
+    "location": "The Starling Atlanta Midtown, Curio Collection by Hilton · 188 14th Street Northeast\nAtlanta, GA 30361",
+    "vibeTags": [
+      "Live Show",
+      "Creative",
+      "Community",
+      "Cultural",
+      "Grown & Sexy",
+      "Food",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/annual-poetry-slam-rb-brunch-tickets-1991989029811?aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "371",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Queer Aunties Presents: Aunties in Atlanta",
+    "organizer": "Queer Aunties",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$40.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "4:00 PM",
+    "location": "The Tess, Autograph Collection · 415 East Paces Ferry Rd NE, Atlanta, GA 30305",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/queer-aunties-presents-aunties-in-atlanta",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "372",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Stasha Sanchez Atlanta Black Pride Annual Drag Brunch",
+    "organizer": "RockStars Production",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "live show food grown & sexy groove",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "12:00 PM",
+    "location": "Cirque Daiquiri Bar & Grill · 2160 Monroe Drive Northeast\nAtlanta, GA 30324",
+    "vibeTags": [
+      "Live Show",
+      "Food",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/stasha-sanchez-atlanta-black-pride-annual-drag-brunch-tickets-1994582903156?aff=ebdsoporgprofile",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "373",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Scarlet Kiss After Dark — Sunday, September 6",
+    "organizer": "Sidequa MsDiva Brisha",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt grown & sexy groove",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "9:00 PM",
+    "location": "Atlanta Black Pride 2K26 · 3405 Lenox Rd NE Atlanta, GA 30326",
+    "vibeTags": [
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/scarlet-kiss-after-dark-an-exclusive-pride-night-poolside-experience-tickets-1998016035748?aff=erelpanelorg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "SOFTQUEER",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "374",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Pitch Your Friends: Live Show Applications",
+    "organizer": "DMV Black Sapphics",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "creative flirt community dating",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Free"
+    ],
+    "time": "8:00 AM",
+    "location": "Online App",
+    "vibeTags": [
+      "Creative",
+      "Flirt",
+      "Community",
+      "Dating"
+    ],
+    "ctaHref": "https://docs.google.com/forms/d/e/1FAIpQLSel9B3Pq-1suTolTaR4Hl0rNiBA8y1q7c0_ohFmqjnfNSgiEg/viewform",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-live-show",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "375",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "The All Black Everything Kiki Ball",
+    "organizer": "La Creole X La Station - Gare des Mines",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "ass shaking flirt grown & sexy groove",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans/GNC"
+    ],
+    "time": "4:00 PM",
+    "location": "La Station - Gare des Mines · 29 avenue de la Porte d’Aubervilliers Paris",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://ra.co/events/2487384",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "paris",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "376",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Taste It! Cabo Verde",
+    "organizer": "Lesbifriends Travel",
+    "types": [
+      "workshop",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "vibesRaw": "chill creative community food cultural",
+    "free": false,
+    "price": "$100.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "time": "2:00 PM",
+    "location": "Location To Be Announced with Ticket · Private Location",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Food",
+      "Cultural"
+    ],
+    "ctaHref": "https://www.lesbifriendstravel.com/events/taste-it-cabo-verde",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "377",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "COLORS — The Rebellion of Athena (Paint & Powder Fete)",
+    "organizer": "Out N Bad (STAMINA Festival)",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "creative community live show",
+    "free": false,
+    "price": "$30.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 PM",
+    "location": "Parklife · 636 Degraw Street, Brooklyn, NY 11217",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Live Show"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/stamina-colors-paint-powder-fete-queer-caribbean-festival-parklife-tickets-1990813310202",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "discountCode": "SQWFAM",
+    "city": "nyc",
+    "prideSeries": "STAMINA 2026: Queer Caribbean Festival"
+  },
+  {
+    "id": "378",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "Back Outside Day Party",
+    "organizer": "Party Girls by DJ Fay",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "ass shaking flirt groove",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 PM",
+    "location": "Ivy City Smokehouse · 1356 Okie St NE, Washington, DC 20002",
+    "vibeTags": [
+      "Ass Shaking",
+      "Flirt",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/back-outside-day-party-5?u=fayfayjay&_t=mtaos60a&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacFC-2-DT_kjuoUn7zFt8jjIm2uSohFhi-sekMkzLjl7KSDUGkXYPRquNcpNw_aem_b5pGhrdkucPjGz6mRW-VPg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "dc",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "379",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-09-06",
+    "dayLabel": "Sunday",
+    "name": "THE AFFAIR DAY PARTY: ATL BLK PRIDE 26'",
+    "organizer": "The AFFAIR Day Party",
+    "types": [
+      "happy-hour",
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
     "free": false,
     "price": "$23.00",
     "badges": [
       "Black",
       "Sapphic",
-      "WLW/Lesbian",
-      "25+"
+      "Trans/GNC"
     ],
-    "time": "10:00 PM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
+    "time": "3:00 PM",
+    "location": "Elite Hookah Lounge Atl · 3043 Buford Hwy NE, Atlanta, GA 30329",
     "vibeTags": [
-      "Ass Shaking",
       "Flirt",
-      "Cultural",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
       "Groove"
     ],
-    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-9-13-7-0",
+    "ctaHref": "https://posh.vip/e/the-affair-day-party-atl-blk-pride-26",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-happy-hour",
     "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "349",
+    "id": "380",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-09-06",
@@ -11797,89 +13018,497 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "350",
+    "id": "381",
     "festival": "august-events",
     "day": "saturday",
-    "dayDate": "2026-09-19",
+    "dayDate": "2026-09-05",
     "dayLabel": "Saturday",
-    "name": "Last Home Game: The Dream Vs. The Sky",
-    "organizer": "Blaq ATL Events",
+    "name": "HOEDOWN THROWDOWN - ATLANTA BLACK PRIDE",
+    "organizer": "Adult Supervision Needed",
     "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "time": "3:00 PM",
+    "location": "THChill Lounge · 116 Krog St NE, Atlanta, GA 30307",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/hoedown-throwdown-atlanta-black-pride",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "discountCode": "SOFTQUEER",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "382",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "Pride After Dark (ATL BLACK PRIDE)",
+    "organizer": "Adult Supervision Needed",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "vibesRaw": "flirt ass shaking groove grown & sexy",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "time": "10:00 PM",
+    "location": "Cam Kirk Studios · 112 Krog St NE D125, Atlanta, GA 30307",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://posh.vip/e/pride-after-dark-atl-black-pride",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "SOFTQUEER",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "383",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "QAF - QUEER AF PRIDE COMEDY SHOW",
+    "organizer": "Capone",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "live show creative",
+    "free": false,
+    "price": "$30.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "5:00 PM",
+    "location": "CODE RED BAR & GRILL · 1511 Memorial Drive Southeast\nAtlanta, GA 30317",
+    "vibeTags": [
+      "Live Show",
+      "Creative"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/qaf-queer-af-pride-comedy-show-tickets-1992604167705",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "discountCode": "Priority Entry",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "384",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "La Biggie’s Atl Pride Block Party Takeover!",
+    "organizer": "Capone",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$28.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 PM",
+    "location": "Apache XLR · 393 Marietta Street NorthWest Atlanta, GA 30313",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/la-biggies-atl-pride-block-party-takeover-tickets-1994628190612",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "Priority Entry",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "385",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "Official Afterparty: THROWBACK PRIDE",
+    "organizer": "Capone",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$30.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 AM",
+    "location": "Marquette Lounge · 868 Joseph E. Boone Blvd, Atlanta, GA",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.facebook.com/capone.stroud/photos/atl-pride-weekend-just-got-lit%EF%B8%8F-lit-fest-atl-pride-weekend-the-take-over-one-wee/1582423236736144/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "Priority Entry",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "386",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "Dragon Con Night at the Aquarium",
+    "organizer": "Dragon Con",
+    "types": [
+      "festival"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "creative games",
+    "free": false,
+    "price": "$63.00",
+    "badges": [
+      "POC",
+      "Queer-friendly"
+    ],
+    "time": "7:00 PM",
+    "location": "Georgia Aquarium · 225 Baker St NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Creative",
+      "Games"
+    ],
+    "ctaHref": "https://www.georgiaaquarium.org/events/event/dragon-con-night-2026/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "387",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "Ladies at Play's Atlanta Gay Pride Labor Day-Party 2026",
+    "organizer": "Ladies at Play's",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$30.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "5:00 PM",
+    "location": "Tongue & Groove · 565 Main St NE, Atlanta, GA 30324",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://tixfox.co/e/laplaborday2026?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeL5gq2RA0LxPPciYkzGiSos45oVgYk6vBNKXKPmWpnuZw4WUWMiB4l0tCypQ_aem_RpViN-wjJFvuXxPRbDOUfQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "388",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "WETHER DAY PARTY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$34.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 PM",
+    "location": "Believe Music Hall · 181 Ralph David Abernathy Blvd SW, Atlanta, GA 30312",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-wether-day-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "389",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "THE BLUEPRINT",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$56.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 PM",
+    "location": "4 ELEMENTS {Formally SUITE LOUNGE} · 375 Luckie St NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-the-blueprint",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "390",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "NO CURFEW: AFTER HOURS SATURDAY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "community ass shaking groove grown & sexy flirt",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 AM",
+    "location": "Apache XLR · 393 Marietta St NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Community",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/no-curfew-after-hours-saturday",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "391",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "PRIVÉ — An Exclusive Social Experience",
+    "organizer": "Sidequa MsDiva Brisha",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "creative grown & sexy live show flirt groove",
+    "free": false,
+    "price": "$109.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "5:00 PM",
+    "location": "Atlanta Black Pride 2K26 · 3405 Lenox Rd NE Atlanta, GA 30326",
+    "vibeTags": [
+      "Creative",
+      "Grown & Sexy",
+      "Live Show",
+      "Flirt",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/prive-an-exclusive-jazz-experience-atlanta-black-pride-2k26-tickets-1998158086626?aff=erelpanelorg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "discountCode": "SOFTQUEER",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "392",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "The Hardbody Collective - Atlanta Black Pride Workout 2026",
+    "organizer": "The Hardbody Collective",
+    "types": [
+      "outdoors-hangout",
       "meetup"
     ],
     "audienceTags": [
       "Black",
       "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC"
+      "Masc"
     ],
-    "vibesRaw": "community games",
+    "vibesRaw": "community wellness",
     "free": true,
     "price": "Free",
     "badges": [
       "Black",
       "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
+      "Masc",
       "Free"
     ],
-    "time": "7:00 PM",
-    "location": "State Farm Arena, Sec 106 · 1 State Farm Dr, Atlanta, GA 30303",
+    "time": "9:00 AM",
+    "location": "Pittsburgh Yards · 352 University Ave SW, Atlanta, GA 30310",
     "vibeTags": [
       "Community",
-      "Games"
+      "Wellness"
     ],
-    "ctaHref": "https://posh.vip/e/last-home-game-the-dream-vs-the-sky",
+    "ctaHref": "https://posh.vip/e/the-hardbody-collective-atlanta-black-pride-workout-2026?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafmwtwyg6_tHcOrPL8f8uQJSRFb-M_SY3PY2xE6bB3YRu1kwUWHPfgI2STtVA_aem_w9p6SvYx64KOStgNvaZZVw",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-outdoors-hangout",
     "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "351",
+    "id": "393",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-09-24",
-    "dayLabel": "Thursday",
-    "name": "FriendZoned’s Black Queer Movie Night & Discussion",
-    "organizer": "FriendZoned",
+    "day": "saturday",
+    "dayDate": "2026-09-05",
+    "dayLabel": "Saturday",
+    "name": "Grown Folks Takeover Saturday Night- CLIQ: All Shades of Nude",
+    "organizer": "Traxx Girls Inc",
     "types": [
-      "meetup",
-      "educational"
+      "after-dark"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC"
+      "Sapphic"
     ],
-    "vibesRaw": "chill creative educational live show",
+    "vibesRaw": "30+ flirt community ass shaking grown & sexy groove",
     "free": false,
-    "price": "$8.00",
+    "price": "$23.00",
     "badges": [
       "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC"
+      "Sapphic"
     ],
-    "time": "6:30 PM",
-    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
+    "time": "9:00 PM",
+    "location": "High Society Buckhead · 3201 Cains Hill Pl NW, Atlanta, GA 30305",
     "vibeTags": [
-      "Chill",
-      "Creative",
-      "Educational",
-      "Live Show"
+      "30+",
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
     ],
-    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-queer-movie-night-discussion-tickets-2000316392176?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr2emwYC20rRw0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-weekend-presents-grown-folks-takeover-cliq-all-shades-of-nude",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-after-dark",
     "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "352",
+    "id": "394",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -11916,132 +13545,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "353",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-09-26",
-    "dayLabel": "Saturday",
-    "name": "Something Lit For The Ladies",
-    "organizer": "Xxclusive Vibes",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "ass shaking flirt cultural groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "10:00 PM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
-    "vibeTags": [
-      "Ass Shaking",
-      "Flirt",
-      "Cultural",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-9-27-7-0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "354",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-27",
-    "dayLabel": "Sunday",
-    "name": "Back to Life: Back to Queer Growth - A QTBIPOC Urban Farm Tour",
-    "organizer": "SOUTHERN FRIED QUEER PRIDE",
-    "types": [
-      "outdoors-hangout",
-      "meetup"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "Black"
-    ],
-    "vibesRaw": "chill creative community wellness tour",
-    "free": false,
-    "price": "$8.00",
-    "badges": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "Black"
-    ],
-    "time": "1:00 PM",
-    "location": "Patchwork City Farms LLC · 902 Pinehurst Terrace Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Chill",
-      "Creative",
-      "Community",
-      "Wellness",
-      "Tour"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/back-to-life-back-to-queer-growth-a-qtbipoc-urban-farm-tour-tickets-1998997071051?aff=oddtdtcreator",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-outdoors-hangout",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "355",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-09-27",
-    "dayLabel": "Sunday",
-    "name": "Back to Life: Back to Queer Growth - A QTBIPOC Urban Farm Tour",
-    "types": [
-      "tour"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Queer",
-      "POC"
-    ],
-    "vibesRaw": "workshop educational wellness tour",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Queer",
-      "POC",
-      "Free"
-    ],
-    "time": "1:00 PM",
-    "location": "Patchwork City Farms LLC · 902 Pinehurst Terrace Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Workshop",
-      "Educational",
-      "Wellness",
-      "Tour"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/back-to-life-back-to-queer-growth-a-qtbipoc-urban-farm-tour-tickets-1998997071051?aff=oddtdtcreator",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-tour",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "356",
+    "id": "395",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12080,49 +13584,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "357",
-    "festival": "august-events",
-    "day": "tuesday",
-    "dayDate": "2026-09-29",
-    "dayLabel": "Tuesday",
-    "name": "Black Queer Art Club - Stamp Making",
-    "organizer": "FriendZoned",
-    "types": [
-      "meetup",
-      "educational"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "chill creative educational workshop",
-    "free": false,
-    "price": "$8.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC"
-    ],
-    "time": "7:00 PM",
-    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
-    "vibeTags": [
-      "Chill",
-      "Creative",
-      "Educational",
-      "Workshop"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/black-queer-art-club-stamp-making-tickets-2000524051290?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr2em38C20rRw0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "358",
+    "id": "396",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12161,7 +13623,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "359",
+    "id": "397",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12199,46 +13661,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "360",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-02",
-    "dayLabel": "Friday",
-    "name": "First Fridays: BLACK OUT",
-    "organizer": "🚺 Xxclusive Vibes 🚺",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Queer"
-    ],
-    "vibesRaw": "ass shaking grown & sexy",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Queer"
-    ],
-    "time": "10:00 PM",
-    "location": "Flō · 2196 Cheshire Bridge Rd NE, Atlanta, GA 30324",
-    "vibeTags": [
-      "Ass Shaking",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://posh.vip/e/first-fridays-the-biggest-party-in-atl-for-women-who-love-women-2026-10-3-7-0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "361",
+    "id": "398",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12274,7 +13697,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "362",
+    "id": "399",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12311,7 +13734,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "STAMINA 2026: Queer Caribbean Festival"
   },
   {
-    "id": "363",
+    "id": "400",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12348,130 +13771,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "STAMINA 2026: Queer Caribbean Festival"
   },
   {
-    "id": "364",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-04",
-    "dayLabel": "Sunday",
-    "name": "Queer Figure Drawing",
-    "organizer": "Southern Fried Queer Pride",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "POC",
-      "Queer",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "creative workshop community chill",
-    "free": true,
-    "price": "$5.00",
-    "badges": [
-      "Black",
-      "POC",
-      "Queer",
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "2:00 PM",
-    "location": "Create ATL · 900 Murphy Ave SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Workshop",
-      "Community",
-      "Chill"
-    ],
-    "ctaHref": "",
-    "ctaLabel": "View registration info",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "registrationDirections": "https://sfqp.info/qfdoct4",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "365",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-04",
-    "dayLabel": "Sunday",
-    "name": "The Affair: FEM FEST Pt. 2",
-    "organizer": "The Affair Day Party",
-    "types": [
-      "day-party"
-    ],
-    "audienceTags": [
-      "WLW/Lesbian",
-      "Sapphic",
-      "Black",
-      "25+"
-    ],
-    "vibesRaw": "community grown & sexy wlw only",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "WLW/Lesbian",
-      "Sapphic",
-      "Black",
-      "25+"
-    ],
-    "time": "4:00 PM",
-    "location": "Penthouse Atlanta · 2847 Buford Hwy NE, Atlanta, GA 30329",
-    "vibeTags": [
-      "Community",
-      "Grown & Sexy",
-      "wlw only"
-    ],
-    "ctaHref": "https://posh.vip/e/the-affair-day-party-fem-fest-pt2",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "366",
-    "festival": "august-events",
-    "day": "tuesday",
-    "dayDate": "2026-10-06",
-    "dayLabel": "Tuesday",
-    "name": "OCTOBER Black Queer & Trans Writers Club: Free Write",
-    "organizer": "FriendZoned ATL",
-    "types": [
-      "meetup",
-      "workshop"
-    ],
-    "audienceTags": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "vibesRaw": "chill creative community educational",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "time": "7:00 PM",
-    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Chill",
-      "Creative",
-      "Community",
-      "Educational"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/october-black-queer-trans-writers-club-free-write-tickets-2002298806631",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "367",
+    "id": "401",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12510,43 +13810,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "368",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-08",
-    "dayLabel": "Thursday",
-    "name": "HYPERQUEER: DJ HYPE ME UP",
-    "organizer": "HyperQueer",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "groove ass shaking",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Queer"
-    ],
-    "time": "9:00 PM",
-    "location": "Hyper Queer Headquarters at Mixx Atlanta · 1492 Piedmont Ave NE Ste b, Atlanta, GA 30309",
-    "vibeTags": [
-      "Groove",
-      "Ass Shaking"
-    ],
-    "ctaHref": "https://posh.vip/e/hyperqueer",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "discountCode": "4 FREE ticket giveaway",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "369",
+    "id": "402",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-09-05",
@@ -12582,88 +13846,499 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "370",
+    "id": "403",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-08",
-    "dayLabel": "Thursday",
-    "name": "Jewel Chat and Chew",
-    "organizer": "Spelman College",
-    "types": [],
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "Hot Honey",
+    "organizer": "Alt Atl",
+    "types": [
+      "after-dark"
+    ],
     "audienceTags": [
-      "Black"
+      "Black",
+      "Queer"
     ],
-    "vibesRaw": "",
+    "vibesRaw": "flirt ass shaking groove grown & sexy",
     "free": false,
+    "price": "$11.00",
     "badges": [
-      "Black"
+      "Black",
+      "Queer"
     ],
-    "time": "9:00 AM",
-    "location": "Wellness Center Kitchen at Read Hall",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "time": "10:00 PM",
+    "location": "Wild Leap Atlanta ⎸ Brewery ⎸ Distillery · 125 Ted Turner Drive Southwest, Atlanta, GA 30313",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/hotthoneyblkprd",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "404",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "Afterglow",
+    "organizer": "blaq.atl",
+    "types": [
+      "happy-hour",
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "vibesRaw": "chill flirt grown & sexy groove",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "time": "8:00 PM",
+    "location": "RT60 · 89 Centennial Olympic Park Dr NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Chill",
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/afterglow-28",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-happy-hour",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "405",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "THROWBACK PRIDE",
+    "organizer": "Capone",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking groove",
+    "free": false,
+    "price": "$30.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 PM",
+    "location": "Marquette Lounge · 868 Joseph E. Boone Blvd, Atlanta, GA",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove"
+    ],
+    "ctaHref": "https://www.facebook.com/capone.stroud/photos/atl-pride-weekend-just-got-lit%EF%B8%8F-lit-fest-atl-pride-weekend-the-take-over-one-wee/1582423236736144/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "Priority Entry",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "406",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "The Link Up!",
+    "organizer": "Chosen Kin Podcast",
+    "types": [
+      "happy-hour",
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "chill flirt community grown & sexy groove",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "5:00 PM",
+    "location": "The Waiting Room · 674 Myrtle St NE, Atlanta, GA 30308",
+    "vibeTags": [
+      "Chill",
+      "Flirt",
+      "Community",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/chosen-kin-podcast-presents-the-link-up?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacRT49f0b56s5TTxa5Y5-8rbL80u5rpa44h1Y-FG03Oy3PtUz_GGBwLrDLl4g_aem_I2iv4p_t8yR2q9yRDYvcWg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-happy-hour",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "407",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "Speed Friending - Friendship for Black &Queer/Trans Ppl - 21 & Up",
+    "organizer": "friendzonedatl",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "chill community dating games groove",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Community",
+      "Dating",
+      "Games",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/speed-friending-friendship-for-black-queertrans-ppl-21-up-tickets-1997898809120?aff=oddtdtcreator&keep_tld=true",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "408",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "BODY LANGUAGE: STRIPHER DAY PARTY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "grown & sexy flirt groove",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "3:00 PM",
+    "location": "Magic City · 241 Forsyth St SW, Atlanta, GA 30303, USA",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Flirt",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/body-language-stripher-day-party",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-day-party",
     "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "371",
+    "id": "409",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-08",
-    "dayLabel": "Thursday",
-    "name": "Homecoming Convocation: In Our Image",
-    "organizer": "Spelman College",
-    "types": [],
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "FRIDAY NIGHT LIGHTS",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
     "audienceTags": [
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "vibesRaw": "",
+    "vibesRaw": "flirt ass shaking grown & sexy creative",
     "free": false,
+    "price": "$45.00",
     "badges": [
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "time": "11:00 AM",
-    "location": "Sisters Chapel · 350 Spelman Lane SW, Atlanta, GA 30314",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "time": "10:00 PM",
+    "location": "Cover Lounge · 4110 Memorial Dr Ste A, Decatur, GA 30032",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Creative"
+    ],
+    "ctaHref": "https://posh.vip/e/friday-night-lights-425",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-after-dark",
     "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "372",
+    "id": "410",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-08",
-    "dayLabel": "Thursday",
-    "name": "Homecoming Symposium: AI and Emerging Technologies",
-    "organizer": "Spelman College",
-    "types": [],
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "NO CURFEW: AFTER HOURS FRIDAY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
     "audienceTags": [
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "vibesRaw": "",
+    "vibesRaw": "community ass shaking groove grown & sexy flirt",
     "free": false,
+    "price": "$29.00",
     "badges": [
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "time": "1:00 PM",
-    "location": "Mary Schmidt Campbell Center for Innovation & the Arts",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "time": "3:00 AM",
+    "location": "Apache XLR · 393 Marietta St NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Community",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/no-curfew-after-hours-friday",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-after-dark",
     "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "373",
+    "id": "411",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "Queer Aunties and B Hen Presents: Cousins and 'Nem ATL",
+    "organizer": "Queer Aunties",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$40.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "10:00 PM",
+    "location": "Rose and Rye · 3377 Peachtree Rd NE, Atlanta, GA 30326",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/queer-aunties-and-b-hen-presents-cousins-and-nem-atl",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "412",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "2026 ABPW Black Excellence Dinner & Influencers Awards Gala",
+    "organizer": "RockStars Production",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "live show creative community cultural grown & sexy",
+    "free": false,
+    "price": "$177.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "5:00 PM",
+    "location": "The Starling Atlanta Midtown, Curio Collection by Hilton · 188 14th Street Northeast\nAtlanta, GA 30361",
+    "vibeTags": [
+      "Live Show",
+      "Creative",
+      "Community",
+      "Cultural",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/2026-abpw-black-excellence-dinner-influencers-awards-gala-tickets-1988880007642",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-live-show",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "413",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "5Y ANNIVERSARY ALL ACCESS PASS",
+    "organizer": "Sidequa MsDiva Brisha",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "grown & sexy groove ass shaking flirt",
+    "free": false,
+    "price": "$110.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "8:00 PM",
+    "location": "Location Revealed To Pass Holders",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove",
+      "Ass Shaking",
+      "Flirt"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/atlanta-black-pride-2k26-5-year-anniversary-tickets-1977564777484?aff=SOFTQUEER",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "SOFTQUEER",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "414",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "THE ALL WHITE AFFAIR",
+    "organizer": "Sidequa MsDiva Brisha",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "grown & sexy groove ass shaking flirt",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "8:00 PM",
+    "location": "Wyndham Atlanta Buckhead Hotel · 3405 Lenox Rd NE Atlanta, GA 30326",
+    "vibeTags": [
+      "Grown & Sexy",
+      "Groove",
+      "Ass Shaking",
+      "Flirt"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/atlanta-black-pride-2k26-5-year-anniversary-tickets-1977564777484?aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "discountCode": "SOFTQUEER",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "415",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-09-04",
+    "dayLabel": "Friday",
+    "name": "Grown Folks Takeover Friday Night The Function",
+    "organizer": "Traxx Girls Inc",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "30+ flirt community ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "9:00 PM",
+    "location": "Rose Bar · 3115 Piedmont Rd NE, Atlanta, Ga 30305",
+    "vibeTags": [
+      "30+",
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-weekend-presents-grown-folks-takeover-the-function",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "416",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -12704,160 +14379,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "374",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-08",
-    "dayLabel": "Thursday",
-    "name": "Technology Networking Reception",
-    "organizer": "Spelman College",
-    "types": [],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black"
-    ],
-    "time": "4:00 PM",
-    "location": "Mary Schmidt Campbell Center for Innovation & the Arts",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
-  },
-  {
-    "id": "375",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "Queer AF Comedy Show: Paris Sashay",
-    "organizer": "#IamThePartyGirls Capone",
-    "types": [
-      "stage",
-      "meetup"
-    ],
-    "audienceTags": [
-      "POC",
-      "Black",
-      "Queer",
-      "WLW/Lesbian",
-      "Sapphic"
-    ],
-    "vibesRaw": "live show groove",
-    "free": false,
-    "price": "$31.00",
-    "badges": [
-      "POC",
-      "Black",
-      "Queer",
-      "WLW/Lesbian",
-      "Sapphic"
-    ],
-    "time": "7:00 PM",
-    "location": "Apache · 393 Marietta St NW, Atlanta, GA",
-    "vibeTags": [
-      "Live Show",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/queer-af-comedy-show-paris-sashay-tickets-2001090569762",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-stage",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "376",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "Sip & Chill (30+ Listening Experience)",
-    "organizer": "Adult Supervision Needed (A.S.N.)",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "POC",
-      "Queer",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "30+",
-      "MLM"
-    ],
-    "vibesRaw": "grown & sexy groove",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "POC",
-      "Queer",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "30+",
-      "MLM"
-    ],
-    "time": "9:00 PM",
-    "location": "TBD",
-    "vibeTags": [
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/sip-chill-30-listening-experience-copy",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "377",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "2026 Pride Kickoff",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "time": "7:00 PM",
-    "location": "Georgia Aquarium - Oceans Ballroom · 246 Ivan Allen Junior Boulevard Northwest, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "378",
+    "id": "417",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -12894,7 +14416,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "379",
+    "id": "418",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -12929,7 +14451,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "380",
+    "id": "419",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -12967,7 +14489,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "STAMINA 2026: Queer Caribbean Festival"
   },
   {
-    "id": "382",
+    "id": "421",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -13003,128 +14525,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "383",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "HAWT SAUCE! A Queer Dance Party",
-    "organizer": "Southern Fried Queer Pride",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "POC",
-      "Trans/GNC",
-      "Queer"
-    ],
-    "vibesRaw": "ass shaking grown & sexy",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "POC",
-      "Trans/GNC",
-      "Queer"
-    ],
-    "time": "10:00 PM",
-    "location": "Drunken Unicorn · 736 Ponce De Leon Ave NE, Atlanta, GA 30306",
-    "vibeTags": [
-      "Ass Shaking",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "",
-    "ctaLabel": "View registration info",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "registrationDirections": "https://sfqp.info/hawtpride26",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "384",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "Alumnae Welcome Home Check-In",
-    "organizer": "Spelman College",
-    "types": [],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black"
-    ],
-    "time": "12:00 PM",
-    "location": "Bessie Strong Parking Lot",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
-  },
-  {
-    "id": "385",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "Market Friday",
-    "organizer": "Spelman College",
-    "types": [],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black"
-    ],
-    "time": "",
-    "location": "The Oval · 350 Spelman Lane SW, Atlanta, GA 30314",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
-  },
-  {
-    "id": "386",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "Spelman College Art Collection 30th Birthday Celebration",
-    "organizer": "Spelman College",
-    "types": [],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black"
-    ],
-    "time": "2:00 PM",
-    "location": "Spelman College Museum of Fine Art",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
-  },
-  {
-    "id": "387",
+    "id": "422",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -13161,7 +14562,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "388",
+    "id": "423",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -13198,130 +14599,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "389",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "Friday Night Karaoke Howard University TAKEOVA 🎤",
-    "organizer": "DJ Vybez Live",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "flirt community ass shaking grown & sexy groove",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer-friendly",
-      "Free"
-    ],
-    "time": "9:00 PM",
-    "location": "DC",
-    "vibeTags": [
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://www.instagram.com/p/DeKM_ECx2DI/",
-    "ctaLabel": "More Info",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "390",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "Studs Fest: All Stud Review!",
-    "organizer": "#IamThePartyGirls Capone & What's Your Stud Name",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Masc",
-      "Queer",
-      "Black",
-      "WLW/Lesbian",
-      "Sapphic",
-      "POC"
-    ],
-    "vibesRaw": "grown & sexy ass shaking",
-    "free": false,
-    "price": "$14.00",
-    "badges": [
-      "Masc",
-      "Queer",
-      "Black",
-      "WLW/Lesbian",
-      "Sapphic",
-      "POC"
-    ],
-    "time": "10:30 PM",
-    "location": "Best Friends Lounge · 2672 Godby Rd, College Park, GA",
-    "vibeTags": [
-      "Grown & Sexy",
-      "Ass Shaking"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/studs-fest-all-stud-review-atl-stud-takeover-tickets-2000063961148",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "391",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "Femme Frequency: R&B Dance Experience For 25+ WLW -- Everything Pinka",
-    "organizer": "🚺 Xxclusive Vibes 🚺",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Queer",
-      "25+"
-    ],
-    "vibesRaw": "ass shaking grown & sexy",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Queer",
-      "25+"
-    ],
-    "time": "10:00 PM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
-    "vibeTags": [
-      "Ass Shaking",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-10-11-7-0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "392",
+    "id": "424",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-09-04",
@@ -13359,46 +14637,299 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "393",
+    "id": "425",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "2026 Atlanta Pride Festival",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "Almost Saturn's Return",
+    "organizer": "Alt Atl",
+    "types": [
+      "after-dark"
     ],
-    "vibesRaw": "",
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "flirt ass shaking groove grown & sexy",
+    "free": false,
+    "price": "$22.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "8:00 PM",
+    "location": "Spaceman Rooftop · 3301 Lenox Parkway Northeast NE, Atlanta, GA 30326",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy"
+    ],
+    "ctaHref": "https://shotgun.live/en/events/saturnsreturnblkpride",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "426",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "Dragon Con",
+    "organizer": "Dragon Con",
+    "types": [
+      "festival"
+    ],
+    "audienceTags": [
+      "Queer-friendly"
+    ],
+    "vibesRaw": "creative community cultural games",
+    "free": false,
+    "price": "$35.00",
+    "badges": [
+      "Queer-friendly"
+    ],
+    "time": "",
+    "location": "Atlanta, GA",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Cultural",
+      "Games"
+    ],
+    "ctaHref": "https://www.dragoncon.org/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "427",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "Gatsby & Daisy Champagne Ball",
+    "organizer": "Dragon Con",
+    "types": [
+      "festival"
+    ],
+    "audienceTags": [
+      "POC",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "creative games",
+    "free": false,
+    "price": "$49.00",
+    "badges": [
+      "POC",
+      "Queer-friendly"
+    ],
+    "time": "7:00 PM",
+    "location": "Southern Exchange Ballrooms · 200 Peachtree St, Atlanta, GA 30303",
+    "vibeTags": [
+      "Creative",
+      "Games"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/gatsby-daisy-champagne-ball-tickets-1992369141736?aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "428",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "Kehlani Concert, ATL",
+    "organizer": "Kehlani",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "live show",
+    "free": false,
+    "price": "$40.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "6:30 PM",
+    "location": "Lakewood Amphitheatre · 2002 Lakewood Way SW, Atlanta, GA 30315",
+    "vibeTags": [
+      "Live Show"
+    ],
+    "ctaHref": "https://www.stubhub.com/kehlani-atlanta-tickets-9-3-2026/event/161229219/?backUrl=%2Fkehlani-tickets%2Fperformer%2F1503568&lt=33.7489954&lg=-84.3879824",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "429",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "7th Annual Mayor's Black Pride Reception",
+    "organizer": "Official Atlanta Black Pride Community Event",
+    "types": [
+      "live-show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "live show chill cultural",
     "free": true,
     "price": "Free",
     "badges": [
+      "Black",
       "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM",
       "Free"
     ],
-    "time": "",
-    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
+    "time": "6:00 PM",
+    "location": "Atlanta City Hall · Atlanta City Hall\n55 Trinity Ave SW Atlanta GA 30303",
+    "vibeTags": [
+      "Live Show",
+      "Chill",
+      "Cultural"
+    ],
+    "ctaHref": "https://wannago.show/shop/wa/instance?id=427&k=iz7f0bqa797w3wez80p878jp4tbjt6&e=WNGInstance",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-live-show",
     "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "394",
+    "id": "430",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "WELCOME TO ATLANTA: OFFICIAL KICKOFF PARTY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "community ass shaking groove grown & sexy flirt",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "9:00 PM",
+    "location": "MSR My Sister's Room · 1104 Crescent Ave NE, Atlanta, GA 30309, USA",
+    "vibeTags": [
+      "Community",
+      "Ass Shaking",
+      "Groove",
+      "Grown & Sexy",
+      "Flirt"
+    ],
+    "ctaHref": "https://posh.vip/e/welcome-to-atlanta-official-kickoff-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "431",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "The Wine Down ATL",
+    "organizer": "Queer Aunties",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "flirt ass shaking grown & sexy groove",
+    "free": false,
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "8:00 PM",
+    "location": "RT60 Rooftop Bar · 89 Centennial Olympic Park Dr NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Flirt",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/the-wine-down-atl",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "432",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-09-03",
+    "dayLabel": "Thursday",
+    "name": "Black Lesbian Collage Night & Zine Making",
+    "organizer": "SOUTHERN FRIED QUEER PRIDE",
+    "types": [
+      "workshop",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "creative community groove",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "6:00 PM",
+    "location": "CreateATL · 900 Murphy Avenue Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Groove"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/black-lesbian-collage-night-zine-making-tickets-1996758006950?aff=oddtdtcreator",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "433",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-03",
@@ -13436,110 +14967,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "395",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "Pride Yoga",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "time": "9:00 AM",
-    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "396",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "2026 Atlanta Pride: Recovery Meetup",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "time": "12:00 PM",
-    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "397",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "2026 Atlanta Pride: Trans March",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Trans/GNC"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "1:15 PM",
-    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "398",
+    "id": "434",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-09-03",
@@ -13561,205 +14989,115 @@ export const generatedEvents: PrideEvent[] = [
     "city": "baltimore"
   },
   {
-    "id": "399",
+    "id": "435",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "2026 Atlanta Pride: Bi+Pan March",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Sapphic",
-      "Bisexual",
-      "Pansexual"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Sapphic",
-      "Bisexual",
-      "Pansexual",
-      "Free"
-    ],
-    "time": "3:00 PM",
-    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "400",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "2026 Atlanta Pride: Dyke March",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Sapphic",
-      "WLW/Lesbian",
-      "Free"
-    ],
-    "time": "4:30 PM",
-    "location": "Piedmont Park · 400 Park Drive, Atlanta, GA",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "401",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "Alumnae Welcome Home Check-In",
-    "organizer": "Spelman College",
-    "types": [],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black"
-    ],
-    "time": "12:00 PM",
-    "location": "ATL",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
-  },
-  {
-    "id": "402",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "Spelman Sensory and Family-Friendly Tailgate Experience",
-    "organizer": "Spelman College",
-    "types": [],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$35.00",
-    "badges": [
-      "Black"
-    ],
-    "time": "",
-    "location": "Beverly Daniel Tatum Suites Amphitheater",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Spelman Homecoming"
-  },
-  {
-    "id": "403",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-11",
-    "dayLabel": "Sunday",
-    "name": "2026 Atlanta Pride Parade",
-    "organizer": "Atlanta Pride Committee",
-    "types": [],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "MLM",
-      "Free"
-    ],
-    "time": "12:00 PM",
-    "location": "Atlanta Pride Parade Route",
-    "vibeTags": [],
-    "ctaHref": "https://atlantapride.org/events-page/category/official-atlanta-pride-event/",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
-    "city": "atlanta",
-    "prideSeries": "Atlanta Pride"
-  },
-  {
-    "id": "404",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-11",
-    "dayLabel": "Sunday",
-    "name": "Brown Sugar & Beats: Atlanta Pride Brunch & Day Party",
-    "organizer": "Brown Sugar and Beats ATL",
+    "day": "wednesday",
+    "dayDate": "2026-09-02",
+    "dayLabel": "Wednesday",
+    "name": "Black Queer and Trans Movie Night & Discussion",
+    "organizer": "friendzonedatl",
     "types": [
-      "day-party",
-      "rooftop"
+      "meetup",
+      "educational"
     ],
     "audienceTags": [
-      "WLW/Lesbian",
-      "Queer",
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "vibesRaw": "ass shaking food flirt wlw only",
+    "vibesRaw": "creative community cultural",
     "free": false,
-    "price": "$22.50",
+    "price": "$7.00",
     "badges": [
-      "WLW/Lesbian",
-      "Queer",
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "time": "2:00 PM",
-    "location": "Moxy Atlanta Midtown · 48 13th St NE, Atlanta, GA 30309",
+    "time": "6:30 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
     "vibeTags": [
-      "Ass Shaking",
-      "Food",
-      "Flirt",
-      "wlw only"
+      "Creative",
+      "Community",
+      "Cultural"
     ],
-    "ctaHref": "https://www.eventbrite.com/e/brown-sugar-beats-atlanta-pride-brunch-day-party-tickets-2001776427180",
+    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-queer-movie-night-discussion-tickets-1997898881336?aff=oddtdtcreator",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-meetup",
     "city": "atlanta",
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "405",
+    "id": "436",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-02",
+    "dayLabel": "Wednesday",
+    "name": "20 YEAR ANNIVERSARY - ALL ACCESS PASS",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark",
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "community",
+    "free": false,
+    "price": "$221.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "5:00 PM",
+    "location": "Atlanta, GA, USA",
+    "vibeTags": [
+      "Community"
+    ],
+    "ctaHref": "https://posh.vip/e/atlanta-black-pride-2026-20-year-anniversary-1",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "437",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-09-02",
+    "dayLabel": "Wednesday",
+    "name": "ROLL CALL SKATE PARTY",
+    "organizer": "PURE ENHERGY x SHEFEST",
+    "types": [
+      "after-dark"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic"
+    ],
+    "vibesRaw": "creative games groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic"
+    ],
+    "time": "8:00 PM",
+    "location": "SKATE TOWNE · 5570 Old National Hwy, Atlanta, GA 30349, USA",
+    "vibeTags": [
+      "Creative",
+      "Games",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/roll-call-skate-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-after-dark",
+    "city": "atlanta",
+    "prideSeries": "Atlanta Black Pride"
+  },
+  {
+    "id": "438",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-02",
@@ -13797,90 +15135,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "406",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-11",
-    "dayLabel": "Sunday",
-    "name": "Queer Figure Drawing",
-    "organizer": "Southern Fried Queer Pride",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "POC",
-      "Queer",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "creative community chill workshop",
-    "free": true,
-    "price": "$5.00",
-    "badges": [
-      "Black",
-      "POC",
-      "Queer",
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "2:00 PM",
-    "location": "Create ATL · 900 Murphy Ave SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Chill",
-      "Workshop"
-    ],
-    "ctaHref": "",
-    "ctaLabel": "View registration info",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "registrationDirections": "https://sfqp.info/qfdoct4",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "407",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-11",
-    "dayLabel": "Sunday",
-    "name": "SWEET TEA! A Queer Variety Show at Atlanta Pride",
-    "organizer": "Southern Fried Queer Pride",
-    "types": [
-      "outdoors-hangout",
-      "stage"
-    ],
-    "audienceTags": [
-      "Black",
-      "POC",
-      "Queer",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "live show",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "POC",
-      "Queer",
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "5:00 PM",
-    "location": "Community Stage, Piedmont Park (Oak Hill) · Piedmont Park, Atlanta, GA",
-    "vibeTags": [
-      "Live Show"
-    ],
-    "ctaHref": "https://www.southernfriedqueerpride.com/all-events/sweet-tea-a-queer-variety-show-at-atlanta-pride-1",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-outdoors-hangout",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "408",
+    "id": "439",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-09-02",
@@ -13916,34 +15171,120 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "409",
+    "id": "440",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-11",
-    "dayLabel": "Sunday",
-    "name": "Closing Worship Service",
-    "organizer": "Spelman College",
-    "types": [],
+    "day": "tuesday",
+    "dayDate": "2026-09-01",
+    "dayLabel": "Tuesday",
+    "name": "SEPTEMBER Black Queer Writers Club: Pride On Paper",
+    "organizer": "friendzonedatl",
+    "types": [
+      "workshop"
+    ],
     "audienceTags": [
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "vibesRaw": "",
+    "vibesRaw": "creative community cultural",
     "free": false,
+    "price": "$7.00",
     "badges": [
-      "Black"
+      "Black",
+      "Sapphic"
     ],
-    "time": "1:00 PM",
-    "location": "Sisters Chapel · 350 Spelman Lane SW, Atlanta, GA 30314",
-    "vibeTags": [],
-    "ctaHref": "https://www.spelman.edu/alumnae/homecoming.html",
+    "time": "7:00 PM",
+    "location": "The MURPH · 561 West Whitehall Street Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Cultural"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/september-black-queer-writers-club-pride-on-paper-tickets-1997898776021?aff=oddtdtcreator",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-workshop",
     "city": "atlanta",
-    "prideSeries": "Spelman Homecoming 2026"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "410",
+    "id": "441",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-08-30",
+    "dayLabel": "Sunday",
+    "name": "A Blaq Pickleball Social",
+    "organizer": "blaq.atl",
+    "types": [
+      "meetup",
+      "gynasium"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "vibesRaw": "creative community games wellness",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "30+"
+    ],
+    "time": "12:00 PM",
+    "location": "Dill Dinker · 1200 White St SW, Atlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Games",
+      "Wellness"
+    ],
+    "ctaHref": "https://posh.vip/e/a-blaq-queer-pickleball-social?u=blaq_atl&_t=msngh8ag&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta"
+  },
+  {
+    "id": "442",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-08-30",
+    "dayLabel": "Sunday",
+    "name": "QUEER THREADS! A Pop-Up Thrift Shop & Barbershop",
+    "organizer": "SOUTHERN FRIED QUEER PRIDE",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "creative community chill",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "1:00 PM",
+    "location": "Wild Heaven Brewery in the West End · 1010 White Street SW Atlanta, GA 30310",
+    "vibeTags": [
+      "Creative",
+      "Community",
+      "Chill"
+    ],
+    "ctaHref": "https://www.southernfriedqueerpride.com/all-events/queer-threads-a-pop-up-thrift-shop-barbershop-yd628",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "443",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-30",
@@ -13980,46 +15321,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "411",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-15",
-    "dayLabel": "Thursday",
-    "name": "FriendZoned's Black Classics Movie Night & Trivia",
-    "organizer": "FriendZoned ATL",
-    "types": [
-      "theatre",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "vibesRaw": "creative chill live show",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "time": "6:30 PM",
-    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Chill",
-      "Live Show"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/friendzoneds-black-classics-movie-night-trivia-tickets-2002301431482",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-theatre",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "412",
+    "id": "444",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-30",
@@ -14056,7 +15358,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "414",
+    "id": "446",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-30",
@@ -14093,7 +15395,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "415",
+    "id": "447",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-30",
@@ -14130,7 +15432,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "416",
+    "id": "448",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-30",
@@ -14167,89 +15469,45 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "417",
+    "id": "449",
     "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-16",
-    "dayLabel": "Friday",
-    "name": "Raw Honey: Cuffing SZN Game Night",
-    "organizer": "Raw Honey",
+    "day": "saturday",
+    "dayDate": "2026-08-29",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies: Countdown To Atlanta Black Pride",
+    "organizer": "🚺 Xxclusive Vibes 🚺",
     "types": [
-      "meetup",
       "after-dark"
     ],
     "audienceTags": [
       "Black",
-      "Sapphic",
-      "Trans/GNC"
+      "Sapphic"
     ],
-    "vibesRaw": "chill creative community groove games",
-    "free": true,
-    "price": "Free",
+    "vibesRaw": "ass shaking community flirt grown & sexy groove",
+    "free": false,
+    "price": "$23.00",
     "badges": [
       "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "Free"
+      "Sapphic"
     ],
-    "time": "8:00 PM",
-    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237",
+    "time": "10:00 PM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
     "vibeTags": [
-      "Chill",
-      "Creative",
+      "Ass Shaking",
       "Community",
-      "Groove",
-      "Games"
+      "Flirt",
+      "Grown & Sexy",
+      "Groove"
     ],
-    "ctaHref": "https://posh.vip/e/raw-honey-cuffing-szn-game-night?u=gabriellehitchens124&_t=muo67f7r&os=ios&src=event_page",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "418",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-21",
-    "dayLabel": "Wednesday",
-    "name": "OCTOBER Black Queer & Trans Artist Club: Portrait in Paper",
-    "organizer": "FriendZoned ATL",
-    "types": [
-      "meetup",
-      "workshop"
-    ],
-    "audienceTags": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "vibesRaw": "creative networking community educational",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "time": "7:00 PM",
-    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Creative",
-      "Networking",
-      "Community",
-      "Educational"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/october-black-queer-trans-artist-club-portrait-in-paper-tickets-2002301615031",
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-8-30-7-0?t=series",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-after-dark",
     "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "prideSeries": "Atlanta Black Pride"
   },
   {
-    "id": "419",
+    "id": "450",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14292,7 +15550,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "420",
+    "id": "451",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14329,7 +15587,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "421",
+    "id": "452",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14367,7 +15625,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "422",
+    "id": "453",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14404,7 +15662,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "423",
+    "id": "454",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14443,7 +15701,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "424",
+    "id": "455",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14479,7 +15737,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "425",
+    "id": "456",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-29",
@@ -14517,7 +15775,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "426",
+    "id": "457",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-28",
@@ -14553,7 +15811,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "427",
+    "id": "458",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-28",
@@ -14591,7 +15849,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "428",
+    "id": "459",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-28",
@@ -14629,7 +15887,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "429",
+    "id": "460",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-27",
@@ -14669,7 +15927,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "430",
+    "id": "461",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-27",
@@ -14711,7 +15969,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "431",
+    "id": "462",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-27",
@@ -14752,7 +16010,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "432",
+    "id": "463",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-27",
@@ -14790,7 +16048,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "433",
+    "id": "464",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-27",
@@ -14827,7 +16085,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "434",
+    "id": "465",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-26",
@@ -14866,7 +16124,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "435",
+    "id": "466",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-26",
@@ -14904,7 +16162,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "436",
+    "id": "467",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-08-24",
@@ -14944,7 +16202,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "437",
+    "id": "468",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-08-24",
@@ -14982,7 +16240,87 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "438",
+    "id": "469",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-08-23",
+    "dayLabel": "Sunday",
+    "name": "Trans Bike Ride & Hangout (Special Evening Bike Ride Edition)",
+    "organizer": "SOUTHERN FRIED QUEER PRIDE",
+    "types": [
+      "outdoors-hangout",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "chill creative community wellness",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Trans/GNC",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "CreateATL · 900 Murphy Avenue Southwest\nAtlanta, GA 30310",
+    "vibeTags": [
+      "Chill",
+      "Creative",
+      "Community",
+      "Wellness"
+    ],
+    "ctaHref": "https://www.eventbrite.com/e/trans-bike-ride-hangout-special-evening-bike-ride-edition-tickets-1994870806282?aff=oddtdtcreator",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors-hangout",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "470",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-08-23",
+    "dayLabel": "Sunday",
+    "name": "THE AFFAIR DAY PARTY: CRÈME DE LA CREAM",
+    "organizer": "The AFFAIR Day Party",
+    "types": [
+      "happy-hour",
+      "day-party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "vibesRaw": "flirt community ass shaking grown & sexy groove",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Sapphic",
+      "Trans/GNC"
+    ],
+    "time": "5:00 PM",
+    "location": "REVERB ROOFTOP · 89 Centennial Olympic Park Dr NW, Atlanta, GA 30313",
+    "vibeTags": [
+      "Flirt",
+      "Community",
+      "Ass Shaking",
+      "Grown & Sexy",
+      "Groove"
+    ],
+    "ctaHref": "https://posh.vip/e/the-affair-day-party-double-the-luxury?u=afterfivesocial&_t=mslzbvvy&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaff1IMqRGcvXAU3hjfBUD5L95wY867vyW8lVTICYNbqDhpPoQgV8L1rJOk4gg_aem_-h8DOozLfPP_SAG559WQMQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-happy-hour",
+    "city": "atlanta",
+    "prideSeries": "No -- standalone event"
+  },
+  {
+    "id": "471",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-23",
@@ -15021,7 +16359,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "439",
+    "id": "472",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-23",
@@ -15059,7 +16397,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "440",
+    "id": "473",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-23",
@@ -15095,7 +16433,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "441",
+    "id": "474",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-23",
@@ -15131,7 +16469,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "442",
+    "id": "475",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-23",
@@ -15171,85 +16509,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "443",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-22",
-    "dayLabel": "Thursday",
-    "name": "Speed Friending - Friendship for Black & Queer/Trans Couples - 21 & Up",
-    "organizer": "FriendZoned ATL",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "vibesRaw": "chill networking community",
-    "free": false,
-    "price": "$12.50",
-    "badges": [
-      "Trans/GNC",
-      "Queer",
-      "Black"
-    ],
-    "time": "7:00 PM",
-    "location": "The MURPH · 561 W Whitehall St SW, Atlanta, GA 30310",
-    "vibeTags": [
-      "Chill",
-      "Networking",
-      "Community"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/speed-friending-friendship-for-black-queertrans-couples-21-up-tickets-2002301972099",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "444",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "Damn Y'all Fine: The 1 Year Anniversary Screening",
-    "organizer": "Rooted Collective",
-    "types": [
-      "meetup",
-      "workshop"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "creative chill cultural educational",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "6:00 PM",
-    "location": "Parkway Theatre · 5 West North Avenue\nBaltimore, MD 21201",
-    "vibeTags": [
-      "Creative",
-      "Chill",
-      "Cultural",
-      "Educational"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/damn-yall-fine-the-1-year-anniversary-screening-tickets-2002241099026?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadnG9ZGkZGBlgRg9grqJJtIRS5KNH11EtMRaVrwzql5iTyfvzDibCGNE9dPdA_aem_AJX2b8JM-wnHN7z1rvjSDQ",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "445",
+    "id": "476",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15286,7 +16546,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "446",
+    "id": "477",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15323,7 +16583,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "447",
+    "id": "478",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15364,7 +16624,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "448",
+    "id": "479",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15404,7 +16664,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "449",
+    "id": "480",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15446,7 +16706,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "NYC Black Pride (29th Annual)"
   },
   {
-    "id": "450",
+    "id": "481",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15486,7 +16746,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "451",
+    "id": "482",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15524,7 +16784,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "452",
+    "id": "483",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15561,7 +16821,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "453",
+    "id": "484",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15603,7 +16863,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "454",
+    "id": "485",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15640,7 +16900,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "455",
+    "id": "486",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15677,7 +16937,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "456",
+    "id": "487",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15714,7 +16974,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "457",
+    "id": "488",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15751,7 +17011,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "458",
+    "id": "489",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-22",
@@ -15790,7 +17050,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "459",
+    "id": "490",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -15826,7 +17086,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "460",
+    "id": "491",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -15865,7 +17125,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "461",
+    "id": "492",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -15902,7 +17162,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "462",
+    "id": "493",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -15940,7 +17200,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "463",
+    "id": "494",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -15978,7 +17238,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "464",
+    "id": "495",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -16017,7 +17277,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "NYC Black Pride (29th Annual)"
   },
   {
-    "id": "465",
+    "id": "496",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -16058,7 +17318,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "466",
+    "id": "497",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -16096,7 +17356,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "467",
+    "id": "498",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -16135,7 +17395,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "468",
+    "id": "499",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -16175,7 +17435,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "469",
+    "id": "500",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-21",
@@ -16216,7 +17476,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "470",
+    "id": "501",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-20",
@@ -16257,7 +17517,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "471",
+    "id": "502",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-20",
@@ -16295,7 +17555,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "472",
+    "id": "503",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-20",
@@ -16336,7 +17596,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "473",
+    "id": "504",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-20",
@@ -16375,7 +17635,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "474",
+    "id": "505",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-20",
@@ -16413,7 +17673,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "475",
+    "id": "506",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-20",
@@ -16452,7 +17712,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "476",
+    "id": "507",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-19",
@@ -16488,7 +17748,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "477",
+    "id": "508",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-19",
@@ -16527,7 +17787,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "478",
+    "id": "509",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-19",
@@ -16563,7 +17823,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "NYC Black Pride (29th Annual)"
   },
   {
-    "id": "479",
+    "id": "510",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-19",
@@ -16600,7 +17860,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "480",
+    "id": "511",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-19",
@@ -16641,7 +17901,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "481",
+    "id": "512",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-08-17",
@@ -16680,7 +17940,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "482",
+    "id": "513",
     "festival": "august-events",
     "day": "monday",
     "dayDate": "2026-08-17",
@@ -16718,7 +17978,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "483",
+    "id": "514",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-16",
@@ -16756,7 +18016,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "484",
+    "id": "515",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-16",
@@ -16796,7 +18056,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "485",
+    "id": "516",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-16",
@@ -16834,7 +18094,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "486",
+    "id": "517",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-16",
@@ -16875,7 +18135,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "487",
+    "id": "518",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -16913,7 +18173,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "488",
+    "id": "519",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -16951,7 +18211,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "489",
+    "id": "520",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -16990,7 +18250,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "490",
+    "id": "521",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17029,7 +18289,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "491",
+    "id": "522",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17067,7 +18327,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "492",
+    "id": "523",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17104,7 +18364,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "494",
+    "id": "525",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17141,7 +18401,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "495",
+    "id": "526",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17181,7 +18441,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "496",
+    "id": "527",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17219,7 +18479,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "497",
+    "id": "528",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17256,7 +18516,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "498",
+    "id": "529",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17293,7 +18553,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "499",
+    "id": "530",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17330,7 +18590,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "500",
+    "id": "531",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-15",
@@ -17370,7 +18630,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "501",
+    "id": "532",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17407,7 +18667,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "502",
+    "id": "533",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17447,7 +18707,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "503",
+    "id": "534",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17484,7 +18744,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "504",
+    "id": "535",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17522,7 +18782,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "505",
+    "id": "536",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17558,7 +18818,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "506",
+    "id": "537",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17594,7 +18854,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "507",
+    "id": "538",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17631,7 +18891,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "508",
+    "id": "539",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17668,7 +18928,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "509",
+    "id": "540",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17709,7 +18969,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "510",
+    "id": "541",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17745,7 +19005,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "511",
+    "id": "542",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-14",
@@ -17784,7 +19044,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "512",
+    "id": "543",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-13",
@@ -17823,7 +19083,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "514",
+    "id": "545",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-13",
@@ -17862,7 +19122,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "515",
+    "id": "546",
     "festival": "august-events",
     "day": "thursday",
     "dayDate": "2026-08-13",
@@ -17902,7 +19162,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "516",
+    "id": "547",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-12",
@@ -17942,7 +19202,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "The Collective: NYC Black Pride"
   },
   {
-    "id": "517",
+    "id": "548",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-12",
@@ -17983,7 +19243,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "518",
+    "id": "549",
     "festival": "august-events",
     "day": "sunday",
     "dayDate": "2026-08-09",
@@ -18023,7 +19283,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "519",
+    "id": "550",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18063,7 +19323,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "520",
+    "id": "551",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18104,7 +19364,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "521",
+    "id": "552",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18142,7 +19402,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "522",
+    "id": "553",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18178,7 +19438,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "523",
+    "id": "554",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18218,7 +19478,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "524",
+    "id": "555",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18258,7 +19518,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "525",
+    "id": "556",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-08",
@@ -18296,7 +19556,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "526",
+    "id": "557",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18335,7 +19595,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "527",
+    "id": "558",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18373,7 +19633,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "528",
+    "id": "559",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18413,7 +19673,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "529",
+    "id": "560",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18454,7 +19714,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "530",
+    "id": "561",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18495,7 +19755,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "531",
+    "id": "562",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18536,7 +19796,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "532",
+    "id": "563",
     "festival": "august-events",
     "day": "friday",
     "dayDate": "2026-08-07",
@@ -18576,7 +19836,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "533",
+    "id": "564",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-05",
@@ -18614,7 +19874,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "534",
+    "id": "565",
     "festival": "august-events",
     "day": "wednesday",
     "dayDate": "2026-08-05",
@@ -18655,7 +19915,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "535",
+    "id": "566",
     "festival": "august-events",
     "day": "tuesday",
     "dayDate": "2026-08-04",
@@ -18695,7 +19955,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "536",
+    "id": "567",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-01",
@@ -18735,7 +19995,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "537",
+    "id": "568",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-01",
@@ -18772,7 +20032,7 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "No -- standalone event"
   },
   {
-    "id": "538",
+    "id": "569",
     "festival": "august-events",
     "day": "saturday",
     "dayDate": "2026-08-01",
@@ -18806,1014 +20066,6 @@ export const generatedEvents: PrideEvent[] = [
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
     "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "540",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "The LinqUp Fest",
-    "organizer": "LesLinq events",
-    "types": [
-      "day-party",
-      "festival"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "flirt community ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$25.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "1:00 PM",
-    "location": "Sycamore & Oak · 1110 Oak Dr SE Ste 9, Washington, DC 20032",
-    "vibeTags": [
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/the-linqup-fest?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadAozusugy0Co5HOshlCUkRW-2Aa1Yi0sid-VlbCBKpbJyVd36c0PN7L984aQ_aem_dQQkXlmavNg3Qrz-YZ7T8g",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "541",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "Something Lit For The Ladies: FREAKFEST (Halloween Party For WLW)",
-    "organizer": "🚺 Xxclusive Vibes 🚺",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "WLW/Lesbian",
-      "Sapphic",
-      "Queer"
-    ],
-    "vibesRaw": "ass shaking grown & sexy",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "WLW/Lesbian",
-      "Sapphic",
-      "Queer"
-    ],
-    "time": "10:00 PM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309",
-    "vibeTags": [
-      "Ass Shaking",
-      "Grown & Sexy"
-    ],
-    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-11-1-7-0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "542",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "ASN HALLOWEEN BLACKOUT - Atlanta GA",
-    "organizer": "Adult Supervision Needed (A.S.N.)",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "POC",
-      "Queer",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "30+",
-      "MLM"
-    ],
-    "vibesRaw": "ass shaking creative",
-    "free": false,
-    "price": "$18.00",
-    "badges": [
-      "Black",
-      "POC",
-      "Queer",
-      "WLW/Lesbian",
-      "Trans/GNC",
-      "Nonbinary",
-      "30+",
-      "MLM"
-    ],
-    "time": "10:00 PM",
-    "location": "TBD",
-    "vibeTags": [
-      "Ass Shaking",
-      "Creative"
-    ],
-    "ctaHref": "https://posh.vip/e/asn-halloween-blackout-atlanta-ga",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "543",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "HALLOWEEN KARAOKE BRUNCH Costume Party",
-    "organizer": "DJ Vybez Live",
-    "types": [
-      "happy-hour",
-      "day-party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "flirt community ass shaking grown & sexy groove",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer-friendly",
-      "Free"
-    ],
-    "time": "12:00 PM",
-    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
-    "vibeTags": [
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/g/vybezxperience",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-happy-hour",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "544",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "TRAPPED : DC's ULTIMATE Halloween Party",
-    "organizer": "A 2 Zee Events",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "flirt community ass shaking grown & sexy groove",
-    "free": false,
-    "price": "$20.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "10:00 PM",
-    "location": "Next Level Nightclub · 15 K St. NE, Washington, DC",
-    "vibeTags": [
-      "Flirt",
-      "Community",
-      "Ass Shaking",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbee.com/v/trapped#/tickets",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "545",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-07",
-    "dayLabel": "Saturday",
-    "name": "Brutalismus 3000: Harmony US Tour",
-    "organizer": "Brutalismus 3000",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Black",
-      "Queer"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$48.00",
-    "badges": [
-      "POC",
-      "Black",
-      "Queer"
-    ],
-    "time": "10:00 PM",
-    "location": "The Eastern · 800 Old Flat Shoals Road, Atlanta, GA, 30312",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://drop.cobrand.com/d/Brutalismus3000/northamerica-fall-2026?drop_link_collection_link_id_to_open=0fd6797c-4b3f-4342-9eb7-4458a05e73c1&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeMQlFGeQ0dycjAF2cUM_htYINmzUudXGM7RPI45MvAhbTlR8Sz7NU1hRA__A_aem_bgB0HbKmRQg9Pww4FOxyEg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "546",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-11-15",
-    "dayLabel": "Sunday",
-    "name": "Lez Black Gurls Presents: The Black and Proud Market",
-    "organizer": "@lezblackgurls",
-    "types": [
-      "meetup",
-      "festival"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "chill creative community merch",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "Free"
-    ],
-    "time": "12:00 PM",
-    "location": "Checkerspot Brewing Company · 1421 Ridgely Street\nBaltimore, MD 21230",
-    "vibeTags": [
-      "Chill",
-      "Creative",
-      "Community",
-      "Merch"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/lez-black-gurls-presents-the-black-and-proud-market-tickets-2002491279322?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkrwPgzpR2CN0g0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "547",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "(NYC) Raw Honey: Pressure",
-    "organizer": "Raw Honey",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "5:00 PM",
-    "location": "Dive Bar · 408 Troutman St, Brooklyn, NY 11237",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/nyc-raw-honey-pressure?u=gabriellehitchens124&_t=mux0jeub&os=ios&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "548",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Raw Honey Halloween: Unhinged",
-    "organizer": "Raw Honey",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC"
-    ],
-    "time": "10:30 PM",
-    "location": "The location will be revealed on the event date",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/raw-honey-halloween-bash?u=gabriellehitchens124&_t=mupydn96&os=ios&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "549",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "(DC) 30+ Haus of Honey x She Shed",
-    "organizer": "Haus of Honey X She Shed",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "time": "5:00 PM",
-    "location": "Prima DC · 900 Florida Ave NW, Washington, DC 20001",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/dc-30-haus-of-honey?u=zemi&_t=mur8hxg5&os=ios&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "550",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "(DC) Raw Honey x She Shed: Seduction",
-    "organizer": "Haus of Honey X She Shed",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$17.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "time": "10:00 PM",
-    "location": "Icon DC · 2001 11th St NW, Washington, DC 20001",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/dc-raw-honey-x-she-shed-seduction?u=zemi&_t=mulrikfh&os=ios&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "551",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "(NYC) ZESTYWORLD: Halloween",
-    "organizer": "Zestyworld",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "time": "10:30 PM",
-    "location": "The location will be revealed on the event date",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/nyc-zestyworld-halloween?u=gabriellehitchens124&_t=muovb0di&os=ios&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "552",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-07",
-    "dayLabel": "Wednesday",
-    "name": "LADIES LOVE R&B ❤️",
-    "organizer": "DJ Mim",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "time": "9:00 PM",
-    "location": "Saint-Ex · 1847 14th St NW, Washington, DC 20009",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/ladies-love-rb--25?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacLXSMyskfkNv0xC4jfFjj-SZokvty6ERb9QrsdKMP6Gf-XNvI9lyeeLmdmTg_aem_ijUygK1Ffh8z8A3GI2QGtw",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "553",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "GURLS & GHOULS 2",
-    "organizer": "DJ Mim",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "time": "9:00 PM",
-    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/gurls-ghouls-2",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "554",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "Scary Jane",
-    "organizer": "Lavender Evolutions",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$15.00",
-    "badges": [
-      "Black",
-      "Sapphic",
-      "Trans/GNC",
-      "30+"
-    ],
-    "time": "7:00 PM",
-    "location": "Femme Fatale · 3409 Connecticut Ave NW, Washington, DC 20008",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/scary-jane?u=lavenderevolutions&_t=muvfvs9a&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafTTRybbT1hPF2Zq7iNXIiztdLNaNXSEmYJwtIHHiAVCKx-daXqoTG22fmE3Q_aem_M8eICXhEE16RqcX-mf__aA",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "555",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "QUEER HALLOWEEN REGGAETON PARTY!!",
-    "organizer": "TASTE TAKEOVER",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Latina",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$25.00",
-    "badges": [
-      "POC",
-      "Latina",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "9:00 PM",
-    "location": "Taqueria Picoso · 1472 N Beauregard St, Alexandria, VA 22311",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://www.tastetakeover.com/event-details-registration/queer-halloween-reggaeton-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "556",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-14",
-    "dayLabel": "Saturday",
-    "name": "Latin Karaoke Social & RUMBA!",
-    "organizer": "TASTE TAKEOVER",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Latina",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "karaoke chill groove",
-    "free": false,
-    "price": "$20.00",
-    "badges": [
-      "POC",
-      "Latina",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "8:00 PM",
-    "location": "Mixxed · 2427 18th St NW, Washington, DC 20009",
-    "vibeTags": [
-      "Karaoke",
-      "Chill",
-      "Groove"
-    ],
-    "ctaHref": "https://www.tastetakeover.com/event-details-registration/latin-karaoke-social-rumba",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "557",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-28",
-    "dayLabel": "Saturday",
-    "name": "Rumba VENEZOLANA",
-    "organizer": "TASTE TAKEOVER",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Latina",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "creative community groove dancing food",
-    "free": false,
-    "price": "$20.00",
-    "badges": [
-      "POC",
-      "Latina",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "10:00 PM",
-    "location": "El Secreto De Rosita · 1624 U St NW, Washington, DC 20009",
-    "vibeTags": [
-      "Creative",
-      "Community",
-      "Groove",
-      "Dancing",
-      "Food"
-    ],
-    "ctaHref": "https://www.tastetakeover.com/event-details-registration/rumba-venezolana",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "558",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-15",
-    "dayLabel": "Thursday",
-    "name": "Lesbian Night Out At Fever Dream",
-    "organizer": "Alphabet Soup DC",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "badges": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "6:00 PM",
-    "location": "Tigres de la Noche · Alley Entrance, 405 Morse Street Northeast 2nd Floor, Washington, DC 20002",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://shotgun.live/en/events/lesbian-night-out-at-fever-dream",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "559",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "Alphabet Soup PRESENTS: Slut – O – Ween",
-    "organizer": "Alphabet Soup DC",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$7.00",
-    "badges": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "10:00 PM",
-    "location": "DC9 · 1940 9th St NW, Washington, DC 20001",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://dc9.club/event/alphabet-soup-presents-slut-o-ween/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "560",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "Alphabet Soup Pres. Nightmare On H Street",
-    "organizer": "Alphabet Soup DC",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "9:00 PM",
-    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://shotgun.live/en/events/alphabet-soup-pres-nightmare-on-h-street",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "561",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "DYKE-o-Ween ft. DJ Ultra violet, DJ Purr, DJ Kye, Dj Jeremy Kost",
-    "organizer": "Alphabet Soup DC",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$20.00",
-    "badges": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "8:00 PM",
-    "location": "The Sultan Room · 234 Starr St, Brooklyn, NY 11237",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://dice.fm/partner/tickets/event/oemxnm-dyke-o-ween-ft-dj-ultra-violet-dj-purr-dj-kye-dj-jeremy-kost-29th-oct-the-sultan-room-new-york-the-turks-inn-brooklyn-the-sultan-room-rooftop-brooklyn-tickets?dice_id=10696358&dice_channel=web&dice_tags=organic&dice_campaign=DYKE-o-Ween&dice_feature=mio_marketing&_branch_match_id=1438716663862027753&utm_source=web&utm_campaign=DYKE-o-Ween&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1XeJ9HbVzdcNT03Ns68rSk1LLSrKzEuPTyrKLy9OLbJ1zijKz00FAIhN5ps6AAAA",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "562",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-28",
-    "dayLabel": "Wednesday",
-    "name": "Spooky Sapphic Astro Mixer at Spark Social",
-    "organizer": "Alphabet Soup DC",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "POC",
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian"
-    ],
-    "time": "8:00 PM",
-    "location": "Spark Social · 2009 14th St NW, Washington, DC 20009",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/spookysapphics",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "563",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Out N Bad: CREATURES | NYC | Queer Caribbean Halloween Bashment",
-    "organizer": "Out N Bad",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Black"
-    ],
-    "vibesRaw": "flirt ass shaking groove",
-    "free": false,
-    "price": "$17.00",
-    "badges": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Black"
-    ],
-    "time": "11:00 PM",
-    "location": "Littlefield · 635 Sackett Street\nBrooklyn, NY 11217",
-    "vibeTags": [
-      "Flirt",
-      "Ass Shaking",
-      "Groove"
-    ],
-    "ctaHref": "https://www.eventbrite.com/e/out-n-bad-creatures-nyc-queer-caribbean-halloween-bashment-tickets-2002653429317",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
-  },
-  {
-    "id": "564",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-15",
-    "dayLabel": "Thursday",
-    "name": "Jazz Night for Lovers & Loners",
-    "organizer": "Saint James Libations",
-    "types": [
-      "after-dark"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Black"
-    ],
-    "vibesRaw": "creative grown & sexy groove",
-    "free": false,
-    "price": "$10.00",
-    "badges": [
-      "Queer",
-      "Sapphic",
-      "WLW/Lesbian",
-      "Black"
-    ],
-    "time": "7:00 PM",
-    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237",
-    "vibeTags": [
-      "Creative",
-      "Grown & Sexy",
-      "Groove"
-    ],
-    "ctaHref": "https://posh.vip/e/jazz-night-for-lovers-loners-2?u=saintjameslibations&_t=muwonfnt&os=web&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
-    "city": "nyc",
     "prideSeries": "No -- standalone event"
   }
 ];
