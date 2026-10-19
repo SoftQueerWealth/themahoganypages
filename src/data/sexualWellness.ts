@@ -444,9 +444,10 @@ export const CARE_CITIES: CareCity[] = [
 export const ORGANIZATIONS: WellnessOrg[] = [
   {
     tone: 'peach',
-    name: 'National Black Justice Coalition',
-    href: 'https://nbjc.org',
-    blurb: 'Advocacy and an HIV testing toolkit for Black LGBTQ and same-gender-loving people.',
+    name: 'Radical Healing',
+    href: 'https://radicalhealing.co/',
+    blurb:
+      'LGBTQ+ and BIPOC-centered health care with STI testing and free mental health care for Black queer and trans people.',
   },
   {
     tone: 'mint',
