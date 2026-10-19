@@ -35,6 +35,10 @@ function isExperiences(item: HospitalityItem): boolean {
   return normalizeToken(item.uiCategory) === 'experiences';
 }
 
+function isSexualWellness(item: HospitalityItem): boolean {
+  return normalizeToken(item.uiCategory) === 'sexual wellness';
+}
+
 function prefersParis(item: HospitalityItem): boolean {
   const city = item.city.trim();
   if (!city) return true;
@@ -84,6 +88,7 @@ function toHospitalityCard(
   },
 ): GbpHospitalityItem {
   const bookingLink = item.bookingLink.trim();
+  const bookUrl = /^add official link$/i.test(bookingLink) ? undefined : bookingLink || undefined;
   const discountCode = item.code.trim() || undefined;
   const address = resolveAddress(item) || undefined;
   const addressMapsUrl =
@@ -94,7 +99,7 @@ function toHospitalityCard(
     ? item.nearbyStation.trim() || undefined
     : undefined;
   const credit = item.credit.trim() || undefined;
-  const creditSourceLink = item.creditSourceLink.trim() || undefined;
+  const creditSourceLink = webUrl(item.creditSourceLink);
 
   return {
     id: item.id,
@@ -107,8 +112,8 @@ function toHospitalityCard(
     vibeTags: item.vibeTags,
     tone: THUMB_TONES[index % THUMB_TONES.length],
     bio: options.includeBio ? item.description.trim() : '',
-    bookUrl: bookingLink || undefined,
-    bookLabel: bookingLink ? options.bookLabel : options.bookLabel.replace(/\s*→\s*$/, ''),
+    bookUrl,
+    bookLabel: bookUrl ? options.bookLabel : options.bookLabel.replace(/\s*→\s*$/, ''),
     discountCode,
     communityPerk: !discountCode && item.hasCommunityPerk ? true : undefined,
     ...(credit ? { credit } : {}),
@@ -333,6 +338,19 @@ function prefersDc(item: HospitalityItem): boolean {
   return /^dc$/i.test(item.city.trim());
 }
 
+function prefersNyc(item: HospitalityItem): boolean {
+  return /^nyc$/i.test(item.city.trim());
+}
+
+/** Use a credit or booking value as a link only when it is a real web address. */
+function webUrl(value: string): string | undefined {
+  const trimmed = value.trim();
+  if (!trimmed || /^add official link$/i.test(trimmed)) return undefined;
+  if (/^https?:\/\//i.test(trimmed)) return trimmed;
+  if (/^[a-z0-9.-]+\.[a-z]{2,}(\/\S*)?$/i.test(trimmed)) return `https://${trimmed}`;
+  return undefined;
+}
+
 type CityMatcher = (item: HospitalityItem) => boolean;
 
 function cityPlaces(
@@ -351,7 +369,7 @@ function cityPlaces(
     .map((item, index) => toHospitalityCard(item, index, options));
 }
 
-export type HospitalityCity = 'baltimore' | 'atlanta' | 'dc';
+export type HospitalityCity = 'baltimore' | 'atlanta' | 'dc' | 'nyc';
 
 export interface CityHospitalityLists {
   stay: GbpHospitalityItem[];
@@ -359,15 +377,17 @@ export interface CityHospitalityLists {
   drink: GbpHospitalityItem[];
   dance: GbpHospitalityItem[];
   experience: GbpHospitalityItem[];
+  wellness: GbpHospitalityItem[];
 }
 
 const CITY_MATCH: Record<HospitalityCity, CityMatcher> = {
   baltimore: prefersBaltimore,
   atlanta: prefersAtlanta,
   dc: prefersDc,
+  nyc: prefersNyc,
 };
 
-/** Stay, eat, drink, dance, and experiences for a city guide. */
+/** Stay, eat, drink, dance, experiences, and sexual wellness for a city guide. */
 export function getCityHospitality(city: HospitalityCity): CityHospitalityLists {
   const match = CITY_MATCH[city];
   return {
@@ -396,6 +416,12 @@ export function getCityHospitality(city: HospitalityCity): CityHospitalityLists 
       includeBio: false,
       bookLabel: 'More Info →',
       fallbackTag: 'Experience',
+    }),
+    wellness: cityPlaces(match, isSexualWellness, {
+      includeBio: true,
+      bookLabel: 'More Info →',
+      fallbackTag: 'Wellness',
+      includeNearbyStation: true,
     }),
   };
 }

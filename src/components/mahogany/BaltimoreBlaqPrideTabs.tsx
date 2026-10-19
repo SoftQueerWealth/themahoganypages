@@ -12,6 +12,7 @@ import {
   getBlaqEatPlaces,
   getBlaqExperiences,
   getBlaqStayPlaces,
+  getCityHospitality,
 } from '../../lib/gbpStayHotels';
 import { FeaturedCityFestivalTabs } from './FeaturedCityFestivalTabs';
 
@@ -20,6 +21,7 @@ const BLAQ_EAT = getBlaqEatPlaces();
 const BLAQ_DRINK = getBlaqDrinkPlaces();
 const BLAQ_DANCE = getBlaqDancePlaces();
 const BLAQ_EXPERIENCES = getBlaqExperiences();
+const BLAQ_WELLNESS = getCityHospitality('baltimore').wellness;
 
 export interface BaltimoreBlaqPrideTabsProps {
   activeTab: BlaqTabId;
@@ -45,6 +47,7 @@ export function BaltimoreBlaqPrideTabs({
         drink: BLAQ_DRINK,
         dance: BLAQ_DANCE,
         experience: BLAQ_EXPERIENCES,
+        wellness: BLAQ_WELLNESS,
       }}
       hospitalityIntros={{
         stay: 'Queer-friendly stays and hotels around Baltimore.',
@@ -52,6 +55,7 @@ export function BaltimoreBlaqPrideTabs({
         drink: 'Bars, cafés & queer nightlife drinks.',
         dance: 'Clubs, cabaret & dance floors.',
         experience: 'Cultural, wellness & community experiences beyond nightlife.',
+        wellness: 'Sexual health clinics and care in Baltimore.',
       }}
       travel={{
         eyebrow: 'Baltimore Know Before You Go',

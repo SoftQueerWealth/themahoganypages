@@ -204,6 +204,7 @@ export interface FeaturedCityHospitalityLists {
   drink: GbpHospitalityItem[];
   dance: GbpHospitalityItem[];
   experience: GbpHospitalityItem[];
+  wellness: GbpHospitalityItem[];
 }
 
 export interface FeaturedCityTravelContent {
@@ -227,6 +228,7 @@ export interface FeaturedCityFestivalTabsProps {
     drink: string;
     dance: string;
     experience: string;
+    wellness: string;
   };
   travel?: FeaturedCityTravelContent;
 }
@@ -293,6 +295,13 @@ export function FeaturedCityFestivalTabs({
             items={hospitality.experience}
             intro={hospitalityIntros.experience}
             emptyMessage="No experiences in the guide right now."
+          />
+        ) : null}
+        {activeTab === 'wellness' ? (
+          <HospitalityList
+            items={hospitality.wellness}
+            intro={hospitalityIntros.wellness}
+            emptyMessage="No sexual wellness listings in the guide right now."
           />
         ) : null}
         {activeTab === 'travelinfo' && travel ? (

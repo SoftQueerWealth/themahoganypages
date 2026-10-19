@@ -29,6 +29,7 @@ export interface CityGuide {
     drink: string;
     dance: string;
     experience: string;
+    wellness: string;
   };
   travel?: FeaturedCityTravelContent;
 }
@@ -40,6 +41,7 @@ function hospitalityIntros(cityName: string): CityGuide['hospitalityIntros'] {
     drink: 'Bars, cafés & queer nightlife drinks.',
     dance: 'Clubs, cabaret & dance floors.',
     experience: 'Cultural, wellness & community experiences beyond nightlife.',
+    wellness: `Sexual health clinics and care in ${cityName}.`,
   };
 }
 
@@ -76,6 +78,12 @@ const CITY_GUIDES: Record<HospitalityCity, CityGuide> = {
     hospitality: getCityHospitality('dc'),
     hospitalityIntros: hospitalityIntros('DC'),
   },
+  nyc: {
+    city: 'nyc',
+    eventsTabLabel: '📅 Events',
+    hospitality: getCityHospitality('nyc'),
+    hospitalityIntros: hospitalityIntros('New York'),
+  },
 };
 
 const FEATURE_COPY: Record<string, { ariaLabel: string; programSectionLabel: string; programTabLabel: string }> = {
@@ -101,7 +109,9 @@ export interface FeaturedCityUiConfig {
 }
 
 export function cityGuideByKey(city: string): CityGuide | undefined {
-  if (city === 'baltimore' || city === 'atlanta' || city === 'dc') return CITY_GUIDES[city];
+  if (city === 'baltimore' || city === 'atlanta' || city === 'dc' || city === 'nyc') {
+    return CITY_GUIDES[city];
+  }
   return undefined;
 }
 
@@ -113,6 +123,7 @@ export function cityGuideTabs(programLabel: string, guide: CityGuide): BlaqTabDe
   if (guide.hospitality.drink.length) tabs.push({ id: 'drink', label: '🍸 Drink' });
   if (guide.hospitality.dance.length) tabs.push({ id: 'dance', label: '💃 Dance' });
   if (guide.hospitality.experience.length) tabs.push({ id: 'experience', label: '🎟️ Experiences' });
+  if (guide.hospitality.wellness.length) tabs.push({ id: 'wellness', label: '💗 Sexual Wellness' });
   if (guide.travel) tabs.push({ id: 'travelinfo', label: '✈️ Travel Info' });
   return tabs;
 }

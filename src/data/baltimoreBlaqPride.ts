@@ -5,6 +5,7 @@ export type BlaqTabId =
   | 'drink'
   | 'dance'
   | 'experience'
+  | 'wellness'
   | 'travelinfo';
 
 export interface BlaqTabDef {
@@ -19,6 +20,7 @@ export const BLAQ_TABS: BlaqTabDef[] = [
   { id: 'drink', label: '🍸 Drink' },
   { id: 'dance', label: '💃 Dance' },
   { id: 'experience', label: '🎟️ Experiences' },
+  { id: 'wellness', label: '💗 Sexual Wellness' },
   { id: 'travelinfo', label: '✈️ Travel Info' },
 ];
 
