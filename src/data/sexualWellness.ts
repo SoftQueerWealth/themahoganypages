@@ -13,7 +13,8 @@ export type WellnessCard = {
 };
 
 export type AccordionBlock =
-  | { type: 'p'; text: string }
+  | { type: 'p'; text: string; strong?: boolean }
+  | { type: 'scroll'; lead: string; label: string; tail: string; target: string }
   | { type: 'note'; text: string }
   | { type: 'sub'; label: string }
   | { type: 'list'; items: string[] }
@@ -40,12 +41,21 @@ export type CareCity = {
   tone: WellnessTone;
   name: string;
   href: string;
+  blurb: string;
+};
+
+export type WellnessOrg = {
+  tone: WellnessTone;
+  name: string;
+  href: string;
+  blurb: string;
 };
 
 export const JUMP_LINKS = [
   { id: 'conversation', label: 'Conversation' },
   { id: 'sti-guide', label: 'STI Testing' },
   { id: 'find-care', label: 'Find Care' },
+  { id: 'organizations', label: 'Organizations' },
 ] as const;
 
 export const CHECK_IN_CARDS: WellnessCard[] = [
@@ -255,6 +265,11 @@ export const STI_ACCORDIONS: WellnessAccordion[] = [
       },
       {
         type: 'p',
+        strong: true,
+        text: 'Herpes, HPV and hepatitis are tested differently, so speak with your provider.',
+      },
+      {
+        type: 'p',
         text: 'Testing “too early” can give a false negative. That is why timing and follow-up testing matter.',
       },
       {
@@ -276,9 +291,9 @@ export const STI_ACCORDIONS: WellnessAccordion[] = [
       {
         type: 'list',
         items: [
-          '1x per year for low activity',
-          '2x per year for moderate activity',
-          'Every 3 months for higher activity or multiple partners',
+          'At minimum, test twice a year no matter how much activity you have',
+          'Test with every new partner',
+          'Test every 3 months (quarterly) with higher activity or multiple partners',
         ],
       },
       {
@@ -356,7 +371,13 @@ export const STI_ACCORDIONS: WellnessAccordion[] = [
       { type: 'sub', label: 'Find a clinic near you' },
       { type: 'link', label: 'CDC STI testing locator', href: 'https://gettested.cdc.gov' },
       { type: 'sub', label: 'Affirming providers by city' },
-      { type: 'p', text: 'See Find providers in your city, further down this page.' },
+      {
+        type: 'scroll',
+        lead: 'See ',
+        label: 'Find providers in your city',
+        tail: ', further down this page.',
+        target: 'city-providers',
+      },
       { type: 'sub', label: 'What to ask your provider' },
       {
         type: 'list',
@@ -399,7 +420,44 @@ export const CARE_PROMPTS: CarePrompt[] = [
 ];
 
 export const CARE_CITIES: CareCity[] = [
-  { tone: 'sky', name: 'Baltimore', href: '/baltimore' },
-  { tone: 'butter', name: 'Washington, DC', href: '/dc' },
-  { tone: 'pink', name: 'Atlanta', href: '/atlanta' },
+  {
+    tone: 'sky',
+    name: 'Baltimore',
+    href: '/baltimore',
+    blurb:
+      'Baltimore Safe Haven offers mental health support and clinic services with the University of Maryland for LGBTQ people.',
+  },
+  {
+    tone: 'butter',
+    name: 'Washington, DC',
+    href: '/dc',
+    blurb: 'Us Helping Us offers free HIV and STI testing in Northwest DC along with PrEP navigation.',
+  },
+  {
+    tone: 'pink',
+    name: 'Atlanta',
+    href: '/atlanta',
+    blurb: 'SisterLove offers free HIV and STI testing with reproductive health and justice work.',
+  },
+];
+
+export const ORGANIZATIONS: WellnessOrg[] = [
+  {
+    tone: 'peach',
+    name: 'National Black Justice Coalition',
+    href: 'https://nbjc.org',
+    blurb: 'Advocacy and an HIV testing toolkit for Black LGBTQ and same-gender-loving people.',
+  },
+  {
+    tone: 'mint',
+    name: 'GLMA',
+    href: 'https://www.glma.org/',
+    blurb: 'Find LGBTQ+ affirming providers anywhere in the U.S. with their healthcare directory.',
+  },
+  {
+    tone: 'sky',
+    name: 'National Queer and Trans Therapists of Color Network',
+    href: 'https://www.nqttcn.com/',
+    blurb: 'A directory of therapists and healers for queer and trans people of color.',
+  },
 ];

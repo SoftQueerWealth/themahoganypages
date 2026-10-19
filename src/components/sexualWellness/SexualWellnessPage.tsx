@@ -1,4 +1,4 @@
-import { useEffect, useState, type KeyboardEvent } from 'react';
+import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from 'react';
 import { FOOTER_BAND, FOOTER_COPY } from '../../data/home';
 import {
   CARE_CITIES,
@@ -6,6 +6,7 @@ import {
   CHECK_IN_CARDS,
   CONVERSATION_CARDS,
   JUMP_LINKS,
+  ORGANIZATIONS,
   STI_ACCORDIONS,
   type AccordionBlock,
   type WellnessCard,
@@ -86,7 +87,24 @@ function AccordionBlocks({ blocks }: { blocks: AccordionBlock[] }) {
     <div className="sw-body">
       {blocks.map((block, index) => {
         const key = `${block.type}-${index}`;
-        if (block.type === 'p') return <p key={key}>{block.text}</p>;
+        if (block.type === 'p') {
+          return (
+            <p key={key} className={block.strong ? 'sw-strong' : undefined}>
+              {block.text}
+            </p>
+          );
+        }
+        if (block.type === 'scroll') {
+          return (
+            <p key={key}>
+              {block.lead}
+              <button type="button" className="sw-inline-link" onClick={() => scrollToId(block.target)}>
+                {block.label}
+              </button>
+              {block.tail}
+            </p>
+          );
+        }
         if (block.type === 'note') {
           return (
             <p key={key} className="sw-muted-note">
@@ -141,6 +159,54 @@ function AccordionBlocks({ blocks }: { blocks: AccordionBlock[] }) {
           </p>
         );
       })}
+    </div>
+  );
+}
+
+function SheetDialog({
+  src,
+  onClose,
+}: {
+  src: string;
+  onClose: () => void;
+}) {
+  const closeRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    closeRef.current?.focus();
+
+    const onKey = (event: globalThis.KeyboardEvent) => {
+      if (event.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [onClose]);
+
+  return (
+    <div className="sw-sheet">
+      <button type="button" className="sw-sheet-backdrop" aria-label="Close" onClick={onClose} />
+      <div
+        className="sw-sheet-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Save the cheat sheet"
+      >
+        <div className="sw-sheet-bar">
+          <div>Press and hold to save</div>
+          <button ref={closeRef} type="button" className="sw-sheet-close" aria-label="Close" onClick={onClose}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1410" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+              <path d="M5 5l14 14M19 5L5 19" />
+            </svg>
+          </button>
+        </div>
+        <img src={src} alt="Cheat sheet to save to your photos" />
+        <p>On your phone, press and hold the image and choose Save to Photos. Then share it with your people.</p>
+      </div>
     </div>
   );
 }
@@ -220,6 +286,19 @@ function GuideDeck() {
 }
 
 export function SexualWellnessPage() {
+  const [sheetSrc, setSheetSrc] = useState<string | null>(null);
+  const sheetOpener = useRef<HTMLButtonElement | null>(null);
+
+  const closeSheet = useCallback(() => {
+    setSheetSrc(null);
+    sheetOpener.current?.focus();
+  }, []);
+
+  const openSheet = (src: string, opener: HTMLButtonElement) => {
+    sheetOpener.current = opener;
+    setSheetSrc(src);
+  };
+
   return (
     <section className="screen active" id="screen-wellness" aria-label="Sexual Wellness">
       <div className="sw-page" id="top">
@@ -248,8 +327,8 @@ export function SexualWellnessPage() {
             </svg>
             <h2>New here? Start with a conversation.</h2>
             <p>
-              Grab one of our free guides or learn what to ask before your next appointment. Everything
-              here is made with Black queer sapphic people in mind.
+              Read our free guides right here or learn what to ask before your next appointment. Everything
+              here is made with Black queer people in mind.
             </p>
           </div>
 
@@ -276,6 +355,13 @@ export function SexualWellnessPage() {
               You don’t need perfect answers to have this conversation. You just need honesty, awareness
               and a willingness to slow things down when something doesn’t feel right.
             </p>
+            <button
+              type="button"
+              className="sw-sheet-btn"
+              onClick={(event) => openSheet('/sexual-wellness/conversation-cheat-sheet.jpg', event.currentTarget)}
+            >
+              Conversation cheat sheet
+            </button>
           </div>
 
           <div className="sw-guide-head" id="sti-guide">
@@ -317,6 +403,13 @@ export function SexualWellnessPage() {
               We are not doctors or your personal clinicians. Your body deserves personalized care, so
               always check in with your doctor or a qualified provider for advice that is specific to you.
             </p>
+            <button
+              type="button"
+              className="sw-sheet-btn"
+              onClick={(event) => openSheet('/sexual-wellness/testing-cheat-sheet.jpg', event.currentTarget)}
+            >
+              Testing cheat sheet
+            </button>
           </div>
 
           <div className="sw-find" id="find-care">
@@ -346,13 +439,42 @@ export function SexualWellnessPage() {
             </article>
           ))}
 
-          <div className="sw-section-label">Find providers in your city</div>
+          <div className="sw-section-label" id="city-providers">
+            Find providers in your city
+          </div>
           <p className="sw-city-intro">
             Listings live on The Mahogany Pages. Choose a city to see affirming care and events there.
           </p>
           {CARE_CITIES.map((city) => (
             <a key={city.href} href={city.href} className={`sw-city sw-c-${city.tone}`}>
-              <span className="sw-city-name">{city.name}</span>
+              <span className="sw-city-copy">
+                <span className="sw-city-name">{city.name}</span>
+                <span className="sw-city-blurb">{city.blurb}</span>
+              </span>
+              <span className="sw-city-go">
+                <ArrowOut />
+              </span>
+            </a>
+          ))}
+
+          <div className="sw-find" id="organizations">
+            <span className="sw-chip sw-c-lilac">Organizations</span>
+            <h2>Organizations to know</h2>
+            <p>Places that do this work and can support you.</p>
+          </div>
+          <div className="sw-section-label">National resources</div>
+          {ORGANIZATIONS.map((org) => (
+            <a
+              key={org.href}
+              href={org.href}
+              className={`sw-city sw-c-${org.tone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sw-city-copy">
+                <span className="sw-city-name">{org.name}</span>
+                <span className="sw-city-blurb">{org.blurb}</span>
+              </span>
               <span className="sw-city-go">
                 <ArrowOut />
               </span>
@@ -379,6 +501,7 @@ export function SexualWellnessPage() {
 
       <div className="footer-band">{FOOTER_BAND}</div>
       <div className="site-footer">{FOOTER_COPY}</div>
+      {sheetSrc ? <SheetDialog src={sheetSrc} onClose={closeSheet} /> : null}
     </section>
   );
 }
