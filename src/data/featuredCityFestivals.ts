@@ -92,11 +92,6 @@ const FEATURE_COPY: Record<string, { ariaLabel: string; programSectionLabel: str
     programSectionLabel: 'Official Baltimore BLAQ Pride Program',
     programTabLabel: '🌈 BLAQ Program',
   },
-  'uprise-live': {
-    ariaLabel: 'UPRISE LIVE',
-    programSectionLabel: 'Official UPRISE LIVE Program',
-    programTabLabel: '🌈 UPRISE Program',
-  },
 };
 
 export interface FeaturedCityUiConfig {

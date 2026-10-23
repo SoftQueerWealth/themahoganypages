@@ -149,16 +149,6 @@ export const FEATURED_FESTIVALS: FeaturedFestival[] = [
     prideSeries: BALTIMORE_BLAQ_PRIDE_SERIES,
     includeCityAsMoreEvents: false,
   },
-  {
-    id: 'uprise-live',
-    monthId: AUGUST_FESTIVAL_ID,
-    monthPrefix: '2026-10',
-    tabLabel: 'UPRISE LIVE',
-    location: 'Baltimore, MD',
-    city: 'baltimore',
-    prideSeries: UPRISE_LIVE_SERIES,
-    includeCityAsMoreEvents: false,
-  },
 ];
 
 export const DEFAULT_FESTIVAL_ID = AUGUST_FESTIVAL_ID;
