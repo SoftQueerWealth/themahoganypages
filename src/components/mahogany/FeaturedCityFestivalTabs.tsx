@@ -231,6 +231,47 @@ export interface FeaturedCityFestivalTabsProps {
     wellness: string;
   };
   travel?: FeaturedCityTravelContent;
+  layout?: 'classic' | 'city-feature';
+  cityName?: string;
+  onOpenGuide?: () => void;
+}
+
+const CITY_FEATURE_TABS: { id: BlaqTabId; label: string }[] = [
+  { id: 'program', label: 'Things to Do' },
+  { id: 'hangouts', label: 'Hangouts' },
+  { id: 'wellness', label: 'Sexual Wellness' },
+  { id: 'travelinfo', label: 'Know Before You Go' },
+];
+
+function CityFeatureIcon({ id }: { id: BlaqTabId }) {
+  if (id === 'program') {
+    return (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <rect x="4" y="5" width="16" height="15" rx="3" />
+        <path d="M4 10h16M9 3v4M15 3v4" />
+      </svg>
+    );
+  }
+  if (id === 'hangouts') {
+    return (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.4 6.7 19.4l1.2-6L3.4 9.3l6-.7z" />
+      </svg>
+    );
+  }
+  if (id === 'wellness') {
+    return (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" />
+      </svg>
+    );
+  }
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 11v5M12 8v.01" />
+    </svg>
+  );
 }
 
 export function FeaturedCityFestivalTabs({
@@ -242,7 +283,134 @@ export function FeaturedCityFestivalTabs({
   hospitality,
   hospitalityIntros,
   travel,
+  layout = 'classic',
+  cityName = 'this city',
+  onOpenGuide,
 }: FeaturedCityFestivalTabsProps) {
+  if (layout === 'city-feature') {
+    const hangoutGroups = [
+      { title: 'Eat', items: hospitality.eat, intro: hospitalityIntros.eat, empty: 'No eat listings in the guide right now.' },
+      { title: 'Drink', items: hospitality.drink, intro: hospitalityIntros.drink, empty: 'No drink listings in the guide right now.' },
+      { title: 'Dance', items: hospitality.dance, intro: hospitalityIntros.dance, empty: 'No dance listings in the guide right now.' },
+      {
+        title: 'Experiences',
+        items: hospitality.experience,
+        intro: hospitalityIntros.experience,
+        empty: 'No experiences in the guide right now.',
+      },
+    ].filter((group) => group.items.length > 0);
+
+    return (
+      <div className="gbp-tabs-wrap city-feature">
+        <div className="city-feature-tabs" role="tablist" aria-label={ariaLabel}>
+          {CITY_FEATURE_TABS.map((tab) => (
+            <button
+              key={tab.id}
+              type="button"
+              role="tab"
+              aria-selected={activeTab === tab.id}
+              className={`city-feature-tab${activeTab === tab.id ? ' active' : ''}`}
+              onClick={() => onTabChange(tab.id)}
+            >
+              <CityFeatureIcon id={tab.id} />
+              <span>{tab.label}</span>
+            </button>
+          ))}
+        </div>
+
+        <div className="gbp-tab-panel" role="tabpanel">
+          {activeTab === 'program' ? (
+            <div className="city-feature-panel">
+              <h2 className="city-feature-title">What&apos;s the move in {cityName}</h2>
+              <p className="city-feature-lede">Parties, brunches, shows and more. Come through.</p>
+              {programPanel}
+            </div>
+          ) : null}
+
+          {activeTab === 'hangouts' ? (
+            <div className="city-feature-panel">
+              <h2 className="city-feature-title">Where we link up in {cityName}</h2>
+              <p className="city-feature-lede">
+                Spots that stay open all year. Every listing tells you who the space is for, so you know what
+                you&apos;re walking into.
+              </p>
+              {hangoutGroups.length === 0 ? (
+                <p className="gbp-empty">Nothing&apos;s popping yet. Loosen a filter or two and try again.</p>
+              ) : (
+                hangoutGroups.map((group) => (
+                  <section key={group.title} className="city-feature-group">
+                    <h3 className="city-feature-subhead">{group.title}</h3>
+                    <HospitalityList items={group.items} intro={group.intro} emptyMessage={group.empty} />
+                  </section>
+                ))
+              )}
+            </div>
+          ) : null}
+
+          {activeTab === 'wellness' ? (
+            <div className="city-feature-panel">
+              <h2 className="city-feature-title">Sexual Health and Wellness in {cityName}</h2>
+              <HospitalityList
+                items={hospitality.wellness}
+                intro={hospitalityIntros.wellness}
+                emptyMessage="Nothing's popping yet. Loosen a filter or two and try again."
+              />
+              <div className="city-feature-guide">
+                <div className="city-feature-guide-kicker">The full guide</div>
+                <h3>Beyond {cityName}</h3>
+                <p>
+                  Safer sex, pleasure, kink and consent and national resources live in the full Sexual Wellness
+                  guide.
+                </p>
+                <button type="button" className="city-feature-guide-btn" onClick={onOpenGuide}>
+                  Open the guide
+                </button>
+              </div>
+            </div>
+          ) : null}
+
+          {activeTab === 'travelinfo' ? (
+            <div className="city-feature-panel">
+              <h2 className="city-feature-title">{cityName} Guide for Black Queer Visitors</h2>
+              <p className="city-feature-lede">
+                Know before you go: a few things to know about {cityName} before you get here.
+              </p>
+              {travel ? (
+                <div className="gbp-travel-panel">
+                  <p className="eyebrow">{travel.eyebrow}</p>
+                  <p className="gbp-travel-lede">{travel.lede}</p>
+                  <div className="attribution-banner">{travel.attribution}</div>
+                  {travel.cards.map((card) => (
+                    <TravelCard key={card.title} card={card} />
+                  ))}
+                  <div className="final-checklist">
+                    <h4>Before You Go</h4>
+                    {travel.finalChecklist.map((item) => (
+                      <div key={item} className="check-item">
+                        <span className="mark" aria-hidden="true">
+                          ✓
+                        </span>
+                        {item}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+              <section className="city-feature-group">
+                <h3 className="city-feature-subhead">Where to stay</h3>
+                <HospitalityList
+                  items={hospitality.stay}
+                  intro={hospitalityIntros.stay}
+                  emptyMessage="Stay listings are coming soon."
+                />
+              </section>
+            </div>
+          ) : null}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="gbp-tabs-wrap">
       <div className="tab-scroll" role="tablist" aria-label={ariaLabel}>

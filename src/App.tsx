@@ -99,7 +99,7 @@ export default function App() {
       ) : activeRoom === 'wellness' ? (
         <SexualWellnessPage />
       ) : (
-        <MahoganyPages />
+        <MahoganyPages onOpenWellness={() => go('wellness')} />
       )}
     </>
   );

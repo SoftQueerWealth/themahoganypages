@@ -138,18 +138,7 @@ export interface FeaturedFestival {
   includeCityAsMoreEvents: boolean;
 }
 
-export const FEATURED_FESTIVALS: FeaturedFestival[] = [
-  {
-    id: 'baltimore-blaq-pride',
-    monthId: AUGUST_FESTIVAL_ID,
-    monthPrefix: '2026-10',
-    tabLabel: 'Baltimore BLAQ Pride',
-    location: 'Baltimore, MD',
-    city: 'baltimore',
-    prideSeries: BALTIMORE_BLAQ_PRIDE_SERIES,
-    includeCityAsMoreEvents: false,
-  },
-];
+export const FEATURED_FESTIVALS: FeaturedFestival[] = [];
 
 export const DEFAULT_FESTIVAL_ID = AUGUST_FESTIVAL_ID;
 

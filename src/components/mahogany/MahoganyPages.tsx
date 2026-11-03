@@ -62,13 +62,18 @@ function syncCityToUrl(city: string, mode: 'push' | 'replace' = 'push'): void {
   }
 }
 
-export function MahoganyPages() {
+type MahoganyPagesProps = {
+  onOpenWellness?: () => void;
+};
+
+export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const [featuredId, setFeaturedId] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState(() =>
     typeof window !== 'undefined' ? cityFromPathname(window.location.pathname) : '',
   );
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [blaqTab, setBlaqTab] = useState<BlaqTabId>('program');
+  const [wellnessBannerOpen, setWellnessBannerOpen] = useState(true);
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
@@ -76,6 +81,8 @@ export function MahoganyPages() {
   const isCityFeatured = isFeaturedCityFestival(featuredId);
   const isGlobalBlackPride = featuredId === 'global-black-pride';
   const selectedCityGuide = !featured && selectedCity ? cityGuideByKey(selectedCity) : undefined;
+  const isBaltimoreGuide =
+    (isCityFeatured && featured?.city === 'baltimore') || (!featured && selectedCity === 'baltimore');
   const grouping = 'calendar';
 
   const { allEvents, eventsForFestival, error, isLoading } = useEvents();
@@ -257,6 +264,26 @@ export function MahoganyPages() {
       id="screen-neighborhood"
       aria-label="The Mahogany Pages"
     >
+      {isBaltimoreGuide && wellnessBannerOpen ? (
+        <div className="wellness-banner">
+          <button type="button" className="wellness-banner-link" onClick={onOpenWellness}>
+            <span className="wellness-banner-new">NEW</span>
+            <span className="wellness-banner-copy">
+              Sexual wellness, made for us. Free guides and care near you.
+            </span>
+          </button>
+          <button
+            type="button"
+            className="wellness-banner-dismiss"
+            aria-label="Dismiss"
+            onClick={() => setWellnessBannerOpen(false)}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
+          </button>
+        </div>
+      ) : null}
       <div className={`wrap section-pad${itinerary.myCount > 0 ? ' has-itinerary-bar' : ''}`}>
         <div className="mahogany-intro">
           <div className="mahogany-intro-copy">
@@ -344,10 +371,14 @@ export function MahoganyPages() {
                     hospitality={featuredCityUi.hospitality}
                     hospitalityIntros={featuredCityUi.hospitalityIntros}
                     travel={featuredCityUi.travel}
+                    layout={featured?.city === 'baltimore' ? 'city-feature' : 'classic'}
+                    cityName={featured?.city === 'baltimore' ? 'Baltimore' : undefined}
+                    onOpenGuide={onOpenWellness}
                     programPanel={
                       officialGrouped.length > 0 ? (
                         <CitySection
                           cityLabel={featuredCityUi.programSectionLabel}
+                          showTitle={featured?.city !== 'baltimore'}
                           dayGroups={officialGrouped}
                           isEventVisible={isEventShown}
                           isGoing={(event) => itinerary.isGoing(event.id)}
@@ -424,6 +455,9 @@ export function MahoganyPages() {
                   hospitality={selectedCityGuide.hospitality}
                   hospitalityIntros={selectedCityGuide.hospitalityIntros}
                   travel={selectedCityGuide.travel}
+                  layout={selectedCity === 'baltimore' ? 'city-feature' : 'classic'}
+                  cityName={selectedCity === 'baltimore' ? cityDisplayLabel(selectedCity) : undefined}
+                  onOpenGuide={onOpenWellness}
                   programPanel={
                     grouped.length > 0 ? (
                       grouped.map((dayGroup) => (

@@ -1,5 +1,6 @@
 export type BlaqTabId =
   | 'program'
+  | 'hangouts'
   | 'stay'
   | 'eat'
   | 'drink'
