@@ -434,10 +434,31 @@ export const CARE_CITIES: CareCity[] = [
     blurb: 'Us Helping Us offers free HIV and STI testing in Northwest DC along with PrEP navigation.',
   },
   {
+    tone: 'mint',
+    name: 'Greater DMV area',
+    href: '/dmv',
+    blurb:
+      "Inova Pride Clinic in Falls Church, Virginia offers primary care with PrEP and STI testing for LGBTQ+ patients. Heart to Hand in Prince George's County, Maryland offers HIV and STI testing with PrEP navigation and counseling.",
+  },
+  {
     tone: 'pink',
     name: 'Atlanta',
     href: '/atlanta',
     blurb: 'SisterLove offers free HIV and STI testing with reproductive health and justice work.',
+  },
+  {
+    tone: 'lilac',
+    name: 'New York City',
+    href: '/nyc',
+    blurb:
+      'Callen-Lorde offers STI and HIV testing, vaccines and sexual health care for LGBTQ people in Chelsea, Brooklyn and the Bronx.',
+  },
+  {
+    tone: 'peach',
+    name: 'Paris',
+    href: '/paris',
+    blurb:
+      'Afrique Arc-en-Ciel offers HIV, hepatitis and syphilis testing and help accessing care for Afro-Caribbean LGBTQI+ people.',
   },
 ];
 

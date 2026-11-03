@@ -33,7 +33,7 @@ function scrollToId(id: string) {
 
 function Chevron() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1B1410" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M6 9l6 6 6-6" />
     </svg>
   );
@@ -41,7 +41,7 @@ function Chevron() {
 
 function ArrowOut() {
   return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1B1410" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M7 17L17 7M9 7h8v8" />
     </svg>
   );
@@ -49,7 +49,7 @@ function ArrowOut() {
 
 function ArrowUp() {
   return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1B1410" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M6 15l6-6 6 6" />
     </svg>
   );
@@ -199,7 +199,7 @@ function SheetDialog({
         <div className="sw-sheet-bar">
           <div>Press and hold to save</div>
           <button ref={closeRef} type="button" className="sw-sheet-close" aria-label="Close" onClick={onClose}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1B1410" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
               <path d="M5 5l14 14M19 5L5 19" />
             </svg>
           </button>
@@ -287,7 +287,18 @@ function GuideDeck() {
 
 export function SexualWellnessPage() {
   const [sheetSrc, setSheetSrc] = useState<string | null>(null);
+  const [showTop, setShowTop] = useState(false);
   const sheetOpener = useRef<HTMLButtonElement | null>(null);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      setShowTop(y > 500);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const closeSheet = useCallback(() => {
     setSheetSrc(null);
@@ -322,7 +333,7 @@ export function SexualWellnessPage() {
 
         <main className="sw-main">
           <div id="conversation" className="sw-intro sw-c-peach">
-            <svg className="sw-intro-spark" width="30" height="30" viewBox="0 0 24 24" fill="#FFE59A" stroke="#1B1410" strokeWidth="1.5" strokeLinejoin="round" aria-hidden="true">
+            <svg className="sw-intro-spark" width="30" height="30" viewBox="0 0 24 24" fill="#F6EBCB" stroke="#2A1F18" strokeWidth="1.5" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" />
             </svg>
             <h2>New here? Start with a conversation.</h2>
@@ -443,7 +454,7 @@ export function SexualWellnessPage() {
             Find providers in your city
           </div>
           <p className="sw-city-intro">
-            Listings live on The Mahogany Pages. Choose a city to see affirming care and events there.
+            Listings live on The Mahogany Pages. Choose a location to see affirming care and events there.
           </p>
           {CARE_CITIES.map((city) => (
             <a key={city.href} href={city.href} className={`sw-city sw-c-${city.tone}`}>
@@ -502,6 +513,13 @@ export function SexualWellnessPage() {
       <div className="footer-band">{FOOTER_BAND}</div>
       <div className="site-footer">{FOOTER_COPY}</div>
       {sheetSrc ? <SheetDialog src={sheetSrc} onClose={closeSheet} /> : null}
+      {showTop ? (
+        <button type="button" className="sw-topfab" aria-label="Back to top" onClick={() => scrollToId('top')}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M6 15l6-6 6 6" />
+          </svg>
+        </button>
+      ) : null}
     </section>
   );
 }
