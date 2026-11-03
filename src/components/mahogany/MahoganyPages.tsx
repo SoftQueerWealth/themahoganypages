@@ -326,7 +326,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
       id="screen-neighborhood"
       aria-label="The Mahogany Pages"
     >
-      {isCityGuide && wellnessBannerOpen ? (
+      {(isCityGuide || (!featured && !selectedCity)) && wellnessBannerOpen ? (
         <div className="wellness-banner">
           <button type="button" className="wellness-banner-link" onClick={onOpenWellness}>
             <span className="wellness-banner-new">NEW</span>
