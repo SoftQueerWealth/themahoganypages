@@ -1,10 +1,12 @@
-import { FILTER_SECTIONS, type FilterKind } from '../../constants/filters';
+import { FILTER_SECTIONS, type FilterKind, type FilterSectionDef } from '../../constants/filters';
 
 type EventFilterSidebarProps = {
   activeFilterCount: number;
   isPillActive: (kind: FilterKind, value: string) => boolean;
   onTogglePill: (kind: FilterKind, value: string) => void;
   onClearAll: () => void;
+  sections?: FilterSectionDef<FilterKind>[];
+  showHeader?: boolean;
 };
 
 export function EventFilterSidebar({
@@ -12,23 +14,27 @@ export function EventFilterSidebar({
   isPillActive,
   onTogglePill,
   onClearAll,
+  sections = FILTER_SECTIONS,
+  showHeader = true,
 }: EventFilterSidebarProps) {
   return (
     <aside className="filter-sidebar" aria-label="Event filters">
-      <div className="filter-sidebar-header">
-        <h3 className="filter-sidebar-title">
-          Filters
+      {showHeader ? (
+        <div className="filter-sidebar-header">
+          <h3 className="filter-sidebar-title">
+            Filters
+            {activeFilterCount > 0 ? (
+              <span className="filter-sidebar-count">{activeFilterCount}</span>
+            ) : null}
+          </h3>
           {activeFilterCount > 0 ? (
-            <span className="filter-sidebar-count">{activeFilterCount}</span>
+            <button type="button" className="filter-sidebar-clear" onClick={onClearAll}>
+              Clear all
+            </button>
           ) : null}
-        </h3>
-        {activeFilterCount > 0 ? (
-          <button type="button" className="filter-sidebar-clear" onClick={onClearAll}>
-            Clear all
-          </button>
-        ) : null}
-      </div>
-      {FILTER_SECTIONS.map(({ label, pills }) => (
+        </div>
+      ) : null}
+      {sections.map(({ label, pills }) => (
         <div key={label} className="filter-section">
           <div className="filter-section-label">{label}</div>
           <div className="filter-pills">

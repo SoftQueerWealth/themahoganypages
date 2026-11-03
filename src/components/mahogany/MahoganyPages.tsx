@@ -9,7 +9,7 @@ import { FeaturedCarousel } from './FeaturedCarousel';
 import { FeaturedCityFestivalTabs } from './FeaturedCityFestivalTabs';
 import { GlobalBlackPrideTabs } from './GlobalBlackPrideTabs';
 import { HeroSocial } from '../HeroSocial';
-import { cityDisplayLabel, cityFilterOptionsForKeys } from '../../constants/cities';
+import { cityDisplayLabel, cityFilterOptionsForKeys, compareCityKeysByLabel } from '../../constants/cities';
 import {
   AUGUST_FESTIVAL_ID,
   FEATURED_FESTIVALS,
@@ -21,6 +21,7 @@ import { cityGuideByKey, cityGuideTabs, featuredCityUiById, isFeaturedCityFestiv
 import type { GbpTabId } from '../../data/globalBlackPride';
 import { PUBLIC_SITE_ORIGIN } from '../../constants/site';
 import { LAST_UPDATED_LABEL } from '../../constants/lastUpdated';
+import { FILTER_SECTIONS } from '../../constants/filters';
 import { FOOTER_BAND, FOOTER_COPY } from '../../data/home';
 import { useEvents } from '../../hooks/useEvents';
 import { useEventFilters } from '../../hooks/useEventFilters';
@@ -34,6 +35,23 @@ import { groupEventsByCityThenDate, groupFestivalEvents } from '../../lib/groupF
 import { shareItinerary } from '../../lib/shareItinerary';
 import { filterUpcomingEvents } from '../../lib/upcomingEvents';
 import type { PrideEvent } from '../../types/event';
+import type { GbpHospitalityItem } from '../../data/globalBlackPride';
+
+const GUIDE_EVENT_SECTIONS = FILTER_SECTIONS.filter((section) => section.label !== 'Vibes').map((section) =>
+  section.label === 'Venue Type' ? { ...section, label: 'Event type' } : section,
+);
+
+const PLACE_FALLBACK_TAGS = new Set(['eat', 'drink', 'dance', 'experience', 'stay', 'wellness', 'hotel']);
+
+function listingFilterTags(items: GbpHospitalityItem[]): string[] {
+  const tags = new Set<string>();
+  for (const item of items) {
+    for (const tag of item.tags) {
+      if (!PLACE_FALLBACK_TAGS.has(tag.trim().toLowerCase())) tags.add(tag);
+    }
+  }
+  return [...tags].sort((a, b) => a.localeCompare(b));
+}
 
 function splitFeaturedEvents(
   guideEvents: PrideEvent[],
@@ -74,6 +92,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [blaqTab, setBlaqTab] = useState<BlaqTabId>('program');
   const [wellnessBannerOpen, setWellnessBannerOpen] = useState(true);
+  const [activePlaceTags, setActivePlaceTags] = useState<Set<string>>(() => new Set());
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
@@ -81,8 +100,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const isCityFeatured = isFeaturedCityFestival(featuredId);
   const isGlobalBlackPride = featuredId === 'global-black-pride';
   const selectedCityGuide = !featured && selectedCity ? cityGuideByKey(selectedCity) : undefined;
-  const isBaltimoreGuide =
-    (isCityFeatured && featured?.city === 'baltimore') || (!featured && selectedCity === 'baltimore');
+  const isCityGuide = Boolean((!featured && selectedCityGuide) || (isCityFeatured && featuredCityUi));
   const grouping = 'calendar';
 
   const { allEvents, eventsForFestival, error, isLoading } = useEvents();
@@ -126,13 +144,46 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     return groupEventsByCityThenDate(guideEvents);
   }, [featured, guideEvents, selectedCity]);
 
-  const cityOptions = useMemo(
-    () => cityFilterOptionsForKeys(guideEvents.map((event) => event.city ?? '')),
-    [guideEvents],
-  );
+  const cityOptions = useMemo(() => {
+    const keys = guideEvents.map((event) => event.city ?? '');
+    if (selectedCity) keys.push(selectedCity);
+    return cityFilterOptionsForKeys(keys).sort((a, b) => compareCityKeysByLabel(a.value, b.value));
+  }, [guideEvents, selectedCity]);
 
   const filter = useEventFilters(cityFilteredEvents);
   const itinerary = useItinerary(allEvents);
+  const guideHospitality = (isCityFeatured ? featuredCityUi?.hospitality : selectedCityGuide?.hospitality) ?? null;
+  const placeListings = useMemo(() => {
+    if (!guideHospitality) return [];
+    if (blaqTab === 'hangouts') {
+      return [
+        ...guideHospitality.eat,
+        ...guideHospitality.drink,
+        ...guideHospitality.dance,
+        ...guideHospitality.experience,
+      ];
+    }
+    if (blaqTab === 'wellness') return guideHospitality.wellness;
+    return [];
+  }, [blaqTab, guideHospitality]);
+  const placeTagOptions = useMemo(() => listingFilterTags(placeListings), [placeListings]);
+  const guideFilterCount = blaqTab === 'program' ? filter.activeFilterCount : activePlaceTags.size;
+
+  const changeGuideTab = (tab: BlaqTabId) => {
+    setBlaqTab(tab);
+    setActivePlaceTags(new Set());
+    if (tab === 'travelinfo') setMobileFiltersOpen(false);
+  };
+
+  const togglePlaceTag = (tag: string) => {
+    const key = tag.toLowerCase();
+    setActivePlaceTags((current) => {
+      const next = new Set(current);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  };
 
   const sharedEvents = useMemo(
     () => (itinerary.isInSharedView ? allEvents.filter((event) => itinerary.sharedIds.has(event.id)) : []),
@@ -160,15 +211,19 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     [cityFilteredEvents, isEventShown, itinerary.isInSharedView, sharedEvents.length],
   );
 
-  const showNoResults = itinerary.isInSharedView
-    ? !isLoading && sharedEvents.length === 0
-    : !isLoading && cityFilteredEvents.length > 0 && !anyEventsVisible;
+  const showNoResults = (!isCityGuide || blaqTab === 'program') && (
+    itinerary.isInSharedView
+      ? !isLoading && sharedEvents.length === 0
+      : !isLoading && cityFilteredEvents.length > 0 && !anyEventsVisible
+  );
 
   const handleCityChange = (city: string) => {
     trackCityFilterClick(city ? cityDisplayLabel(city) : 'All Cities');
     setSelectedCity(city);
     syncCityToUrl(city);
     setBlaqTab('program');
+    setWellnessBannerOpen(true);
+    setActivePlaceTags(new Set());
     if (!city || (featured && city !== featured.city)) {
       setFeaturedId(null);
     }
@@ -198,12 +253,19 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   }, [selectedCity]);
 
   useEffect(() => {
+    setWellnessBannerOpen(true);
+    setActivePlaceTags(new Set());
+  }, [selectedCity]);
+
+  useEffect(() => {
     const onPopState = () => {
       const city = cityFromPathname(window.location.pathname);
       setSelectedCity(city);
       applyCityDocumentMeta(city);
       trackPageView(window.location.pathname || '/');
       setBlaqTab('program');
+      setWellnessBannerOpen(true);
+      setActivePlaceTags(new Set());
       if (!city) setFeaturedId(null);
     };
 
@@ -260,11 +322,11 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
 
   return (
     <section
-      className={`screen active${itinerary.myCount > 0 ? ' has-itinerary-bar' : ''}${mobileFiltersOpen ? ' filters-open' : ''}`}
+      className={`screen active${itinerary.myCount > 0 ? ' has-itinerary-bar' : ''}${mobileFiltersOpen ? ' filters-open' : ''}${isCityGuide ? ' city-guide' : ''}`}
       id="screen-neighborhood"
       aria-label="The Mahogany Pages"
     >
-      {isBaltimoreGuide && wellnessBannerOpen ? (
+      {isCityGuide && wellnessBannerOpen ? (
         <div className="wellness-banner">
           <button type="button" className="wellness-banner-link" onClick={onOpenWellness}>
             <span className="wellness-banner-new">NEW</span>
@@ -290,17 +352,24 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
             <p className="eyebrow">Find Community</p>
             <h1 className="mahogany-title">The Mahogany Pages</h1>
             <p className="mahogany-lede">
-              Black and Brown Queer Events Near You — curated with locals who know the scene.
+              Your next pull up, picked by locals who know the scene.
             </p>
             <p className="last-updated">Last updated · {LAST_UPDATED_LABEL}</p>
           </div>
           <div className="mahogany-intro-aside">
-            <div className="sidebar-box mahogany-vibe-box">
-              <h3>✨ Find your vibe, save your favorites</h3>
-              <p>
-                Sort the guide by day, audience, venue type, vibes, and price — then tap <b>Add</b> and share
-                your itinerary with your people.
+            <div className="come-card">
+              <p className="come-card-line">
+                <span className="come-card-script">Come as you are. </span>
+                We picked everything here with <span className="come-card-black">Black</span>{' '}
+                <span className="come-card-queer">queer</span> people in mind.
               </p>
+              <div className="come-note">
+                <div className="come-note-script">Psssst...</div>
+                <p>
+                  Tap Filters to find your vibe. Tap Add on anything with your name on it, then send it to the
+                  group chat and see who&apos;s pulling up.
+                </p>
+              </div>
             </div>
             <HeroSocial />
           </div>
@@ -312,12 +381,25 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
               <FeaturedCarousel featuredId={featuredId} onSelect={handleSelectFeatured} />
             ) : null}
 
-            <CityFilter
-              value={selectedCity}
-              onChange={handleCityChange}
-              className="mahogany-city-filter"
-              options={cityOptions}
-            />
+            <div className={isCityGuide ? 'city-guide-bar' : undefined}>
+              <CityFilter
+                value={selectedCity}
+                onChange={handleCityChange}
+                className="mahogany-city-filter"
+                options={cityOptions}
+              />
+              {isCityGuide && blaqTab !== 'travelinfo' ? (
+                <button
+                  type="button"
+                  className="city-guide-filters"
+                  aria-expanded={mobileFiltersOpen}
+                  aria-controls="mahogany-filters-sheet"
+                  onClick={() => setMobileFiltersOpen(true)}
+                >
+                  Filters{guideFilterCount > 0 ? ` · ${guideFilterCount}` : ''}
+                </button>
+              ) : null}
+            </div>
           </div>
         )}
 
@@ -330,7 +412,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
         ) : null}
 
         <div className={`mahogany-layout${itinerary.isInSharedView ? ' mahogany-layout--shared' : ''}`}>
-          {itinerary.isInSharedView ? null : (
+          {itinerary.isInSharedView || isCityGuide ? null : (
             <div className="mahogany-filters-desktop">
               <EventFilterSidebar
                 activeFilterCount={filter.activeFilterCount}
@@ -367,18 +449,20 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                     ariaLabel={featuredCityUi.ariaLabel}
                     tabs={featuredCityUi.tabs}
                     activeTab={blaqTab}
-                    onTabChange={setBlaqTab}
+                    onTabChange={changeGuideTab}
                     hospitality={featuredCityUi.hospitality}
                     hospitalityIntros={featuredCityUi.hospitalityIntros}
                     travel={featuredCityUi.travel}
-                    layout={featured?.city === 'baltimore' ? 'city-feature' : 'classic'}
-                    cityName={featured?.city === 'baltimore' ? 'Baltimore' : undefined}
+                    layout="city-feature"
+                    cityName={featured ? cityDisplayLabel(featured.city) : undefined}
                     onOpenGuide={onOpenWellness}
+                    placeTags={activePlaceTags}
                     programPanel={
                       officialGrouped.length > 0 ? (
                         <CitySection
                           cityLabel={featuredCityUi.programSectionLabel}
-                          showTitle={featured?.city !== 'baltimore'}
+                          showTitle={false}
+                          cardVariant="guide"
                           dayGroups={officialGrouped}
                           isEventVisible={isEventShown}
                           isGoing={(event) => itinerary.isGoing(event.id)}
@@ -451,13 +535,14 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                   ariaLabel={`${cityDisplayLabel(selectedCity)} guide`}
                   tabs={cityGuideTabs(selectedCityGuide.eventsTabLabel, selectedCityGuide)}
                   activeTab={blaqTab}
-                  onTabChange={setBlaqTab}
+                  onTabChange={changeGuideTab}
                   hospitality={selectedCityGuide.hospitality}
                   hospitalityIntros={selectedCityGuide.hospitalityIntros}
                   travel={selectedCityGuide.travel}
-                  layout={selectedCity === 'baltimore' ? 'city-feature' : 'classic'}
-                  cityName={selectedCity === 'baltimore' ? cityDisplayLabel(selectedCity) : undefined}
+                  layout="city-feature"
+                  cityName={cityDisplayLabel(selectedCity)}
                   onOpenGuide={onOpenWellness}
+                  placeTags={activePlaceTags}
                   programPanel={
                     grouped.length > 0 ? (
                       grouped.map((dayGroup) => (
@@ -470,6 +555,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                           isEventVisible={isEventShown}
                           isGoing={(event) => itinerary.isGoing(event.id)}
                           onToggleGoing={(event) => itinerary.toggleGoing(event.id)}
+                          cardVariant="guide"
                         />
                       ))
                     ) : (
@@ -513,7 +599,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
         </div>
       </div>
 
-      {itinerary.isInSharedView ? null : (
+      {itinerary.isInSharedView || isCityGuide ? null : (
         <button
           type="button"
           className="mahogany-filters-fab"
@@ -541,17 +627,77 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
           />
           <div
             id="mahogany-filters-sheet"
-            className="mahogany-filters-sheet"
+            className={`mahogany-filters-sheet${isCityGuide ? ' guide-filter-sheet' : ''}`}
             role="dialog"
             aria-modal="true"
-            aria-label="Event filters"
+            aria-label="Filters"
           >
-            <EventFilterSidebar
-              activeFilterCount={filter.activeFilterCount}
-              isPillActive={filter.isPillActive}
-              onTogglePill={filter.togglePill}
-              onClearAll={filter.clearAll}
-            />
+            {isCityGuide ? (
+              <>
+                <div className="guide-sheet-top">
+                  <h3>Filters</h3>
+                  <button
+                    type="button"
+                    className="guide-sheet-x"
+                    aria-label="Close filters"
+                    onClick={() => setMobileFiltersOpen(false)}
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true">
+                      <path d="M6 6l12 12M18 6L6 18" />
+                    </svg>
+                  </button>
+                </div>
+                {blaqTab === 'program' ? (
+                  <button type="button" className="guide-sheet-clear" onClick={filter.clearAll}>
+                    Clear all
+                  </button>
+                ) : activePlaceTags.size > 0 ? (
+                  <button type="button" className="guide-sheet-clear" onClick={() => setActivePlaceTags(new Set())}>
+                    Clear all
+                  </button>
+                ) : null}
+                {blaqTab === 'program' ? (
+                  <EventFilterSidebar
+                    activeFilterCount={filter.activeFilterCount}
+                    isPillActive={filter.isPillActive}
+                    onTogglePill={filter.togglePill}
+                    onClearAll={filter.clearAll}
+                    sections={GUIDE_EVENT_SECTIONS}
+                    showHeader={false}
+                  />
+                ) : placeTagOptions.length > 0 ? (
+                  <div className="filter-section">
+                    <div className="filter-section-label">
+                      {blaqTab === 'wellness' ? 'Type of care' : 'Who it is for'}
+                    </div>
+                    <div className="filter-pills">
+                      {placeTagOptions.map((tag) => (
+                        <button
+                          key={tag}
+                          type="button"
+                          className={`filter-pill${activePlaceTags.has(tag.toLowerCase()) ? ' active' : ''}`}
+                          onClick={() => togglePlaceTag(tag)}
+                        >
+                          {tag}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <p className="guide-sheet-empty">No filters for these listings yet.</p>
+                )}
+                <button type="button" className="guide-sheet-done" onClick={() => setMobileFiltersOpen(false)}>
+                  Close
+                </button>
+              </>
+            ) : (
+              <EventFilterSidebar
+                activeFilterCount={filter.activeFilterCount}
+                isPillActive={filter.isPillActive}
+                onTogglePill={filter.togglePill}
+                onClearAll={filter.clearAll}
+              />
+            )}
           </div>
         </>
       ) : null}

@@ -11,6 +11,8 @@
   --line: #e3d6be;
   --shadow: 0 10px 30px -12px rgba(42, 33, 25, 0.18);
   --page-gutter: 24px;
+  --topbar-stick: 85px;
+  --city-bar-stick: 84px;
 }
 
 @media (max-width: 700px) {
@@ -26,7 +28,7 @@
 html {
   scroll-behavior: smooth;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -38,12 +40,11 @@ body {
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 #root {
   max-width: 100%;
-  overflow-x: clip;
 }
 
 html.drawer-lock,
@@ -1397,7 +1398,7 @@ nav.rooms button:hover {
   gap: 10px;
   overflow-x: auto;
   position: sticky;
-  top: 72px;
+  top: calc(var(--topbar-stick) + var(--city-bar-stick));
   z-index: 40;
   margin: 0 -4px 8px;
   padding: 4px 0 8px;
@@ -2709,7 +2710,6 @@ nav.rooms button:hover {
   .gbp-tabs-wrap {
     max-width: 100%;
     min-width: 0;
-    overflow-x: clip;
   }
 
   .featured-carousel {
@@ -2951,7 +2951,7 @@ nav.rooms button:hover {
   }
 
   .wrap.section-pad {
-    overflow-x: clip;
+    max-width: 100%;
   }
 
   .badge {
@@ -3686,4 +3686,472 @@ nav.rooms button:hover {
 .social-row .room-tile {
   padding: 9px 14px;
   font-size: 12px;
+}
+
+.screen.city-guide .mahogany-layout {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.come-card {
+  background: linear-gradient(160deg, #fff6e8, #fbe6ee);
+  border: 1px solid #e3d5b8;
+  border-radius: 26px;
+  padding: 22px;
+  transform: rotate(-0.8deg);
+}
+
+.come-card-line {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2a1f18;
+}
+
+.come-card-script {
+  font-family: 'Caveat', cursive;
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 700;
+  color: #a82258;
+}
+
+.come-card-black {
+  color: #8a5530;
+  font-weight: 700;
+}
+
+.come-card-queer {
+  font-weight: 700;
+  background: linear-gradient(90deg, #e23b3b, #f08a24, #d9a400, #3fa34d, #2f6fdb, #8a4fd0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.come-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: #f6ebcb;
+  border-radius: 14px;
+  transform: rotate(0.8deg);
+}
+
+.come-note-script {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  color: #9c4a27;
+}
+
+.come-note p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2a1f18;
+}
+
+.screen.city-guide .mahogany-controls {
+  position: sticky;
+  top: var(--topbar-stick);
+  z-index: 45;
+  margin-bottom: 0;
+  background: rgba(245, 239, 226, 0.94);
+  backdrop-filter: blur(8px);
+}
+
+.city-guide-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 8px 0;
+  background: transparent;
+}
+
+.city-guide-bar .mahogany-city-filter {
+  flex: 1 1 auto;
+  min-width: 0;
+  align-self: stretch;
+}
+
+.city-guide-filters {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1.5px solid #2a1f18;
+  background: #a9c46c;
+  color: #2a1f18;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0 #2a1f18;
+}
+
+.event-card.event-card--guide {
+  display: block;
+  padding: 20px 0;
+  border-bottom: 1px solid #e3d5b8;
+  background: transparent;
+}
+
+.event-card--guide .event-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 96px;
+  gap: 16px;
+  align-items: start;
+}
+
+.event-card--guide .event-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.event-card--guide .event-organizer {
+  font-style: italic;
+  font-size: 16px;
+  color: #5e5348;
+}
+
+.event-card--guide .badge {
+  background: #e8e2d6;
+  color: #5e5348;
+  border: 1.5px solid #2a1f18;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.event-card--guide .guide-price,
+.guide-row .guide-price {
+  color: #2e7d4f;
+  font-weight: 700;
+}
+
+.event-card--guide .meta-pill-maplink,
+.guide-row-address a {
+  color: #a82258;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.event-card--guide .event-action {
+  width: 96px;
+  align-items: stretch;
+}
+
+.event-card--guide .event-going-toggle-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  border-color: #c9b48e;
+}
+
+.event-card--guide .event-going-toggle-label {
+  letter-spacing: 0.12em;
+}
+
+.event-card--guide .btn {
+  background: #a82258;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 10px 6px;
+  text-align: center;
+}
+
+.guide-learn-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.guide-access-btn {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+.guide-access-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(#3e92e8, #0b5fb3);
+  box-shadow: 0 3px 0 #08427f;
+}
+
+.guide-learn {
+  border: 0;
+  padding: 0;
+  min-height: 44px;
+  background: none;
+  color: #a82258;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.guide-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 96px;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e3d5b8;
+}
+
+.guide-row-title {
+  margin: 0 0 6px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.guide-row-note {
+  margin: 0 0 8px;
+  font-style: italic;
+  font-size: 16px;
+  color: #5e5348;
+}
+
+.guide-row-address {
+  margin: 0;
+  color: #5e5348;
+}
+
+.guide-row .badge {
+  background: #e8e2d6;
+  color: #5e5348;
+  border: 1.5px solid #2a1f18;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.guide-tickets {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: #a82258;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.guide-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(42, 31, 24, 0.65);
+}
+
+.guide-modal {
+  position: relative;
+  width: min(560px, 100%);
+  max-height: min(78vh, 720px);
+  overflow: auto;
+  padding: 28px 22px 22px;
+  border-radius: 24px;
+  background: #f5efe2;
+  color: #2a1f18;
+}
+
+.guide-modal h3 {
+  margin: 0 36px 10px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.guide-modal-body p,
+.guide-modal-note {
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.guide-modal-note {
+  font-style: italic;
+  color: #5e5348;
+}
+
+.guide-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 2px 2px 0 #2a1f18;
+}
+
+.guide-access {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border: 1px solid #b9d3f0;
+  border-radius: 16px;
+  background: #eaf2fb;
+}
+
+.guide-access p {
+  margin: 0 0 8px;
+}
+
+.guide-access-kicker {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1d4f91;
+}
+
+.guide-access-source {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #3d5f86;
+}
+
+.screen.city-guide.filters-open .mahogany-filters-backdrop {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 498;
+  background: rgba(42, 31, 24, 0.65);
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.screen.city-guide.filters-open .mahogany-filters-sheet.guide-filter-sheet {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 499;
+  max-height: 78%;
+  overflow: auto;
+  padding: 18px 18px calc(24px + env(safe-area-inset-bottom));
+  background: #f5efe2;
+  border-radius: 28px 28px 0 0;
+}
+
+.guide-sheet-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.guide-sheet-top h3 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.guide-sheet-x {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 2px 2px 0 #2a1f18;
+}
+
+.guide-sheet-clear {
+  align-self: flex-start;
+  margin: 8px 0 12px;
+  border: 0;
+  background: none;
+  color: #a82258;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.guide-filter-sheet .filter-section-label {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.guide-filter-sheet .filter-pill.active {
+  background: #a82258;
+  border-color: #a82258;
+  color: #fff;
+}
+
+.guide-sheet-empty {
+  margin: 12px 0 20px;
+  color: #5e5348;
+}
+
+.guide-sheet-done {
+  position: sticky;
+  bottom: 0;
+  margin-top: 16px;
+  min-height: 48px;
+  border: 0;
+  border-radius: 999px;
+  background: #a82258;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --topbar-stick: 73px;
+  }
+}
+
+@media (max-width: 700px) {
+  .come-card-script {
+    font-size: 32px;
+  }
+
+  .city-guide-bar {
+    align-items: stretch;
+  }
+
+  .event-card--guide .event-name,
+  .guide-row-title {
+    font-size: 18px;
+  }
 }

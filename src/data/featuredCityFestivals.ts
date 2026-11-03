@@ -84,6 +84,24 @@ const CITY_GUIDES: Record<HospitalityCity, CityGuide> = {
     hospitality: getCityHospitality('nyc'),
     hospitalityIntros: hospitalityIntros('New York'),
   },
+  paris: {
+    city: 'paris',
+    eventsTabLabel: '📅 Events',
+    hospitality: getCityHospitality('paris'),
+    hospitalityIntros: hospitalityIntros('Paris'),
+  },
+  dmv: {
+    city: 'dmv',
+    eventsTabLabel: '📅 Events',
+    hospitality: getCityHospitality('dmv'),
+    hospitalityIntros: hospitalityIntros('the DMV'),
+  },
+  chicago: {
+    city: 'chicago',
+    eventsTabLabel: '📅 Events',
+    hospitality: getCityHospitality('chicago'),
+    hospitalityIntros: hospitalityIntros('Chicago'),
+  },
 };
 
 const FEATURE_COPY: Record<string, { ariaLabel: string; programSectionLabel: string; programTabLabel: string }> = {
@@ -103,9 +121,11 @@ export interface FeaturedCityUiConfig {
   travel?: FeaturedCityTravelContent;
 }
 
+const GUIDE_CITIES: HospitalityCity[] = ['baltimore', 'atlanta', 'dc', 'nyc', 'paris', 'dmv', 'chicago'];
+
 export function cityGuideByKey(city: string): CityGuide | undefined {
-  if (city === 'baltimore' || city === 'atlanta' || city === 'dc' || city === 'nyc') {
-    return CITY_GUIDES[city];
+  if (GUIDE_CITIES.includes(city as HospitalityCity)) {
+    return CITY_GUIDES[city as HospitalityCity];
   }
   return undefined;
 }

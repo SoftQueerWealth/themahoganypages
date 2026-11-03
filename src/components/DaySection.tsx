@@ -10,6 +10,7 @@ interface DaySectionProps {
   isEventVisible: (e: PrideEvent) => boolean;
   isGoing?: (e: PrideEvent) => boolean;
   onToggleGoing?: (e: PrideEvent) => void;
+  cardVariant?: 'classic' | 'guide';
 }
 
 export function DaySection({
@@ -20,6 +21,7 @@ export function DaySection({
   isEventVisible,
   isGoing,
   onToggleGoing,
+  cardVariant = 'classic',
 }: DaySectionProps) {
   const visibleCount = events.filter(isEventVisible).length;
   const hidden = visibleCount === 0;
@@ -51,6 +53,7 @@ export function DaySection({
           visible={isEventVisible(event)}
           going={isGoing?.(event)}
           onToggleGoing={onToggleGoing ? () => onToggleGoing(event) : undefined}
+          variant={cardVariant}
         />
       ))}
     </section>

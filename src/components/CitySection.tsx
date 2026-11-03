@@ -10,6 +10,7 @@ interface CitySectionProps {
   onToggleGoing?: (e: PrideEvent) => void;
   className?: string;
   showTitle?: boolean;
+  cardVariant?: 'classic' | 'guide';
 }
 
 export function CitySection({
@@ -20,6 +21,7 @@ export function CitySection({
   onToggleGoing,
   className,
   showTitle = true,
+  cardVariant = 'classic',
 }: CitySectionProps) {
   const visibleCount = dayGroups.reduce(
     (sum, group) => sum + group.events.filter(isEventVisible).length,
@@ -44,6 +46,7 @@ export function CitySection({
           isEventVisible={isEventVisible}
           isGoing={isGoing}
           onToggleGoing={onToggleGoing}
+          cardVariant={cardVariant}
         />
       ))}
     </section>

@@ -342,6 +342,14 @@ function prefersNyc(item: HospitalityItem): boolean {
   return /^nyc$/i.test(item.city.trim());
 }
 
+function prefersDmv(item: HospitalityItem): boolean {
+  return /^dmv$/i.test(item.city.trim());
+}
+
+function prefersChicago(item: HospitalityItem): boolean {
+  return /chicago/i.test(item.city.trim());
+}
+
 /** Use a credit or booking value as a link only when it is a real web address. */
 function webUrl(value: string): string | undefined {
   const trimmed = value.trim();
@@ -369,7 +377,7 @@ function cityPlaces(
     .map((item, index) => toHospitalityCard(item, index, options));
 }
 
-export type HospitalityCity = 'baltimore' | 'atlanta' | 'dc' | 'nyc';
+export type HospitalityCity = 'baltimore' | 'atlanta' | 'dc' | 'nyc' | 'paris' | 'dmv' | 'chicago';
 
 export interface CityHospitalityLists {
   stay: GbpHospitalityItem[];
@@ -385,6 +393,9 @@ const CITY_MATCH: Record<HospitalityCity, CityMatcher> = {
   atlanta: prefersAtlanta,
   dc: prefersDc,
   nyc: prefersNyc,
+  paris: prefersParis,
+  dmv: prefersDmv,
+  chicago: prefersChicago,
 };
 
 /** Stay, eat, drink, dance, experiences, and sexual wellness for a city guide. */
