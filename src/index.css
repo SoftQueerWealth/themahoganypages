@@ -225,6 +225,9 @@ nav.rooms {
 }
 
 nav.rooms button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   background: none;
   border: none;
   padding: 8px 13px;
@@ -235,6 +238,18 @@ nav.rooms button {
   color: var(--ink-soft);
   white-space: nowrap;
   transition: 0.15s;
+}
+
+.room-new {
+  background: #a82258;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 999px;
 }
 
 nav.rooms button.active {
@@ -287,17 +302,17 @@ nav.rooms button:hover {
     right: 0;
     height: 100vh;
     height: 100dvh;
-    width: min(300px, 88vw);
-    background: var(--cream-card);
+    width: min(290px, 88vw);
+    background: #faf7ef;
     z-index: 410;
     transform: translateX(100%);
     transition: transform 0.28s ease;
-    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.18);
-    padding: 20px 18px 24px;
+    box-shadow: none;
+    padding: 36px 22px;
     overflow-y: auto;
     flex-direction: column;
     align-items: stretch;
-    gap: 2px;
+    gap: 0;
     pointer-events: none;
   }
 
@@ -311,17 +326,17 @@ nav.rooms button:hover {
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    margin-bottom: 8px;
+    margin-bottom: 22px;
     padding-bottom: 0;
     border-bottom: none;
   }
 
   .drawer-header-title {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--ink-soft);
+    color: #5e5348;
   }
 
   nav.rooms .drawer-close-btn {
@@ -359,12 +374,33 @@ nav.rooms button:hover {
     outline: none;
   }
 
-  nav.rooms button {
-    text-align: left;
-    border-radius: 8px;
-    padding: 14px 10px;
+  nav.rooms button:not(.drawer-close-btn) {
+    justify-content: flex-start;
+    min-height: 56px;
+    margin-bottom: 8px;
+    padding: 0 18px;
+    border-radius: 14px;
     border-bottom: none;
-    font-size: 14px;
+    text-align: left;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a1f18;
+  }
+
+  nav.rooms button:not(.drawer-close-btn):hover {
+    background: #ede2ce;
+    color: #2a1f18;
+  }
+
+  nav.rooms button:not(.drawer-close-btn).active,
+  nav.rooms button:not(.drawer-close-btn).active:hover {
+    background: #ede2ce;
+    color: #9c4a27;
+  }
+
+  nav.rooms button:not(.drawer-close-btn):has(.room-new) {
+    justify-content: space-between;
   }
 
   .menu-toggle {

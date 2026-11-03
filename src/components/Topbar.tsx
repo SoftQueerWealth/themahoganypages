@@ -41,7 +41,18 @@ export function Topbar({
                 aria-label="Close menu"
                 onClick={onCloseDrawer}
               >
-                ✕
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#2A1F18"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  aria-hidden="true"
+                >
+                  <path d="M5 5l14 14M19 5L5 19" />
+                </svg>
               </button>
             </div>
             {ROOMS.map((room) => (
@@ -52,7 +63,8 @@ export function Topbar({
                 className={activeRoom === room.id ? 'active' : undefined}
                 onClick={() => onGo(room.id)}
               >
-                {room.label}
+                <span>{room.label}</span>
+                {room.id === 'wellness' ? <span className="room-new">NEW</span> : null}
               </button>
             ))}
           </nav>
