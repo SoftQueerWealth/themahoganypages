@@ -213,37 +213,40 @@ function SheetDialog({
 
 function GuideDeck() {
   const [deck, setDeck] = useState<DeckId>('self');
-  const [index, setIndex] = useState(0);
+  const [atStart, setAtStart] = useState(true);
+  const [atEnd, setAtEnd] = useState(false);
   const active = DECKS[deck];
 
   useEffect(() => {
     const el = document.getElementById('sw-deck');
     if (!el) return;
 
-    const onScroll = () => {
-      const count = active.cards.length;
-      const next = Math.max(0, Math.min(count - 1, Math.round(el.scrollLeft / (el.scrollWidth / count))));
-      setIndex(next);
+    const measure = () => {
+      setAtStart(el.scrollLeft <= 8);
+      setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 8);
     };
 
-    el.addEventListener('scroll', onScroll, { passive: true });
-    return () => el.removeEventListener('scroll', onScroll);
+    measure();
+    el.addEventListener('scroll', measure, { passive: true });
+    return () => el.removeEventListener('scroll', measure);
   }, [active.cards.length, deck]);
 
   const pick = (next: DeckId) => {
     setDeck(next);
-    setIndex(0);
+    setAtStart(true);
+    setAtEnd(false);
+  };
+
+  const scrollByCard = (direction: 1 | -1) => {
+    const el = document.getElementById('sw-deck');
+    const card = el?.querySelector<HTMLElement>('.sw-card');
+    if (!el || !card) return;
+    el.scrollBy({ left: direction * (card.offsetWidth + 14), behavior: 'smooth' });
   };
 
   const onKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
     if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') return;
-    const card = event.currentTarget.querySelector<HTMLElement>('.sw-card');
-    if (!card) return;
-    const delta = card.offsetWidth + 14;
-    event.currentTarget.scrollBy({
-      left: event.key === 'ArrowRight' ? delta : -delta,
-      behavior: 'smooth',
-    });
+    scrollByCard(event.key === 'ArrowRight' ? 1 : -1);
     event.preventDefault();
   };
 
@@ -258,28 +261,33 @@ function GuideDeck() {
         </button>
       </div>
 
-      <div
-        id="sw-deck"
-        key={deck}
-        className="sw-deck"
-        tabIndex={0}
-        aria-label={active.label}
-        onKeyDown={onKeyDown}
-      >
-        {active.cards.map((card) => (
-          <GuideCard key={`${deck}-${card.number}`} card={card} />
-        ))}
-      </div>
-
-      <div className="sw-progress">
-        <div className="sw-counter" aria-live="polite">
-          {index + 1} of {active.cards.length}
-        </div>
-        <div className="sw-dots" aria-hidden="true">
-          {active.cards.map((card, cardIndex) => (
-            <span key={card.number} className={cardIndex === index ? 'sw-dot is-active' : 'sw-dot'} />
+      <div className="sw-deck-wrap">
+        <div
+          id="sw-deck"
+          key={deck}
+          className="sw-deck"
+          tabIndex={0}
+          aria-label={active.label}
+          onKeyDown={onKeyDown}
+        >
+          {active.cards.map((card) => (
+            <GuideCard key={`${deck}-${card.number}`} card={card} />
           ))}
         </div>
+        {atStart ? null : (
+          <button type="button" className="sw-deck-prev" aria-label="Previous card" onClick={() => scrollByCard(-1)}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" />
+            </svg>
+          </button>
+        )}
+        {atEnd ? null : (
+          <button type="button" className="sw-deck-next" aria-label="Next card" onClick={() => scrollByCard(1)}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M9 6l6 6-6 6" />
+            </svg>
+          </button>
+        )}
       </div>
     </>
   );

@@ -200,6 +200,37 @@
   color: #fff;
 }
 
+.sw-deck-wrap {
+  position: relative;
+}
+
+.sw-deck-next,
+.sw-deck-prev {
+  position: absolute;
+  top: calc(50% - 5px);
+  z-index: 2;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2.5px solid var(--sw-ink);
+  background: #fff;
+  box-shadow: 3px 3px 0 var(--sw-ink);
+  cursor: pointer;
+}
+
+.sw-deck-next {
+  right: 0;
+}
+
+.sw-deck-prev {
+  left: 0;
+}
+
 .sw-deck {
   display: flex;
   gap: 14px;
@@ -322,40 +353,6 @@
   font-size: 15px;
   line-height: 1.45;
   margin: 10px 0;
-}
-
-.sw-progress {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 4px 0 0;
-}
-
-.sw-counter {
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-}
-
-.sw-dots {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.sw-dot {
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  background: var(--sw-paper);
-  border: 2px solid var(--sw-ink);
-  box-sizing: border-box;
-}
-
-.sw-dot.is-active {
-  width: 26px;
-  background: var(--sw-berry);
 }
 
 .sw-dark {
