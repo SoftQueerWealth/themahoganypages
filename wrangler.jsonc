@@ -17,6 +17,12 @@
   "env": {
     "staging": {
       "name": "sqw-events-guide-staging",
+      "routes": [
+        {
+          "pattern": "staging.softqueerwealth.com",
+          "custom_domain": true
+        }
+      ],
       "assets": {
         "directory": "./dist",
         "binding": "ASSETS",
