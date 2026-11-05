@@ -17,6 +17,7 @@
   "env": {
     "staging": {
       "name": "sqw-events-guide-staging",
+      "workers_dev": true,
       "routes": [
         {
           "pattern": "staging.softqueerwealth.com",
