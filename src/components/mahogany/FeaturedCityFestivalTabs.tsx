@@ -328,6 +328,42 @@ export interface FeaturedCityFestivalTabsProps {
   placeTags?: ReadonlySet<string>;
 }
 
+const CITY_FEATURE_PROGRAM_COPY: Record<string, { title: string; lede: string }> = {
+  Atlanta: {
+    title: "Atlanta, what's the plan?",
+    lede: "There's always something going on. Pull up with your people.",
+  },
+  Baltimore: {
+    title: "What's the move in Baltimore?",
+    lede: "Charm City's got plans. Parties, brunches, shows and more. Come through.",
+  },
+  DC: {
+    title: "What's happening, DC?",
+    lede: 'Chocolate City we outside! Find a spot and pull up.',
+  },
+  DMV: {
+    title: 'The DMV is outside tonight.',
+    lede: 'DC, Maryland and Virginia in one list. Pick your side and come through.',
+  },
+  'New York': {
+    title: "New York, who's out tonight?",
+    lede: 'The city that never sleeps has a lot going on. Find your people and go.',
+  },
+  Paris: {
+    title: 'Paris is calling.',
+    lede: "Black and queer life abroad, picked by locals. Let's goooo!",
+  },
+};
+
+function cityFeatureProgramCopy(cityName: string): { title: string; lede: string } {
+  return (
+    CITY_FEATURE_PROGRAM_COPY[cityName] ?? {
+      title: `What's the move in ${cityName}`,
+      lede: 'Parties, brunches, shows and more. Come through.',
+    }
+  );
+}
+
 const CITY_FEATURE_TABS: { id: BlaqTabId; label: string }[] = [
   { id: 'program', label: 'Things to Do' },
   { id: 'hangouts', label: 'Hangouts' },
@@ -397,6 +433,7 @@ export function FeaturedCityFestivalTabs({
         items: group.items.filter((item) => matchesPlaceTags(item, placeTags)),
       }))
       .filter((group) => group.items.length > 0);
+    const programCopy = cityFeatureProgramCopy(cityName);
 
     return (
       <div className="gbp-tabs-wrap city-feature">
@@ -419,8 +456,8 @@ export function FeaturedCityFestivalTabs({
         <div className="gbp-tab-panel" role="tabpanel">
           {activeTab === 'program' ? (
             <div className="city-feature-panel">
-              <h2 className="city-feature-title">What&apos;s the move in {cityName}</h2>
-              <p className="city-feature-lede">Parties, brunches, shows and more. Come through.</p>
+              <h2 className="city-feature-title">{programCopy.title}</h2>
+              <p className="city-feature-lede">{programCopy.lede}</p>
               {programPanel}
             </div>
           ) : null}
@@ -450,7 +487,7 @@ export function FeaturedCityFestivalTabs({
               <h2 className="city-feature-title">Sexual Health and Wellness in {cityName}</h2>
               <HospitalityList
                 items={hospitality.wellness.filter((item) => matchesPlaceTags(item, placeTags))}
-                intro={hospitalityIntros.wellness}
+                intro={`Affirming care and resources for Black queer people in ${cityName}.`}
                 emptyMessage="Nothing's popping yet. Loosen a filter or two and try again."
                 variant="guide"
               />

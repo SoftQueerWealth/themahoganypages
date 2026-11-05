@@ -53,9 +53,12 @@ const SOCIAL = [
   },
 ] as const;
 
-export function HeroSocial() {
+export function HeroSocial({ variant = 'inline' }: { variant?: 'inline' | 'footer' }) {
   return (
-    <div className="hero-social" aria-label="Soft Queer Wealth links">
+    <div
+      className={`hero-social${variant === 'footer' ? ' hero-social--footer' : ''}`}
+      aria-label="Soft Queer Wealth links"
+    >
       {SOCIAL.map(({ platform, href, label, Icon }) => (
         <a
           key={platform}

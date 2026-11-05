@@ -94,6 +94,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const [wellnessBannerOpen, setWellnessBannerOpen] = useState(true);
   const [activePlaceTags, setActivePlaceTags] = useState<Set<string>>(() => new Set());
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
+  const [showBackToTop, setShowBackToTop] = useState(false);
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
   const featuredCityUi = featuredId ? featuredCityUiById(featuredId) : undefined;
@@ -102,6 +103,19 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const selectedCityGuide = !featured && selectedCity ? cityGuideByKey(selectedCity) : undefined;
   const isCityGuide = Boolean((!featured && selectedCityGuide) || (isCityFeatured && featuredCityUi));
   const grouping = 'calendar';
+
+  useEffect(() => {
+    if (!isCityGuide) {
+      setShowBackToTop(false);
+      return;
+    }
+    const onScroll = () => {
+      setShowBackToTop(window.scrollY > 500);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [isCityGuide]);
 
   const { allEvents, eventsForFestival, error, isLoading } = useEvents();
 
@@ -313,6 +327,17 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     };
   }, [mobileFiltersOpen]);
 
+  const visibleResultCount =
+    blaqTab === 'program'
+      ? (isCityFeatured ? officialEvents : cityFilteredEvents).filter(isEventShown).length
+      : blaqTab === 'hangouts' || blaqTab === 'wellness'
+        ? placeListings.filter((item) => {
+            if (activePlaceTags.size === 0) return true;
+            const tags = item.tags.map((tag) => tag.toLowerCase());
+            return [...activePlaceTags].some((tag) => tags.includes(tag));
+          }).length
+        : 0;
+
   const handleShareItinerary = useCallback(async () => {
     const payload = formatItineraryShare(allEvents, itinerary.mySelection, PUBLIC_SITE_ORIGIN);
     if (!payload) return 'failed' as const;
@@ -359,7 +384,6 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
           <div className="mahogany-intro-aside">
             <div className="come-card">
               <p className="come-card-line">
-                <span className="come-card-script">Come as you are. </span>
                 We picked everything here with <span className="come-card-black">Black</span>{' '}
                 <span className="come-card-queer">queer</span> people in mind.
               </p>
@@ -371,7 +395,6 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                 </p>
               </div>
             </div>
-            <HeroSocial />
           </div>
         </div>
 
@@ -387,6 +410,8 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                 onChange={handleCityChange}
                 className="mahogany-city-filter"
                 options={cityOptions}
+                label={isCityGuide ? 'Choose your city' : 'City'}
+                showGuideMark={isCityGuide}
               />
               {isCityGuide && blaqTab !== 'travelinfo' ? (
                 <button
@@ -687,7 +712,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                   <p className="guide-sheet-empty">No filters for these listings yet.</p>
                 )}
                 <button type="button" className="guide-sheet-done" onClick={() => setMobileFiltersOpen(false)}>
-                  Close
+                  Show {visibleResultCount} {visibleResultCount === 1 ? 'result' : 'results'}
                 </button>
               </>
             ) : (
@@ -709,7 +734,32 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
       />
 
       <div className="footer-band">{FOOTER_BAND}</div>
-      <div className="site-footer">{FOOTER_COPY}</div>
+      <div className="site-footer">
+        <div>{FOOTER_COPY}</div>
+        <HeroSocial variant="footer" />
+      </div>
+      {isCityGuide && showBackToTop && !mobileFiltersOpen ? (
+        <button
+          type="button"
+          className="city-guide-top"
+          aria-label="Back to top"
+          onClick={() => {
+            const tabs = document.querySelector('.city-feature-tabs');
+            const anchor = document.querySelector('.gbp-tabs-wrap');
+            if (tabs instanceof HTMLElement && anchor instanceof HTMLElement) {
+              const tabTop = anchor.getBoundingClientRect().top + window.scrollY;
+              const next = tabTop - window.innerHeight / 2 + tabs.offsetHeight / 2;
+              window.scrollTo({ top: Math.max(0, next), behavior: 'smooth' });
+              return;
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M6 14l6-6 6 6" />
+          </svg>
+        </button>
+      ) : null}
     </section>
   );
 }
