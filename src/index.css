@@ -1877,9 +1877,13 @@ nav.rooms button:hover {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.mahogany-filters-desktop {
+  align-self: stretch;
+}
+
 .filter-sidebar {
   position: sticky;
-  top: 78px;
+  top: calc(var(--topbar-stick) + 12px);
   background: var(--cream-card);
   border: 1px solid var(--line);
   border-radius: 12px;
