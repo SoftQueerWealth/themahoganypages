@@ -31,6 +31,68 @@ function scrollToId(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+function JumpNav() {
+  const rowRef = useRef<HTMLDivElement>(null);
+  const [atStart, setAtStart] = useState(true);
+  const [atEnd, setAtEnd] = useState(true);
+
+  useEffect(() => {
+    const el = rowRef.current;
+    if (!el) return;
+
+    const measure = () => {
+      const overflow = el.scrollWidth - el.clientWidth > 8;
+      setAtStart(!overflow || el.scrollLeft <= 8);
+      setAtEnd(!overflow || el.scrollLeft + el.clientWidth >= el.scrollWidth - 8);
+    };
+
+    measure();
+    el.addEventListener('scroll', measure, { passive: true });
+    const observer = new ResizeObserver(measure);
+    observer.observe(el);
+    return () => {
+      el.removeEventListener('scroll', measure);
+      observer.disconnect();
+    };
+  }, []);
+
+  const scrollByPill = (direction: 1 | -1) => {
+    const el = rowRef.current;
+    const pill = el?.querySelector<HTMLElement>('.sw-jump');
+    if (!el || !pill) return;
+    el.scrollTo({ left: el.scrollLeft + direction * (pill.offsetWidth + 10), behavior: 'auto' });
+    const overflow = el.scrollWidth - el.clientWidth > 8;
+    setAtStart(!overflow || el.scrollLeft <= 8);
+    setAtEnd(!overflow || el.scrollLeft + el.clientWidth >= el.scrollWidth - 8);
+  };
+
+  return (
+    <nav className="sw-jumps" aria-label="On this page">
+      <div className="sw-jump-row" ref={rowRef}>
+        {JUMP_LINKS.map((link) => (
+          <button key={link.id} type="button" className="sw-jump" onClick={() => scrollToId(link.id)}>
+            {link.label}
+          </button>
+        ))}
+      </div>
+      {atStart ? null : (
+        <button type="button" className="sw-jump-chevron sw-jump-chevron--prev" aria-label="Previous sections" onClick={() => scrollByPill(-1)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M15 6l-6 6 6 6" />
+          </svg>
+        </button>
+      )}
+      {atEnd ? null : (
+        <button type="button" className="sw-jump-chevron sw-jump-chevron--next" aria-label="More sections" onClick={() => scrollByPill(1)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" />
+          </svg>
+        </button>
+      )}
+    </nav>
+  );
+}
+
 function Chevron() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -329,15 +391,7 @@ export function SexualWellnessPage() {
           </p>
         </header>
 
-        <nav className="sw-jumps" aria-label="On this page">
-          <div className="sw-jump-row">
-            {JUMP_LINKS.map((link) => (
-              <button key={link.id} type="button" className="sw-jump" onClick={() => scrollToId(link.id)}>
-                {link.label}
-              </button>
-            ))}
-          </div>
-        </nav>
+        <JumpNav />
 
         <main className="sw-main">
           <div id="conversation" className="sw-intro sw-c-peach">
