@@ -87,7 +87,7 @@ function GuidePlaceRow({ item }: { item: GbpHospitalityItem }) {
             <AccessMark />
           </button>
           <button type="button" className="guide-learn" onClick={() => setAccessOpen(true)}>
-            Learn more about this place
+            Click to learn more
           </button>
         </div>
       </div>
@@ -364,6 +364,22 @@ function cityFeatureProgramCopy(cityName: string): { title: string; lede: string
   );
 }
 
+const CITY_HANGOUT_LEDES: Record<string, string> = {
+  Atlanta: 'These spots were picked with us in mind. A few came straight from folks on the ground in the A!',
+  Baltimore: 'Every spot here is for us. Some were put on by people who know Baltimore best!',
+  'Washington, DC': 'Made for us, right here in the District. A few of these came from people who live it every day!',
+  DMV: 'We keep it in the family all across the DMV. Some of these were handed to us by neighbors who already know all the good spots!',
+  'New York': 'These are our places in the city. A few came from New Yorkers who told us exactly where to go!',
+  Paris: 'Our spaces, even across the ocean. Some come from locals who put us on!',
+};
+
+function cityHangoutLede(cityName: string): string {
+  return (
+    CITY_HANGOUT_LEDES[cityName] ??
+    "Spots that stay open all year. Every listing tells you who the space is for, so you know what you're walking into."
+  );
+}
+
 const CITY_FEATURE_TABS: { id: BlaqTabId; label: string }[] = [
   { id: 'program', label: 'Things to Do' },
   { id: 'hangouts', label: 'Hangouts' },
@@ -465,10 +481,7 @@ export function FeaturedCityFestivalTabs({
           {activeTab === 'hangouts' ? (
             <div className="city-feature-panel">
               <h2 className="city-feature-title">Where we link up in {cityName}</h2>
-              <p className="city-feature-lede">
-                Spots that stay open all year. Every listing tells you who the space is for, so you know what
-                you&apos;re walking into.
-              </p>
+              <p className="city-feature-lede">{cityHangoutLede(cityName)}</p>
               {hangoutGroups.length === 0 ? (
                 <p className="gbp-empty">Nothing&apos;s popping yet. Loosen a filter or two and try again.</p>
               ) : (

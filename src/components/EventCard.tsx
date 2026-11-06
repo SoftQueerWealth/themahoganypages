@@ -222,7 +222,7 @@ export function EventCard({ event, visible, going = false, onToggleGoing, varian
                 <AccessMark />
               </button>
               <button type="button" className="guide-learn" onClick={() => setAccessOpen(true)}>
-                Learn more about this event
+                Click to learn more
               </button>
             </div>
           ) : null}

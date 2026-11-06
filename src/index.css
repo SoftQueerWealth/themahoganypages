@@ -290,11 +290,12 @@ nav.rooms button:hover {
   }
 
   .logo-icon {
-    height: 40px;
+    height: 50px;
   }
 
   .brand-text .name {
-    font-size: 14px;
+    font-size: 18px;
+    letter-spacing: 0;
   }
 
   nav.rooms {
@@ -424,11 +425,12 @@ nav.rooms button:hover {
   }
 
   .logo-icon {
-    height: 36px;
+    height: 50px;
   }
 
   .brand-text .name {
-    font-size: 13px;
+    font-size: 18px;
+    letter-spacing: 0;
   }
 
   .brand-text .tag {
@@ -1397,7 +1399,9 @@ nav.rooms button:hover {
 
 @media (max-width: 700px) {
   .wellness-banner-copy {
-    font-size: clamp(11px, 3.2vw, 18px);
+    font-size: 20px;
+    line-height: 1.05;
+    white-space: normal;
   }
 }
 
@@ -4223,7 +4227,7 @@ nav.rooms button:hover {
 
 @media (max-width: 900px) {
   :root {
-    --topbar-stick: 73px;
+    --topbar-stick: 74px;
   }
 }
 
