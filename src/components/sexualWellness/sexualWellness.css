@@ -62,7 +62,6 @@
 }
 
 .sw-jumps {
-  position: relative;
   padding: 22px 0 4px;
 }
 
@@ -75,50 +74,29 @@
   scrollbar-width: none;
 }
 
-.sw-jump-chevron {
-  position: absolute;
-  top: 28px;
-  z-index: 2;
+.sw-jump-dots {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  gap: 6px;
+  margin: 2px 0 0;
+}
+
+.sw-jump-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
   padding: 0;
-  border-radius: 50%;
+  border-radius: 999px;
+  background: var(--sw-paper);
   border: 2px solid var(--sw-ink);
-  background: #fff;
-  box-shadow: 2px 2px 0 var(--sw-ink);
+  box-sizing: border-box;
   cursor: pointer;
 }
 
-.sw-jump-chevron--prev {
-  left: 0;
-}
-
-.sw-jump-chevron--next {
-  right: 0;
-}
-
-.sw-jump-chevron--prev::before,
-.sw-jump-chevron--next::before {
-  content: '';
-  position: absolute;
-  top: -6px;
-  width: 56px;
-  height: 44px;
-  z-index: -1;
-  pointer-events: none;
-}
-
-.sw-jump-chevron--prev::before {
-  left: 0;
-  background: linear-gradient(to right, var(--cream) 42%, transparent);
-}
-
-.sw-jump-chevron--next::before {
-  right: 0;
-  background: linear-gradient(to left, var(--cream) 42%, transparent);
+.sw-jump-dot.is-active {
+  width: 26px;
+  background: var(--sw-berry);
 }
 
 .sw-jump-row::-webkit-scrollbar {

@@ -33,37 +33,45 @@ function scrollToId(id: string) {
 
 function JumpNav() {
   const rowRef = useRef<HTMLDivElement>(null);
-  const [atStart, setAtStart] = useState(true);
-  const [atEnd, setAtEnd] = useState(true);
+  const [index, setIndex] = useState(0);
+  const [canScroll, setCanScroll] = useState(false);
 
   useEffect(() => {
     const el = rowRef.current;
     if (!el) return;
 
     const measure = () => {
-      const overflow = el.scrollWidth - el.clientWidth > 8;
-      setAtStart(!overflow || el.scrollLeft <= 8);
-      setAtEnd(!overflow || el.scrollLeft + el.clientWidth >= el.scrollWidth - 8);
+      const count = el.querySelectorAll('.sw-jump').length;
+      const max = el.scrollWidth - el.clientWidth;
+      const overflow = max > 8;
+      setCanScroll(overflow);
+      if (!overflow || count === 0) {
+        setIndex(0);
+        return;
+      }
+      setIndex(Math.round((el.scrollLeft / max) * (count - 1)));
     };
 
     measure();
     el.addEventListener('scroll', measure, { passive: true });
+    window.addEventListener('resize', measure);
     const observer = new ResizeObserver(measure);
     observer.observe(el);
     return () => {
       el.removeEventListener('scroll', measure);
+      window.removeEventListener('resize', measure);
       observer.disconnect();
     };
   }, []);
 
-  const scrollByPill = (direction: 1 | -1) => {
+  const showLink = (linkIndex: number) => {
     const el = rowRef.current;
-    const pill = el?.querySelector<HTMLElement>('.sw-jump');
-    if (!el || !pill) return;
-    el.scrollTo({ left: el.scrollLeft + direction * (pill.offsetWidth + 10), behavior: 'auto' });
-    const overflow = el.scrollWidth - el.clientWidth > 8;
-    setAtStart(!overflow || el.scrollLeft <= 8);
-    setAtEnd(!overflow || el.scrollLeft + el.clientWidth >= el.scrollWidth - 8);
+    if (!el) return;
+    const count = el.querySelectorAll('.sw-jump').length;
+    const max = el.scrollWidth - el.clientWidth;
+    const target = count <= 1 ? 0 : (linkIndex / (count - 1)) * max;
+    el.scrollTo({ left: target, behavior: 'auto' });
+    setIndex(linkIndex);
   };
 
   return (
@@ -75,20 +83,20 @@ function JumpNav() {
           </button>
         ))}
       </div>
-      {atStart ? null : (
-        <button type="button" className="sw-jump-chevron sw-jump-chevron--prev" aria-label="Previous sections" onClick={() => scrollByPill(-1)}>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M15 6l-6 6 6 6" />
-          </svg>
-        </button>
-      )}
-      {atEnd ? null : (
-        <button type="button" className="sw-jump-chevron sw-jump-chevron--next" aria-label="More sections" onClick={() => scrollByPill(1)}>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1F18" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M9 6l6 6-6 6" />
-          </svg>
-        </button>
-      )}
+      {canScroll ? (
+        <div className="sw-jump-dots">
+          {JUMP_LINKS.map((link, linkIndex) => (
+            <button
+              key={link.id}
+              type="button"
+              className={linkIndex === index ? 'sw-jump-dot is-active' : 'sw-jump-dot'}
+              aria-label={`Show ${link.label}`}
+              aria-current={linkIndex === index ? 'true' : undefined}
+              onClick={() => showLink(linkIndex)}
+            />
+          ))}
+        </div>
+      ) : null}
     </nav>
   );
 }
