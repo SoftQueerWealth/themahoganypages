@@ -1,4 +1,4 @@
-import { type CityKey, cityDisplayLabel } from '../constants/cities';
+import { type CityKey, DEFAULT_CITY, cityDisplayLabel } from '../constants/cities';
 
 const CITY_SLUGS = new Set<string>([
   'atlanta',
@@ -45,5 +45,5 @@ export function setCityPathname(city: string, mode: 'push' | 'replace' = 'push')
 }
 
 export function cityPathLabel(city: string): string {
-  return city ? cityDisplayLabel(city) : 'All Cities';
+  return cityDisplayLabel(city || DEFAULT_CITY);
 }

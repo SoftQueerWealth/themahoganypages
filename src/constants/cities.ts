@@ -17,8 +17,10 @@ const SHEET_CITY_MAP: Record<string, CityKey> = {
   paris: 'paris',
 };
 
+export const DEFAULT_CITY: CityKey = 'dc';
+
 const CITY_LABELS: Record<CityKey, string> = {
-  dc: 'DC',
+  dc: 'Washington, DC',
   nyc: 'New York',
   baltimore: 'Baltimore',
   dmv: 'DMV',

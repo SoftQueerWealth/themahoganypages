@@ -76,7 +76,7 @@ const CITY_GUIDES: Record<HospitalityCity, CityGuide> = {
     city: 'dc',
     eventsTabLabel: '📅 Events',
     hospitality: getCityHospitality('dc'),
-    hospitalityIntros: hospitalityIntros('DC'),
+    hospitalityIntros: hospitalityIntros('Washington, DC'),
   },
   nyc: {
     city: 'nyc',

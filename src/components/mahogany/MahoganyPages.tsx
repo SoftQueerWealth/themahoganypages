@@ -9,7 +9,7 @@ import { FeaturedCarousel } from './FeaturedCarousel';
 import { FeaturedCityFestivalTabs } from './FeaturedCityFestivalTabs';
 import { GlobalBlackPrideTabs } from './GlobalBlackPrideTabs';
 import { HeroSocial } from '../HeroSocial';
-import { cityDisplayLabel, cityFilterOptionsForKeys, compareCityKeysByLabel } from '../../constants/cities';
+import { DEFAULT_CITY, cityDisplayLabel, cityFilterOptionsForKeys, compareCityKeysByLabel } from '../../constants/cities';
 import {
   AUGUST_FESTIVAL_ID,
   FEATURED_FESTIVALS,
@@ -87,7 +87,7 @@ type MahoganyPagesProps = {
 export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const [featuredId, setFeaturedId] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState(() =>
-    typeof window !== 'undefined' ? cityFromPathname(window.location.pathname) : '',
+    typeof window !== 'undefined' ? cityFromPathname(window.location.pathname) || DEFAULT_CITY : DEFAULT_CITY,
   );
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [blaqTab, setBlaqTab] = useState<BlaqTabId>('program');
@@ -232,13 +232,14 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   );
 
   const handleCityChange = (city: string) => {
-    trackCityFilterClick(city ? cityDisplayLabel(city) : 'All Cities');
-    setSelectedCity(city);
-    syncCityToUrl(city);
+    const nextCity = city || DEFAULT_CITY;
+    trackCityFilterClick(cityDisplayLabel(nextCity));
+    setSelectedCity(nextCity);
+    syncCityToUrl(nextCity);
     setBlaqTab('program');
     setWellnessBannerOpen(true);
     setActivePlaceTags(new Set());
-    if (!city || (featured && city !== featured.city)) {
+    if (featured && nextCity !== featured.city) {
       setFeaturedId(null);
     }
     filter.clearAll();
@@ -254,13 +255,18 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     const next = featuredFestivalById(id);
     if (next?.tabLabel) trackFeaturedEventCardClick(next.tabLabel);
     setFeaturedId(id);
-    const nextCity = next?.city ?? '';
+    const nextCity = next?.city || DEFAULT_CITY;
     setSelectedCity(nextCity);
     if (nextCity) syncCityToUrl(nextCity);
     if (isFeaturedCityFestival(id)) setBlaqTab('program');
     if (id === 'global-black-pride') setGbpTab('programme');
     filter.clearAll();
   };
+
+  useEffect(() => {
+    if (cityFromPathname(window.location.pathname)) return;
+    syncCityToUrl(DEFAULT_CITY, 'replace');
+  }, []);
 
   useEffect(() => {
     applyCityDocumentMeta(selectedCity);
@@ -273,14 +279,14 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
 
   useEffect(() => {
     const onPopState = () => {
-      const city = cityFromPathname(window.location.pathname);
+      const city = cityFromPathname(window.location.pathname) || DEFAULT_CITY;
       setSelectedCity(city);
-      applyCityDocumentMeta(city);
+      if (!cityFromPathname(window.location.pathname)) syncCityToUrl(DEFAULT_CITY, 'replace');
+      else applyCityDocumentMeta(city);
       trackPageView(window.location.pathname || '/');
       setBlaqTab('program');
       setWellnessBannerOpen(true);
       setActivePlaceTags(new Set());
-      if (!city) setFeaturedId(null);
     };
 
     window.addEventListener('popstate', onPopState);
