@@ -142,6 +142,8 @@ button {
 
 .topbar.drawer-open {
   z-index: 420;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .topbar-inner {
@@ -302,11 +304,12 @@ nav.rooms button:hover {
     position: fixed;
     top: 0;
     right: 0;
+    bottom: 0;
     height: 100vh;
     height: 100dvh;
     width: min(290px, 88vw);
     background: #faf7ef;
-    z-index: 410;
+    z-index: 430;
     transform: translateX(100%);
     transition: transform 0.28s ease;
     box-shadow: none;
@@ -414,6 +417,10 @@ nav.rooms button:hover {
   .topbar.drawer-open .menu-toggle {
     visibility: hidden;
     pointer-events: none;
+  }
+
+  .drawer-overlay.open {
+    z-index: 425;
   }
 }
 
