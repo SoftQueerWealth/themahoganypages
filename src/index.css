@@ -2379,6 +2379,91 @@ nav.rooms button:hover {
   color: #e8447a;
 }
 
+.badge.b-aud-wlw {
+  background: #fbe0ea;
+  color: #a82258;
+}
+
+.badge.b-aud-femme {
+  background: #f3dccb;
+  color: #9c4a27;
+}
+
+.badge.b-aud-trans {
+  background: #ebe3f8;
+  color: #6b4aa8;
+}
+
+.badge.b-aud-gnc {
+  background: #e4e8f7;
+  color: #3d4f8a;
+}
+
+.badge.b-aud-latina {
+  background: #f6ebcb;
+  color: #8a6230;
+}
+
+.badge.b-aud-masc {
+  background: #dce8ef;
+  color: #2f5f78;
+}
+
+.badge.b-aud-queer {
+  background: #f0dce8;
+  color: #7a3a62;
+}
+
+.badge.b-aud-friendly {
+  background: #e3f1e8;
+  color: #2f7a4a;
+}
+
+.badge.b-aud-kink {
+  background: #f8d0dc;
+  color: #a83260;
+}
+
+.badge.b-aud-enm {
+  background: #efe4f6;
+  color: #7a4e96;
+}
+
+.badge.b-aud-mlm {
+  background: #e6e4f6;
+  color: #4a46a0;
+}
+
+.badge.b-aud-age {
+  background: #e5efe4;
+  color: #3d6b45;
+}
+
+.badge.b-aud-family {
+  background: #e5f3ef;
+  color: #2a6b62;
+}
+
+.badge.b-aud-punk {
+  background: #ece7e2;
+  color: #5c463c;
+}
+
+.badge.b-aud-owned {
+  background: #f8e6d0;
+  color: #8a4e18;
+}
+
+.badge.b-aud-women {
+  background: #f8ddd4;
+  color: #a14a38;
+}
+
+.badge.b-aud-qowned {
+  background: #ddf0ea;
+  color: #1f6f62;
+}
+
 .event-name {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 16.5px;
@@ -3951,8 +4036,6 @@ nav.rooms button:hover {
 }
 
 .event-card--guide .badge {
-  background: #e8e2d6;
-  color: #5e5348;
   border: 1.5px solid #2a1f18;
   border-radius: 999px;
   font-size: 11px;
@@ -4088,8 +4171,6 @@ nav.rooms button:hover {
 }
 
 .guide-row .badge {
-  background: #e8e2d6;
-  color: #5e5348;
   border: 1.5px solid #2a1f18;
   border-radius: 999px;
   font-size: 11px;
