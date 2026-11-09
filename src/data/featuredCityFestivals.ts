@@ -130,6 +130,23 @@ export function cityGuideByKey(city: string): CityGuide | undefined {
   return undefined;
 }
 
+/** Cities that still have hangouts, care, or travel info to show. */
+export function guideCitiesWithContent(): HospitalityCity[] {
+  return GUIDE_CITIES.filter((city) => {
+    const guide = CITY_GUIDES[city];
+    const places = guide.hospitality;
+    return Boolean(
+      guide.travel ||
+        places.stay.length ||
+        places.eat.length ||
+        places.drink.length ||
+        places.dance.length ||
+        places.experience.length ||
+        places.wellness.length,
+    );
+  });
+}
+
 /** Events tab plus hospitality tabs that have listings, and travel when the city has it. */
 export function cityGuideTabs(programLabel: string, guide: CityGuide): BlaqTabDef[] {
   const tabs: BlaqTabDef[] = [{ id: 'program', label: programLabel }];

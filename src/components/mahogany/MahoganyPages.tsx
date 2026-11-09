@@ -17,7 +17,13 @@ import {
   type FeaturedFestival,
 } from '../../constants/festivals';
 import type { BlaqTabId } from '../../data/baltimoreBlaqPride';
-import { cityGuideByKey, cityGuideTabs, featuredCityUiById, isFeaturedCityFestival } from '../../data/featuredCityFestivals';
+import {
+  cityGuideByKey,
+  cityGuideTabs,
+  featuredCityUiById,
+  guideCitiesWithContent,
+  isFeaturedCityFestival,
+} from '../../data/featuredCityFestivals';
 import type { GbpTabId } from '../../data/globalBlackPride';
 import { PUBLIC_SITE_ORIGIN } from '../../constants/site';
 import { LAST_UPDATED_LABEL } from '../../constants/lastUpdated';
@@ -214,7 +220,10 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   }, [featured, guideEvents, selectedCity]);
 
   const cityOptions = useMemo(() => {
-    const keys = guideEvents.map((event) => event.city ?? '');
+    const keys = [
+      ...guideEvents.map((event) => event.city ?? ''),
+      ...guideCitiesWithContent(),
+    ];
     if (selectedCity) keys.push(selectedCity);
     return cityFilterOptionsForKeys(keys).sort((a, b) => compareCityKeysByLabel(a.value, b.value));
   }, [guideEvents, selectedCity]);
