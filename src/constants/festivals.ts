@@ -29,6 +29,8 @@ export interface PrideFestival {
   prideSeriesInclude?: string[];
   /** Drop rows whose Black Pride / Festival column matches. */
   prideSeriesExclude?: string[];
+  /** Keep only rows whose Status column is exactly "approved". */
+  requireApproved?: boolean;
 }
 
 export const PRIDE_FESTIVALS: PrideFestival[] = [
@@ -94,13 +96,14 @@ export const PRIDE_FESTIVALS: PrideFestival[] = [
   },
   {
     id: 'august-events',
-    tabLabel: 'August Events',
-    dateRange: 'August – September 2026',
-    location: 'DC · NYC · Baltimore · DMV · Atlanta',
-    sheetName: 'Filterable August Sept Events',
-    spreadsheetId: '1DPgR56Fl7Y47x1ILoa9ek-2eg7AL6RbcHuX_h-Pu3nY',
+    tabLabel: 'Things to Do',
+    dateRange: '2026 – 2027',
+    location: 'DC · NYC · Baltimore · DMV · Atlanta · Paris',
+    sheetName: 'TMP_Things_to_Do',
+    spreadsheetId: '18jZRcyxJOuOu8QLlTlJZMt6edv7NCXcFgInQeFm6TWQ',
     grouping: 'calendar',
     enabled: true,
+    requireApproved: true,
   },
   {
     id: NYC_BLACK_PRIDE_FESTIVAL_ID,

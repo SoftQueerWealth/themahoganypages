@@ -9,34 +9,33 @@ function normalizeToken(value: string): string {
   return value.toLowerCase().replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-function isHotel(item: HospitalityItem): boolean {
-  const type = normalizeToken(item.venueType);
-  if (type === 'hotel') return true;
-  return type.split(/[,;/|]+/).some((part) => part.trim() === 'hotel');
+function categoryIs(item: HospitalityItem, ...names: string[]): boolean {
+  const token = normalizeToken(item.uiCategory);
+  return names.some((name) => token === normalizeToken(name));
 }
 
 function isWhereToStay(item: HospitalityItem): boolean {
-  return normalizeToken(item.uiCategory) === 'where to stay';
+  return categoryIs(item, 'where to stay', 'stays', 'stay');
 }
 
 function isWhereToEat(item: HospitalityItem): boolean {
-  return normalizeToken(item.uiCategory) === 'where to eat';
+  return categoryIs(item, 'where to eat', 'restaurants', 'restaurant');
 }
 
 function isWhereToDrink(item: HospitalityItem): boolean {
-  return normalizeToken(item.uiCategory) === 'where to drink';
+  return categoryIs(item, 'where to drink', 'bars', 'bar');
 }
 
 function isWhereToDance(item: HospitalityItem): boolean {
-  return normalizeToken(item.uiCategory) === 'where to dance';
+  return categoryIs(item, 'where to dance', 'clubs', 'club');
 }
 
 function isExperiences(item: HospitalityItem): boolean {
-  return normalizeToken(item.uiCategory) === 'experiences';
+  return categoryIs(item, 'experiences', 'experience', 'hangouts', 'hangout');
 }
 
 function isSexualWellness(item: HospitalityItem): boolean {
-  return normalizeToken(item.uiCategory) === 'sexual wellness';
+  return categoryIs(item, 'sexual wellness', 'wellness');
 }
 
 function prefersParis(item: HospitalityItem): boolean {
@@ -100,6 +99,8 @@ function toHospitalityCard(
     : undefined;
   const credit = item.credit.trim() || undefined;
   const creditSourceLink = webUrl(item.creditSourceLink);
+  const careTypes = item.careTypes?.map((tag) => tag.trim()).filter(Boolean);
+  const proTip = item.proTip?.trim() || undefined;
 
   return {
     id: item.id,
@@ -118,13 +119,15 @@ function toHospitalityCard(
     communityPerk: !discountCode && item.hasCommunityPerk ? true : undefined,
     ...(credit ? { credit } : {}),
     ...(creditSourceLink ? { creditSourceLink } : {}),
+    ...(careTypes?.length ? { careTypes } : {}),
+    ...(proTip ? { proTip } : {}),
   };
 }
 
-/** Hotels from City_Hospitality_Tourism_Sept for the GBP Stay tab. */
+/** Stays for the GBP Stay tab. */
 export function getGbpStayHotels(): GbpHospitalityItem[] {
   return generatedHospitalityItems
-    .filter(isHotel)
+    .filter(isWhereToStay)
     .filter(prefersParis)
     .map((item, index) =>
       toHospitalityCard(item, index, {

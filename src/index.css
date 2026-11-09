@@ -3881,6 +3881,48 @@ nav.rooms button:hover {
   box-shadow: 2px 2px 0 #2a1f18;
 }
 
+.city-guide-filters.is-jiggling {
+  transform-origin: center;
+  animation: filter-jiggle 0.9s ease-in-out 2, filter-jiggle-ring 0.9s ease-out 2;
+}
+
+@keyframes filter-jiggle {
+  0%,
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+  12% {
+    transform: rotate(-8deg) scale(1.14);
+  }
+  28% {
+    transform: rotate(7deg) scale(1.14);
+  }
+  44% {
+    transform: rotate(-6deg) scale(1.1);
+  }
+  60% {
+    transform: rotate(5deg) scale(1.06);
+  }
+  76% {
+    transform: rotate(-2deg) scale(1.02);
+  }
+}
+
+@keyframes filter-jiggle-ring {
+  0% {
+    box-shadow: 2px 2px 0 #2a1f18, 0 0 0 0 rgba(169, 196, 108, 0.8);
+  }
+  100% {
+    box-shadow: 2px 2px 0 #2a1f18, 0 0 0 22px rgba(169, 196, 108, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .city-guide-filters.is-jiggling {
+    animation: none;
+  }
+}
+
 .event-card.event-card--guide {
   display: block;
   padding: 20px 0;
@@ -3958,6 +4000,28 @@ nav.rooms button:hover {
   letter-spacing: 0.04em;
   padding: 10px 6px;
   text-align: center;
+}
+
+.guide-curated {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+.guide-curated-label {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1;
+  color: #2a1f18;
+}
+
+.guide-curated-credit {
+  font-size: 12px;
+  font-weight: 700;
+  color: #9c4a27;
+  text-decoration: none;
 }
 
 .guide-learn-row {

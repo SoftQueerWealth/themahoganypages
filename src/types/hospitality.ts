@@ -17,4 +17,8 @@ export interface HospitalityItem {
   prideSeries: string;
   credit: string;
   creditSourceLink: string;
+  /** Type of Care labels from the sexual wellness sheet. */
+  careTypes?: string[];
+  /** Visitor-facing tip from the sheet Pro Tip column. */
+  proTip?: string;
 }

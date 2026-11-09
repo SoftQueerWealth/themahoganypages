@@ -80,6 +80,8 @@ const TYPE_ALIASES: Record<string, EventType> = {
   [EventType.Workshop]: EventType.Workshop,
   [EventType.Outdoors]: EventType.Outdoors,
   outdoor: EventType.Outdoors,
+  'outdoors hangout': EventType.Outdoors,
+  'outdoor hangout': EventType.Outdoors,
   [EventType.Ball]: EventType.Ball,
   [EventType.Meetup]: EventType.Meetup,
   [EventType.Cultural]: EventType.Cultural,
@@ -113,7 +115,7 @@ enum TicketStatus {
 }
 
 const COLUMN_ALIASES = {
-  id: ['id', 'eventid'],
+  id: ['id', 'eventid', 'recordid'],
   day: ['day', 'dataday', 'data-day', 'dayid', 'eventday', 'dayofweek', 'weekday'],
   dayLabel: ['daylabel', 'dayname', 'displayday'],
   name: ['name', 'event', 'eventname', 'eventtitle', 'title'],
@@ -633,7 +635,26 @@ function readTimeFromRow(row: string[]): string {
   return '';
 }
 
-function readTicketStatusCell(headers: string[], row: string[]): string {
+/** "6:00:00 PM" → "6:00 PM". Leaves unrecognized values unchanged. */
+function formatClockTime(value: string): string {
+  const match = value.trim().match(/^(\d{1,2}):(\d{2})(?::\d{2})?\s*([AaPp][Mm])$/);
+  if (!match) return value.trim();
+  return `${Number(match[1])}:${match[2]} ${match[3].toUpperCase()}`;
+}
+
+function formatEventTimeRange(start: string, end: string): string {
+  const startLabel = formatClockTime(start);
+  const endLabel = formatClockTime(end);
+  if (startLabel && endLabel && startLabel !== endLabel) return `${startLabel} – ${endLabel}`;
+  return startLabel || endLabel;
+}
+
+function readTicketStatusCell(headers: string[], row: string[], ignoreStatusColumn = false): string {
+  if (ignoreStatusColumn) {
+    const ticketStatus = readCellByHeader(headers, row, 'ticketstatus');
+    if (ticketStatus) return ticketStatus;
+    return readCellByHeader(headers, row, 'registrationstatus');
+  }
   const direct = readCell(headers, row, 'ticketStatus');
   if (direct) return direct;
   return readCellByHeader(headers, row, 'organizersite');
@@ -677,17 +698,21 @@ function readLocation(headers: string[], row: string[]): string {
 interface ParseSheetRowsOptions {
   festivalId: string;
   idPrefix?: string;
+  requireApproved?: boolean;
 }
 
 function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): PrideEvent[] {
-  const { festivalId, idPrefix = '' } = options;
+  const { festivalId, idPrefix = '', requireApproved = false } = options;
   const [headerRow, ...dataRows] = values;
   if (!headerRow) return [];
 
   const headers = headerRow.map(normalizeHeader);
-  return dataRows
+  const parsed = dataRows
     .map((row, index): PrideEvent | null => {
       if (row.every((cell) => !String(cell ?? '').trim())) return null;
+      if (requireApproved && readCellByHeader(headers, row, 'status').trim().toLowerCase() !== 'approved') {
+        return null;
+      }
       if (parseBoolean(readCellFromFirstMatchingHeader(headers, row, 'skip'))) return null;
 
       const shifted = isDateShiftedRow(headers, row);
@@ -697,7 +722,7 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
       if (!name || !parsedDay) return null;
       const { day, dayDate } = parsedDay;
 
-      const ticketStatus = readTicketStatusCell(headers, row);
+      const ticketStatus = readTicketStatusCell(headers, row, requireApproved);
       if (isSoldOutStatus(ticketStatus) || isSoldOutStatus(name)) return null;
 
       const types = priceShifted
@@ -760,8 +785,19 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
         ? parseBadgesFromAudience(audienceTags, free)
         : parseBadges(badgeCell, types, free);
 
+      const recordId = readCell(headers, row, 'id');
+      const startTime = requireApproved
+        ? readCellByHeader(headers, row, 'starttime')
+        : '';
+      const endTime = requireApproved ? readCellByHeader(headers, row, 'endtime') : '';
+      const time = requireApproved
+        ? formatEventTimeRange(startTime, endTime)
+        : priceShifted
+          ? readTimeFromRow(row)
+          : readEventField(headers, row, 'time', shifted);
+
       return {
-        id: `${idPrefix}${index + 2}`,
+        id: `${idPrefix}${recordId || index + 2}`,
         festival: festivalId,
         day,
         ...(dayDate ? { dayDate } : {}),
@@ -774,7 +810,7 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
         free,
         ...(price ? { price } : {}),
         badges,
-        time: priceShifted ? readTimeFromRow(row) : readEventField(headers, row, 'time', shifted),
+        time,
         location: priceShifted
           ? readLocationFromExtendedColumns(headers, row) || readLocation(headers, row)
           : readEventLocation(headers, row, shifted),
@@ -791,6 +827,15 @@ function parseSheetRows(values: string[][], options: ParseSheetRowsOptions): Pri
       };
     })
     .filter((event): event is PrideEvent => event !== null);
+
+  if (!requireApproved) return parsed;
+
+  const seen = new Set<string>();
+  return parsed.filter((event) => {
+    if (seen.has(event.id)) return false;
+    seen.add(event.id);
+    return true;
+  });
 }
 
 function parseBeautyRows(values: string[][]): BeautyItem[] {
@@ -884,6 +929,7 @@ export async function fetchFestivalSheetEvents(
   const events = parseSheetRows(await fetchSheetValues(festival.sheetName, spreadsheetId, signal), {
     festivalId,
     idPrefix,
+    requireApproved: festival.requireApproved,
   });
   return filterEventsForFestival(events, festival);
 }

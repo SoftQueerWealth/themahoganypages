@@ -50,13 +50,30 @@ function HosAudienceTags({ tags }: { tags: string[] }) {
   );
 }
 
-function matchesPlaceTags(item: GbpHospitalityItem, tags: ReadonlySet<string> | undefined): boolean {
+function matchesPlaceTags(
+  item: GbpHospitalityItem,
+  tags: ReadonlySet<string> | undefined,
+  field: 'tags' | 'careTypes' = 'tags',
+): boolean {
   if (!tags || tags.size === 0) return true;
-  const itemTags = item.tags.map((tag) => tag.toLowerCase());
-  return [...tags].some((tag) => itemTags.includes(tag));
+  const values = (field === 'careTypes' ? item.careTypes ?? [] : item.tags).map((tag) => tag.toLowerCase());
+  return [...tags].some((tag) => values.includes(tag));
 }
 
-function GuidePlaceRow({ item }: { item: GbpHospitalityItem }) {
+function showHangoutCurator(item: GbpHospitalityItem): boolean {
+  if (!item.credit || !item.creditSourceLink) return false;
+  return !/official venue website/i.test(item.credit);
+}
+
+function GuidePlaceRow({
+  item,
+  showBio = true,
+  showCurator = false,
+}: {
+  item: GbpHospitalityItem;
+  showBio?: boolean;
+  showCurator?: boolean;
+}) {
   const [accessOpen, setAccessOpen] = useState(false);
 
   return (
@@ -70,7 +87,7 @@ function GuidePlaceRow({ item }: { item: GbpHospitalityItem }) {
           ))}
         </div>
         <h4 className="guide-row-title">{item.title}</h4>
-        {item.bio ? <p className="guide-row-note">{item.bio}</p> : null}
+        {showBio && item.bio ? <p className="guide-row-note">{item.bio}</p> : null}
         {item.address ? (
           item.addressMapsUrl ? (
             <p className="guide-row-address">
@@ -81,6 +98,14 @@ function GuidePlaceRow({ item }: { item: GbpHospitalityItem }) {
           ) : (
             <p className="guide-row-address">{item.address}</p>
           )
+        ) : null}
+        {showCurator && showHangoutCurator(item) ? (
+          <p className="guide-curated">
+            <span className="guide-curated-label">Curated by</span>
+            <a className="guide-curated-credit" href={item.creditSourceLink} target="_blank" rel="noopener noreferrer">
+              {item.credit}
+            </a>
+          </p>
         ) : null}
         <div className="guide-learn-row">
           <button type="button" className="guide-access-btn" aria-label="Accessibility details" onClick={() => setAccessOpen(true)}>
@@ -114,11 +139,15 @@ function HospitalityList({
   intro,
   emptyMessage,
   variant = 'classic',
+  showBio = true,
+  showCurator = false,
 }: {
   items: GbpHospitalityItem[];
   intro: string;
   emptyMessage: string;
   variant?: 'classic' | 'guide';
+  showBio?: boolean;
+  showCurator?: boolean;
 }) {
   const credits = uniqueHosCredits(items);
 
@@ -128,9 +157,14 @@ function HospitalityList({
         {intro ? <p className="gbp-hos-intro">{intro}</p> : null}
         {items.length === 0 ? <p className="gbp-empty">{emptyMessage}</p> : null}
         {items.map((item) => (
-          <GuidePlaceRow key={item.id} item={item} />
+          <GuidePlaceRow
+            key={item.id}
+            item={item}
+            showBio={showBio}
+            showCurator={showCurator}
+          />
         ))}
-        {credits.length > 0 ? (
+        {!showCurator && credits.length > 0 ? (
           <p className="hos-credits">
             Sourced with help from{' '}
             {credits.map((entry, index) => (
@@ -488,7 +522,14 @@ export function FeaturedCityFestivalTabs({
                 hangoutGroups.map((group) => (
                   <section key={group.title} className="city-feature-group">
                     <h3 className="city-feature-subhead">{group.title}</h3>
-                    <HospitalityList items={group.items} intro={group.intro} emptyMessage={group.empty} variant="guide" />
+                    <HospitalityList
+                      items={group.items}
+                      intro={group.intro}
+                      emptyMessage={group.empty}
+                      variant="guide"
+                      showBio={false}
+                      showCurator
+                    />
                   </section>
                 ))
               )}
@@ -499,10 +540,11 @@ export function FeaturedCityFestivalTabs({
             <div className="city-feature-panel">
               <h2 className="city-feature-title">Sexual Health and Wellness in {cityName}</h2>
               <HospitalityList
-                items={hospitality.wellness.filter((item) => matchesPlaceTags(item, placeTags))}
+                items={hospitality.wellness.filter((item) => matchesPlaceTags(item, placeTags, 'careTypes'))}
                 intro={`Affirming care and resources for Black queer people in ${cityName}.`}
                 emptyMessage="Nothing's popping yet. Loosen a filter or two and try again."
                 variant="guide"
+                showBio={false}
               />
               <div className="city-feature-guide">
                 <div className="city-feature-guide-kicker">The full guide</div>
@@ -617,7 +659,7 @@ export function FeaturedCityFestivalTabs({
         ) : null}
         {activeTab === 'wellness' ? (
           <HospitalityList
-            items={hospitality.wellness}
+            items={hospitality.wellness.filter((item) => matchesPlaceTags(item, placeTags, 'careTypes'))}
             intro={hospitalityIntros.wellness}
             emptyMessage="No sexual wellness listings in the guide right now."
           />

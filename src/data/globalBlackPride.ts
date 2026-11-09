@@ -48,6 +48,10 @@ export interface GbpHospitalityItem {
   communityPerk?: boolean;
   credit?: string;
   creditSourceLink?: string;
+  /** Type of Care labels. Wellness filters use these instead of audience tags. */
+  careTypes?: string[];
+  /** Visitor-facing tip from the sheet. */
+  proTip?: string;
 }
 
 export interface GbpTravelCard {

@@ -1,5 +1,5 @@
 /**
- * Sync Google Sheets `City_Hospitality_Tourism_Sept` tab
+ * Sync Google Sheets `TMP_Hangouts` and `TMP_Sexual_Wellness`
  * -> src/data/hospitality.generated.ts
  * Run: npm run sync-hospitality
  */
@@ -12,9 +12,8 @@ const root = path.join(__dirname, '..');
 const envPath = path.join(root, '.env');
 const outPath = path.join(root, 'src', 'data', 'hospitality.generated.ts');
 
-const HOSPITALITY_SHEET_NAME = 'City_Hospitality_Tourism_Sept';
-/** Same spreadsheet as Filterable August Sept Events. */
-const HOSPITALITY_SPREADSHEET_ID = '1DPgR56Fl7Y47x1ILoa9ek-2eg7AL6RbcHuX_h-Pu3nY';
+const HOSPITALITY_SHEET_NAMES = ['TMP_Hangouts', 'TMP_Sexual_Wellness'];
+const HOSPITALITY_SPREADSHEET_ID = '18jZRcyxJOuOu8QLlTlJZMt6edv7NCXcFgInQeFm6TWQ';
 const API_KEY_PLACEHOLDER = 'YOUR_GOOGLE_SHEETS_API_KEY_HERE';
 
 const COLUMN_ALIASES = {
@@ -24,7 +23,10 @@ const COLUMN_ALIASES = {
   uiCategory: ['uicategory', 'category'],
   audienceTag: ['audiencetag', 'audience', 'tags'],
   vibes: ['vibes', 'vibe', 'vibestags'],
+  summary: ['summary'],
   description: ['description', 'desc'],
+  careTypes: ['typeofcare', 'caretype', 'caretypes'],
+  proTip: ['protip'],
   venueName: ['venuename'],
   venueAddress: ['venueaddress', 'address', 'location'],
   nearbyStation: ['nearbystation', 'station', 'metro', 'neareststation'],
@@ -106,6 +108,14 @@ function parseListTags(value) {
     .filter(Boolean);
 }
 
+/** Care types use commas between values. Semicolons stay inside a single label. */
+function parseCareTypes(value) {
+  return String(value ?? '')
+    .split(',')
+    .map((tag) => tag.trim())
+    .filter(Boolean);
+}
+
 function findHeaderRowIndex(rows) {
   for (let i = 0; i < Math.min(rows.length, 40); i += 1) {
     const headers = (rows[i] ?? []).map(normalizeHeader);
@@ -124,11 +134,11 @@ function readCell(headers, row, key) {
   return '';
 }
 
-function parseHospitalityRows(values) {
+function parseHospitalityRows(values, sheetName) {
   const headerRowIndex = findHeaderRowIndex(values);
   if (headerRowIndex < 0) {
     throw new Error(
-      `Could not find header row with Business + Venue Type on ${HOSPITALITY_SHEET_NAME}.`,
+      `Could not find header row with Business + Venue Type on ${sheetName}.`,
     );
   }
 
@@ -140,21 +150,26 @@ function parseHospitalityRows(values) {
     .map((row, index) => {
       const business = readCell(headers, row, 'business');
       const venueType = readCell(headers, row, 'venueType');
+      const uiCategory = readCell(headers, row, 'uiCategory');
+      if (!uiCategory) return null;
       if (!business && !venueType) return null;
 
       const venueName = readCell(headers, row, 'venueName') || business;
       const title = venueName || business;
       if (!title) return null;
 
+      const proTip = readCell(headers, row, 'proTip');
+      const careTypes = parseCareTypes(readCell(headers, row, 'careTypes'));
+
       return {
-        id: `hospitality-${slugify(title)}-${index + 1}`,
+        id: `hospitality-${slugify(sheetName)}-${slugify(title)}-${index + 1}`,
         city: readCell(headers, row, 'city'),
         business,
         venueType,
-        uiCategory: readCell(headers, row, 'uiCategory'),
+        uiCategory,
         audienceTags: parseListTags(readCell(headers, row, 'audienceTag')),
         vibeTags: parseListTags(readCell(headers, row, 'vibes')),
-        description: readCell(headers, row, 'description'),
+        description: readCell(headers, row, 'summary') || readCell(headers, row, 'description'),
         venueName,
         venueAddress: readCell(headers, row, 'venueAddress'),
         nearbyStation: readCell(headers, row, 'nearbyStation'),
@@ -165,15 +180,17 @@ function parseHospitalityRows(values) {
         prideSeries: readCell(headers, row, 'prideSeries'),
         credit: readCell(headers, row, 'credit'),
         creditSourceLink: readCell(headers, row, 'creditSourceLink'),
+        ...(careTypes.length ? { careTypes } : {}),
+        ...(proTip ? { proTip } : {}),
       };
     })
     .filter(Boolean);
 }
 
-async function fetchHospitalityValues(spreadsheetId, apiKey) {
-  const range = /^[A-Za-z0-9_]+$/.test(HOSPITALITY_SHEET_NAME)
-    ? HOSPITALITY_SHEET_NAME
-    : `'${HOSPITALITY_SHEET_NAME.replace(/'/g, "''")}'`;
+async function fetchHospitalityValues(spreadsheetId, apiKey, sheetName) {
+  const range = /^[A-Za-z0-9_]+$/.test(sheetName)
+    ? sheetName
+    : `'${sheetName.replace(/'/g, "''")}'`;
   const url = new URL(
     `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${encodeURIComponent(range)}`,
   );
@@ -182,7 +199,7 @@ async function fetchHospitalityValues(spreadsheetId, apiKey) {
   const response = await fetch(url);
   const payload = await response.json();
   if (!response.ok || payload.error) {
-    throw new Error(payload.error?.message ?? `Unable to load ${HOSPITALITY_SHEET_NAME}.`);
+    throw new Error(payload.error?.message ?? `Unable to load ${sheetName}.`);
   }
   return payload.values ?? [];
 }
@@ -190,15 +207,20 @@ async function fetchHospitalityValues(spreadsheetId, apiKey) {
 loadDotEnv();
 
 const apiKey = requiredEnv('VITE_GOOGLE_SHEETS_API_KEY', API_KEY_PLACEHOLDER);
-const values = await fetchHospitalityValues(HOSPITALITY_SPREADSHEET_ID, apiKey);
-const items = parseHospitalityRows(values);
+const items = [];
+for (const sheetName of HOSPITALITY_SHEET_NAMES) {
+  const values = await fetchHospitalityValues(HOSPITALITY_SPREADSHEET_ID, apiKey, sheetName);
+  const parsed = parseHospitalityRows(values, sheetName);
+  console.log(`${sheetName}: ${parsed.length}`);
+  items.push(...parsed);
+}
 
 if (items.length === 0) {
   throw new Error('No hospitality rows found after parsing.');
 }
 
 const file = `/* eslint-disable */
-// Auto-generated by scripts/sync-hospitality.mjs from the Google Sheets ${HOSPITALITY_SHEET_NAME} tab. Do not edit by hand.
+// Auto-generated by scripts/sync-hospitality.mjs from the Google Sheets ${HOSPITALITY_SHEET_NAMES.join(' and ')} tabs. Do not edit by hand.
 import type { HospitalityItem } from '../types/hospitality';
 
 export const generatedHospitalityItems: HospitalityItem[] = ${JSON.stringify(items, null, 2)};

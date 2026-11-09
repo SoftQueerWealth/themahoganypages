@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { CityFilter } from '../CityFilter';
 import { CitySection } from '../CitySection';
 import { DaySection } from '../DaySection';
@@ -43,14 +43,28 @@ const GUIDE_EVENT_SECTIONS = FILTER_SECTIONS.filter((section) => section.label !
 
 const PLACE_FALLBACK_TAGS = new Set(['eat', 'drink', 'dance', 'experience', 'stay', 'wellness', 'hotel']);
 
-function listingFilterTags(items: GbpHospitalityItem[]): string[] {
+function listingFilterTags(
+  items: GbpHospitalityItem[],
+  source: 'tags' | 'careTypes' = 'tags',
+): string[] {
   const tags = new Set<string>();
   for (const item of items) {
-    for (const tag of item.tags) {
+    const values = source === 'careTypes' ? item.careTypes ?? [] : item.tags;
+    for (const tag of values) {
       if (!PLACE_FALLBACK_TAGS.has(tag.trim().toLowerCase())) tags.add(tag);
     }
   }
   return [...tags].sort((a, b) => a.localeCompare(b));
+}
+
+function placeItemMatches(
+  item: GbpHospitalityItem,
+  active: ReadonlySet<string>,
+  source: 'tags' | 'careTypes',
+): boolean {
+  if (active.size === 0) return true;
+  const values = (source === 'careTypes' ? item.careTypes ?? [] : item.tags).map((tag) => tag.toLowerCase());
+  return [...active].some((tag) => values.includes(tag));
 }
 
 function splitFeaturedEvents(
@@ -95,6 +109,9 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   const [activePlaceTags, setActivePlaceTags] = useState<Set<string>>(() => new Set());
   const [gbpTab, setGbpTab] = useState<GbpTabId>('programme');
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [filtersJiggling, setFiltersJiggling] = useState(false);
+  const filtersButtonRef = useRef<HTMLButtonElement>(null);
+  const filtersOpenedRef = useRef(false);
 
   const featured = featuredId ? featuredFestivalById(featuredId) : undefined;
   const featuredCityUi = featuredId ? featuredCityUiById(featuredId) : undefined;
@@ -116,6 +133,44 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, [isCityGuide]);
+
+  useEffect(() => {
+    const button = filtersButtonRef.current;
+    if (!button || filtersOpenedRef.current) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const centerOf = (el: HTMLElement) => {
+      const rect = el.getBoundingClientRect();
+      return rect.top + rect.height / 2;
+    };
+    const triggerLine = (mobile: boolean) => window.innerHeight * (mobile ? 0.5 : 0.4);
+    const start = centerOf(button);
+    const startMobile = window.matchMedia('(max-width: 900px)').matches;
+    let wasPast = start <= triggerLine(startMobile);
+    let oweArrival = wasPast;
+
+    const jiggle = () => {
+      setFiltersJiggling(false);
+      requestAnimationFrame(() => {
+        if (!filtersOpenedRef.current) setFiltersJiggling(true);
+      });
+    };
+
+    const onScroll = () => {
+      if (filtersOpenedRef.current) return;
+      const el = filtersButtonRef.current;
+      if (!el) return;
+      const mobile = window.matchMedia('(max-width: 900px)').matches;
+      if (!mobile && window.scrollY <= 24) return;
+      const past = centerOf(el) <= triggerLine(mobile);
+      if (past && (!wasPast || oweArrival)) jiggle();
+      oweArrival = false;
+      wasPast = past;
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [isCityGuide, blaqTab]);
 
   const { allEvents, eventsForFestival, error, isLoading } = useEvents();
 
@@ -180,7 +235,11 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     if (blaqTab === 'wellness') return guideHospitality.wellness;
     return [];
   }, [blaqTab, guideHospitality]);
-  const placeTagOptions = useMemo(() => listingFilterTags(placeListings), [placeListings]);
+  const placeTagSource = blaqTab === 'wellness' ? 'careTypes' : 'tags';
+  const placeTagOptions = useMemo(
+    () => listingFilterTags(placeListings, placeTagSource),
+    [placeListings, placeTagSource],
+  );
   const guideFilterCount = blaqTab === 'program' ? filter.activeFilterCount : activePlaceTags.size;
 
   const changeGuideTab = (tab: BlaqTabId) => {
@@ -337,11 +396,7 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
     blaqTab === 'program'
       ? (isCityFeatured ? officialEvents : cityFilteredEvents).filter(isEventShown).length
       : blaqTab === 'hangouts' || blaqTab === 'wellness'
-        ? placeListings.filter((item) => {
-            if (activePlaceTags.size === 0) return true;
-            const tags = item.tags.map((tag) => tag.toLowerCase());
-            return [...activePlaceTags].some((tag) => tags.includes(tag));
-          }).length
+        ? placeListings.filter((item) => placeItemMatches(item, activePlaceTags, placeTagSource)).length
         : 0;
 
   const handleShareItinerary = useCallback(async () => {
@@ -422,10 +477,18 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
               {isCityGuide && blaqTab !== 'travelinfo' ? (
                 <button
                   type="button"
-                  className="city-guide-filters"
+                  ref={filtersButtonRef}
+                  className={filtersJiggling ? 'city-guide-filters is-jiggling' : 'city-guide-filters'}
                   aria-expanded={mobileFiltersOpen}
                   aria-controls="mahogany-filters-sheet"
-                  onClick={() => setMobileFiltersOpen(true)}
+                  onClick={() => {
+                    filtersOpenedRef.current = true;
+                    setFiltersJiggling(false);
+                    setMobileFiltersOpen(true);
+                  }}
+                  onAnimationEnd={(event) => {
+                    if (event.animationName === 'filter-jiggle') setFiltersJiggling(false);
+                  }}
                 >
                   Filters{guideFilterCount > 0 ? ` · ${guideFilterCount}` : ''}
                 </button>

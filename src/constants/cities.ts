@@ -11,6 +11,8 @@ const SHEET_CITY_MAP: Record<string, CityKey> = {
   baltimore: 'baltimore',
   atlanta: 'atlanta',
   atl: 'atlanta',
+  lithonia: 'atlanta',
+  alexandria: 'dmv',
   chicago: 'chicago',
   thechi: 'chicago',
   chi: 'chicago',
