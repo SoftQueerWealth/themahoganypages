@@ -3929,6 +3929,18 @@ nav.rooms button:hover {
   width: 100%;
 }
 
+@media (min-width: 701px) {
+  .city-guide-bar {
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  .city-guide-bar .mahogany-city-filter {
+    flex: 0 1 380px;
+    max-width: 380px;
+  }
+}
+
 .city-guide-top {
   position: fixed;
   left: 50%;
@@ -4368,6 +4380,22 @@ nav.rooms button:hover {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+@media (min-width: 901px) {
+  .screen.city-guide.filters-open .mahogany-filters-sheet.guide-filter-sheet {
+    top: 50%;
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    width: min(420px, calc(100vw - 48px));
+    max-height: min(72dvh, 620px);
+    transform: translate(-50%, -50%);
+    border: 1.5px solid #2a1f18;
+    border-radius: 24px;
+    box-shadow: 6px 6px 0 #2a1f18;
+    padding: 20px 20px 18px;
+  }
 }
 
 @media (max-width: 900px) {
