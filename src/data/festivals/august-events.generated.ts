@@ -20,9 +20,10 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "POC",
+      "Latina",
       "ENM",
       "Kink"
     ],
@@ -33,9 +34,10 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "POC",
+      "Latina",
       "ENM",
       "Kink"
     ],
@@ -46,8 +48,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mvh84xry-ar0grj",
@@ -81,8 +82,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mvh8b1an-y5dnn7",
@@ -114,8 +114,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xjlw9-dy75uj",
@@ -153,8 +152,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-happy-hour",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mva7niys-v52357",
@@ -184,8 +182,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.instagram.com/p/Dd9Mn3bCZNk/?xtok=MXJ2aGU3Z3J2dDZtMA==",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "prideSeries": "No -- standalone event"
+    "cardClass": "tp-meetup"
   },
   {
     "id": "r-mv9zitb1-k7vk8x",
@@ -205,7 +202,7 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -215,7 +212,7 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "11:59 PM – 6:00 AM",
     "location": "The Barge - Barge Rental Paris · 2 Quai de la Tournelle, 75005 Paris, France",
@@ -224,8 +221,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "paris",
-    "prideSeries": "No -- standalone event"
+    "city": "paris"
   },
   {
     "id": "r-mvbkbm1j-s4ein1",
@@ -255,8 +251,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9wrsys-nlmdgx",
@@ -271,14 +266,14 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$0.50",
     "badges": [
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "10:00 PM – 3:00 AM",
     "location": "El Secreto De Rosita · 1624 U St NW, Washington, DC 20009",
@@ -287,8 +282,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9wipod-gc2vo8",
@@ -306,7 +300,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -315,7 +309,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "11:00 PM",
     "location": "9 Bob Note · 270 Meserole St, Brooklyn, NY 11206, USA",
@@ -324,8 +318,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mvh8ag9y-5q99rg",
@@ -359,8 +352,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9w9rgl-zcjj10",
@@ -378,8 +370,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -388,8 +381,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "10:00 PM – 3:00 AM",
     "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
@@ -398,8 +392,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xj53h-ul6jmr",
@@ -434,8 +427,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9zyjkm-uguosj",
@@ -470,8 +462,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mv9wrdha-r5q5j5",
@@ -489,7 +480,7 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -498,7 +489,7 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "8:00 PM – 2:00 AM",
     "location": "MIXXEDD · 2427 18th St NW, Washington, DC 20009",
@@ -507,8 +498,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvh82bm7-n59ecd",
@@ -540,8 +530,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://docs.google.com/forms/d/e/1FAIpQLSdEy9ci4VCHea3TQv1P1Pk2cO0AkkIAe1gE61I_Oi_wejwjyg/viewform?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlEKtfXWZoRQBNyL-2xS9zNeZEh7F9lzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaepW67DH91TI9RTlu9igyWXQK0xZpg905ovHWGMPbzt4gFUnPCUgiaNjMDsWQ_aem_IgTSqanvbmHzmZnwwY8e1g&utm_source=ig&utm_medium=social&utm_content=link_in_bio",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "prideSeries": "No -- standalone event"
+    "cardClass": "tp-meetup"
   },
   {
     "id": "r-mva7ma8t-62h8c5",
@@ -571,8 +560,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xl5nq-036di0",
@@ -602,8 +590,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9w4kma-cwerad",
@@ -620,8 +607,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -630,8 +618,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "7:00 PM – 11:00 PM",
     "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
@@ -640,8 +629,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9wpodv-9oxcpu",
@@ -671,8 +659,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9wfwqz-dumbmq",
@@ -689,14 +676,14 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
     "price": "Free",
     "badges": [
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "10:00 AM – 12:00 PM",
@@ -706,8 +693,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-outdoors",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
+    "city": "baltimore"
   },
   {
     "id": "r-mv9w0rzy-lgxtog",
@@ -724,8 +710,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -734,8 +721,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "10:00 PM – 3:00 AM",
     "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
@@ -744,8 +732,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9slq9j-f9u87l",
@@ -761,8 +748,9 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -770,8 +758,9 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
       "Free"
     ],
     "time": "10:00 PM",
@@ -816,8 +805,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mvh8fg18-zk6uul",
@@ -844,8 +832,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mv9y3n6w-9o7uzn",
@@ -862,7 +849,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "30+"
     ],
     "vibesRaw": "",
@@ -872,7 +859,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "30+"
     ],
     "time": "5:00 PM – 10:00 PM",
@@ -882,8 +869,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-day-party",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9xounn-aybk2x",
@@ -903,7 +889,7 @@ export const generatedEvents: PrideEvent[] = [
       "Lesbian/WLW",
       "Masc",
       "Femme",
-      "POC",
+      "Latina",
       "30+"
     ],
     "vibesRaw": "",
@@ -915,7 +901,7 @@ export const generatedEvents: PrideEvent[] = [
       "Lesbian/WLW",
       "Masc",
       "Femme",
-      "POC",
+      "Latina",
       "30+"
     ],
     "time": "5:00 PM – 10:00 PM",
@@ -925,8 +911,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-day-party",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mv9w953k-lheq75",
@@ -943,7 +928,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Punks"
     ],
     "vibesRaw": "",
@@ -953,7 +938,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Punks"
     ],
     "time": "9:30 PM – 3:00 AM",
@@ -963,8 +948,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9x7bz4-rowglr",
@@ -995,8 +979,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9xihg0-bjo0so",
@@ -1033,8 +1016,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9wtw7l-lr8rd0",
@@ -1053,8 +1035,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
       "Punks"
     ],
     "vibesRaw": "",
@@ -1064,8 +1047,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
       "Punks"
     ],
     "time": "10:00 PM – 3:00 AM",
@@ -1075,8 +1059,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mva0hv0d-i476sv",
@@ -1112,8 +1095,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9zqos6-vl53bk",
@@ -1146,8 +1128,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mv9wqvkr-vyubur",
@@ -1163,7 +1144,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1171,7 +1152,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "9:00 PM – 2:00 AM",
     "location": "Taqueria Picoso · 1472 N Beauregard St, Alexandria, VA 22311",
@@ -1180,8 +1161,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mv9xbwnm-p1hdz0",
@@ -1215,8 +1195,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9zx058-arvjyi",
@@ -1249,8 +1228,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mva04d97-awmbfr",
@@ -1267,8 +1245,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1277,8 +1256,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "10:00 PM – 2:00 AM",
     "location": "Drunken Unicorn · 736 Ponce De Leon Ave NE, Atlanta, GA 30306",
@@ -1287,8 +1267,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mva74e8n-7x9xle",
@@ -1318,8 +1297,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-theatre",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mv9wyjxs-m081o2",
@@ -1337,8 +1315,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1347,8 +1326,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "10:00 PM – 2:00 AM",
     "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
@@ -1357,8 +1337,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mva88lyo-yerpsz",
@@ -1393,8 +1372,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xbg22-n7rpz9",
@@ -1430,8 +1408,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mva0k23w-xlhjzu",
@@ -1464,8 +1441,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9ynwbv-v7dsi0",
@@ -1480,14 +1456,14 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Queer-friendly",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$15.00",
     "badges": [
       "Queer-friendly",
-      "POC"
+      "Latina"
     ],
     "time": "11:00 PM – 6:00 AM",
     "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
@@ -1496,8 +1472,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "paris",
-    "prideSeries": "No -- standalone event"
+    "city": "paris"
   },
   {
     "id": "r-mv9wzolf-tx4ce3",
@@ -1516,7 +1491,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1525,7 +1500,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "11:00 PM – 4:00 AM",
     "location": "Littlefield · 635 Sackett St, Brooklyn, NY 11217",
@@ -1534,8 +1509,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9yoxjw-zobdma",
@@ -1553,8 +1527,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1563,8 +1538,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "11:59 PM – 6:00 AM",
     "location": "The Klub · 14 Rue Saint Denis, 75001 Paris, France",
@@ -1573,8 +1549,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "paris",
-    "prideSeries": "No -- standalone event"
+    "city": "paris"
   },
   {
     "id": "r-mv9ydwgv-f2wvfk",
@@ -1591,7 +1566,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1600,7 +1575,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "10:00 PM – 3:00 AM",
     "location": "The Bush · 333 Troutman St, Brooklyn, NY 11237, USA",
@@ -1609,8 +1584,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mvh8edn4-qj51a4",
@@ -1643,8 +1617,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mvbkb11s-qzdn37",
@@ -1661,7 +1634,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Black",
       "Queer-friendly",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1669,7 +1642,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Black",
       "Queer-friendly",
-      "POC"
+      "Latina"
     ],
     "time": "9:00 PM",
     "location": "Echostage · 2135 Queens Chapel Road NE, Washington, DC 20018,",
@@ -1678,8 +1651,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9u9i5v-189b2q",
@@ -1696,7 +1668,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -1705,7 +1677,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "10:00 PM – 4:00 AM",
     "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
@@ -1730,14 +1702,16 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Black",
-      "Trans/GNC"
+      "Trans",
+      "GNC/Nonbinary"
     ],
     "vibesRaw": "",
     "free": true,
     "price": "Free",
     "badges": [
       "Black",
-      "Trans/GNC",
+      "Trans",
+      "GNC/Nonbinary",
       "Free"
     ],
     "time": "9:00 PM",
@@ -1747,8 +1721,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9u3416-w5b53d",
@@ -1764,7 +1737,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -1772,7 +1745,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "6:30 PM",
@@ -1813,8 +1786,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-stage",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mvh89ykv-sjiup4",
@@ -1849,8 +1821,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-happy-hour",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvejck06-imfvs1",
@@ -1886,8 +1857,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9y6qbu-ncbaz1",
@@ -1904,7 +1874,7 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Queer-friendly",
-      "POC",
+      "Latina",
       "Families and youth"
     ],
     "vibesRaw": "",
@@ -1912,7 +1882,7 @@ export const generatedEvents: PrideEvent[] = [
     "price": "Free",
     "badges": [
       "Queer-friendly",
-      "POC",
+      "Latina",
       "Families and youth",
       "Free"
     ],
@@ -1923,8 +1893,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
+    "city": "baltimore"
   },
   {
     "id": "r-mv9zm87e-3swa2a",
@@ -1942,7 +1911,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Lesbian/WLW",
       "Queer-friendly",
-      "POC",
+      "Latina",
       "ENM",
       "Kink"
     ],
@@ -1953,7 +1922,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Lesbian/WLW",
       "Queer-friendly",
-      "POC",
+      "Latina",
       "ENM",
       "Kink",
       "Free"
@@ -1965,8 +1934,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9wxxwy-dvha9f",
@@ -1996,8 +1964,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvilnkn5-xw2i6u",
@@ -2031,8 +1998,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-happy-hour",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvixl5lz-qh9wi1",
@@ -2061,8 +2027,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.instagram.com/p/DevMjKWxE04/?dlrf=aHpna3p5azlwbXMz",
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-online",
-    "prideSeries": "No -- standalone event"
+    "cardClass": "tp-online"
   },
   {
     "id": "r-mv9xwu9f-32629v",
@@ -2096,8 +2061,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xae68-l3ogy1",
@@ -2130,8 +2094,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-outdoors",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mva03vfr-fbbs04",
@@ -2149,9 +2112,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "Nonbinary",
-      "POC",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
       "Families and youth"
     ],
     "vibesRaw": "",
@@ -2161,9 +2124,9 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "Nonbinary",
-      "POC",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
       "Families and youth",
       "Free"
     ],
@@ -2174,8 +2137,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mv9xmvp9-9f8rre",
@@ -2191,9 +2153,10 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Black",
       "Queer",
-      "Trans/GNC",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -2201,9 +2164,10 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Black",
       "Queer",
-      "Trans/GNC",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "2:00 PM – 4:00 PM",
@@ -2213,8 +2177,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvixnba3-fo9tr6",
@@ -2247,8 +2210,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvejz6ap-6rj5np",
@@ -2281,8 +2243,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mv9x162k-bdyc70",
@@ -2299,7 +2260,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -2308,7 +2269,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "10:00 PM – 2:00 AM",
     "location": "Cam Kirk Studios · 112 Krog St NE D125, Atlanta, GA 30307, USA",
@@ -2317,8 +2278,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mva716ou-4ehppi",
@@ -2335,7 +2295,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Black",
       "Queer",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -2343,7 +2303,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Black",
       "Queer",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "12:00 PM – 4:00 PM",
@@ -2353,8 +2313,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-day-party",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
+    "city": "baltimore"
   },
   {
     "id": "r-mv9x9sz3-5dw6qw",
@@ -2372,7 +2331,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -2381,7 +2340,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "7:00 PM",
     "location": "Gladys Books & Wine · 306 Malcolm X Boulevard",
@@ -2390,8 +2349,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-conference",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9ycyuq-xn1m0o",
@@ -2424,8 +2382,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mva766k3-o4wmqc",
@@ -2459,8 +2416,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mv9x9csy-g82rua",
@@ -2494,8 +2450,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9wva8n-ggrnhv",
@@ -2523,8 +2478,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9yicwh-pg2gi1",
@@ -2540,7 +2494,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -2548,7 +2502,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "7:00 PM – 10:00 PM",
     "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest, Washington, District of Columbia, 20008",
@@ -2557,8 +2511,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9zn4y2-r3zdso",
@@ -2573,14 +2526,14 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$18.00",
     "badges": [
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "9:00 PM – 3:00 AM",
     "location": "The House NYC · 29 Locust St, Brooklyn, NY 11206, USA",
@@ -2589,8 +2542,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9xgecw-q652fa",
@@ -2622,8 +2574,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-happy-hour",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9ydgrr-8qzj7v",
@@ -2639,7 +2590,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Black",
       "Queer",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -2647,7 +2598,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Black",
       "Queer",
-      "POC"
+      "Latina"
     ],
     "time": "10:00 PM – 3:00 AM",
     "location": "The Bush · 333 Troutman St Store 4, Brooklyn, NY 1123",
@@ -2656,8 +2607,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9y7owb-lwxwfi",
@@ -2683,8 +2633,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-day-party",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
+    "city": "baltimore"
   },
   {
     "id": "r-mv9x8v1t-id7jfj",
@@ -2716,8 +2665,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mvbej2dc-tkt56r",
@@ -2734,7 +2682,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Black",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Kink"
     ],
     "vibesRaw": "",
@@ -2743,7 +2691,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Black",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Kink"
     ],
     "time": "7:00 PM – 10:00 PM",
@@ -2753,8 +2701,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dmv",
-    "prideSeries": "No -- standalone event"
+    "city": "dmv"
   },
   {
     "id": "r-mva073gp-9odhvp",
@@ -2786,8 +2733,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9x5i2l-u00n9h",
@@ -2821,8 +2767,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9wc69c-r9dlzc",
@@ -2852,8 +2797,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9zlj8m-gaozv8",
@@ -2871,7 +2815,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Lesbian/WLW",
       "Queer-friendly",
-      "POC",
+      "Latina",
       "ENM"
     ],
     "vibesRaw": "",
@@ -2881,7 +2825,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Lesbian/WLW",
       "Queer-friendly",
-      "POC",
+      "Latina",
       "ENM",
       "Free"
     ],
@@ -2892,8 +2836,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9yhw3k-xoo5c8",
@@ -2909,7 +2852,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -2917,7 +2860,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "6:30 PM – 8:30 PM",
     "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
@@ -2926,8 +2869,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xujvx-qnuw7b",
@@ -2944,7 +2886,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -2953,7 +2895,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "2:00 PM – 6:00 PM",
     "location": "sinners and saints · 2309 18th St NW, Washington, DC 20009, USA",
@@ -2962,8 +2904,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-day-party",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9xhjcr-igxwdv",
@@ -2982,7 +2923,7 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -2992,7 +2933,7 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "6:00 PM – 8:00 PM",
@@ -3002,8 +2943,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9vwve2-8ksxgi",
@@ -3019,16 +2959,18 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Queer",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
     "price": "Free",
     "badges": [
       "Queer",
-      "Trans/GNC",
-      "POC",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
       "Free"
     ],
     "time": "11:00 AM – 4:00 PM",
@@ -3038,8 +2980,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9x52oy-0h8196",
@@ -3069,8 +3010,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9yhe0c-e99xf8",
@@ -3086,7 +3026,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -3094,7 +3034,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "12:00 PM – 1:00 PM",
     "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
@@ -3103,8 +3043,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9zudv7-5zzoaq",
@@ -3120,7 +3059,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -3128,7 +3067,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "time": "4:00 PM – 6:00 PM",
     "location": "as you are. DC · 500 8th St SE, Washington, DC 20003, USA",
@@ -3137,8 +3076,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mvbvidy6-xccbyn",
@@ -3156,10 +3094,10 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "Nonbinary",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -3168,10 +3106,10 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Trans/GNC",
-      "Nonbinary",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "7:00 PM",
     "location": "Femme Fatale · 3409 Connecticut Ave NW, Washington, DC 20008, USA",
@@ -3180,8 +3118,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9x4o87-aywto3",
@@ -3199,7 +3136,8 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "MLM",
-      "Trans/GNC"
+      "Trans",
+      "GNC/Nonbinary"
     ],
     "vibesRaw": "",
     "free": false,
@@ -3208,7 +3146,8 @@ export const generatedEvents: PrideEvent[] = [
       "Queer",
       "Lesbian/WLW",
       "MLM",
-      "Trans/GNC"
+      "Trans",
+      "GNC/Nonbinary"
     ],
     "time": "7:00 PM – 12:00 AM",
     "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
@@ -3217,8 +3156,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-tour",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9xswo2-lu05dt",
@@ -3247,8 +3185,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9x8fk5-stl432",
@@ -3283,8 +3220,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mva7tdu4-5pomu4",
@@ -3313,8 +3249,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
+    "city": "baltimore"
   },
   {
     "id": "r-mv9x494g-fgitfo",
@@ -3344,8 +3279,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9vs46h-qakt31",
@@ -3360,16 +3294,18 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "audienceTags": [
       "Queer",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$27.00",
     "badges": [
       "Queer",
-      "Trans/GNC",
-      "POC"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "time": "9:00 PM – 1:00 AM",
     "location": "Transmission · 1353 H St NE, Washington, DC 20002",
@@ -3378,8 +3314,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9x6f8n-aptc8k",
@@ -3413,8 +3348,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-day-party",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9ztaaz-auqr50",
@@ -3431,7 +3365,7 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -3439,7 +3373,7 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "3:00 PM – 6:00 PM",
@@ -3449,8 +3383,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9ygpur-qd9192",
@@ -3467,7 +3400,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
@@ -3476,7 +3409,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Lesbian/WLW",
       "Femme",
-      "POC"
+      "Latina"
     ],
     "time": "6:30 PM – 8:30 PM",
     "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
@@ -3485,8 +3418,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9ycixt-olsh33",
@@ -3518,8 +3450,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9x0r7b-pqltwk",
@@ -3536,7 +3467,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -3545,7 +3476,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "10:00 PM – 2:00 AM",
@@ -3555,8 +3486,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "atlanta",
-    "prideSeries": "No -- standalone event"
+    "city": "atlanta"
   },
   {
     "id": "r-mv9zpfo3-jbxn90",
@@ -3588,8 +3518,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9ymzeg-37xkgx",
@@ -3691,8 +3620,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-happy-hour",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mva69p0l-0ujw5l",
@@ -3708,14 +3636,14 @@ export const generatedEvents: PrideEvent[] = [
     "audienceTags": [
       "Black",
       "Queer",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
     "badges": [
       "Black",
       "Queer",
-      "POC"
+      "Latina"
     ],
     "time": "7:30 PM – 9:00 PM",
     "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009, USA",
@@ -3724,8 +3652,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   },
   {
     "id": "r-mv9ym9gu-hiede9",
@@ -3787,8 +3714,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-show",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9xeglp-ye4veb",
@@ -3825,8 +3751,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-outdoors",
-    "city": "baltimore",
-    "prideSeries": "No -- standalone event"
+    "city": "baltimore"
   },
   {
     "id": "r-mv8sm8cn-bngytk",
@@ -3843,7 +3768,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC"
+      "Latina"
     ],
     "vibesRaw": "",
     "free": true,
@@ -3852,7 +3777,7 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "POC",
+      "Latina",
       "Free"
     ],
     "time": "10:00 PM",
@@ -3862,8 +3787,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-after-dark",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9x328z-jtn2wc",
@@ -3893,8 +3817,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-meetup",
-    "city": "nyc",
-    "prideSeries": "No -- standalone event"
+    "city": "nyc"
   },
   {
     "id": "r-mv9xzgng-n1jrov",
@@ -3959,7 +3882,6 @@ export const generatedEvents: PrideEvent[] = [
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-after-dark",
-    "city": "dc",
-    "prideSeries": "No -- standalone event"
+    "city": "dc"
   }
 ];
