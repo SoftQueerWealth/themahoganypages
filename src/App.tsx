@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useState } from 'react';
 import { MahoganyPages } from './components/mahogany/MahoganyPages';
 import { SexualWellnessPage } from './components/sexualWellness/SexualWellnessPage';
 import { SoftLettersPage } from './components/softLetters/SoftLettersPage';
@@ -55,7 +55,7 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [drawerOpen]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!drawerOpen) return;
 
     const scrollY = window.scrollY;
@@ -80,7 +80,10 @@ export default function App() {
       body.classList.remove('drawer-lock');
       body.style.top = '';
       document.removeEventListener('touchmove', preventBackgroundScroll);
+      const previousScrollBehavior = html.style.scrollBehavior;
+      html.style.scrollBehavior = 'auto';
       window.scrollTo(0, scrollY);
+      html.style.scrollBehavior = previousScrollBehavior;
     };
   }, [drawerOpen]);
 
