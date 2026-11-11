@@ -141,7 +141,7 @@ button {
 }
 
 .topbar.drawer-open {
-  z-index: 420;
+  z-index: 520;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
@@ -420,7 +420,7 @@ nav.rooms button:hover {
   }
 
   .drawer-overlay.open {
-    z-index: 425;
+    z-index: 510;
   }
 }
 
