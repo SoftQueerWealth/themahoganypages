@@ -9,7 +9,6 @@ import { flyerModalUrl } from '../lib/flyerUrl';
 import { parseDiscountDisplay, hasVisibleDiscountCode } from '../lib/parseDiscountDisplay';
 import { isMappableLocation, mapsSearchUrl, splitLocationParts } from '../lib/maps';
 import { FlyerLightbox } from './FlyerLightbox';
-import { AccessDialog, AccessMark } from './AccessDialog';
 
 interface EventCardProps {
   event: PrideEvent;
@@ -68,7 +67,6 @@ function LocationDisplay({
 export function EventCard({ event, visible, going = false, onToggleGoing, variant = 'classic' }: EventCardProps) {
   const [flyerOpen, setFlyerOpen] = useState(false);
   const [registrationOpen, setRegistrationOpen] = useState(false);
-  const [accessOpen, setAccessOpen] = useState(false);
   const [audienceExpanded, setAudienceExpanded] = useState(false);
   const registrationDirections = event.registrationDirections?.trim() || '';
   const ctaLabel = eventCtaLabel(event);
@@ -211,21 +209,6 @@ export function EventCard({ event, visible, going = false, onToggleGoing, varian
               ))}
             </div>
           ) : null}
-          {isGuide ? (
-            <div className="guide-learn-row">
-              <button
-                type="button"
-                className="guide-access-btn"
-                aria-label="Accessibility details"
-                onClick={() => setAccessOpen(true)}
-              >
-                <AccessMark />
-              </button>
-              <button type="button" className="guide-learn" onClick={() => setAccessOpen(true)}>
-                Click to learn more
-              </button>
-            </div>
-          ) : null}
         </div>
 
         <div className="event-action">
@@ -292,35 +275,6 @@ export function EventCard({ event, visible, going = false, onToggleGoing, varian
           ) : null}
         </div>
       </div>
-      {accessOpen ? (
-        <AccessDialog
-          title={event.name}
-          titleId={`access-${event.id}`}
-          onClose={() => setAccessOpen(false)}
-        >
-          {event.organizer ? <p className="guide-modal-note">{event.organizer}</p> : null}
-          {showTime || event.price ? (
-            <p>
-              {showTime ? event.time.trim() : null}
-              {showTime && event.price ? ' · ' : null}
-              {event.price ?? null}
-            </p>
-          ) : null}
-          {event.location ? <p>{event.location}</p> : null}
-          {hasFlyer && event.flyerUrl ? (
-            <button
-              type="button"
-              className="guide-learn"
-              onClick={() => {
-                trackEventCardClick(event.name);
-                setFlyerOpen(true);
-              }}
-            >
-              View flyer
-            </button>
-          ) : null}
-        </AccessDialog>
-      ) : null}
     </div>
   );
 }

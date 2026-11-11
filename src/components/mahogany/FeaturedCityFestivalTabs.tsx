@@ -3,7 +3,7 @@ import type { GbpHospitalityItem } from '../../data/globalBlackPride';
 import type { BlaqTabDef, BlaqTabId, BlaqTravelCard } from '../../data/baltimoreBlaqPride';
 import { badgeClassForLabel } from '../../lib/badgeClass';
 import { displayAudienceBadges } from '../../lib/displayAudienceBadges';
-import { AccessDialog, AccessMark } from '../AccessDialog';
+import { AccessDialog } from '../AccessDialog';
 
 type HosCredit = { credit: string; creditSourceLink?: string };
 
@@ -108,9 +108,6 @@ function GuidePlaceRow({
           </p>
         ) : null}
         <div className="guide-learn-row">
-          <button type="button" className="guide-access-btn" aria-label="Accessibility details" onClick={() => setAccessOpen(true)}>
-            <AccessMark />
-          </button>
           <button type="button" className="guide-learn" onClick={() => setAccessOpen(true)}>
             Click to learn more
           </button>

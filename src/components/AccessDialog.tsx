@@ -32,13 +32,6 @@ export function AccessDialog({ title, titleId, onClose, children }: AccessDialog
         </button>
         <h3 id={titleId}>{title}</h3>
         {children ? <div className="guide-modal-body">{children}</div> : null}
-        <div className="guide-access">
-          <div className="guide-access-kicker">Accessibility</div>
-          <p className="guide-access-source">From Google for this venue</p>
-          <p>Google does not have info for this venue.</p>
-          <p className="guide-access-source">From the organizer</p>
-          <p>No info from the organizer yet.</p>
-        </div>
       </div>
     </div>
   );
