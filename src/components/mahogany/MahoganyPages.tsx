@@ -141,37 +141,19 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
   }, [isCityGuide]);
 
   useEffect(() => {
-    const button = filtersButtonRef.current;
-    if (!button || filtersOpenedRef.current) return;
+    if (!isCityGuide || blaqTab === 'travelinfo' || filtersOpenedRef.current) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-    const centerOf = (el: HTMLElement) => {
-      const rect = el.getBoundingClientRect();
-      return rect.top + rect.height / 2;
+    const startShaking = () => {
+      if (filtersOpenedRef.current) return;
+      setFiltersJiggling(true);
     };
-    const triggerLine = (mobile: boolean) => window.innerHeight * (mobile ? 0.5 : 0.4);
-    const start = centerOf(button);
-    const startMobile = window.matchMedia('(max-width: 900px)').matches;
-    let wasPast = start <= triggerLine(startMobile);
-    let oweArrival = wasPast;
 
-    const jiggle = () => {
-      setFiltersJiggling(false);
-      requestAnimationFrame(() => {
-        if (!filtersOpenedRef.current) setFiltersJiggling(true);
-      });
-    };
+    const initialY = window.scrollY;
+    if (initialY > 0) startShaking();
 
     const onScroll = () => {
-      if (filtersOpenedRef.current) return;
-      const el = filtersButtonRef.current;
-      if (!el) return;
-      const mobile = window.matchMedia('(max-width: 900px)').matches;
-      if (!mobile && window.scrollY <= 24) return;
-      const past = centerOf(el) <= triggerLine(mobile);
-      if (past && (!wasPast || oweArrival)) jiggle();
-      oweArrival = false;
-      wasPast = past;
+      if (window.scrollY > initialY) startShaking();
     };
 
     window.addEventListener('scroll', onScroll, { passive: true });
@@ -494,9 +476,6 @@ export function MahoganyPages({ onOpenWellness }: MahoganyPagesProps) {
                     filtersOpenedRef.current = true;
                     setFiltersJiggling(false);
                     setMobileFiltersOpen(true);
-                  }}
-                  onAnimationEnd={(event) => {
-                    if (event.animationName === 'filter-jiggle') setFiltersJiggling(false);
                   }}
                 >
                   Filters{guideFilterCount > 0 ? ` · ${guideFilterCount}` : ''}

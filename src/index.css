@@ -3987,27 +3987,28 @@ nav.rooms button:hover {
 
 .city-guide-filters.is-jiggling {
   transform-origin: center;
-  animation: filter-jiggle 0.9s ease-in-out 2, filter-jiggle-ring 0.9s ease-out 2;
+  animation: filter-jiggle 3s ease-in-out infinite, filter-jiggle-ring 3s ease-out infinite;
 }
 
 @keyframes filter-jiggle {
   0%,
+  30%,
   100% {
     transform: rotate(0deg) scale(1);
   }
-  12% {
+  3.6% {
     transform: rotate(-8deg) scale(1.14);
   }
-  28% {
+  8.4% {
     transform: rotate(7deg) scale(1.14);
   }
-  44% {
+  13.2% {
     transform: rotate(-6deg) scale(1.1);
   }
-  60% {
+  18% {
     transform: rotate(5deg) scale(1.06);
   }
-  76% {
+  22.8% {
     transform: rotate(-2deg) scale(1.02);
   }
 }
@@ -4016,6 +4017,7 @@ nav.rooms button:hover {
   0% {
     box-shadow: 2px 2px 0 #2a1f18, 0 0 0 0 rgba(169, 196, 108, 0.8);
   }
+  30%,
   100% {
     box-shadow: 2px 2px 0 #2a1f18, 0 0 0 22px rgba(169, 196, 108, 0);
   }
