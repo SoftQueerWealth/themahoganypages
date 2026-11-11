@@ -1,4 +1,4 @@
-const HIDDEN_AUDIENCE_BADGES = new Set(['black', 'queer']);
+const PINNED_AUDIENCE_BADGES = ['black', 'queer'];
 const MAX_VISIBLE_AUDIENCE_BADGES = 3;
 
 function normalizeAudienceBadge(value: string): string {
@@ -11,10 +11,17 @@ export type AudienceBadgeDisplay = {
 };
 
 /**
- * Audience badges for event cards: drop bare Black/Queer, cap at 3 shown, rest in overflow.
+ * Audience badges for event cards. Black and Queer stay on the card when tagged.
+ * Cap at 3 shown, rest in overflow.
  */
 export function displayAudienceBadges(badges: string[]): AudienceBadgeDisplay {
-  const visible = badges.filter((badge) => !HIDDEN_AUDIENCE_BADGES.has(normalizeAudienceBadge(badge)));
+  const pinned: string[] = [];
+  const rest: string[] = [];
+  for (const badge of badges) {
+    if (PINNED_AUDIENCE_BADGES.includes(normalizeAudienceBadge(badge))) pinned.push(badge);
+    else rest.push(badge);
+  }
+  const visible = [...pinned, ...rest];
   if (visible.length <= MAX_VISIBLE_AUDIENCE_BADGES) {
     return { shown: visible, overflow: [] };
   }
