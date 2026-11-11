@@ -12,9 +12,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Dope Pleasure in the Woods",
     "organizer": "Dope Pleasure in the Woods (DPW)",
     "types": [
-      "meetup",
-      "outdoors",
-      "festival"
+      "festival",
+      "show",
+      "workshop"
     ],
     "audienceTags": [
       "Black",
@@ -47,7 +47,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://dopepleasureinthewoods.com/vettingform-9228?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU-R8dleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQUxAK3ZR5rhGhFmEG4mz0zwoGhygHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwTMi3ogXwoG6chTNcpNMcz1JwFGkJ5JivZs0FDV-2ruA8u191vaL6oBTUnv_aem_ZwW8j3izqzdYQ5al6Y8qFg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-festival",
     "city": "dmv"
   },
   {
@@ -59,8 +59,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "DC's Black Queer Ski Weekend",
     "organizer": "theoutdoorgirlsclub",
     "types": [
-      "meetup",
-      "outdoors"
+      "workshop",
+      "outdoors-&-active",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -81,7 +82,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://partiful.com/e/WEVu9EJTel7hvfSQGBrK?c=wEiv81pt",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dmv"
   },
   {
@@ -125,9 +126,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Book Club Meeting",
     "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
     "types": [
+      "workshop",
       "happy-hour",
-      "meetup",
-      "workshop"
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -151,7 +152,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950083/?eventOrigin=group_upcoming_events",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-happy-hour",
+    "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
@@ -163,8 +164,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Billiards Meet Up",
     "organizer": "Cue Social",
     "types": [
-      "meetup",
-      "pool"
+      "party",
+      "meetup"
     ],
     "audienceTags": [
       "Queer",
@@ -182,7 +183,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.instagram.com/p/Dd9Mn3bCZNk/?xtok=MXJ2aGU3Z3J2dDZtMA==",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup"
+    "cardClass": "tp-party"
   },
   {
     "id": "r-mv9zitb1-k7vk8x",
@@ -193,9 +194,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Kompet - Full Black Edition",
     "organizer": "B2S Experience",
     "types": [
-      "after-dark",
-      "meetup",
-      "outdoors"
+      "party",
+      "outdoors-&-active",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -220,7 +221,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/fr/events/kompet-full-black-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacwePNQ-M_mKwTrqLJEAcxZUis5THmczo5cXDnzRDhJrDCEPreCmoansI6IyQ_aem_XuTg_9ERvfsXBwTZPQgjWQ",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "paris"
   },
   {
@@ -232,8 +233,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Syd: Beard Tour",
     "organizer": "Syd",
     "types": [
-      "after-dark",
-      "stage"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Queer-friendly"
@@ -250,7 +251,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.ticketmaster.com/syd-beard-tour-washington-district-of-columbia-12-03-2026/event/1500652C46567804?utm_medium=affiliate&utm_content=hotevent&irgwc=1&afsrc=1&clickid=UlwyB5xFMxyZW4e0NNyvtwUBUkr1ua3lR2CN0g0&camefrom=CFC_BUYAT_296934&impradid=296934&REFERRAL_ID=tmfeedbuyat296934&wt.mc_id=aff_BUYAT_296934&utm_source=296934-Spotify&impradname=Spotify&ircid=4272",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -262,7 +263,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Rumba VENEZOLANA",
     "organizer": "TASTE Takeover",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Lesbian/WLW",
@@ -281,7 +282,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.tastetakeover.com/event-details-registration/rumba-venezolana",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -293,8 +294,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Raw Honey: Home for the Holidays Fest",
     "organizer": "Raw Honey",
     "types": [
-      "after-dark",
-      "festival"
+      "festival",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -317,7 +318,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/raw-honey-black-friday?u=gabriellehitchens124&_t=mur7faqz&os=ios&src=event_page",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-festival",
     "city": "nyc"
   },
   {
@@ -363,7 +364,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Club Ghetto Tech: Vol. 10",
     "organizer": "TRANSMISSION",
     "types": [
-      "after-dark",
+      "party",
       "meetup"
     ],
     "audienceTags": [
@@ -391,7 +392,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/en/events/club-ghetto-tech-vol-10",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -403,8 +404,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Book Club Meeting",
     "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -426,7 +427,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950082/?eventOrigin=group_upcoming_events",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
@@ -438,7 +439,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
     "organizer": "Xxclusive Vibes",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -461,7 +462,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-11-15-8-0",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -473,7 +474,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Latin Karaoke Social & RUMBA!",
     "organizer": "TASTE Takeover",
     "types": [
-      "after-dark",
+      "karaoke",
+      "party",
       "meetup"
     ],
     "audienceTags": [
@@ -497,7 +499,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.tastetakeover.com/event-details-registration/latin-karaoke-social-rumba",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-karaoke",
     "city": "dc"
   },
   {
@@ -509,8 +511,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Black Lavender Munch",
     "organizer": "lola.rozay",
     "types": [
-      "meetup",
-      "online"
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -571,7 +572,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Lavender Evolutions Book Club Meet Up",
     "organizer": "Lavender Evolutions",
     "types": [
-      "meetup"
+      "workshop"
     ],
     "audienceTags": [
       "Black",
@@ -589,8 +590,27 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://bookclubs.com/clubs/6019622/join/c56cf2?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAackQ0SVRlKjxF8ty7L89FNVbC1jDl0S71u1GJ63rFZ4CvAXCCTa16lptDXTRg_aem_gOHxKvUzouY74eT7zm9iXg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dc"
+  },
+  {
+    "id": "r-mw45znyg-gzu3u3",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-08",
+    "dayLabel": "Sunday",
+    "name": "Sip & paint experience for queer femmes, WLW, and nonbinary folks",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "4:00 PM – 6:00 PM",
+    "location": "500 8th st se",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/Deu8Bc8xQUQ/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
   },
   {
     "id": "r-mv9w4kma-cwerad",
@@ -601,7 +621,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Dawn Richard Pres. By We're Not Dead",
     "organizer": "We're Not Dead",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -628,7 +649,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/en/events/dawn-richard-pres-by-we-re-not-dead",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -640,8 +661,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Hike N' Hang: Fall Edition",
     "organizer": "The Big Kids Club",
     "types": [
-      "meetup",
-      "outdoors"
+      "outdoors-&-active",
+      "meetup"
     ],
     "audienceTags": [
       "Families and youth"
@@ -658,7 +679,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/hike-n-hang-fall-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadNR8tq_Dmy9HFTk-yETHRZI_-N2z2G5LtndK_7RSeIzDhunun0CLSbqWCNGg_aem_3dWwa5ZfTZggYq-bS1SO1Q",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-outdoors-&-active",
     "city": "dc"
   },
   {
@@ -670,9 +691,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Lez Black Gurls : Saturday Hike",
     "organizer": "LezBlackGurls",
     "types": [
-      "outdoors",
       "conference",
-      "online"
+      "outdoors-&-active"
     ],
     "audienceTags": [
       "Lesbian/WLW",
@@ -692,7 +712,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.eventbrite.com/e/lez-black-gurls-saturday-hike-tickets-2003329710091?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr1APRtR2CN0g0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-outdoors",
+    "cardClass": "tp-conference",
     "city": "baltimore"
   },
   {
@@ -704,7 +724,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Mood II Swing",
     "organizer": "TRANSMISSION",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -731,7 +751,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/en/events/mood-ii-swing",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -743,7 +763,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Scorpio Stings: Junior Sanchez, Ultra Violet and More!",
     "organizer": "House of Yes",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Queer",
@@ -769,7 +789,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://link.dice.fm/R808117106d3",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -781,7 +801,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "First Fridays: The Biggest Party in ATL For Women Who Love Women",
     "organizer": "Xxclusive Vibes",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -804,7 +824,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/first-fridays-the-biggest-party-in-atl-for-women-who-love-women-2026-11-7-8-0",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -816,13 +836,13 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Found People After Dark",
     "organizer": "Good People",
     "types": [
-      "after-dark"
+      "party"
     ],
     "vibesRaw": "",
     "free": true,
     "price": "Free",
     "badges": [
-      "After Dark",
+      "Party",
       "Free"
     ],
     "time": "8:00 PM – 1:00 AM",
@@ -831,7 +851,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/found-fest-after-dark?u=briizzyfbaby&_t=mvh8eosw&os=ios&src=event_page",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -843,7 +863,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "(NYC) 30+ Haus of Honey: Halloween",
     "organizer": "Haus of Honey",
     "types": [
-      "day-party"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -868,7 +888,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/nyc-30-haus-of-honey-halloween?u=gabriellehitchens124&_t=muoawihp&os=ios&src=event_page",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -880,7 +900,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Bad Witch, Good Butch: Mixtape Sapphics' Halloween Costume Party",
     "organizer": "Mixtape Sapphics",
     "types": [
-      "day-party",
+      "party",
       "meetup"
     ],
     "audienceTags": [
@@ -910,7 +930,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.eventbrite.com/e/bad-witch-good-butch-mixtape-sapphics-halloween-costume-party-tickets-2003320905757?aff=ebdsoporgprofile",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-party",
     "city": "dmv"
   },
   {
@@ -922,7 +942,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Club Ghetto Tech: Vol. 9",
     "organizer": "Groove Haul",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -947,7 +968,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://ra.co/events/2546054?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadA91PofE2vivgrv7h8SW8NHHG3oSWASNwHVAZEwesbg-lQv6b-GjAunV6YYw_aem_4yG3paHrzKBzaxQ9YcF3xA",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -959,7 +980,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "GGGayest Halloween",
     "organizer": "Gay Gayer Gayest",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -978,7 +999,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/gggayest-halloween?u=keyslache&_t=mv12yph3&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAad9EnfEy_jIIp40xVWf_OdJPK-ztHT5bLjo70ybydpagn3kOtEOq-a47VmBIg_aem_TVTKXix7HKEGd-UP1VQvKg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -990,8 +1011,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Halloween Movie Watch Party",
     "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
     "types": [
-      "meetup",
-      "theatre"
+      "show",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -1015,7 +1036,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/316962942/?eventOrigin=group_upcoming_events",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -1027,9 +1048,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Lobotomy 4 Pres By 140+ X Fwb X Xunt",
     "organizer": "TRANSMISSION",
     "types": [
-      "after-dark",
-      "meetup",
-      "online"
+      "show",
+      "party",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -1058,7 +1079,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/en/events/140fwbxunt-halloween?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadwzligmlgwTFNmSi4jQ4trCycvvrFtIo_RTiRggYlLP2mtc0gGFD24dFPb4Q_aem_iKeXQw2pWNvz_ArOiURH1g",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -1070,7 +1091,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "NYC “Freak Show”",
     "organizer": "Deviant Events",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1094,7 +1115,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://dvntapp.live/events/nyc-freak-show",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -1106,7 +1127,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Not Another Halloween Party",
     "organizer": "No Label Party",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1127,7 +1148,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/not-another-halloween-party?u=nolabelparty_&_t=mv11eyng&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAac_T4PRns9QARLt3eHKp4x_HiNcZ8bSFCUw0ZD5z-CCmNU-ayoUAuhe3aa4Ww_aem_V8tym0EpfEkOT5hpNLtCeQ",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dmv"
   },
   {
@@ -1139,7 +1160,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "QUEER HALLOWEEN REGGAETON PARTY!!",
     "organizer": "TASTE Takeover",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Queer",
@@ -1160,7 +1181,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.tastetakeover.com/event-details-registration/queer-halloween-reggaeton-party",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dmv"
   },
   {
@@ -1172,8 +1193,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Sapphic Superstition",
     "organizer": "Gladys Books and Wine",
     "types": [
-      "after-dark",
-      "stage"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1194,7 +1215,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92287",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -1206,7 +1227,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Something Lit For The Ladies: Freakfest Halloween Party For WLW",
     "organizer": "Xxclusive Vibes",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1227,7 +1248,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-11-1-7-0",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -1239,7 +1260,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "CLUB 6669! A Queer Halloween Dance Party",
     "organizer": "Southern Fried Queer Pride",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1266,7 +1288,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.eventbrite.com/e/club-6669-a-queer-halloween-dance-party-tickets-2003374945391?aff=oddtdtcreator&keep_tld=true",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "atlanta"
   },
   {
@@ -1278,8 +1300,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Diamonds and Desire",
     "organizer": "LRE",
     "types": [
-      "theatre",
-      "stage"
+      "show"
     ],
     "audienceTags": [
       "Queer-friendly"
@@ -1296,7 +1317,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.eventbrite.com/e/diamonds-and-desire-tickets-1989327912337?fbclid=PAZnRzaAU-RvZleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQXx9Gx6nlioL-ZXKqTErjWUa97F3HNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpw5yK7ixj3zWyCrFprOq4PmBr4ELQERxXtls2vJ9-7Def3IMbDTyYVQaNBoa_aem_QVV2-FinRFx2zm6wiPPjJQ&utm_medium=social&utm_content=link_in_bio&utm_source=ig&aff=oddtdtcreator",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-theatre",
+    "cardClass": "tp-show",
     "city": "dmv"
   },
   {
@@ -1308,7 +1329,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Fruit Punch X Meet Me",
     "organizer": "TRANSMISSION",
     "types": [
-      "after-dark",
+      "party",
       "meetup"
     ],
     "audienceTags": [
@@ -1336,7 +1357,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/en/events/fruit-punch-x-meet-me",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -1348,7 +1369,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Gurls & Ghouls 2",
     "organizer": "MIM Entertainment",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1371,7 +1392,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/gurls-ghouls-2?u=aminabrown76&_t=mv87a8q6&os=android&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf9UaqaFBrsZL0rLyRPkj5lbVLisvsTC02c-Uv1B1I_CQVAl14Up1NzT3dJTA_aem_tiWiy2bO0Z1IWFnSsjKBAA",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -1383,8 +1404,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "I DO the Bending Live Podcast Recording!",
     "organizer": "Gladys Books and Wine",
     "types": [
-      "meetup",
-      "stage"
+      "show",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -1407,7 +1428,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=91793",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -1419,7 +1440,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Nightmare on Lesbian Street",
     "organizer": "Party Girls DC",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1440,7 +1461,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/nightmare-on-lez-street?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacme3wmh8q-kD4fJXi4pxTYAraBYrqaAToC42Ylc8Cs62mRq6hbtWXD2CPEGw_aem_6xtL0WchlPDchDTOdmTCng",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -1452,7 +1473,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Omizs Halloween Party - I <3 Jb",
     "organizer": "PAMELA CLUB",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Queer-friendly",
@@ -1471,7 +1492,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/fr/events/omizspartyhalloweenjb",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "paris"
   },
   {
@@ -1483,9 +1504,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Out N Bad: CREATURES | NYC | Queer Caribbean Halloween Bashment",
     "organizer": "littlefield",
     "types": [
-      "after-dark",
       "conference",
-      "online"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1508,7 +1528,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.eventbrite.com/e/out-n-bad-creatures-nyc-queer-caribbean-halloween-bashment-tickets-2002653429317",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-conference",
     "city": "nyc"
   },
   {
@@ -1520,8 +1540,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "The Bunker Horror Show",
     "organizer": "The Bunker Paris",
     "types": [
-      "after-dark",
-      "stage"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1548,7 +1568,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/fr/events/le-bunker-horror-show?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadzDFdXS_cXxvTOSjVyvH27NIBqTKWGhX4SabWbNznJThEHYXwcKxR8lrxm5w_aem_XJOFQN23Ojes-31q9KDepg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "paris"
   },
   {
@@ -1560,7 +1580,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "gURLSlikegIRLS: Blood Suckers",
     "organizer": "gURLSlikegIRLS",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1583,7 +1603,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/gurlslikegirls-blood-suckers",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -1595,7 +1615,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "GGGayest Halloween (ATL Edition)",
     "organizer": "GGG",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1616,7 +1636,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/gggayest-halloween-atl-edition?u=briizzyfbaby&_t=mvh8dtoo&os=ios&src=event_page",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -1628,8 +1648,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "KAYTRANADA Concert",
     "organizer": "KAYTRANADA",
     "types": [
-      "after-dark",
-      "stage"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1650,7 +1670,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.ticketmaster.com/kaytranada-dj-set-washington-district-of-columbia-10-29-2026/event/150065322CC3A843?utm_medium=affiliate&utm_content=hotevent&irgwc=1&afsrc=1&clickid=UlwyB5xFMxyZW4e0NNyvtwUBUkr1ufSRR2CN0g0&camefrom=CFC_BUYAT_296934&impradid=296934&REFERRAL_ID=tmfeedbuyat296934&wt.mc_id=aff_BUYAT_296934&utm_source=296934-Spotify&impradname=Spotify&ircid=4272",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -1662,7 +1682,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Gaydar Halloween",
     "organizer": "House of Yes",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1685,7 +1706,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://link.dice.fm/Yf1f5b18cc7d",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -1697,8 +1718,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Halloween: Deep CVNT",
     "organizer": "@girliepopdc",
     "types": [
-      "after-dark",
-      "ball"
+      "show"
     ],
     "audienceTags": [
       "Black",
@@ -1720,7 +1740,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.instagram.com/p/DeM2lwpEYQa/?img_index=1",
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -1732,7 +1752,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Hot & Fresh Burlesque: Halloween Edition",
     "organizer": "House of Yes",
     "types": [
-      "stage"
+      "show"
     ],
     "audienceTags": [
       "Queer",
@@ -1754,7 +1774,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://link.dice.fm/h70f78bae62d",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-stage",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -1766,7 +1786,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Velvet Requiem: A Sapphic Murder Mystery Dinner Party",
     "organizer": "Gladys Books and Wine",
     "types": [
-      "stage"
+      "show"
     ],
     "audienceTags": [
       "Black",
@@ -1785,7 +1805,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92285",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-stage",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -1832,7 +1852,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Kinky Karaoke: Sing or Scream",
     "organizer": "Create The Erotic",
     "types": [
-      "after-dark"
+      "karaoke",
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -1856,7 +1878,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/kinky-karaoke-sing-or-scream",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-karaoke",
     "city": "dc"
   },
   {
@@ -1868,9 +1890,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Pecha Kucha: 2026 Season",
     "organizer": "Pecha Kucha: 2026 Season",
     "types": [
-      "meetup",
-      "outdoors",
-      "workshop"
+      "show",
+      "workshop",
+      "outdoors-&-active"
     ],
     "audienceTags": [
       "Queer-friendly",
@@ -1892,7 +1914,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://pools.events/event/lIuM5RFP/pecha-kucha-2026-season/?i=1iruIW9S",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-show",
     "city": "baltimore"
   },
   {
@@ -1904,8 +1926,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "SuciaPLAY Meet & Greet 10/28/2026",
     "organizer": "SuciaNYC",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -1933,7 +1955,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://forbiddentickets.com/events/sucianyc/962f5e746d",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "nyc"
   },
   {
@@ -1975,6 +1997,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Queer Karaoke",
     "organizer": "Black Assets",
     "types": [
+      "karaoke",
+      "show",
       "happy-hour"
     ],
     "audienceTags": [
@@ -1994,10 +2018,10 @@ export const generatedEvents: PrideEvent[] = [
     "time": "7:00 PM – 11:00 PM",
     "location": "Sulod Cocktail Bar & Kitchen · 1250 H Street NE, 2nd Floor, DC",
     "vibeTags": [],
-    "ctaHref": "",
-    "ctaLabel": "More Info",
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=70d3e645-1c37-444d-b709-07dde19411d2&region=was&tenant=9bdf164cfefd&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDevfrYDN7ab%2F&key=sh-1&hmac=20431283ae027864e35b45b03668846a5a414e44321b2064cb534962814b1636",
+    "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-happy-hour",
+    "cardClass": "tp-karaoke",
     "city": "dc"
   },
   {
@@ -2009,7 +2033,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Non Monogamy Chat",
     "organizer": "nonmonogamy_chat",
     "types": [
-      "online"
+      "meetup"
     ],
     "audienceTags": [
       "ENM"
@@ -2027,7 +2051,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.instagram.com/p/DevMjKWxE04/?dlrf=aHpna3p5azlwbXMz",
     "ctaLabel": "More Info",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-online"
+    "cardClass": "tp-meetup"
   },
   {
     "id": "r-mv9xwu9f-32629v",
@@ -2038,8 +2062,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Ghosts We Carry",
     "organizer": "The Sapphic Sanctuary",
     "types": [
-      "meetup",
-      "gynasium"
+      "workshop",
+      "outdoors-&-active",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -2060,7 +2085,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://api.joinpinyada.com/eventLinkPreview?eventid=896&hostid=1259&share=true",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
@@ -2072,8 +2097,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Indigo Poets Archive presents: FEAR, A Black Lesbian Open Mic",
     "organizer": "Gladys Books and Wine",
     "types": [
-      "outdoors",
-      "stage"
+      "show",
+      "outdoors-&-active"
     ],
     "audienceTags": [
       "Black",
@@ -2093,7 +2118,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92602",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-outdoors",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -2105,8 +2130,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Trans Bike Ride: Halloween Edition (Costumes Encouraged)",
     "organizer": "Southern Fried Queer Pride",
     "types": [
-      "meetup",
-      "outdoors"
+      "outdoors-&-active",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -2136,7 +2161,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "sfqp.info/transbike1025",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-outdoors-&-active",
     "city": "atlanta"
   },
   {
@@ -2188,7 +2213,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Queeribbean Folklore Fright Fest",
     "organizer": "Queeribbeans of the DMV",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -2209,7 +2234,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/queeribbean-folklore-fright-fest?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVGVp5leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQwcv5UoL-VgIHqFvYKEv0feJY_JBHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp5d6E53bwBp6raJtM0o_OfW2Ubw51aJUpDjXyjZlknvmOUGH50UXsDzc-AHr_aem_8SNBCdcD_vosihUn9g4RWA",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -2254,7 +2279,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "CUFFIN' SEASON - Lesbian & Queer Party",
     "organizer": "Adult Supervision Needed",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -2277,7 +2302,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/cuffin-season-lesbian-queer-party",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -2289,8 +2314,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Gay Ass Brunch",
     "organizer": "@itsAngieFool",
     "types": [
-      "day-party",
-      "brunch"
+      "brunch",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -2312,7 +2337,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/gay-ass-brunch",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-brunch",
     "city": "baltimore"
   },
   {
@@ -2325,7 +2350,7 @@ export const generatedEvents: PrideEvent[] = [
     "organizer": "Glo",
     "types": [
       "conference",
-      "online"
+      "show"
     ],
     "audienceTags": [
       "Black",
@@ -2360,7 +2385,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Old Bae Halloween Edition - A 30 & Over Party",
     "organizer": "Old Bae",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -2381,7 +2406,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/old-bae-halloween-edition-a-30-over-party",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -2427,8 +2452,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Audio Noir feat. selections from I, Medusa",
     "organizer": "Gladys Books and Wine",
     "types": [
-      "meetup",
-      "theatre"
+      "show",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -2449,7 +2474,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92280",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -2522,7 +2547,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "GayNB : The TrapSoul Series Prt I",
     "organizer": "Stizz Entertainment LLC",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Lesbian/WLW",
@@ -2541,7 +2566,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/gaynb-the-trapsoul-series-prt-i",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -2585,7 +2610,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Untamed",
     "organizer": "Puff Productions",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -2606,7 +2632,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://events.ticketleap.com/tickets/puff-productions/untamed?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUw3K5leHRuA2FlbQIxMQBwZG9mAmZkaWQWUPvUmZFyUZaYk8g4i4zSzJjdfEbT-nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6tozElIZ7D7r-3r9KXMKhMZ9s5c7vmGwwKiX6eeKZ2XTmQXCk8JNxXQ9CIE_aem_9Y_jXSnHnFCsAg4Uq9KPOw",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -2618,13 +2644,13 @@ export const generatedEvents: PrideEvent[] = [
     "name": "VERSION",
     "organizer": "Version Baltimore",
     "types": [
-      "day-party"
+      "party"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$14.00",
     "badges": [
-      "Day Party"
+      "Party"
     ],
     "time": "7:00 PM – 11:00 PM",
     "location": "Current Space Garden Bar · 421 Tyson St",
@@ -2632,7 +2658,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://pools.events/event/KOGStSTW/version/?i=gLrKgIHs",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-party",
     "city": "baltimore"
   },
   {
@@ -2644,7 +2670,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Who Gets To Be Fully Human? Featuring Dr. Rachel Hardeman in Conversation",
     "organizer": "Gladys Books and Wine",
     "types": [
-      "meetup"
+      "show"
     ],
     "audienceTags": [
       "Black",
@@ -2664,7 +2690,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92012",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -2676,8 +2702,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "BIPOC Rope Jam",
     "organizer": "Neffie Khaos",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -2700,7 +2726,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.boundlark.com/calendar/bipocjam10?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU_Y9FleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQZ3jv2gvX4IsTx-CkJDfFedxZ4ja3NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_qFJPLtIUGK1hPf6liUvblEkq5QTvCCgAQRA6adb_sNZcw-SV1jzouxsdiw_aem_dPWo8DrpxY7D3eciuOZFfg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dmv"
   },
   {
@@ -2712,6 +2738,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "NYC LLA OCTOBER MEET UP",
     "organizer": "Living Lesibian Archive",
     "types": [
+      "karaoke",
       "meetup"
     ],
     "audienceTags": [
@@ -2732,7 +2759,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://partiful.com/e/woraFXL94rwegN7qQy8X?",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-karaoke",
     "city": "nyc"
   },
   {
@@ -2744,7 +2771,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Oh, You Sing? w. Tima",
     "organizer": "Saint James Libations",
     "types": [
-      "after-dark"
+      "karaoke",
+      "show"
     ],
     "audienceTags": [
       "Black",
@@ -2766,7 +2794,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/oh-you-sing-w-tima",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-karaoke",
     "city": "nyc"
   },
   {
@@ -2808,8 +2836,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "SuciaBLERD Meet Up 10/21/2026",
     "organizer": "SuciaNYC",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -2835,7 +2863,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://forbiddentickets.com/events/sucianyc/bcbdc91c6c",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "nyc"
   },
   {
@@ -2880,7 +2908,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "A Day of Queersylvania",
     "organizer": "Sinners and Saints",
     "types": [
-      "day-party"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -2903,7 +2932,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/a-day-of-queersylvania?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUvbGdleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPo-eaOzdw5WdCgNAr8de8rq5xHv6nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp9HAJmq8fcT9_lHAM4wTD1I1nJIUTAjDWjUIpCfjeFkmSsGRS4tVQkwVw2dd_aem_MTDla3q-Ze9pb2RaRDULLg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -2915,8 +2944,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Book Club Meeting",
     "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -2942,7 +2971,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950081/?eventOrigin=group_upcoming_events",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
@@ -2954,8 +2983,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "GOOD TIMES MARKET",
     "organizer": "Transmission",
     "types": [
-      "meetup",
-      "rooftop"
+      "meetup"
     ],
     "audienceTags": [
       "Queer",
@@ -3087,8 +3115,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Scary Jane",
     "organizer": "Lavender Evolutions",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -3117,7 +3145,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/scary-jane",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
@@ -3129,7 +3157,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "(NYC) Babyboi: Cuffing SZN",
     "organizer": "Babyboi",
     "types": [
-      "tour"
+      "party",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -3155,7 +3184,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/nyc-babyboi-cuffing-szn",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-tour",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -3167,7 +3196,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "GAY HALLOWEEN",
     "organizer": "Portal 6",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Queer"
@@ -3184,7 +3213,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gatherevents.online/event/pllO-gay-halloween",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "dc"
   },
   {
@@ -3231,8 +3260,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "POLY IN PRACTICE",
     "organizer": "blackandpolydmv",
     "types": [
-      "meetup",
-      "workshop"
+      "workshop",
+      "meetup"
     ],
     "audienceTags": [
       "ENM"
@@ -3245,10 +3274,10 @@ export const generatedEvents: PrideEvent[] = [
     "time": "1:00 PM",
     "location": "Baltimore",
     "vibeTags": [],
-    "ctaHref": "",
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=70d3e645-1c37-444d-b709-07dde19411d2&region=was&tenant=9bdf164cfefd&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.instagram.com%2Fblackandpolydmv%2F&key=sh-1&hmac=d3b267008c418533442651134f0ca693eed1ffffec999a47911612e955333c55",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-workshop",
     "city": "baltimore"
   },
   {
@@ -3290,7 +3319,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Salsa vs. Go-Go",
     "organizer": "Orquesta Manplesa",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Queer",
@@ -3313,7 +3343,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.tickettailor.com/events/orquestamanplesa/2371684?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacZ4rYvMXRx5fnVN9l1tm9qHe5h--sX7NOEDoKPfpCjK4Zjh_tAyRs--8LeTQ_aem_TP5WAgCfb5dpbx6kCMn0Xw",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -3325,9 +3355,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "WNBA FINALS \"BRONX WATCH PARTY\" GAME 1",
     "organizer": "DJ Kidd Swag",
     "types": [
-      "day-party",
-      "meetup",
-      "gynasium"
+      "party",
+      "outdoors-&-active",
+      "meetup"
     ],
     "audienceTags": [
       "Black",
@@ -3347,7 +3377,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://events.eventnoire.com/e/bxwnbafinals?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf2zTBKabxinvd-Lf2e4JxDQkcbJfXJoSfY8Kl6SruzqOw7n6m42_owTI6IOQ_aem_zPoY7RPdqN24MIIF623WqA",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
@@ -3359,8 +3389,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "the stacey show: livestream",
     "organizer": "As You Are DC.",
     "types": [
-      "meetup",
-      "online"
+      "show",
+      "meetup"
     ],
     "audienceTags": [
       "Queer",
@@ -3382,7 +3412,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/the-stacey-show-livestream",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -3429,8 +3459,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "FALL of FASC!SM",
     "organizer": "Hot Gurlz Organize",
     "types": [
-      "after-dark",
-      "online"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Queer",
@@ -3449,7 +3479,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://events.ticketleap.com/tickets/queerflatbush/FallofFascism?fbclid=PAVERFWAUw2uVleHRuA2FlbQIxMABwZG9mAmZkaWQWUPuNkidO6Uun0Mqj2yzD9YUw6QWSNnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6dpbb6pdjv43AuqAMAofay9LGTPqAcrud2Zjd1gDMjQ4KkX8bE0Untzxd4i_aem_hmKtNRq4CLrVDszyc2Gfzw",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -3461,7 +3491,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Juke Jam (21+ Listening Experience) (Lesbian/Queer Event)",
     "organizer": "Adult Supervision Needed",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -3485,7 +3515,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://posh.vip/e/juke-jam-21-listening-experience-lesbianqueer-event-1",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
     "city": "atlanta"
   },
   {
@@ -3497,7 +3527,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "LEZ SING",
     "organizer": "Friendly Masc Hotties (FMH)",
     "types": [
-      "after-dark",
+      "karaoke",
+      "party",
       "meetup"
     ],
     "audienceTags": [
@@ -3517,7 +3548,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://partiful.com/e/cQdF402zkwfguw9fW1BQ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeSHjaIWwmmgHWvMgfegvLZFpbD0L6p6gv81QQ0rPHfWNgWemf9vLIC6hmsjw_aem_d-Ju_LIRsCChrTDpK852cg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-karaoke",
     "city": "nyc"
   },
   {
@@ -3529,18 +3560,16 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Second Service - Aurèle, Ecran Total, Marco",
     "organizer": "PAMELA CLUB",
     "types": [
-      "after-dark",
-      "meetup",
       "festival",
-      "rooftop"
+      "party",
+      "meetup"
     ],
     "vibesRaw": "",
     "free": false,
     "badges": [
-      "After Dark",
-      "Meetup",
       "Festival",
-      "Rooftop"
+      "Party",
+      "Meetup"
     ],
     "time": "11:59 PM – 6:00 AM",
     "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
@@ -3548,7 +3577,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/fr/events/secondservice",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-festival",
     "city": "paris",
     "prideSeries": "Yes"
   },
@@ -3560,10 +3589,9 @@ export const generatedEvents: PrideEvent[] = [
     "dayLabel": "Friday",
     "name": "Studs At Play Basketball",
     "types": [
-      "happy-hour",
-      "meetup",
-      "gynasium",
-      "festival"
+      "festival",
+      "show",
+      "happy-hour"
     ],
     "audienceTags": [
       "Masc"
@@ -3581,7 +3609,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://partiful.com/e/FdwCAMEixVPz9JXGqzO2?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafM6bOZBInxvEOfKt7VOGAeBvKTn8cUGgbVRTWf3cV-AlYuviijwOm0jOg6lw_aem_25i9HkfOV3lsJ1XlzbFCpQ",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-happy-hour",
+    "cardClass": "tp-festival",
     "city": "nyc",
     "prideSeries": "Yes"
   },
@@ -3631,6 +3659,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Eating Out: Oral Sex for Vulvas",
     "organizer": "Lotus Blooms",
     "types": [
+      "show",
       "workshop"
     ],
     "audienceTags": [
@@ -3651,7 +3680,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://events.humanitix.com/eating-out-oral-sex-for-vulvas?c=crush&fbclid=PARlRTSAU-P7tleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQXG6uNiFiRdjBn1iWI6B7Kz9nZminNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1kE8IBYrkkFXXccsPGiyQry5HbZDRCLfG5xqN9Zg4f8RnF7T4qli5Se0PpM_aem_kaJpfv0mCTRYQH1CHv8pJQ",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
@@ -3663,18 +3692,16 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Hyphensystem - Nanou, Secri99, Blackangelzz, Trasholicsd33j",
     "organizer": "PAMELA CLUB",
     "types": [
-      "after-dark",
-      "meetup",
       "festival",
-      "rooftop"
+      "party",
+      "meetup"
     ],
     "vibesRaw": "",
     "free": false,
     "badges": [
-      "After Dark",
-      "Meetup",
       "Festival",
-      "Rooftop"
+      "Party",
+      "Meetup"
     ],
     "time": "11:59 PM – 5:00 AM",
     "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
@@ -3682,7 +3709,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://shotgun.live/fr/events/hyphensystem2",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-festival",
     "city": "paris",
     "prideSeries": "Yes"
   },
@@ -3725,9 +3752,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "NOSTALGIA 10/15",
     "organizer": "Peazy",
     "types": [
-      "outdoors",
       "conference",
-      "online"
+      "outdoors-&-active"
     ],
     "audienceTags": [
       "Black",
@@ -3750,7 +3776,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.eventbrite.com/e/nostalgia-1015-tickets-2002979993078?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadmUdo4XctpTX4ONEpIyzspRmi9Yn7yBwoqDv8zks6bGvpeZRluurhwPYXT6A_aem_3iy3N3PaIf9kPWXCdpoC7A",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-outdoors",
+    "cardClass": "tp-conference",
     "city": "baltimore"
   },
   {
@@ -3762,7 +3788,8 @@ export const generatedEvents: PrideEvent[] = [
     "name": "Gasolina Presents: Un Perreo Bien Spooky with Da Da Cozmic & Ultra Violet AND Onyx Room Takeover with Silky Black, Bodegaparty, Jo Sway, & IGOTLOUD",
     "organizer": "Ultra Violet and Planet Yes: Gasolina",
     "types": [
-      "after-dark"
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -3786,7 +3813,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://link.dice.fm/n66e743046ec",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "nyc"
   },
   {
@@ -3828,12 +3855,9 @@ export const generatedEvents: PrideEvent[] = [
     "name": "The Fruits of Our Labor",
     "organizer": "Arena Stage",
     "types": [
-      "after-dark",
-      "happy-hour",
-      "tour",
+      "show",
       "workshop",
-      "theatre",
-      "stage"
+      "happy-hour"
     ],
     "audienceTags": [
       "Lesbian/WLW",
@@ -3851,7 +3875,7 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.arenastage.org/tickets/show-seasons/2026-2027-season/the-fruits-of-our-labor/",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-show",
     "city": "dc",
     "prideSeries": "Yes"
   },
@@ -3864,7 +3888,7 @@ export const generatedEvents: PrideEvent[] = [
     "name": "FREAKY FRIDAY (Goth Techno Rave)",
     "organizer": "Portal 6",
     "types": [
-      "after-dark"
+      "party"
     ],
     "audienceTags": [
       "Punks"
@@ -3881,7 +3905,852 @@ export const generatedEvents: PrideEvent[] = [
     "ctaHref": "https://www.gatherevents.online/event/pllO-freaky-friday-goth-techno-rave",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-after-dark",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvlomxpi-arxqkr",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "R&B + Hip Hop Karaoke & Trivia Night",
+    "organizer": "Leon's",
+    "types": [],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Free"
+    ],
+    "time": "9:30 PM",
+    "location": "Wondaland · 227 W Chase St, Baltimore, Maryland 21201",
+    "vibeTags": [],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mw4cb87m-s99m3p",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-29",
+    "dayLabel": "Sunday",
+    "name": "Peazy's Formula 41",
+    "organizer": "Peazy",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$55.20",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "5:00 PM – 10:00 PM",
+    "location": "6709 Whitestone Rd, Woodlawn, MD 21207",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/peazys-formula-41-tickets-2003964488731?aff=ebdsoporgprofile&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVaFqxleHRuA2FlbQIxMQBwZG9mAmZkaWQWURt5W0th93HkN3Lt37i9l8rYszP33HNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpxyIBhjvDSh7Ie03qEJ3D4s57W4mj1KzJZEtVq10xC33tcckx0cwS_xfz5vj_aem_quiTdS0acu7Ef-KRJnr1Lw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mw47f5of-eoid7o",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "Club Ghetto Tech Vol. 10: Hoochie Palace X Dick Appointment",
+    "organizer": "Club Ghetto",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Punks"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Punks"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "vibeTags": [],
+    "ctaHref": "https://shotgun.live/en/events/club-ghetto-tech-vol-10?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeFGzdbGeuctKmxsoCpTCxktEGwgCocsI5HChCjepQhatpNDgFmCspHPRQogg_aem_jPIUhThS7bG_U3NtcRIV9A",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mw46qnb9-o0cpq0",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-12-03",
+    "dayLabel": "Thursday",
+    "name": "Gathering CLLCTIVLY",
+    "organizer": "CLLCTIVLY",
+    "types": [],
+    "audienceTags": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "time": "10:30 AM – 2:30 PM",
+    "location": "Collective Spaces · 306 W REDWOOD ST, APT 500, BALTIMORE, MD 21201",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/DfDrUjrNYb-/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mw46aie2-joofls",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-19",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-12-27-8-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mw4692h5-htqx8p",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-11-29-8-0?t=series",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mw467nlf-3qghtz",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-11-15-8-0?t=series",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mw466alv-6nab6m",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-12",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-11-15-8-0?t=series",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mw461v8r-gxh8gy",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-27",
+    "dayLabel": "Friday",
+    "name": "BLK ASS FRIDAY",
+    "organizer": "BLK ASS FLEA MKT",
+    "types": [],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "30+",
+      "Free"
+    ],
+    "time": "12:00 PM – 5:00 PM",
+    "location": "Baltimore Unity Hall · 1505 Eutaw Pl, Baltimore, MD 21217",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/DfX-0efiT2y/",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "baltimore"
+  },
+  {
+    "id": "pp-u_n49U5lA3v36dMCyngc24uR-r-mw55i3oz-14uyq1",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-15",
+    "dayLabel": "Sunday",
+    "name": "The Black and Proud Market",
+    "organizer": "Lez Black Gurls",
+    "types": [
+      "festival",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "12:00 PM – 4:00 PM",
+    "location": "Checkerspot Brewing Company · 1421 Ridgely Street, Baltimore, MD 21230",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/2002491279322?aff=oddtdtcreator",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-festival",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mw04pj99-j3sgyt",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-06",
+    "dayLabel": "Friday",
+    "name": "First Fridays at The Black Lesbian Night Club: Stud/Masc Appreciation Night",
+    "organizer": "THE GIRLS DMV",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "10:00 PM",
+    "location": "Icon on U Street · 2001 11th St NW",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/first-fridays-w-party-girls-dc-3?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVWM8tleHRuA2FlbQExAHBkb2YCZmRpZBZRGENkDe2lXqmx233ZdKZBsRoVa9Oqc3J0YwZhcHBfaWQPMTI0MDI0NTc0Mjg3NDE0AAGnCevJiCHr08xFlCw2RRDePQcFWPHyxvghAvJ7CrGuRb4pkP18kQhgNMnN5oM_aem_RpPKboUANuL0uh2A1hzMqQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "r-mw45wky5-pwwmx2",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "She Got Game! Arcade Party",
+    "organizer": "The Big Kids Club",
+    "types": [
+      "party",
+      "games"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "8:00 PM – 12:00 AM",
+    "location": "GameOn bar+arcade · 1330 U St NW, Washington, DC 20009, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/she-got-game-arcade-party?u=andreajj&_t=mvk2ot6s&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadE87_Kf7spg6Dp7pyIymqVpinpdUhDxjSiZOpVTJiMZfMFCsfTXSQsfD8ivQ_aem_ZFDAxUHLSbZZTHailyV2xg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mw45oee0-4ppqjb",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-05",
+    "dayLabel": "Saturday",
+    "name": "Kompet - Full Black Édition",
+    "organizer": "Kompet",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Femme"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$21.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Femme"
+    ],
+    "time": "12:00 AM – 6:00 AM",
+    "location": "La Péniche · 2 quai de la Tournelle, 75005 Paris",
+    "vibeTags": [],
+    "ctaHref": "https://www.bizouk.com/events/details/kompet/132235?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafEkZZezcmo7_GvnwkawghF6UeGqayX3FHZfss1cEQ9KTayjXK_sSsWfE6_Hg_aem__i85b6AIdnYpw0zfiQkweQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "paris"
+  },
+  {
+    "id": "r-mw45i6vj-4bny6h",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "Out of Order",
+    "organizer": "Auroriun",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "The Ivory on Park · 12 Park St, Brooklyn, NY 11206, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/out-of-order-1?u=auroriun&_t=mw419hkz&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mw45aqsb-vshdfg",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-27",
+    "dayLabel": "Friday",
+    "name": "Adobo ft. Tengo Funk",
+    "organizer": "ADOBO DMV",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "A.i Warehouse · 530 Penn Street Northeast, Washington, District of Columbia 20002, United States",
+    "vibeTags": [],
+    "ctaHref": "https://dice.fm/event/ekgddy-adobo-ft-tengo-funk-27th-nov-ai-warehouse-washington-tickets?lng=en-US",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mw45991t-jzzz1l",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "PASS HER THE AUX (Beginner DJ Lesson)",
+    "organizer": "Adult Supervision Needed",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$65.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "2:00 PM",
+    "location": "ATL",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/pass-her-the-aux-beginner-dj-lesson",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mw4569ct-e9kl9f",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-15",
+    "dayLabel": "Sunday",
+    "name": "Bad & Boozy Brunch & Day Party",
+    "organizer": "A 2 Zee Events",
+    "types": [
+      "brunch",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$64.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "1:00 PM – 6:00 PM",
+    "location": "ZOOZ Cocktail Garden · 636 Maine Ave. SW Washington, DC",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbee.com/v/bnbbrunch#/tickets",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-brunch",
+    "city": "dc"
+  },
+  {
+    "id": "r-mw1eadel-em1ih5",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-15",
+    "dayLabel": "Sunday",
+    "name": "Hoops & Harvest: a Friendsgiving brunch",
+    "organizer": "DCGBL Women's+",
+    "types": [
+      "karaoke",
+      "brunch"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Free"
+    ],
+    "time": "1:00 PM",
+    "location": "MIXXED · 2427 18th St NW",
+    "vibeTags": [],
+    "ctaHref": "https://partiful.com/e/7SJUjgIilSqqaHneWQMH?c=9D3v7-PD",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-karaoke",
+    "city": "dc"
+  },
+  {
+    "id": "r-mw1dvf1f-zdi6s3",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "2K Takeover",
+    "organizer": "Sapphic Social DC",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Mixxed DC · 2427 18TH ST NW, WASHINGTON DC, 20009",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/2k-takeover",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvlanv7n-mmyb2v",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "WNBA Playoffs Watch Party",
+    "organizer": "The Frequency Class",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "12:00 PM – 5:00 PM",
+    "location": "Public Bar Live · 1214 18TH ST NW",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/wnba-playoffs-watch-party-oct-24th?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVIhFFleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQ1v34nYCOjlC_09McQYD6F5k4g29nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_RtwpoiByx-RJ66jdlUs_DBs_Wo3BOJjKmmk7kfqyFdAbdlX0qyOQyfcdIO_aem_1wTlKpRusdA10p3_Ur3iMw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvlalwxs-402oh7",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-12-31",
+    "dayLabel": "Thursday",
+    "name": "High Frequency NYE Celebration",
+    "organizer": "The Frequency Class",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$19.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "9:00 PM – 3:00 AM",
+    "location": "Sachi Nightclub · 727 15TH ST NW",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/high-frequency-nye-celebration?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVIg_tleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQ1_y9UU0V_T_y0_tSXrb2tyTdtpo3NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3A3qfwr44ERYAMzGGCPpon3w4oUjsXrzgeoI8Aq8wNs1DIWZYxYlbU7SP79_aem_Zy0hoM3Vc9DydAc2i7UpLg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvixj6a3-6b4sf1",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-11-19",
+    "dayLabel": "Thursday",
+    "name": "The Kickback: Cards, Games, Crafts and hobbies",
+    "organizer": "The Kickback Clubhouse",
+    "types": [
+      "meetup",
+      "games"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "time": "6:30 PM – 9:30 PM",
+    "location": "The Muni · 1400 14th St NW Ste B, Washington, DC 20005, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/the-kickback-cards-games-crafts-and-hobbies?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVGVdtleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQzqzwF7YhmfbGwWcFjX5l4R21dCkHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp0miXPoBcOn6MjVkEx1TpQXjTg8YeeJPvEczUlpUC2CyPmEYIJ3N6-nmH95s_aem_FVZFJMXxFubfGU7jr4Pk7A",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvixg6ep-cj5miz",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-11-11",
+    "dayLabel": "Wednesday",
+    "name": "Black Sapphic Meet up (30+): Coffee Shop Takeover",
+    "organizer": "The Kickback Clubhouse",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "30+",
+      "Free"
+    ],
+    "time": "12:00 PM – 3:00 PM",
+    "location": "Proper Cafe · 1545 New Jersey Ave NW, Washington, DC 20001, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/black-sapphic-meet-up-30-coffee-shop-takeover-copy?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVGVQZleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQzqzwF7YhmfbGwWcFjX5l4R21dCkHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp0miXPoBcOn6MjVkEx1TpQXjTg8YeeJPvEczUlpUC2CyPmEYIJ3N6-nmH95s_aem_FVZFJMXxFubfGU7jr4Pk7A",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwa1a1e6-exq23r",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-11-19",
+    "dayLabel": "Thursday",
+    "name": "Nostalgia",
+    "organizer": "Her Vibe Events",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "30+"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Safari Club · 5625 O'Donnell St",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/nostalgia-1119-tickets-2004592356701?aff=erelpanelorg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mwa1uzu0-onv05n",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-11-11",
+    "dayLabel": "Wednesday",
+    "name": "Her Vibe & Vocals: Big Mama Nika Birthday Celebration",
+    "organizer": "Her Vibe Events",
+    "types": [
+      "karaoke",
+      "happy-hour",
+      "games"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "30+",
+      "Free"
+    ],
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Salud Bar & Lounge · 200 S Haven St, Baltimore, MD 21224",
+    "vibeTags": [],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-karaoke",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mwa26kxc-mh8nu6",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-29",
+    "dayLabel": "Sunday",
+    "name": "Formula 41 Birthday Celebration",
+    "organizer": "Her Vibe Events",
+    "types": [
+      "ball/gala",
+      "party"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$56.00",
+    "badges": [
+      "Ball/Gala",
+      "Party"
+    ],
+    "time": "5:00 PM – 10:00 PM",
+    "location": "6709 Whitestone Rd Woodlawn, MD",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/peazys-formula-41-tickets-2003964488731?aff=erelpanelorg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-ball/gala",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mvlarilc-e1ps7d",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Dyke Fright Night",
+    "organizer": "TRANSMISSION",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$11.95",
+    "badges": [],
+    "time": "5:00 PM – 9:00 PM",
+    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "vibeTags": [],
+    "ctaHref": "https://shotgun.live/en/events/dyke-fright-night?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVIhPtleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQ1bwQeKBznR5e45cFgSkAXbtfNRInNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpxjkhfVH_RPhHHWgo0oev1kxwOWzABylXE0eBhBvBF0cLNBBqV3U9j-xZoa9_aem_0VdPbqZURtsjJYkpxUyTLw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party",
     "city": "dc"
   }
 ];
