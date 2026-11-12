@@ -1500,9 +1500,11 @@ nav.rooms button:hover {
 }
 
 .city-feature-cat h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   line-height: 1.1;
   margin: 0;
   color: #2a1f18;
@@ -2174,15 +2176,10 @@ nav.rooms button:hover {
 
 .day-section--guide .day-title,
 .day-section--guide .day-title-sep,
-.day-section--guide .day-title-date,
-.day-section--guide .day-title-month,
-.day-section--guide .day-title-day {
-  font-family: 'Playfair Display', serif;
+.day-section--guide .day-title-date {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
-  letter-spacing: 0;
-  text-transform: none;
   color: #2a1f18;
 }
 
