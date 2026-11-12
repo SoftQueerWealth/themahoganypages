@@ -2157,6 +2157,35 @@ nav.rooms button:hover {
   white-space: nowrap;
 }
 
+.day-section--guide {
+  margin-top: 0;
+}
+
+.day-section--guide .day-header {
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  margin: 28px 0 6px;
+  padding: 8px 16px;
+  background: #f1e6cf;
+  border-left: 6px solid #a82258;
+  border-radius: 0 16px 16px 0;
+}
+
+.day-section--guide .day-title,
+.day-section--guide .day-title-sep,
+.day-section--guide .day-title-date,
+.day-section--guide .day-title-month,
+.day-section--guide .day-title-day {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #2a1f18;
+}
+
 .event-card {
   display: flex;
   gap: 14px;

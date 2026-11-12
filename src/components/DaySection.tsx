@@ -25,10 +25,11 @@ export function DaySection({
 }: DaySectionProps) {
   const visibleCount = events.filter(isEventVisible).length;
   const hidden = visibleCount === 0;
+  const isGuide = cardVariant === 'guide';
   const dayDateParts = dayDate ? formatDayDateParts(dayDate) : null;
 
   return (
-    <section className={`day-section${hidden ? ' hidden' : ''}`} data-day={day}>
+    <section className={`day-section${hidden ? ' hidden' : ''}${isGuide ? ' day-section--guide' : ''}`} data-day={day}>
       <div className="day-header">
         <div className="day-title">
           <span className="day-title-name">{dayLabel}</span>
@@ -36,15 +37,17 @@ export function DaySection({
             <>
               <span className="day-title-sep"> · </span>
               <span className="day-title-date">
-                <span className="day-title-month">{dayDateParts.month}</span>
+                <span className="day-title-month">{dayDateParts.month}</span>{' '}
                 <span className="day-title-day">{dayDateParts.day}</span>
               </span>
             </>
           ) : null}
         </div>
-        <div className="day-count">
-          {visibleCount} event{visibleCount === 1 ? '' : 's'}
-        </div>
+        {isGuide ? null : (
+          <div className="day-count">
+            {visibleCount} event{visibleCount === 1 ? '' : 's'}
+          </div>
+        )}
       </div>
       {events.map((event) => (
         <EventCard
