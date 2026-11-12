@@ -518,10 +518,12 @@ export function FeaturedCityFestivalTabs({
               ) : (
                 hangoutGroups.map((group) => (
                   <section key={group.title} className="city-feature-group">
-                    <h3 className="city-feature-subhead">{group.title}</h3>
+                    <div className="city-feature-cat">
+                      <h3>{group.title}</h3>
+                    </div>
                     <HospitalityList
                       items={group.items}
-                      intro={group.intro}
+                      intro=""
                       emptyMessage={group.empty}
                       variant="guide"
                       showBio={false}

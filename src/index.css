@@ -1488,6 +1488,26 @@ nav.rooms button:hover {
   margin: 22px 0 8px;
 }
 
+.city-feature-cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 28px 0 6px;
+  padding: 8px 16px;
+  background: #f1e6cf;
+  border-left: 6px solid #a82258;
+  border-radius: 0 16px 16px 0;
+}
+
+.city-feature-cat h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 0;
+  color: #2a1f18;
+}
+
 .city-feature-guide {
   background: #2a1f18;
   border-radius: 24px;
