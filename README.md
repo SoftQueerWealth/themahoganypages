@@ -36,8 +36,8 @@ Google Analytics loads only when `VITE_ENABLE_ANALYTICS=true` (set in `.env.prod
 | `npm run preview` | Serve `dist/` locally |
 | `npm run lint` | ESLint |
 | `npm run sync-events` | Regenerate `src/data/festivals/*.generated.ts` from Google Sheets festival tabs |
-| `npm run deploy:staging` | Sync events + community perks, `build:staging`, and `wrangler deploy --env staging` |
-| `npm run deploy:prod` | Stamp last-updated date, sync events + community perks, `build`, and `wrangler deploy` (production) |
+| `npm run deploy:staging` | Sync Things to Do events, `build:staging`, and `wrangler deploy --env staging` |
+| `npm run deploy:prod` | Stamp last-updated date, sync Things to Do events, `build`, and `wrangler deploy` (production) |
 | `npm run sync-beauty` | Regenerate `src/data/beauty.generated.ts` from the Google Sheets `Business` tab |
 | `npm run extract-events` | Regenerate legacy `events.generated.ts` from `legacy/index.html` (archived) |
 
@@ -64,13 +64,31 @@ curl -I http://www.softqueerwealth.com
 
 Each should return `301` with `Location: https://softqueerwealth.com/`.
 
-Production reads guide data from the deployed bundle, not Google Sheets at runtime. To change production Events or Community Perks content, use:
+Production reads guide data from the deployed bundle, not Google Sheets at runtime. To change production events from your machine, use:
 
 ```sh
 npm run deploy:prod
 ```
 
-That stamps the Hero last-updated date, syncs events and community perks, builds, and deploys to Cloudflare production.
+That stamps the Hero last-updated date, syncs Things to Do from the Google Sheet, builds, and deploys to Cloudflare production.
+
+### GitHub Actions
+
+The same publish path also runs in GitHub Actions. Both jobs sync the Things to Do tab (`TMP_Things_to_Do` on spreadsheet `18jZRcyxJOuOu8QLlTlJZMt6edv7NCXcFgInQeFm6TWQ`) and deploy that result. They do not commit the generated files. That spreadsheet id is already in `src/constants/festivals.ts`, so the job does not need a sheet-id secret.
+
+| Action | When it runs | What it publishes |
+|--------|----------------|-------------------|
+| Deploy Staging | Sunday, Wednesday, and Friday at 14:00 UTC (9:00 AM Eastern standard time, 10:00 AM Eastern daylight time), on push to `staging`, and from the Actions button | `staging.softqueerwealth.com` |
+| Deploy Production | Only from the Actions button | `softqueerwealth.com`, including the last-updated date |
+
+A merge to `main` does not deploy production. Check staging, then run **Deploy Production**.
+
+Add these repository secrets (Settings → Secrets and variables → Actions) before the first run:
+
+- `VITE_GOOGLE_SHEETS_API_KEY` — Sheets API key that GitHub can call. A key restricted to website referrers will fail here. Restrict it to the Google Sheets API and leave website restrictions off.
+- `CLOUDFLARE_API_TOKEN` — already required by the deploy step.
+
+The Things to Do spreadsheet must stay readable by that API key. Rows on `TMP_Things_to_Do` publish only when `Status` is `approved`.
 
 For a manual production build only (no sync / no date stamp):
 

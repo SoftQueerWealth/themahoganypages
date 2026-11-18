@@ -1,9 +1,6 @@
 name: Deploy Production
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -24,6 +21,19 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Stamp last-updated date
+        run: node scripts/update-last-updated.mjs
+
+      - name: Sync Things to Do events from Google Sheets
+        env:
+          VITE_GOOGLE_SHEETS_API_KEY: ${{ secrets.VITE_GOOGLE_SHEETS_API_KEY }}
+        run: |
+          if [ -z "${VITE_GOOGLE_SHEETS_API_KEY}" ]; then
+            echo "::error::VITE_GOOGLE_SHEETS_API_KEY must be set in repository secrets."
+            exit 1
+          fi
+          npm run sync-events
 
       - name: Build for production
         run: npm run build

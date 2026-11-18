@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Sync festival events and community perks from Google Sheets, build for staging, deploy to Cloudflare.
+# Sync Things to Do events from Google Sheets, build for staging, deploy to Cloudflare.
 # Usage: npm run deploy:staging
 set -euo pipefail
 
@@ -9,13 +9,10 @@ cd "$ROOT"
 echo "==> Syncing events from Google Sheets..."
 npm run sync-events
 
-echo "==> Syncing community perks from Google Sheets..."
-npm run sync-beauty
-
 echo "==> Building for staging..."
 npm run build:staging
 
 echo "==> Deploying to Cloudflare staging..."
 npx wrangler deploy --env staging
 
-echo "==> Done. Staging is updated with the latest events and community perks."
+echo "==> Done. Staging is updated with the latest events."
