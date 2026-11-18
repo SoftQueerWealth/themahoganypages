@@ -4,17 +4,1002 @@ import type { PrideEvent } from '../../types/event';
 
 export const generatedEvents: PrideEvent[] = [
   {
-    "id": "r-mva7b3fo-k25ny3",
+    "id": "r-mwivtv65-lljnrp",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-29",
+    "dayLabel": "Sunday",
+    "name": "Sapphic sip n' paint at as you are",
+    "organizer": "Dom",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$30.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "4:00 PM – 6:00 PM",
+    "location": "as you are. DC · 500 8th St SE, Washington, DC 20003, USA",
+    "vibeTags": [],
+    "ctaHref": "https://luma.com/50hy9vbl?fbclid=PAdGRleAVfJINleHRuA2FlbQIxMQBwZG9mAmZkaWQWUR4ZY4RDYfIAcxt3CFid8wMd43l_3nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp7KLwr66aplbJn0k49ZTfXnskfa8mGuUswx8d7N2GqC7zrwKFSh6QhhSuXHG_aem_2hldXj_VNgTeXioniW1V8g&utm_content=link_in_bio&utm_id=97760_v0_s00_e0_tv3&utm_medium=social&utm_source=ig",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwiwi8ac-ss0hdb",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-11-18",
+    "dayLabel": "Wednesday",
+    "name": "Black Lesbian Collaging Meetup",
+    "organizer": "Living Lesbian Archive",
+    "types": [
+      "workshop",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "7:30 PM – 9:30 PM",
+    "location": "As You Are · 500 8th St SE",
+    "vibeTags": [],
+    "ctaHref": "https://partiful.com/e/2uLkkpjWVBM7LpIgGXJC?c=D83yYGgU",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwiwo1uk-jcqz00",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-22",
+    "dayLabel": "Sunday",
+    "name": "Happy Birthday LLA",
+    "organizer": "Living Lesbian Archive",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "97 Astoria · 727 Wylie St SE",
+    "vibeTags": [],
+    "ctaHref": "https://partiful.com/e/r7ruFH99NiAoMnzxLmzY?c=hmTwFXPz",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwiwue0a-z3iqlr",
+    "festival": "august-events",
+    "day": "monday",
+    "dayDate": "2026-11-23",
+    "dayLabel": "Monday",
+    "name": "Happy Birthday LLA",
+    "organizer": "Living Lesbian Archive",
+    "types": [
+      "happy-hour",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Board Room · 1737 Connecticut Avenue NW",
+    "vibeTags": [],
+    "ctaHref": "https://partiful.com/e/6N5xsy4SZzJ6yqEP3vvM?c=YpOUa7_F",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwix8e32-ildibd",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-12",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency",
+    "organizer": "Boss Britt x DJ eXeL",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Femme",
+      "25+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Femme",
+      "25+"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-12-13-8-0?t=series",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwix8ec7-yh5sbb",
     "festival": "august-events",
     "day": "friday",
-    "dayDate": "2027-08-27",
+    "dayDate": "2026-12-04",
     "dayLabel": "Friday",
-    "name": "Dope Pleasure in the Woods",
-    "organizer": "Dope Pleasure in the Woods (DPW)",
+    "name": "First Fridays Ladies",
+    "organizer": "Boss Britt x DJ eXeL",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "FLO · 2196 Cheshire Bridge Rd NE, Atlanta, GA 30324, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/first-fridays-the-biggest-party-in-atl-for-women-who-love-women-2026-12-5-8-0?t=series",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwixgpvw-464em6",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2027-01-01",
+    "dayLabel": "Friday",
+    "name": "First Fridays Ladies",
+    "organizer": "Boss Britt x DJ eXeL",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "FLO · 2196 Cheshire Bridge Rd NE, Atlanta, GA 30324, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/first-fridays-the-biggest-party-in-atl-for-women-who-love-women-2027-1-2-8-0?t=series",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwjxdlik-gbc7ht",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "Trans Kick-Boxing Class",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "workshop",
+      "active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Sober"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$8.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Sober"
+    ],
+    "time": "1:00 PM – 3:00 PM",
+    "location": "VESTA Fitboxing · 665 Auburn Ave NE Suite 3, Atlanta, GA 30312",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/trans-kick-boxing-class-tickets-2004526210857?aff=oddtdtcreator&keep_tld=true",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwjxfy06-f9pl7a",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-22",
+    "dayLabel": "Sunday",
+    "name": "Trans Yoga in the Park w/ Osatyam Yoga",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Families and youth"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Families and youth",
+      "Free"
+    ],
+    "time": "1:00 PM – 3:00 PM",
+    "location": "Adair Park 1 · 742 Catherine St SW, Atlanta, GA 30310",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/trans-yoga-in-the-park-w-osatyam-yoga-tickets-2004527298109?aff=oddtdtcreator&keep_tld=true",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors-&-active",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwjxifiy-pxcwrf",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-05",
+    "dayLabel": "Saturday",
+    "name": "Platonic AF",
+    "organizer": "Joel Mendez",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$7.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "9:00 PM – 12:00 AM",
+    "location": "KBird Bar · 1333 P St NW, Washington, DC 20005, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/platonic-af?u=kinjohnson246&_t=mwcavs23&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae8CnH9-WK-D3IzofoCZ7xGxWUbMQvZk2CyVjoFpARHqwnCnQNxg46T7q00Uw_aem_OPpl8MoQ9fjR3aDdVaqh8A",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwjz4hss-32mgb5",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-12-10",
+    "dayLabel": "Thursday",
+    "name": "Dyke Discourse",
+    "organizer": "QueerTalk",
+    "types": [
+      "meetup",
+      "games"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Free"
+    ],
+    "time": "6:00 PM – 9:30 PM",
+    "location": "Transmission DC · 1353 H Street Northeast Washington, DC 20002",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/dyke-discourse-an-evening-of-gay-hot-takes-tickets-2004909516334?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVog5BleHRuA2FlbQIxMQBwZG9mAmZkaWQWUSYA1qNHuNX7DlMYWK3zliYss3CXaHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp-CXUTt5N_jpFX-ds8JWgsrRrtDyWJ7Jtcams5E7Xfgn-wAMcmPDLt4zkHP7_aem_Jc3SVg-2UJRsPFz-f_hdBQ",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwjxevyj-htxfxh",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "EAR CANDY: A Queer Dance Party - T4T Edition",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$5.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "10:00 PM – 2:30 AM",
+    "location": "Mary's · 1287 Glenwood Ave SE Ste A, Atlanta, GA 30316",
+    "vibeTags": [],
+    "ctaHref": "https://www.southernfriedqueerpride.com/all-events/ear-candy-a-queer-dance-party-t4t-edition",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwjxfg8g-iusl5l",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-22",
+    "dayLabel": "Sunday",
+    "name": "Trans Bike Ride & Hangout - Final Ride of the Year",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Families and youth"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Families and youth",
+      "Free"
+    ],
+    "time": "12:00 PM – 3:00 PM",
+    "location": "Create ATL · 900 Murphy Ave SW Atlanta, GA 30310",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/trans-bike-ride-hangout-final-ride-of-the-year-tickets-2004525599027?aff=oddtdtcreator&keep_tld=true",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors-&-active",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwjxkdgh-vdlwgt",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "Hookup Culture",
+    "organizer": "Events at The Bush",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "10:00 PM – 4:00 AM",
+    "location": "The Bush · 333 Troutman St, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/hookup-culture?u=thebush&_t=mwjk34hg&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "pp-u_JOXl8s34wuU3pwGbJxlWY2-r-mwih2zxh-y40eb3",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-11-19",
+    "dayLabel": "Thursday",
+    "name": "Happy Hour",
+    "organizer": "BLACKDMVSAPPHICS",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "25+"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "25+",
+      "Free"
+    ],
+    "time": "5:30 PM – 9:00 PM",
+    "location": "Shanklin Hall · 2325 18th St NW",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/november-happy-hour?u=jessicajoyce66&_t=mwigzvdh&os=web&src=event_page",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwgjht12-rmozhy",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-28",
+    "dayLabel": "Saturday",
+    "name": "A Very Queer Closet Sale",
+    "organizer": "BLK MKT Vintage",
+    "types": [
+      "meetup",
+      "market"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "1:00 PM – 7:00 PM",
+    "location": "Saint James Libations · 269 Stanhope Street",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/Dfsci8bj19W/?psln=ZnlpaHk2aTl3ZXhw",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwdj0z84-frgwki",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-19",
+    "dayLabel": "Saturday",
+    "name": "NAUGHTY LIST: A QUEER HOLIDAY PARTY",
+    "organizer": "TSocial",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$9.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Mixxed DC · 2427 18th St NW, Washington, DC 20009, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/-naughty-list-a-queer-holiday-party-?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVikJhleHRuA2FlbQIxMQBwZG9mAmZkaWQWUSHMqD5qXPn_bKN-dfL3gVDvteulRXNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp-MEHbmI-eX6YR2SA-dEiYaJ9eHtlZBPONPpOmSC5-4J8u6hAhX9BiSGeR8i_aem_lops1MP8v03XUiX969nYgg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwe2ylfb-6k6bsr",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-12-03",
+    "dayLabel": "Thursday",
+    "name": "Let's Build: LGBTQ+ Lego Game Night",
+    "organizer": "Uncuffed Events",
+    "types": [
+      "meetup",
+      "games"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Swill Apothecafe · 906 Washington Blvd",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/lets-build-a-lgbtq-lego-game-night?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVjE3NleHRuA2FlbQIxMQBwZG9mAmZkaWQWUSHSKi7fwBWyLc_BuZwqa9SbV16PVXNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3yCKky6y95twKR8nwZJdLyXuWRDRynE5Zm_cigfGH9F7Ie5sUxc3xEjrBDO_aem_zwlNvPP4pZ24U_BjbGAvxw",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "baltimore"
+  },
+  {
+    "id": "pp-u_n49U5lA3v36dMCyngc24uR-r-mweggq1m-xy0tv9",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-12-03",
+    "dayLabel": "Thursday",
+    "name": "Let's Build! A LGBTQ+ Lego & Game Night",
+    "organizer": "Lez Black Gurls",
+    "types": [
+      "meetup",
+      "games"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary",
+      "Free"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Swill Apothecafe · 906 Washington Blvd",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/2004734853914?aff=oddtdtcreator",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mwbd0jft-avdyil",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-28",
+    "dayLabel": "Saturday",
+    "name": "DICKAPPOINTMENT INVITES: TROMAC With Kenni Javon and Libby Brothers",
+    "organizer": "DICKAPPOINTMENT",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "10:30 PM – 3:00 AM",
+    "location": "Elsewhere · 599 Johnson Avenue, Brooklyn, NY 11237",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=935c6ffe-9f07-46cf-a2be-fc937ac143b3&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.eventbrite.com%2Fe%2Fdickappointment-invites-tromac-with-kenni-javon-and-libby-brothers-tickets-2003791519375%3Futm_experiment%3Dtest_share_listing%26aff%3Debdsshios%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafaelFLJQuCceAXsuHFyUHtPL6OI9yDAqMoEbByQin6Kas6Cd33qEsTLmOBWw_aem_glCo2PBV3_3rOiisUSx9Fg&key=sh-1&hmac=c84f9a8987a57d12a0abf3af293e92b36d2483648d5ac7ab03e9441a87a548d4",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwbd4kj1-5ztw8e",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-12-11",
+    "dayLabel": "Friday",
+    "name": "Hoochie Palace x DickAppointment (ATLANTA)",
+    "organizer": "DickAppointment",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$17.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Drunken Unicorn · 736 Ponce De Leon, Place Northeast; Atlanta, GA 30306; United States",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=62b5d307-9fa3-4386-89d2-48ae259c6b16&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fra.co%2Fevents%2F2570786&key=sh-1&hmac=6b1e1ae7e748d764b25abeebc1004b423220b30126ef45712ff3f82b470f0e2e",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mwbd9c0j-4wy9er",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2027-01-30",
+    "dayLabel": "Saturday",
+    "name": "STATIC: A Queer Fashion Show",
+    "organizer": "QueerTalk Events",
+    "types": [
+      "show"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "6:00 PM",
+    "location": "Transmission · 1353 H St NE, Washington, DC 20002, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/static-a-queer-fashion-show",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwbdhgf3-jm6jhb",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-21",
+    "dayLabel": "Saturday",
+    "name": "The *Falling for Myself* Self-Love Market (3rd Annual)",
+    "organizer": "Laura Rhodes, Owner of Yellow Brick Rhodes Thrifts",
     "types": [
       "festival",
+      "workshop",
+      "outdoors-&-active"
+    ],
+    "audienceTags": [
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer-friendly",
+      "Free"
+    ],
+    "time": "12:00 PM – 5:00 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/the-falling-for-myself-self-love-market-3rd-annual-tickets-1998520269926",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-festival",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwbdykfy-feqvgi",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2027-01-30",
+    "dayLabel": "Saturday",
+    "name": "Queer Night Out: HAMILTON",
+    "organizer": "Lesbifriends Travel",
+    "types": [
       "show",
-      "workshop"
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$165.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "GNC/Nonbinary"
+    ],
+    "time": "7:00 PM – 10:00 PM",
+    "location": "National Theatre DC · 1321 Pennsylvania Avenue NW",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=c5fbbe93-0cd8-4d2d-9280-d86fabd2bd2c&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.lesbifriendstravel.com%2Fevents%2Fhamilton-group-outing&key=sh-1&hmac=397a1a8fc779dfddd0c26435ed0d48cb8121f54207001a639782a8b592da2dae",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwbe1v0e-hs6jro",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-11-18",
+    "dayLabel": "Wednesday",
+    "name": "LADIES LOVE R&B ❤️",
+    "organizer": "MIM ENTERTAINMENT",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "9:00 PM – 12:00 AM",
+    "location": "Saint-Ex · 1847 14th St NW, Washington, DC 20009, USA",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=befe3b09-1aca-4d5b-804c-c712363fcd48&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fposh.vip%2Fe%2Fladies-love-rb--28%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeV01iHvoLgo0Y2ZLB2lLKQ09gPH6wAvReTNX9S851xwXUwXaQLMppoQP2gzA_aem_wrRvjroxpXmg267_5ThIMQ&key=sh-1&hmac=bbdaa1a821f06f8d30cd202cc819ef74c4fa44bf8380e89c5bbfc07df3b921b7",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwbe2jqe-0zjogx",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-27",
+    "dayLabel": "Friday",
+    "name": "Black Friday: 30+ WLW Party 🏳️‍🌈",
+    "organizer": "MIM ENTERTAINMENT",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$19.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "time": "9:00 PM – 3:00 AM",
+    "location": "Sachi Nightclub · 727 15th St NW, Washington, DC 20005, USA",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=2385cb49-6068-4d33-a241-1b98aa29c94a&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fposh.vip%2Fe%2Fblack-friday-30wlw-party-%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadttmxAk6199T12iVmYTNbpy-uwPLtgl9EOIRCRQcljFtlUSzAppdfPfJB61w_aem_F4FlHMwenfFghgqQZM75IQ&key=sh-1&hmac=6bc9590bd0391472bc4582790a8bbd189260f5c47f8edd41b4bb9f37e932dde8",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwbe760k-4abe6e",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-11-12",
+    "dayLabel": "Thursday",
+    "name": "ON WAX: Solange & Childish Gambino",
+    "organizer": "Studio NINE23",
+    "types": [
+      "show",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$29.00",
+    "badges": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/on-wax-solange-childish-gambino?utm_source=chatgpt.com",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwbea141-736f7i",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "House Rules",
+    "organizer": "Saint James Libations",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "7:00 PM – 1:00 AM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/house-rules-15",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwbeave5-dbl7v6",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-15",
+    "dayLabel": "Sunday",
+    "name": "Full Bodied: A 30+ R&B Party for the Queers",
+    "organizer": "Saint James Libations",
+    "types": [
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -22,33 +1007,510 @@ export const generatedEvents: PrideEvent[] = [
       "Lesbian/WLW",
       "Trans",
       "GNC/Nonbinary",
-      "Femme",
-      "Latina",
-      "ENM",
-      "Kink"
+      "30+"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$75.00",
+    "price": "$12.00",
     "badges": [
       "Black",
       "Queer",
       "Lesbian/WLW",
       "Trans",
       "GNC/Nonbinary",
-      "Femme",
-      "Latina",
-      "ENM",
-      "Kink"
+      "30+"
     ],
-    "time": "",
-    "location": "DMV",
+    "time": "8:00 PM – 12:00 AM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
     "vibeTags": [],
-    "ctaHref": "https://dopepleasureinthewoods.com/vettingform-9228?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU-R8dleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQUxAK3ZR5rhGhFmEG4mz0zwoGhygHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwTMi3ogXwoG6chTNcpNMcz1JwFGkJ5JivZs0FDV-2ruA8u191vaL6oBTUnv_aem_ZwW8j3izqzdYQ5al6Y8qFg",
+    "ctaHref": "https://posh.vip/e/full-bodied-a-30-rb-party-for-the-queers-copy-2",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-festival",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwbeechx-jh2g2u",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-05",
+    "dayLabel": "Saturday",
+    "name": "Noche de Mujeres!",
+    "organizer": "Taste Takeover",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$26.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
+    ],
+    "time": "8:00 PM – 2:00 AM",
+    "location": "Taqueria Picoso · 1472 N Beauregard St, Alexandria, VA 22311",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/9028e808-d25a-465c-b3c4-eb6dd43f81f5/zia-session/?controls_id=9860cbf2-0c14-48e9-98a0-e9874cdbddb9&region=was&tenant=9bdf164cfefd&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.tastetakeover.com%2Fevent-details-registration%2Fnoche-de-mujeres&key=sh-1&hmac=2327462d8a9523492edf4cb0ef337c26dd14b491e531bdb1b3195884e69238a9",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
     "city": "dmv"
+  },
+  {
+    "id": "r-mwbgzkeh-1jduvf",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "Grateful & Gay: A Sapphic Chosen Family Affair",
+    "organizer": "Mixtape Sapphics",
+    "types": [
+      "happy-hour",
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "35+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$16.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "35+"
+    ],
+    "time": "4:00 PM – 9:00 PM",
+    "location": "Salazar · 1819 14th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=6e0695b4-e76e-4652-8542-ed74a8a39b11&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.eventbrite.com%2Fe%2Fgrateful-gay-a-sapphic-chosen-family-affair-tickets-2004000539560%3Faff%3Debdsoporgprofile&key=sh-1&hmac=ddf920b053715c1861fa661c78a85c4304f997e6a7ed0dcc3ac5215f78c79493",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-happy-hour",
+    "city": "dc"
+  },
+  {
+    "id": "r-mwbh4hv7-lgxenz",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-28",
+    "dayLabel": "Saturday",
+    "name": "Raw Honey Live: Music Showcase",
+    "organizer": "Raw Honey",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
+      "Free"
+    ],
+    "time": "8:00 PM – 12:00 AM",
+    "location": "Brooklyn Music Kitchen · 177 Vanderbilt Ave, Brooklyn, NY 11205, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/raw-honey-live-artist-showcase?u=gabriellehitchens124&_t=mvrfc9jz&os=web&src=event_page",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwbfd9j4-5bqgjq",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-28",
+    "dayLabel": "Saturday",
+    "name": "Pyjama Party By Le Bunker Paris",
+    "organizer": "Le Bunker",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "11:59 PM – 6:00 AM",
+    "location": "Le Klub · 14 Rue Saint Denis, 75001 Paris, France",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=26dd80de-a38b-40b0-b52e-328cfd832fcf&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fshotgun.live%2Fen%2Fevents%2Fpyjama-party-by-le-bunker-paris%3Fuhandle%3Drioba%26utm_campaign%3Dshare_event%26utm_term%3Drioba%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeeOGQlpclFimAMHS2BFvraVqu6e0xwQy6xYMlWHJz_3PFJdMJhfVvWynkJZg_aem_WGU7EumHVscy4n4rMk4Bcw&key=sh-1&hmac=bef70ae5ff8d3717e949a79926951d6e16acaedb4724599b0ab2b71d3a3c00fb",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "paris"
+  },
+  {
+    "id": "r-mwbds974-7a7nnm",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-28",
+    "dayLabel": "Saturday",
+    "name": "The Care & Liberation Community Open Mic",
+    "organizer": "Gladys Books & Wine",
+    "types": [
+      "show",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Queer"
+    ],
+    "time": "7:00 PM – 9:00 PM",
+    "location": "GLADYS BOOKS AND WINE · 306 Malcolm X Blvd, Brooklyn, NY 11233",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=0af9d72f-d5de-4127-97b6-b4de990cdea7&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.gladysbooksandwine.com%2Fpages%2Fevents&key=sh-1&hmac=a09336e02c98bec2b6da0c88a1418a503d6caa2eadad546a30f6ee6736453b74",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mw45znyg-gzu3u3",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-08",
+    "dayLabel": "Sunday",
+    "name": "Sip & paint experience for queer femmes, WLW, and nonbinary folks",
+    "types": [],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [],
+    "time": "4:00 PM – 6:00 PM",
+    "location": "500 8th st se",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/Deu8Bc8xQUQ/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-day-party"
+  },
+  {
+    "id": "r-mvixl5lz-qh9wi1",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "Non Monogamy Chat",
+    "organizer": "nonmonogamy_chat",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "ENM"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "ENM",
+      "Free"
+    ],
+    "time": "7:00 PM",
+    "location": "Online",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/DevMjKWxE04/?dlrf=aHpna3p5azlwbXMz",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup"
+  },
+  {
+    "id": "r-mvilnkn5-xw2i6u",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "Queer Karaoke",
+    "organizer": "Black Assets",
+    "types": [
+      "karaoke",
+      "show",
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Sulod Cocktail Bar & Kitchen · 1250 H Street NE, 2nd Floor, DC",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=70d3e645-1c37-444d-b709-07dde19411d2&region=was&tenant=9bdf164cfefd&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDevfrYDN7ab%2F&key=sh-1&hmac=20431283ae027864e35b45b03668846a5a414e44321b2064cb534962814b1636",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-karaoke",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvixnba3-fo9tr6",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "Queeribbean Folklore Fright Fest",
+    "organizer": "Queeribbeans of the DMV",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$17.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Focus Social Club DC · 1348 H St NE, Washington, DC 20002",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/queeribbean-folklore-fright-fest?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVGVp5leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQwcv5UoL-VgIHqFvYKEv0feJY_JBHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp5d6E53bwBp6raJtM0o_OfW2Ubw51aJUpDjXyjZlknvmOUGH50UXsDzc-AHr_aem_8SNBCdcD_vosihUn9g4RWA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvh82bm7-n59ecd",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-11-11",
+    "dayLabel": "Wednesday",
+    "name": "Black Lavender Munch",
+    "organizer": "lola.rozay",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Kink"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Kink"
+    ],
+    "time": "6:30 PM – 8:30 PM",
+    "location": "",
+    "vibeTags": [],
+    "ctaHref": "https://docs.google.com/forms/d/e/1FAIpQLSdEy9ci4VCHea3TQv1P1Pk2cO0AkkIAe1gE61I_Oi_wejwjyg/viewform?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlEKtfXWZoRQBNyL-2xS9zNeZEh7F9lzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaepW67DH91TI9RTlu9igyWXQK0xZpg905ovHWGMPbzt4gFUnPCUgiaNjMDsWQ_aem_IgTSqanvbmHzmZnwwY8e1g&utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup"
+  },
+  {
+    "id": "r-mvh8ag9y-5q99rg",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-11-25",
+    "dayLabel": "Wednesday",
+    "name": "Chosen Family Table",
+    "organizer": "The Porch Society",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "6:00 PM – 8:00 PM",
+    "location": "First Round · 1610 20th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/last-wednesdays-monthly-black-queer-networking-2026-10-29-0-0?t=series&u=zbabieee&_t=mve119j1&os=web&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVEw-9leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQpULQCk9LF3VP6F6PJugk0QYmEq43NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp42hTzvysk9Obm5-frIIs6C3LXPKAmrVhc1uI4Ud6N1oPudYE9ZgM_MEj_Xg_aem_8kWG6DPPw4Fpv67ogDoTcw",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvh8fg18-zk6uul",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Found People After Dark",
+    "organizer": "Good People",
+    "types": [
+      "party"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Party",
+      "Free"
+    ],
+    "time": "8:00 PM – 1:00 AM",
+    "location": "My Back Yard · 1150 COFFEE RD. LITHONIA GA 30058",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/found-fest-after-dark?u=briizzyfbaby&_t=mvh8eosw&os=ios&src=event_page",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mvh8edn4-qj51a4",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "GGGayest Halloween (ATL Edition)",
+    "organizer": "GGG",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "My Sister's Room · 1104 Crescent Ave NE, Atlanta, GA 30309",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/gggayest-halloween-atl-edition?u=briizzyfbaby&_t=mvh8dtoo&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mvh89ykv-sjiup4",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-28",
+    "dayLabel": "Wednesday",
+    "name": "Last Wednesdays: Category Is...Office Siren",
+    "organizer": "The Porch Society",
+    "types": [
+      "happy-hour",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "6:00 PM – 8:00 PM",
+    "location": "First Round · 1610 20th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/last-wednesdays-monthly-black-queer-networking-2026-10-29-0-0?t=series&u=zbabieee&_t=mve119j1&os=web&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVEw-9leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQpULQCk9LF3VP6F6PJugk0QYmEq43NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp42hTzvysk9Obm5-frIIs6C3LXPKAmrVhc1uI4Ud6N1oPudYE9ZgM_MEj_Xg_aem_8kWG6DPPw4Fpv67ogDoTcw",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "dc"
+  },
+  {
+    "id": "r-mvh8b1an-y5dnn7",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-12-30",
+    "dayLabel": "Wednesday",
+    "name": "The Reunion: Season 2026",
+    "organizer": "@_theporchsociety",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Free"
+    ],
+    "time": "6:00 PM – 8:00 PM",
+    "location": "First Round · 1610 20th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/last-wednesdays-monthly-black-queer-networking-2026-10-29-0-0?t=series&u=zbabieee&_t=mve119j1&os=web&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVEw-9leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQpULQCk9LF3VP6F6PJugk0QYmEq43NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp42hTzvysk9Obm5-frIIs6C3LXPKAmrVhc1uI4Ud6N1oPudYE9ZgM_MEj_Xg_aem_8kWG6DPPw4Fpv67ogDoTcw",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "dc"
   },
   {
     "id": "r-mvh84xry-ar0grj",
@@ -86,19 +1548,23 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dmv"
   },
   {
-    "id": "r-mvh8b1an-y5dnn7",
+    "id": "r-mvejck06-imfvs1",
     "festival": "august-events",
     "day": "wednesday",
-    "dayDate": "2026-12-30",
+    "dayDate": "2026-10-28",
     "dayLabel": "Wednesday",
-    "name": "The Reunion: Season 2026",
-    "organizer": "@_theporchsociety",
+    "name": "Kinky Karaoke: Sing or Scream",
+    "organizer": "Create The Erotic",
     "types": [
-      "meetup"
+      "karaoke",
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
-      "Queer"
+      "Queer",
+      "Lesbian/WLW",
+      "Kink"
     ],
     "vibesRaw": "",
     "free": true,
@@ -106,123 +1572,129 @@ export const generatedEvents: PrideEvent[] = [
     "badges": [
       "Black",
       "Queer",
+      "Lesbian/WLW",
+      "Kink",
       "Free"
     ],
-    "time": "6:00 PM – 8:00 PM",
-    "location": "First Round · 1610 20th St NW, Washington, DC 20009",
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Prima DC · 900 Florida Ave NW, Washington, DC 20001, USA",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/last-wednesdays-monthly-black-queer-networking-2026-10-29-0-0?t=series&u=zbabieee&_t=mve119j1&os=web&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVEw-9leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQpULQCk9LF3VP6F6PJugk0QYmEq43NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp42hTzvysk9Obm5-frIIs6C3LXPKAmrVhc1uI4Ud6N1oPudYE9ZgM_MEj_Xg_aem_8kWG6DPPw4Fpv67ogDoTcw",
+    "ctaHref": "https://posh.vip/e/kinky-karaoke-sing-or-scream",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
+    "cardClass": "tp-karaoke",
     "city": "dc"
   },
   {
-    "id": "r-mv9xjlw9-dy75uj",
+    "id": "r-mvejz6ap-6rj5np",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-12-20",
-    "dayLabel": "Sunday",
-    "name": "Book Club Meeting",
-    "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "Taste It!",
+    "organizer": "Syzneah",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$89.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "2:00 PM – 6:00 PM",
+    "location": "DMV",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=9de81c0b-267e-408f-8369-a4c7f827afe2&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fposh.vip%2Fe%2Ftaste-it-3%3Fu%3Dpaymahco%26_t%3Dmsz3txlq%26os%3Dios%26src%3Devent_page&key=sh-1&hmac=22b71f2a25f948134b75bbfed935b396ce633f80de9541a91a026ad0658186fb",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mvbvidy6-xccbyn",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "Scary Jane",
+    "organizer": "Lavender Evolutions",
     "types": [
       "workshop",
-      "happy-hour",
       "meetup"
     ],
     "audienceTags": [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Femme"
+      "Trans",
+      "GNC/Nonbinary",
+      "Femme",
+      "Latina"
     ],
     "vibesRaw": "",
-    "free": true,
-    "price": "Free",
+    "free": false,
+    "price": "$15.00",
     "badges": [
       "Black",
       "Queer",
       "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
       "Femme",
-      "Free"
+      "Latina"
     ],
-    "time": "6:00 PM – 8:00 PM",
-    "location": "DC",
+    "time": "7:00 PM",
+    "location": "Femme Fatale · 3409 Connecticut Ave NW, Washington, DC 20008, USA",
     "vibeTags": [],
-    "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950083/?eventOrigin=group_upcoming_events",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
+    "ctaHref": "https://posh.vip/e/scary-jane",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
-    "id": "r-mva7niys-v52357",
+    "id": "r-mvbej2dc-tkt56r",
     "festival": "august-events",
     "day": "wednesday",
-    "dayDate": "2026-12-09",
+    "dayDate": "2026-10-21",
     "dayLabel": "Wednesday",
-    "name": "Billiards Meet Up",
-    "organizer": "Cue Social",
+    "name": "BIPOC Rope Jam",
+    "organizer": "Neffie Khaos",
     "types": [
-      "party",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Queer",
-      "Queer-friendly"
-    ],
-    "time": "7:00 PM",
-    "location": "Rocket Bar",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/Dd9Mn3bCZNk/?xtok=MXJ2aGU3Z3J2dDZtMA==",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party"
-  },
-  {
-    "id": "r-mv9zitb1-k7vk8x",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-12-05",
-    "dayLabel": "Saturday",
-    "name": "Kompet - Full Black Edition",
-    "organizer": "B2S Experience",
-    "types": [
-      "party",
-      "outdoors-&-active",
+      "workshop",
       "meetup"
     ],
     "audienceTags": [
       "Black",
-      "Queer",
       "Lesbian/WLW",
-      "Femme",
-      "Latina"
+      "Latina",
+      "Kink"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$21.00",
+    "price": "$20.00",
     "badges": [
       "Black",
-      "Queer",
       "Lesbian/WLW",
-      "Femme",
-      "Latina"
+      "Latina",
+      "Kink"
     ],
-    "time": "11:59 PM – 6:00 AM",
-    "location": "The Barge - Barge Rental Paris · 2 Quai de la Tournelle, 75005 Paris, France",
+    "time": "7:00 PM – 10:00 PM",
+    "location": "Bound Lark Rope Studio · Located in a quiet area of a Maryland suburb of metro DC area, the venue is at the crossroads of 2 major highways.    Free street parking is a short walk to the venue.   If you are taking public transportation, our closest metro station is Grosvenor-Strathmore station (Red Line) after which you can take a bus (5 min ride) or bike (7 min) or walk (25-30 minutes on mostly-flat and paved).",
     "vibeTags": [],
-    "ctaHref": "https://shotgun.live/fr/events/kompet-full-black-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacwePNQ-M_mKwTrqLJEAcxZUis5THmczo5cXDnzRDhJrDCEPreCmoansI6IyQ_aem_XuTg_9ERvfsXBwTZPQgjWQ",
+    "ctaHref": "https://www.boundlark.com/calendar/bipocjam10?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU_Y9FleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQZ3jv2gvX4IsTx-CkJDfFedxZ4ja3NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_qFJPLtIUGK1hPf6liUvblEkq5QTvCCgAQRA6adb_sNZcw-SV1jzouxsdiw_aem_dPWo8DrpxY7D3eciuOZFfg",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "paris"
+    "cardClass": "tp-workshop",
+    "city": "dmv"
   },
   {
     "id": "r-mvbkbm1j-s4ein1",
@@ -255,80 +1727,123 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mv9wrsys-nlmdgx",
+    "id": "r-mvbkb11s-qzdn37",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-28",
-    "dayLabel": "Saturday",
-    "name": "Rumba VENEZOLANA",
-    "organizer": "TASTE Takeover",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "KAYTRANADA Concert",
+    "organizer": "KAYTRANADA",
     "types": [
+      "show",
       "party"
     ],
     "audienceTags": [
-      "Lesbian/WLW",
+      "Black",
+      "Queer-friendly",
       "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$0.50",
+    "price": "$142.00",
     "badges": [
-      "Lesbian/WLW",
+      "Black",
+      "Queer-friendly",
       "Latina"
     ],
-    "time": "10:00 PM – 3:00 AM",
-    "location": "El Secreto De Rosita · 1624 U St NW, Washington, DC 20009",
+    "time": "9:00 PM",
+    "location": "Echostage · 2135 Queens Chapel Road NE, Washington, DC 20018,",
     "vibeTags": [],
-    "ctaHref": "https://www.tastetakeover.com/event-details-registration/rumba-venezolana",
+    "ctaHref": "https://www.ticketmaster.com/kaytranada-dj-set-washington-district-of-columbia-10-29-2026/event/150065322CC3A843?utm_medium=affiliate&utm_content=hotevent&irgwc=1&afsrc=1&clickid=UlwyB5xFMxyZW4e0NNyvtwUBUkr1ufSRR2CN0g0&camefrom=CFC_BUYAT_296934&impradid=296934&REFERRAL_ID=tmfeedbuyat296934&wt.mc_id=aff_BUYAT_296934&utm_source=296934-Spotify&impradname=Spotify&ircid=4272",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
+    "cardClass": "tp-show",
     "city": "dc"
   },
   {
-    "id": "r-mv9wipod-gc2vo8",
+    "id": "r-mv9y3n6w-9o7uzn",
     "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-11-27",
-    "dayLabel": "Friday",
-    "name": "Raw Honey: Home for the Holidays Fest",
-    "organizer": "Raw Honey",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "(NYC) 30+ Haus of Honey: Halloween",
+    "organizer": "Haus of Honey",
     "types": [
-      "festival",
       "party"
     ],
     "audienceTags": [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Latina"
+      "Latina",
+      "30+"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$13.00",
+    "price": "$25.00",
     "badges": [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Latina"
+      "Latina",
+      "30+"
     ],
-    "time": "11:00 PM",
-    "location": "9 Bob Note · 270 Meserole St, Brooklyn, NY 11206, USA",
+    "time": "5:00 PM – 10:00 PM",
+    "location": "Dive Bar · 408 Troutman St, Brooklyn, NY 11237, USA",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/raw-honey-black-friday?u=gabriellehitchens124&_t=mur7faqz&os=ios&src=event_page",
+    "ctaHref": "https://posh.vip/e/nyc-30-haus-of-honey-halloween?u=gabriellehitchens124&_t=muoawihp&os=ios&src=event_page",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-festival",
+    "cardClass": "tp-party",
     "city": "nyc"
   },
   {
-    "id": "r-mvh8ag9y-5q99rg",
+    "id": "r-mv9x4o87-aywto3",
     "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-11-25",
-    "dayLabel": "Wednesday",
-    "name": "Chosen Family Table",
-    "organizer": "The Porch Society",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "(NYC) Babyboi: Cuffing SZN",
+    "organizer": "Babyboi",
+    "types": [
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "7:00 PM – 12:00 AM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/nyc-babyboi-cuffing-szn",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mva766k3-o4wmqc",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "8 Ball and Us",
+    "organizer": "8 Ball and Us",
     "types": [
       "meetup"
     ],
@@ -346,14 +1861,126 @@ export const generatedEvents: PrideEvent[] = [
       "Lesbian/WLW",
       "Free"
     ],
-    "time": "6:00 PM – 8:00 PM",
-    "location": "First Round · 1610 20th St NW, Washington, DC 20009",
+    "time": "7:00 PM – 10:00 PM",
+    "location": "Center Pocket Sports Bar · 4931 Tesla Dr Unit H, Bowie, MD 20715, USA",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/last-wednesdays-monthly-black-queer-networking-2026-10-29-0-0?t=series&u=zbabieee&_t=mve119j1&os=web&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVEw-9leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQpULQCk9LF3VP6F6PJugk0QYmEq43NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp42hTzvysk9Obm5-frIIs6C3LXPKAmrVhc1uI4Ud6N1oPudYE9ZgM_MEj_Xg_aem_8kWG6DPPw4Fpv67ogDoTcw",
+    "ctaHref": "https://posh.vip/e/8-ball-and-us?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU-R0ZleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQWFBP_zL1qZlYczpFIa2hibJxFajnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp9SugdqcFCJ4F4VieVRI-1NLU4ZaTg3QgJXn4MWUOJPfr8_mxHLpcN05PvSo_aem_V1kSyHOldJzradwwVzqkbA",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-meetup",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mv9xujvx-qnuw7b",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-18",
+    "dayLabel": "Sunday",
+    "name": "A Day of Queersylvania",
+    "organizer": "Sinners and Saints",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "2:00 PM – 6:00 PM",
+    "location": "sinners and saints · 2309 18th St NW, Washington, DC 20009, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/a-day-of-queersylvania?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUvbGdleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPo-eaOzdw5WdCgNAr8de8rq5xHv6nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp9HAJmq8fcT9_lHAM4wTD1I1nJIUTAjDWjUIpCfjeFkmSsGRS4tVQkwVw2dd_aem_MTDla3q-Ze9pb2RaRDULLg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
     "city": "dc"
+  },
+  {
+    "id": "r-mv9x9csy-g82rua",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "Audio Noir feat. selections from I, Medusa",
+    "organizer": "Gladys Books and Wine",
+    "types": [
+      "show",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Queer-friendly"
+    ],
+    "time": "7:00 PM – 9:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
+    "vibeTags": [],
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92280",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9xounn-aybk2x",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Bad Witch, Good Butch: Mixtape Sapphics' Halloween Costume Party",
+    "organizer": "Mixtape Sapphics",
+    "types": [
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Masc",
+      "Femme",
+      "Latina",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Masc",
+      "Femme",
+      "Latina",
+      "30+"
+    ],
+    "time": "5:00 PM – 10:00 PM",
+    "location": "VIBE Restaurant And Lounge · 8081 Georgia Ave, Silver Spring, MD 20910",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/bad-witch-good-butch-mixtape-sapphics-halloween-costume-party-tickets-2003320905757?aff=ebdsoporgprofile",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dmv"
   },
   {
     "id": "r-mv9w9rgl-zcjj10",
@@ -431,107 +2058,71 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mv9zyjkm-uguosj",
+    "id": "r-mv9xhjcr-igxwdv",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-14",
-    "dayLabel": "Saturday",
-    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
-    "organizer": "Xxclusive Vibes",
+    "day": "sunday",
+    "dayDate": "2026-10-18",
+    "dayLabel": "Sunday",
+    "name": "Book Club Meeting",
+    "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
     "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
-      "Femme",
-      "25+"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Femme",
-      "25+"
-    ],
-    "time": "10:00 PM – 3:00 AM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-11-15-8-0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mv9wrdha-r5q5j5",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-14",
-    "dayLabel": "Saturday",
-    "name": "Latin Karaoke Social & RUMBA!",
-    "organizer": "TASTE Takeover",
-    "types": [
-      "karaoke",
-      "party",
+      "workshop",
       "meetup"
     ],
     "audienceTags": [
+      "Black",
       "Queer",
       "Lesbian/WLW",
       "Femme",
       "Latina"
     ],
     "vibesRaw": "",
-    "free": false,
-    "price": "$20.00",
+    "free": true,
+    "price": "Free",
     "badges": [
+      "Black",
       "Queer",
       "Lesbian/WLW",
       "Femme",
-      "Latina"
+      "Latina",
+      "Free"
     ],
-    "time": "8:00 PM – 2:00 AM",
-    "location": "MIXXEDD · 2427 18th St NW, Washington, DC 20009",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "DC",
     "vibeTags": [],
-    "ctaHref": "https://www.tastetakeover.com/event-details-registration/latin-karaoke-social-rumba",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-karaoke",
+    "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950081/?eventOrigin=group_upcoming_events",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
-    "id": "r-mvh82bm7-n59ecd",
+    "id": "r-mv9wva8n-ggrnhv",
     "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-11-11",
-    "dayLabel": "Wednesday",
-    "name": "Black Lavender Munch",
-    "organizer": "lola.rozay",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "Bookbinding Workshop with Maria Fernanda",
+    "organizer": "Creative Grounds DC",
     "types": [
-      "meetup"
+      "workshop"
     ],
     "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
-      "Kink"
+      "Black"
     ],
     "vibesRaw": "",
     "free": false,
     "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Kink"
+      "Black"
     ],
-    "time": "6:30 PM – 8:30 PM",
-    "location": "",
+    "time": "6:30 PM – 7:30 PM",
+    "location": "Creative Grounds DC · 1822 North Capitol Street NW, Washington, DC 20002",
     "vibeTags": [],
-    "ctaHref": "https://docs.google.com/forms/d/e/1FAIpQLSdEy9ci4VCHea3TQv1P1Pk2cO0AkkIAe1gE61I_Oi_wejwjyg/viewform?fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJmZGlkFlEKtfXWZoRQBNyL-2xS9zNeZEh7F9lzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaepW67DH91TI9RTlu9igyWXQK0xZpg905ovHWGMPbzt4gFUnPCUgiaNjMDsWQ_aem_IgTSqanvbmHzmZnwwY8e1g&utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+    "ctaHref": "https://www.instagram.com/p/DdpqnMFtAZL/?hl=en",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup"
+    "cardClass": "tp-workshop",
+    "city": "dc"
   },
   {
     "id": "r-mva7ma8t-62h8c5",
@@ -564,53 +2155,188 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mv9xl5nq-036di0",
+    "id": "r-mv9ygpur-qd9192",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-11-08",
-    "dayLabel": "Sunday",
-    "name": "Lavender Evolutions Book Club Meet Up",
-    "organizer": "Lavender Evolutions",
+    "day": "friday",
+    "dayDate": "2026-10-16",
+    "dayLabel": "Friday",
+    "name": "Burn the Patriarchy's Falloween Candle Pour Night",
+    "organizer": "Femme Fatale DC",
     "types": [
       "workshop"
     ],
     "audienceTags": [
       "Black",
-      "Lesbian/WLW"
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
+    "price": "$55.55",
     "badges": [
       "Black",
-      "Lesbian/WLW"
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
     ],
-    "time": "1:00 PM",
-    "location": "DC",
+    "time": "6:30 PM – 8:30 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
     "vibeTags": [],
-    "ctaHref": "https://bookclubs.com/clubs/6019622/join/c56cf2?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAackQ0SVRlKjxF8ty7L89FNVbC1jDl0S71u1GJ63rFZ4CvAXCCTa16lptDXTRg_aem_gOHxKvUzouY74eT7zm9iXg",
+    "ctaHref": "https://www.femmefataledc.com/events/hera-hub-dc-x-femme-fatale-dc-y4h5s",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
-    "id": "r-mw45znyg-gzu3u3",
+    "id": "r-mva04d97-awmbfr",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-11-08",
-    "dayLabel": "Sunday",
-    "name": "Sip & paint experience for queer femmes, WLW, and nonbinary folks",
-    "types": [],
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "CLUB 6669! A Queer Halloween Dance Party",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
     "vibesRaw": "",
     "free": false,
-    "badges": [],
-    "time": "4:00 PM – 6:00 PM",
-    "location": "500 8th st se",
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Drunken Unicorn · 736 Ponce De Leon Ave NE, Atlanta, GA 30306",
     "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/Deu8Bc8xQUQ/",
+    "ctaHref": "https://www.eventbrite.com/e/club-6669-a-queer-halloween-dance-party-tickets-2003374945391?aff=oddtdtcreator&keep_tld=true",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-day-party"
+    "cardClass": "tp-show",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mv9wipod-gc2vo8",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-11-27",
+    "dayLabel": "Friday",
+    "name": "Raw Honey: Home for the Holidays Fest",
+    "organizer": "Raw Honey",
+    "types": [
+      "festival",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$13.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "11:00 PM",
+    "location": "9 Bob Note · 270 Meserole St, Brooklyn, NY 11206, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/raw-honey-black-friday?u=gabriellehitchens124&_t=mur7faqz&os=ios&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9w953k-lheq75",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Club Ghetto Tech: Vol. 9",
+    "organizer": "Groove Haul",
+    "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Punks"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Punks"
+    ],
+    "time": "9:30 PM – 3:00 AM",
+    "location": "Sinners and Saints · 2309 18th St NW, Washington, DC 20009, USA",
+    "vibeTags": [],
+    "ctaHref": "https://ra.co/events/2546054?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadA91PofE2vivgrv7h8SW8NHHG3oSWASNwHVAZEwesbg-lQv6b-GjAunV6YYw_aem_4yG3paHrzKBzaxQ9YcF3xA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9x162k-bdyc70",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "CUFFIN' SEASON - Lesbian & Queer Party",
+    "organizer": "Adult Supervision Needed",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "10:00 PM – 2:00 AM",
+    "location": "Cam Kirk Studios · 112 Krog St NE D125, Atlanta, GA 30307, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/cuffin-season-lesbian-queer-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
   },
   {
     "id": "r-mv9w4kma-cwerad",
@@ -653,144 +2379,164 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mv9wpodv-9oxcpu",
+    "id": "r-mv9wrsys-nlmdgx",
     "festival": "august-events",
     "day": "saturday",
-    "dayDate": "2026-11-07",
+    "dayDate": "2026-11-28",
     "dayLabel": "Saturday",
-    "name": "Hike N' Hang: Fall Edition",
-    "organizer": "The Big Kids Club",
-    "types": [
-      "outdoors-&-active",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Families and youth"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$6.00",
-    "badges": [
-      "Families and youth"
-    ],
-    "time": "9:30 AM – 12:00 PM",
-    "location": "Rock Creek Park Nature Center and Planetarium · 5200 Glover Rd NW Washington DC 20015",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/hike-n-hang-fall-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadNR8tq_Dmy9HFTk-yETHRZI_-N2z2G5LtndK_7RSeIzDhunun0CLSbqWCNGg_aem_3dWwa5ZfTZggYq-bS1SO1Q",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-outdoors-&-active",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9wfwqz-dumbmq",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-07",
-    "dayLabel": "Saturday",
-    "name": "Lez Black Gurls : Saturday Hike",
-    "organizer": "LezBlackGurls",
-    "types": [
-      "conference",
-      "outdoors-&-active"
-    ],
-    "audienceTags": [
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Lesbian/WLW",
-      "Latina",
-      "Free"
-    ],
-    "time": "10:00 AM – 12:00 PM",
-    "location": "Lake Roland Park · 1000 Lakeside Drive, Baltimore, MD 21210",
-    "vibeTags": [],
-    "ctaHref": "https://www.eventbrite.com/e/lez-black-gurls-saturday-hike-tickets-2003329710091?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr1APRtR2CN0g0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-conference",
-    "city": "baltimore"
-  },
-  {
-    "id": "r-mv9w0rzy-lgxtog",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-07",
-    "dayLabel": "Saturday",
-    "name": "Mood II Swing",
-    "organizer": "TRANSMISSION",
+    "name": "Rumba VENEZOLANA",
+    "organizer": "TASTE Takeover",
     "types": [
       "party"
     ],
     "audienceTags": [
-      "Black",
-      "Queer",
       "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
       "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$25.00",
+    "price": "$0.50",
     "badges": [
-      "Black",
-      "Queer",
       "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
       "Latina"
     ],
     "time": "10:00 PM – 3:00 AM",
-    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "location": "El Secreto De Rosita · 1624 U St NW, Washington, DC 20009",
     "vibeTags": [],
-    "ctaHref": "https://shotgun.live/en/events/mood-ii-swing",
+    "ctaHref": "https://www.tastetakeover.com/event-details-registration/rumba-venezolana",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
     "city": "dc"
   },
   {
-    "id": "r-mv9slq9j-f9u87l",
+    "id": "r-mva74e8n-7x9xle",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-11-07",
-    "dayLabel": "Saturday",
-    "name": "Scorpio Stings: Junior Sanchez, Ultra Violet and More!",
-    "organizer": "House of Yes",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Diamonds and Desire",
+    "organizer": "LRE",
     "types": [
+      "show"
+    ],
+    "audienceTags": [
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$34.00",
+    "badges": [
+      "Queer-friendly"
+    ],
+    "time": "6:30 PM – 9:00 PM",
+    "location": "The Writer's Center · 4508 Walsh Street, Bethesda, MD 20815",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/diamonds-and-desire-tickets-1989327912337?fbclid=PAZnRzaAU-RvZleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQXx9Gx6nlioL-ZXKqTErjWUa97F3HNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpw5yK7ixj3zWyCrFprOq4PmBr4ELQERxXtls2vJ9-7Def3IMbDTyYVQaNBoa_aem_QVV2-FinRFx2zm6wiPPjJQ&utm_medium=social&utm_content=link_in_bio&utm_source=ig&aff=oddtdtcreator",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mva69p0l-0ujw5l",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "Eating Out: Oral Sex for Vulvas",
+    "organizer": "Lotus Blooms",
+    "types": [
+      "show",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer",
+      "Latina"
+    ],
+    "time": "7:30 PM – 9:00 PM",
+    "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009, USA",
+    "vibeTags": [],
+    "ctaHref": "https://events.humanitix.com/eating-out-oral-sex-for-vulvas?c=crush&fbclid=PARlRTSAU-P7tleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQXG6uNiFiRdjBn1iWI6B7Kz9nZminNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1kE8IBYrkkFXXccsPGiyQry5HbZDRCLfG5xqN9Zg4f8RnF7T4qli5Se0PpM_aem_kaJpfv0mCTRYQH1CHv8pJQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9ycixt-olsh33",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-16",
+    "dayLabel": "Friday",
+    "name": "FALL of FASC!SM",
+    "organizer": "Hot Gurlz Organize",
+    "types": [
+      "show",
       "party"
     ],
     "audienceTags": [
       "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
+      "Lesbian/WLW"
     ],
     "vibesRaw": "",
-    "free": true,
-    "price": "From free",
+    "free": false,
+    "price": "$1.20",
     "badges": [
       "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina",
-      "Free"
+      "Lesbian/WLW"
     ],
     "time": "10:00 PM",
-    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "location": "The Bush",
     "vibeTags": [],
-    "ctaHref": "https://link.dice.fm/R808117106d3",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-party",
+    "ctaHref": "https://events.ticketleap.com/tickets/queerflatbush/FallofFascism?fbclid=PAVERFWAUw2uVleHRuA2FlbQIxMABwZG9mAmZkaWQWUPuNkidO6Uun0Mqj2yzD9YUw6QWSNnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6dpbb6pdjv43AuqAMAofay9LGTPqAcrud2Zjd1gDMjQ4KkX8bE0Untzxd4i_aem_hmKtNRq4CLrVDszyc2Gfzw",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
     "city": "nyc"
+  },
+  {
+    "id": "r-mv9zyjkm-uguosj",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "Femme Frequency: An R&B Dance Experience For 25+ Women Who Love Women",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Femme",
+      "25+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Femme",
+      "25+"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/femme-frequency-an-rb-dance-experience-for-25-women-who-love-women-2026-11-15-8-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
   },
   {
     "id": "r-mv9zy4w3-rj9ejn",
@@ -828,77 +2574,75 @@ export const generatedEvents: PrideEvent[] = [
     "city": "atlanta"
   },
   {
-    "id": "r-mvh8fg18-zk6uul",
+    "id": "r-mv9yicwh-pg2gi1",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "Found People After Dark",
-    "organizer": "Good People",
-    "types": [
-      "party"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Party",
-      "Free"
-    ],
-    "time": "8:00 PM – 1:00 AM",
-    "location": "My Back Yard · 1150 COFFEE RD. LITHONIA GA 30058",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/found-fest-after-dark?u=briizzyfbaby&_t=mvh8eosw&os=ios&src=event_page",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-party",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mv9y3n6w-9o7uzn",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "(NYC) 30+ Haus of Honey: Halloween",
-    "organizer": "Haus of Honey",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "Flower Girls Night In",
+    "organizer": "Femme Fatale DC",
     "types": [
       "party"
     ],
     "audienceTags": [
-      "Black",
       "Queer",
-      "Lesbian/WLW",
-      "Latina",
-      "30+"
+      "Femme",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$25.00",
+    "price": "$23.00",
     "badges": [
-      "Black",
       "Queer",
-      "Lesbian/WLW",
-      "Latina",
-      "30+"
+      "Femme",
+      "Latina"
     ],
-    "time": "5:00 PM – 10:00 PM",
-    "location": "Dive Bar · 408 Troutman St, Brooklyn, NY 11237, USA",
+    "time": "7:00 PM – 10:00 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest, Washington, District of Columbia, 20008",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/nyc-30-haus-of-honey-halloween?u=gabriellehitchens124&_t=muoawihp&os=ios&src=event_page",
+    "ctaHref": "https://partiful.com/e/CphQRKaVc3BHCgOfN269?",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
-    "city": "nyc"
+    "city": "dc"
   },
   {
-    "id": "r-mv9xounn-aybk2x",
+    "id": "r-mv9xth3y-meo4rr",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "Bad Witch, Good Butch: Mixtape Sapphics' Halloween Costume Party",
-    "organizer": "Mixtape Sapphics",
+    "day": "friday",
+    "dayDate": "2026-10-09",
+    "dayLabel": "Friday",
+    "name": "FREAKY FRIDAY (Goth Techno Rave)",
+    "organizer": "Portal 6",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Punks"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$1.90",
+    "badges": [
+      "Punks"
+    ],
+    "time": "9:00 PM – 2:00 AM",
+    "location": "Sinners & Saints · 2309 18th St NW",
+    "vibeTags": [],
+    "ctaHref": "https://www.gatherevents.online/event/pllO-freaky-friday-goth-techno-rave",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9wyjxs-m081o2",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Fruit Punch X Meet Me",
+    "organizer": "TRANSMISSION",
     "types": [
       "party",
       "meetup"
@@ -907,40 +2651,141 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Masc",
-      "Femme",
-      "Latina",
-      "30+"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$15.00",
+    "price": "$17.93",
     "badges": [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Masc",
-      "Femme",
-      "Latina",
-      "30+"
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
     ],
-    "time": "5:00 PM – 10:00 PM",
-    "location": "VIBE Restaurant And Lounge · 8081 Georgia Ave, Silver Spring, MD 20910",
+    "time": "10:00 PM – 2:00 AM",
+    "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
     "vibeTags": [],
-    "ctaHref": "https://www.eventbrite.com/e/bad-witch-good-butch-mixtape-sapphics-halloween-costume-party-tickets-2003320905757?aff=ebdsoporgprofile",
+    "ctaHref": "https://shotgun.live/en/events/fruit-punch-x-meet-me",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
-    "city": "dmv"
+    "city": "dc"
   },
   {
-    "id": "r-mv9w953k-lheq75",
+    "id": "r-mv9zitb1-k7vk8x",
     "festival": "august-events",
     "day": "saturday",
-    "dayDate": "2026-10-31",
+    "dayDate": "2026-12-05",
     "dayLabel": "Saturday",
-    "name": "Club Ghetto Tech: Vol. 9",
-    "organizer": "Groove Haul",
+    "name": "Kompet - Full Black Edition",
+    "organizer": "B2S Experience",
+    "types": [
+      "party",
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$21.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
+    ],
+    "time": "11:59 PM – 6:00 AM",
+    "location": "The Barge - Barge Rental Paris · 2 Quai de la Tournelle, 75005 Paris, France",
+    "vibeTags": [],
+    "ctaHref": "https://shotgun.live/fr/events/kompet-full-black-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacwePNQ-M_mKwTrqLJEAcxZUis5THmczo5cXDnzRDhJrDCEPreCmoansI6IyQ_aem_XuTg_9ERvfsXBwTZPQgjWQ",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "paris"
+  },
+  {
+    "id": "r-mva716ou-4ehppi",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "Gay Ass Brunch",
+    "organizer": "@itsAngieFool",
+    "types": [
+      "brunch",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Latina",
+      "Free"
+    ],
+    "time": "12:00 PM – 4:00 PM",
+    "location": "Blue Agave · 1032 Light St",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/gay-ass-brunch",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-brunch",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mv9xswo2-lu05dt",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "GAY HALLOWEEN",
+    "organizer": "Portal 6",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Queer"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$1.90",
+    "badges": [
+      "Queer"
+    ],
+    "time": "9:00 PM – 3:00 AM",
+    "location": "2309 18th St NW Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://www.gatherevents.online/event/pllO-gay-halloween",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9u9i5v-189b2q",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "Gaydar Halloween",
+    "organizer": "House of Yes",
     "types": [
       "show",
       "party"
@@ -949,27 +2794,91 @@ export const generatedEvents: PrideEvent[] = [
       "Black",
       "Queer",
       "Lesbian/WLW",
-      "Latina",
-      "Punks"
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$20.83",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "10:00 PM – 4:00 AM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "vibeTags": [],
+    "ctaHref": "https://link.dice.fm/Yf1f5b18cc7d",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9zn4y2-r3zdso",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "GayNB : The TrapSoul Series Prt I",
+    "organizer": "Stizz Entertainment LLC",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "9:00 PM – 3:00 AM",
+    "location": "The House NYC · 29 Locust St, Brooklyn, NY 11206, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/gaynb-the-trapsoul-series-prt-i",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9x8fk5-stl432",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "Get Lit with Paula presents Quiet Riot by Alicia Hines",
+    "organizer": "Gladys Books and Wine",
+    "types": [
+      "workshop",
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Families and youth"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$15.00",
     "badges": [
       "Black",
-      "Queer",
       "Lesbian/WLW",
-      "Latina",
-      "Punks"
+      "Families and youth"
     ],
-    "time": "9:30 PM – 3:00 AM",
-    "location": "Sinners and Saints · 2309 18th St NW, Washington, DC 20009, USA",
+    "time": "6:00 PM – 8:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
     "vibeTags": [],
-    "ctaHref": "https://ra.co/events/2546054?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadA91PofE2vivgrv7h8SW8NHHG3oSWASNwHVAZEwesbg-lQv6b-GjAunV6YYw_aem_4yG3paHrzKBzaxQ9YcF3xA",
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92276",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "dc"
+    "cardClass": "tp-workshop",
+    "city": "nyc"
   },
   {
     "id": "r-mv9x7bz4-rowglr",
@@ -997,6 +2906,183 @@ export const generatedEvents: PrideEvent[] = [
     "location": "The House · 29 Locust St, Brooklyn, NY 11206, USA",
     "vibeTags": [],
     "ctaHref": "https://posh.vip/e/gggayest-halloween?u=keyslache&_t=mv12yph3&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAad9EnfEy_jIIp40xVWf_OdJPK-ztHT5bLjo70ybydpagn3kOtEOq-a47VmBIg_aem_TVTKXix7HKEGd-UP1VQvKg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9xwu9f-32629v",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "Ghosts We Carry",
+    "organizer": "The Sapphic Sanctuary",
+    "types": [
+      "workshop",
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$5.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "4:00 PM – 6:00 PM",
+    "location": "KBird · 1333 P St NW",
+    "vibeTags": [],
+    "ctaHref": "https://api.joinpinyada.com/eventLinkPreview?eventid=896&hostid=1259&share=true",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9x9sz3-5dw6qw",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "Glo in the City Live Black and POC Queer Comedy Show",
+    "organizer": "Glo",
+    "types": [
+      "conference",
+      "show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "7:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Boulevard",
+    "vibeTags": [],
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92007",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-conference",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9vwve2-8ksxgi",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-18",
+    "dayLabel": "Sunday",
+    "name": "GOOD TIMES MARKET",
+    "organizer": "Transmission",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
+      "Free"
+    ],
+    "time": "11:00 AM – 4:00 PM",
+    "location": "Transmission · 1353 H Street Northeast, Washington, DC 20002, USA",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/DdhVO2chg8e",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mva88lyo-yerpsz",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Gurls & Ghouls 2",
+    "organizer": "MIM Entertainment",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "time": "9:00 PM – 2:00 AM",
+    "location": "Mixxed · 2427 18TH ST NW DC",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/gurls-ghouls-2?u=aminabrown76&_t=mv87a8q6&os=android&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf9UaqaFBrsZL0rLyRPkj5lbVLisvsTC02c-Uv1B1I_CQVAl14Up1NzT3dJTA_aem_tiWiy2bO0Z1IWFnSsjKBAA",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9ydwgv-f2wvfk",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "gURLSlikegIRLS: Blood Suckers",
+    "organizer": "gURLSlikegIRLS",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$24.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "The Bush · 333 Troutman St, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/gurlslikegirls-blood-suckers",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
@@ -1038,6 +3124,432 @@ export const generatedEvents: PrideEvent[] = [
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-show",
     "city": "dc"
+  },
+  {
+    "id": "r-mv9wm1s6-67jgw7",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "Halloween: Deep CVNT",
+    "organizer": "@girliepopdc",
+    "types": [
+      "show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Trans",
+      "GNC/Nonbinary",
+      "Free"
+    ],
+    "time": "9:00 PM",
+    "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/DeM2lwpEYQa/?img_index=1",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9wpodv-9oxcpu",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-07",
+    "dayLabel": "Saturday",
+    "name": "Hike N' Hang: Fall Edition",
+    "organizer": "The Big Kids Club",
+    "types": [
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Families and youth"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$6.00",
+    "badges": [
+      "Families and youth"
+    ],
+    "time": "9:30 AM – 12:00 PM",
+    "location": "Rock Creek Park Nature Center and Planetarium · 5200 Glover Rd NW Washington DC 20015",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/hike-n-hang-fall-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadNR8tq_Dmy9HFTk-yETHRZI_-N2z2G5LtndK_7RSeIzDhunun0CLSbqWCNGg_aem_3dWwa5ZfTZggYq-bS1SO1Q",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-outdoors-&-active",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9u3416-w5b53d",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "Hot & Fresh Burlesque: Halloween Edition",
+    "organizer": "House of Yes",
+    "types": [
+      "show"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Free"
+    ],
+    "time": "6:30 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
+    "vibeTags": [],
+    "ctaHref": "https://link.dice.fm/h70f78bae62d",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9ym9gu-hiede9",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "Hyphensystem - Nanou, Secri99, Blackangelzz, Trasholicsd33j",
+    "organizer": "PAMELA CLUB",
+    "types": [
+      "festival",
+      "party",
+      "meetup"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Festival",
+      "Party",
+      "Meetup"
+    ],
+    "time": "11:59 PM – 5:00 AM",
+    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
+    "vibeTags": [],
+    "ctaHref": "https://shotgun.live/fr/events/hyphensystem2",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "paris",
+    "prideSeries": "Yes"
+  },
+  {
+    "id": "r-mv9xbg22-n7rpz9",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "I DO the Bending Live Podcast Recording!",
+    "organizer": "Gladys Books and Wine",
+    "types": [
+      "show",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$15.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Queer-friendly"
+    ],
+    "time": "6:30 PM – 9:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
+    "vibeTags": [],
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=91793",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9xae68-l3ogy1",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "Indigo Poets Archive presents: FEAR, A Black Lesbian Open Mic",
+    "organizer": "Gladys Books and Wine",
+    "types": [
+      "show",
+      "outdoors-&-active"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "$5.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "5:00 PM – 7:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
+    "vibeTags": [],
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92602",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9x3g1f-ora04b",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "Jazz Night for Lovers & Loners",
+    "organizer": "Saint James Libations",
+    "types": [
+      "show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/jazz-night-for-lovers-loners-2?u=saintjameslibations&_t=muwonfnt&os=web&src=event_page",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9x0r7b-pqltwk",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-16",
+    "dayLabel": "Friday",
+    "name": "Juke Jam (21+ Listening Experience) (Lesbian/Queer Event)",
+    "organizer": "Adult Supervision Needed",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "$20.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Free"
+    ],
+    "time": "10:00 PM – 2:00 AM",
+    "location": "1526 E Forrest Ave, East Point, GA 30344, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/juke-jam-21-listening-experience-lesbianqueer-event-1",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mva7niys-v52357",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-12-09",
+    "dayLabel": "Wednesday",
+    "name": "Billiards Meet Up",
+    "organizer": "Cue Social",
+    "types": [
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Queer",
+      "Queer-friendly"
+    ],
+    "time": "7:00 PM",
+    "location": "Rocket Bar",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/Dd9Mn3bCZNk/?xtok=MXJ2aGU3Z3J2dDZtMA==",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party"
+  },
+  {
+    "id": "r-mv9wrdha-r5q5j5",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-14",
+    "dayLabel": "Saturday",
+    "name": "Latin Karaoke Social & RUMBA!",
+    "organizer": "TASTE Takeover",
+    "types": [
+      "karaoke",
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$20.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Latina"
+    ],
+    "time": "8:00 PM – 2:00 AM",
+    "location": "MIXXEDD · 2427 18th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://www.tastetakeover.com/event-details-registration/latin-karaoke-social-rumba",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-karaoke",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9xl5nq-036di0",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-11-08",
+    "dayLabel": "Sunday",
+    "name": "Lavender Evolutions Book Club Meet Up",
+    "organizer": "Lavender Evolutions",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "1:00 PM",
+    "location": "DC",
+    "vibeTags": [],
+    "ctaHref": "https://bookclubs.com/clubs/6019622/join/c56cf2?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAackQ0SVRlKjxF8ty7L89FNVbC1jDl0S71u1GJ63rFZ4CvAXCCTa16lptDXTRg_aem_gOHxKvUzouY74eT7zm9iXg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9wfwqz-dumbmq",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-07",
+    "dayLabel": "Saturday",
+    "name": "Lez Black Gurls : Saturday Hike",
+    "organizer": "LezBlackGurls",
+    "types": [
+      "conference",
+      "outdoors-&-active"
+    ],
+    "audienceTags": [
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Lesbian/WLW",
+      "Latina",
+      "Free"
+    ],
+    "time": "10:00 AM – 12:00 PM",
+    "location": "Lake Roland Park · 1000 Lakeside Drive, Baltimore, MD 21210",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/lez-black-gurls-saturday-hike-tickets-2003329710091?irclickid=SCxWeyXsRxycU4kzdb0-yWmqUkr1APRtR2CN0g0&sharedid=linktr.ee&irpid=10078&utm_source=impact&utm_medium=ebaf&utm_term=10078&utm_content=1818731__linktr.ee&irgwc=1&afsrc=1&utm_campaign=afsp_ceal_pmk_fpp_0_us_0_0_bau_0",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-conference",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mv9zpfo3-jbxn90",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-16",
+    "dayLabel": "Friday",
+    "name": "LEZ SING",
+    "organizer": "Friendly Masc Hotties (FMH)",
+    "types": [
+      "karaoke",
+      "party",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Lesbian/WLW",
+      "Masc"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$5.00",
+    "badges": [
+      "Lesbian/WLW",
+      "Masc"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Body Shop Bar · 698 Nostrand Ave, Brooklyn, NY",
+    "vibeTags": [],
+    "ctaHref": "https://partiful.com/e/cQdF402zkwfguw9fW1BQ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeSHjaIWwmmgHWvMgfegvLZFpbD0L6p6gv81QQ0rPHfWNgWemf9vLIC6hmsjw_aem_d-Ju_LIRsCChrTDpK852cg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-karaoke",
+    "city": "nyc"
   },
   {
     "id": "r-mv9wtw7l-lr8rd0",
@@ -1083,353 +3595,43 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mva0hv0d-i476sv",
+    "id": "r-mv9w0rzy-lgxtog",
     "festival": "august-events",
     "day": "saturday",
-    "dayDate": "2026-10-31",
+    "dayDate": "2026-11-07",
     "dayLabel": "Saturday",
-    "name": "NYC “Freak Show”",
-    "organizer": "Deviant Events",
+    "name": "Mood II Swing",
+    "organizer": "TRANSMISSION",
     "types": [
       "party"
     ],
     "audienceTags": [
       "Black",
-      "Queer",
-      "MLM",
-      "Kink"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "MLM",
-      "Kink",
-      "Free"
-    ],
-    "time": "11:00 PM – 4:00 AM",
-    "location": "Red Eye · 355 West 41st Street",
-    "vibeTags": [],
-    "ctaHref": "https://dvntapp.live/events/nyc-freak-show",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-party",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9zqos6-vl53bk",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "Not Another Halloween Party",
-    "organizer": "No Label Party",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "time": "10:00 PM – 2:00 AM",
-    "location": "The Hive Lounge · 323 N Adams St",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/not-another-halloween-party?u=nolabelparty_&_t=mv11eyng&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAac_T4PRns9QARLt3eHKp4x_HiNcZ8bSFCUw0ZD5z-CCmNU-ayoUAuhe3aa4Ww_aem_V8tym0EpfEkOT5hpNLtCeQ",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "dmv"
-  },
-  {
-    "id": "r-mv9wqvkr-vyubur",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "QUEER HALLOWEEN REGGAETON PARTY!!",
-    "organizer": "TASTE Takeover",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
       "Queer",
       "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
       "Latina"
     ],
     "vibesRaw": "",
     "free": false,
     "price": "$25.00",
     "badges": [
+      "Black",
       "Queer",
       "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
       "Latina"
-    ],
-    "time": "9:00 PM – 2:00 AM",
-    "location": "Taqueria Picoso · 1472 N Beauregard St, Alexandria, VA 22311",
-    "vibeTags": [],
-    "ctaHref": "https://www.tastetakeover.com/event-details-registration/queer-halloween-reggaeton-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "dmv"
-  },
-  {
-    "id": "r-mv9xbwnm-p1hdz0",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "Sapphic Superstition",
-    "organizer": "Gladys Books and Wine",
-    "types": [
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$10.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "time": "7:00 PM – 1:00 AM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92287",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9zx058-arvjyi",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-31",
-    "dayLabel": "Saturday",
-    "name": "Something Lit For The Ladies: Freakfest Halloween Party For WLW",
-    "organizer": "Xxclusive Vibes",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
     ],
     "time": "10:00 PM – 3:00 AM",
-    "location": "Mixx Atlanta · 1492 Piedmont Ave NE Ste b, Atlanta, GA 30309, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-11-1-7-0",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mva04d97-awmbfr",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "CLUB 6669! A Queer Halloween Dance Party",
-    "organizer": "Southern Fried Queer Pride",
-    "types": [
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$10.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "time": "10:00 PM – 2:00 AM",
-    "location": "Drunken Unicorn · 736 Ponce De Leon Ave NE, Atlanta, GA 30306",
-    "vibeTags": [],
-    "ctaHref": "https://www.eventbrite.com/e/club-6669-a-queer-halloween-dance-party-tickets-2003374945391?aff=oddtdtcreator&keep_tld=true",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mva74e8n-7x9xle",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Diamonds and Desire",
-    "organizer": "LRE",
-    "types": [
-      "show"
-    ],
-    "audienceTags": [
-      "Queer-friendly"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$34.00",
-    "badges": [
-      "Queer-friendly"
-    ],
-    "time": "6:30 PM – 9:00 PM",
-    "location": "The Writer's Center · 4508 Walsh Street, Bethesda, MD 20815",
-    "vibeTags": [],
-    "ctaHref": "https://www.eventbrite.com/e/diamonds-and-desire-tickets-1989327912337?fbclid=PAZnRzaAU-RvZleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQXx9Gx6nlioL-ZXKqTErjWUa97F3HNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpw5yK7ixj3zWyCrFprOq4PmBr4ELQERxXtls2vJ9-7Def3IMbDTyYVQaNBoa_aem_QVV2-FinRFx2zm6wiPPjJQ&utm_medium=social&utm_content=link_in_bio&utm_source=ig&aff=oddtdtcreator",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "dmv"
-  },
-  {
-    "id": "r-mv9wyjxs-m081o2",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Fruit Punch X Meet Me",
-    "organizer": "TRANSMISSION",
-    "types": [
-      "party",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$17.93",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "time": "10:00 PM – 2:00 AM",
     "location": "TRANSMISSION · 1353 H Street Northeast, Washington, DC 20002, USA",
     "vibeTags": [],
-    "ctaHref": "https://shotgun.live/en/events/fruit-punch-x-meet-me",
+    "ctaHref": "https://shotgun.live/en/events/mood-ii-swing",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
     "city": "dc"
-  },
-  {
-    "id": "r-mva88lyo-yerpsz",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Gurls & Ghouls 2",
-    "organizer": "MIM Entertainment",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "30+"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$12.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "30+"
-    ],
-    "time": "9:00 PM – 2:00 AM",
-    "location": "Mixxed · 2427 18TH ST NW DC",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/gurls-ghouls-2?u=aminabrown76&_t=mv87a8q6&os=android&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf9UaqaFBrsZL0rLyRPkj5lbVLisvsTC02c-Uv1B1I_CQVAl14Up1NzT3dJTA_aem_tiWiy2bO0Z1IWFnSsjKBAA",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9xbg22-n7rpz9",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "I DO the Bending Live Podcast Recording!",
-    "organizer": "Gladys Books and Wine",
-    "types": [
-      "show",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$15.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Queer-friendly"
-    ],
-    "time": "6:30 PM – 9:00 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=91793",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "nyc"
   },
   {
     "id": "r-mva0k23w-xlhjzu",
@@ -1465,1269 +3667,109 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mv9ynwbv-v7dsi0",
+    "id": "r-mv9xeglp-ye4veb",
     "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Omizs Halloween Party - I <3 Jb",
-    "organizer": "PAMELA CLUB",
+    "day": "thursday",
+    "dayDate": "2026-10-15",
+    "dayLabel": "Thursday",
+    "name": "NOSTALGIA 10/15",
+    "organizer": "Peazy",
+    "types": [
+      "conference",
+      "outdoors-&-active"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$12.51",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "30+"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Safari Club · 5625 O Donnell Street, Baltimore, MD 21224",
+    "vibeTags": [],
+    "ctaHref": "https://www.eventbrite.com/e/nostalgia-1015-tickets-2002979993078?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadmUdo4XctpTX4ONEpIyzspRmi9Yn7yBwoqDv8zks6bGvpeZRluurhwPYXT6A_aem_3iy3N3PaIf9kPWXCdpoC7A",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-conference",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mv9zqos6-vl53bk",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Not Another Halloween Party",
+    "organizer": "No Label Party",
     "types": [
       "party"
     ],
     "audienceTags": [
-      "Queer-friendly",
-      "Latina"
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$15.00",
+    "price": "$12.00",
     "badges": [
-      "Queer-friendly",
-      "Latina"
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
     ],
-    "time": "11:00 PM – 6:00 AM",
-    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
+    "time": "10:00 PM – 2:00 AM",
+    "location": "The Hive Lounge · 323 N Adams St",
     "vibeTags": [],
-    "ctaHref": "https://shotgun.live/fr/events/omizspartyhalloweenjb",
+    "ctaHref": "https://posh.vip/e/not-another-halloween-party?u=nolabelparty_&_t=mv11eyng&os=ios&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAac_T4PRns9QARLt3eHKp4x_HiNcZ8bSFCUw0ZD5z-CCmNU-ayoUAuhe3aa4Ww_aem_V8tym0EpfEkOT5hpNLtCeQ",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
-    "city": "paris"
+    "city": "dmv"
   },
   {
-    "id": "r-mv9wzolf-tx4ce3",
+    "id": "r-mva0hv0d-i476sv",
     "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "Out N Bad: CREATURES | NYC | Queer Caribbean Halloween Bashment",
-    "organizer": "littlefield",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "NYC “Freak Show”",
+    "organizer": "Deviant Events",
     "types": [
-      "conference",
       "party"
     ],
     "audienceTags": [
       "Black",
       "Queer",
-      "Lesbian/WLW",
-      "Latina"
+      "MLM",
+      "Kink"
     ],
     "vibesRaw": "",
-    "free": false,
-    "price": "$16.92",
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
       "Queer",
-      "Lesbian/WLW",
-      "Latina"
+      "MLM",
+      "Kink",
+      "Free"
     ],
     "time": "11:00 PM – 4:00 AM",
-    "location": "Littlefield · 635 Sackett St, Brooklyn, NY 11217",
+    "location": "Red Eye · 355 West 41st Street",
     "vibeTags": [],
-    "ctaHref": "https://www.eventbrite.com/e/out-n-bad-creatures-nyc-queer-caribbean-halloween-bashment-tickets-2002653429317",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-conference",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9yoxjw-zobdma",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "The Bunker Horror Show",
-    "organizer": "The Bunker Paris",
-    "types": [
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$16.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "time": "11:59 PM – 6:00 AM",
-    "location": "The Klub · 14 Rue Saint Denis, 75001 Paris, France",
-    "vibeTags": [],
-    "ctaHref": "https://shotgun.live/fr/events/le-bunker-horror-show?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadzDFdXS_cXxvTOSjVyvH27NIBqTKWGhX4SabWbNznJThEHYXwcKxR8lrxm5w_aem_XJOFQN23Ojes-31q9KDepg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "paris"
-  },
-  {
-    "id": "r-mv9ydwgv-f2wvfk",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-30",
-    "dayLabel": "Friday",
-    "name": "gURLSlikegIRLS: Blood Suckers",
-    "organizer": "gURLSlikegIRLS",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$24.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "time": "10:00 PM – 3:00 AM",
-    "location": "The Bush · 333 Troutman St, Brooklyn, NY 11237, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/gurlslikegirls-blood-suckers",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
+    "ctaHref": "https://dvntapp.live/events/nyc-freak-show",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
     "cardClass": "tp-party",
     "city": "nyc"
-  },
-  {
-    "id": "r-mvh8edn4-qj51a4",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "GGGayest Halloween (ATL Edition)",
-    "organizer": "GGG",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$13.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "time": "10:00 PM – 3:00 AM",
-    "location": "My Sister's Room · 1104 Crescent Ave NE, Atlanta, GA 30309",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/gggayest-halloween-atl-edition?u=briizzyfbaby&_t=mvh8dtoo&os=ios&src=event_page",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mvbkb11s-qzdn37",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "KAYTRANADA Concert",
-    "organizer": "KAYTRANADA",
-    "types": [
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer-friendly",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$142.00",
-    "badges": [
-      "Black",
-      "Queer-friendly",
-      "Latina"
-    ],
-    "time": "9:00 PM",
-    "location": "Echostage · 2135 Queens Chapel Road NE, Washington, DC 20018,",
-    "vibeTags": [],
-    "ctaHref": "https://www.ticketmaster.com/kaytranada-dj-set-washington-district-of-columbia-10-29-2026/event/150065322CC3A843?utm_medium=affiliate&utm_content=hotevent&irgwc=1&afsrc=1&clickid=UlwyB5xFMxyZW4e0NNyvtwUBUkr1ufSRR2CN0g0&camefrom=CFC_BUYAT_296934&impradid=296934&REFERRAL_ID=tmfeedbuyat296934&wt.mc_id=aff_BUYAT_296934&utm_source=296934-Spotify&impradname=Spotify&ircid=4272",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9u9i5v-189b2q",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "Gaydar Halloween",
-    "organizer": "House of Yes",
-    "types": [
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$20.83",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "time": "10:00 PM – 4:00 AM",
-    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
-    "vibeTags": [],
-    "ctaHref": "https://link.dice.fm/Yf1f5b18cc7d",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9wm1s6-67jgw7",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "Halloween: Deep CVNT",
-    "organizer": "@girliepopdc",
-    "types": [
-      "show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Trans",
-      "GNC/Nonbinary"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Trans",
-      "GNC/Nonbinary",
-      "Free"
-    ],
-    "time": "9:00 PM",
-    "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/DeM2lwpEYQa/?img_index=1",
-    "ctaLabel": "More Info",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-show",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9u3416-w5b53d",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "Hot & Fresh Burlesque: Halloween Edition",
-    "organizer": "House of Yes",
-    "types": [
-      "show"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Queer",
-      "Lesbian/WLW",
-      "Latina",
-      "Free"
-    ],
-    "time": "6:30 PM",
-    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
-    "vibeTags": [],
-    "ctaHref": "https://link.dice.fm/h70f78bae62d",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9xaxeo-4z2h8d",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "Velvet Requiem: A Sapphic Murder Mystery Dinner Party",
-    "organizer": "Gladys Books and Wine",
-    "types": [
-      "show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$65.00",
-    "badges": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "time": "7:00 PM – 9:30 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92285",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mvh89ykv-sjiup4",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-28",
-    "dayLabel": "Wednesday",
-    "name": "Last Wednesdays: Category Is...Office Siren",
-    "organizer": "The Porch Society",
-    "types": [
-      "happy-hour",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "6:00 PM – 8:00 PM",
-    "location": "First Round · 1610 20th St NW, Washington, DC 20009",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/last-wednesdays-monthly-black-queer-networking-2026-10-29-0-0?t=series&u=zbabieee&_t=mve119j1&os=web&src=event_page&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVEw-9leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQpULQCk9LF3VP6F6PJugk0QYmEq43NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp42hTzvysk9Obm5-frIIs6C3LXPKAmrVhc1uI4Ud6N1oPudYE9ZgM_MEj_Xg_aem_8kWG6DPPw4Fpv67ogDoTcw",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-happy-hour",
-    "city": "dc"
-  },
-  {
-    "id": "r-mvejck06-imfvs1",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-28",
-    "dayLabel": "Wednesday",
-    "name": "Kinky Karaoke: Sing or Scream",
-    "organizer": "Create The Erotic",
-    "types": [
-      "karaoke",
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Kink"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Kink",
-      "Free"
-    ],
-    "time": "7:00 PM – 11:00 PM",
-    "location": "Prima DC · 900 Florida Ave NW, Washington, DC 20001, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/kinky-karaoke-sing-or-scream",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-karaoke",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9y6qbu-ncbaz1",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-28",
-    "dayLabel": "Wednesday",
-    "name": "Pecha Kucha: 2026 Season",
-    "organizer": "Pecha Kucha: 2026 Season",
-    "types": [
-      "show",
-      "workshop",
-      "outdoors-&-active"
-    ],
-    "audienceTags": [
-      "Queer-friendly",
-      "Latina",
-      "Families and youth"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Queer-friendly",
-      "Latina",
-      "Families and youth",
-      "Free"
-    ],
-    "time": "6:00 PM",
-    "location": "Current Space Garden Bar · 421 Tyson St",
-    "vibeTags": [],
-    "ctaHref": "https://pools.events/event/lIuM5RFP/pecha-kucha-2026-season/?i=1iruIW9S",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-show",
-    "city": "baltimore"
-  },
-  {
-    "id": "r-mv9zm87e-3swa2a",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-28",
-    "dayLabel": "Wednesday",
-    "name": "SuciaPLAY Meet & Greet 10/28/2026",
-    "organizer": "SuciaNYC",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
-      "Queer-friendly",
-      "Latina",
-      "ENM",
-      "Kink"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Queer-friendly",
-      "Latina",
-      "ENM",
-      "Kink",
-      "Free"
-    ],
-    "time": "6:00 PM – 9:00 PM",
-    "location": "Fulton Grand · 1011 Fulton St, Brooklyn, NY 11238",
-    "vibeTags": [],
-    "ctaHref": "https://forbiddentickets.com/events/sucianyc/962f5e746d",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-workshop",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9wxxwy-dvha9f",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-28",
-    "dayLabel": "Wednesday",
-    "name": "The Cento & Garments workshop with Maria Fernanda",
-    "organizer": "Creative Grounds DC",
-    "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black",
-      "Queer-friendly"
-    ],
-    "time": "6:30 PM – 7:30 PM",
-    "location": "Creative Grounds · 1822 North Capitol St NW, Washington, DC 20002",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/DdpqnMFtAZL/?hl=en",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mvilnkn5-xw2i6u",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "Queer Karaoke",
-    "organizer": "Black Assets",
-    "types": [
-      "karaoke",
-      "show",
-      "happy-hour"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "7:00 PM – 11:00 PM",
-    "location": "Sulod Cocktail Bar & Kitchen · 1250 H Street NE, 2nd Floor, DC",
-    "vibeTags": [],
-    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=70d3e645-1c37-444d-b709-07dde19411d2&region=was&tenant=9bdf164cfefd&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDevfrYDN7ab%2F&key=sh-1&hmac=20431283ae027864e35b45b03668846a5a414e44321b2064cb534962814b1636",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-karaoke",
-    "city": "dc"
-  },
-  {
-    "id": "r-mvixl5lz-qh9wi1",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "Non Monogamy Chat",
-    "organizer": "nonmonogamy_chat",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "ENM"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "ENM",
-      "Free"
-    ],
-    "time": "7:00 PM",
-    "location": "Online",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/DevMjKWxE04/?dlrf=aHpna3p5azlwbXMz",
-    "ctaLabel": "More Info",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup"
-  },
-  {
-    "id": "r-mv9xwu9f-32629v",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "Ghosts We Carry",
-    "organizer": "The Sapphic Sanctuary",
-    "types": [
-      "workshop",
-      "outdoors-&-active",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$5.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "time": "4:00 PM – 6:00 PM",
-    "location": "KBird · 1333 P St NW",
-    "vibeTags": [],
-    "ctaHref": "https://api.joinpinyada.com/eventLinkPreview?eventid=896&hostid=1259&share=true",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9xae68-l3ogy1",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "Indigo Poets Archive presents: FEAR, A Black Lesbian Open Mic",
-    "organizer": "Gladys Books and Wine",
-    "types": [
-      "show",
-      "outdoors-&-active"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "$5.00",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "5:00 PM – 7:00 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92602",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mva03vfr-fbbs04",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "Trans Bike Ride: Halloween Edition (Costumes Encouraged)",
-    "organizer": "Southern Fried Queer Pride",
-    "types": [
-      "outdoors-&-active",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina",
-      "Families and youth"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina",
-      "Families and youth",
-      "Free"
-    ],
-    "time": "7:00 PM – 10:00 PM",
-    "location": "97 Estoria · 727 Wylie St SE, Atlanta, GA 30316",
-    "vibeTags": [],
-    "ctaHref": "sfqp.info/transbike1025",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-outdoors-&-active",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mv9xmvp9-9f8rre",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-25",
-    "dayLabel": "Sunday",
-    "name": "You Filed Your Taxes, Now What? Tax Planning 101 Wi",
-    "organizer": "RUMA Collective",
-    "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Trans",
-      "GNC/Nonbinary",
-      "Femme",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Trans",
-      "GNC/Nonbinary",
-      "Femme",
-      "Latina",
-      "Free"
-    ],
-    "time": "2:00 PM – 4:00 PM",
-    "location": "RUMA Collective · 1921 Gallaudet Street Northeast",
-    "vibeTags": [],
-    "ctaHref": "https://www.rumacollective.com/events/a08178vq8vvxwmuzwu98z6kvfyk7u2",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mvixnba3-fo9tr6",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "Queeribbean Folklore Fright Fest",
-    "organizer": "Queeribbeans of the DMV",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$17.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "time": "10:00 PM – 2:00 AM",
-    "location": "Focus Social Club DC · 1348 H St NE, Washington, DC 20002",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/queeribbean-folklore-fright-fest?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAVGVp5leHRuA2FlbQIxMQBwZG9mAmZkaWQWUQwcv5UoL-VgIHqFvYKEv0feJY_JBHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp5d6E53bwBp6raJtM0o_OfW2Ubw51aJUpDjXyjZlknvmOUGH50UXsDzc-AHr_aem_8SNBCdcD_vosihUn9g4RWA",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "dc"
-  },
-  {
-    "id": "r-mvejz6ap-6rj5np",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "Taste It!",
-    "organizer": "Syzneah",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$89.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "time": "2:00 PM – 6:00 PM",
-    "location": "DMV",
-    "vibeTags": [],
-    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=9de81c0b-267e-408f-8369-a4c7f827afe2&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fposh.vip%2Fe%2Ftaste-it-3%3Fu%3Dpaymahco%26_t%3Dmsz3txlq%26os%3Dios%26src%3Devent_page&key=sh-1&hmac=22b71f2a25f948134b75bbfed935b396ce633f80de9541a91a026ad0658186fb",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "dmv"
-  },
-  {
-    "id": "r-mv9x162k-bdyc70",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "CUFFIN' SEASON - Lesbian & Queer Party",
-    "organizer": "Adult Supervision Needed",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "time": "10:00 PM – 2:00 AM",
-    "location": "Cam Kirk Studios · 112 Krog St NE D125, Atlanta, GA 30307, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/cuffin-season-lesbian-queer-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mva716ou-4ehppi",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "Gay Ass Brunch",
-    "organizer": "@itsAngieFool",
-    "types": [
-      "brunch",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Latina",
-      "Free"
-    ],
-    "time": "12:00 PM – 4:00 PM",
-    "location": "Blue Agave · 1032 Light St",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/gay-ass-brunch",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-brunch",
-    "city": "baltimore"
-  },
-  {
-    "id": "r-mv9x9sz3-5dw6qw",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "Glo in the City Live Black and POC Queer Comedy Show",
-    "organizer": "Glo",
-    "types": [
-      "conference",
-      "show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$15.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "time": "7:00 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Boulevard",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92007",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-conference",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9ycyuq-xn1m0o",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-24",
-    "dayLabel": "Saturday",
-    "name": "Old Bae Halloween Edition - A 30 & Over Party",
-    "organizer": "Old Bae",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "30+"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$18.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "30+"
-    ],
-    "time": "9:00 PM – 3:00 AM",
-    "location": "The Bush · 333 Troutman St Store 4, Brooklyn, NY 11237, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/old-bae-halloween-edition-a-30-over-party",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mva766k3-o4wmqc",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "8 Ball and Us",
-    "organizer": "8 Ball and Us",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "7:00 PM – 10:00 PM",
-    "location": "Center Pocket Sports Bar · 4931 Tesla Dr Unit H, Bowie, MD 20715, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/8-ball-and-us?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU-R0ZleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQWFBP_zL1qZlYczpFIa2hibJxFajnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp9SugdqcFCJ4F4VieVRI-1NLU4ZaTg3QgJXn4MWUOJPfr8_mxHLpcN05PvSo_aem_V1kSyHOldJzradwwVzqkbA",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
-    "city": "dmv"
-  },
-  {
-    "id": "r-mv9x9csy-g82rua",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "Audio Noir feat. selections from I, Medusa",
-    "organizer": "Gladys Books and Wine",
-    "types": [
-      "show",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
-      "Queer-friendly"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$15.00",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Queer-friendly"
-    ],
-    "time": "7:00 PM – 9:00 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92280",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9wva8n-ggrnhv",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "Bookbinding Workshop with Maria Fernanda",
-    "organizer": "Creative Grounds DC",
-    "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Black"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black"
-    ],
-    "time": "6:30 PM – 7:30 PM",
-    "location": "Creative Grounds DC · 1822 North Capitol Street NW, Washington, DC 20002",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/DdpqnMFtAZL/?hl=en",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9yicwh-pg2gi1",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "Flower Girls Night In",
-    "organizer": "Femme Fatale DC",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Femme",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$23.00",
-    "badges": [
-      "Queer",
-      "Femme",
-      "Latina"
-    ],
-    "time": "7:00 PM – 10:00 PM",
-    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest, Washington, District of Columbia, 20008",
-    "vibeTags": [],
-    "ctaHref": "https://partiful.com/e/CphQRKaVc3BHCgOfN269?",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9zn4y2-r3zdso",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "GayNB : The TrapSoul Series Prt I",
-    "organizer": "Stizz Entertainment LLC",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$18.00",
-    "badges": [
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "time": "9:00 PM – 3:00 AM",
-    "location": "The House NYC · 29 Locust St, Brooklyn, NY 11206, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/gaynb-the-trapsoul-series-prt-i",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9xgecw-q652fa",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "Scorpio Season Happy Hour",
-    "organizer": "BlackDMVSaphhics",
-    "types": [
-      "happy-hour"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "6:30 PM – 8:30 PM",
-    "location": "Barkada Wine & Cocktail Bar · 1939 12th St NW",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/scorpio-season-happy-hour?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafuDOO3VA3lD-xColjmjxRv8RwPMmeRek5BmqZskj_7Sk21ish7WP8hLUX3LA_aem_sNT-JPfE7epHi1YIS4DdfA",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-happy-hour",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9ydgrr-8qzj7v",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "Untamed",
-    "organizer": "Puff Productions",
-    "types": [
-      "show",
-      "party"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$19.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Latina"
-    ],
-    "time": "10:00 PM – 3:00 AM",
-    "location": "The Bush · 333 Troutman St Store 4, Brooklyn, NY 1123",
-    "vibeTags": [],
-    "ctaHref": "https://events.ticketleap.com/tickets/puff-productions/untamed?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUw3K5leHRuA2FlbQIxMQBwZG9mAmZkaWQWUPvUmZFyUZaYk8g4i4zSzJjdfEbT-nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6tozElIZ7D7r-3r9KXMKhMZ9s5c7vmGwwKiX6eeKZ2XTmQXCk8JNxXQ9CIE_aem_9Y_jXSnHnFCsAg4Uq9KPOw",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9y7owb-lwxwfi",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-23",
-    "dayLabel": "Friday",
-    "name": "VERSION",
-    "organizer": "Version Baltimore",
-    "types": [
-      "party"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$14.00",
-    "badges": [
-      "Party"
-    ],
-    "time": "7:00 PM – 11:00 PM",
-    "location": "Current Space Garden Bar · 421 Tyson St",
-    "vibeTags": [],
-    "ctaHref": "https://pools.events/event/KOGStSTW/version/?i=gLrKgIHs",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "baltimore"
-  },
-  {
-    "id": "r-mv9x8v1t-id7jfj",
-    "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-22",
-    "dayLabel": "Thursday",
-    "name": "Who Gets To Be Fully Human? Featuring Dr. Rachel Hardeman in Conversation",
-    "organizer": "Gladys Books and Wine",
-    "types": [
-      "show"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "$10.00",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "7:00 PM – 9:00 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92012",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-show",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mvbej2dc-tkt56r",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-21",
-    "dayLabel": "Wednesday",
-    "name": "BIPOC Rope Jam",
-    "organizer": "Neffie Khaos",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
-      "Latina",
-      "Kink"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$20.00",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Latina",
-      "Kink"
-    ],
-    "time": "7:00 PM – 10:00 PM",
-    "location": "Bound Lark Rope Studio · Located in a quiet area of a Maryland suburb of metro DC area, the venue is at the crossroads of 2 major highways.    Free street parking is a short walk to the venue.   If you are taking public transportation, our closest metro station is Grosvenor-Strathmore station (Red Line) after which you can take a bus (5 min ride) or bike (7 min) or walk (25-30 minutes on mostly-flat and paved).",
-    "vibeTags": [],
-    "ctaHref": "https://www.boundlark.com/calendar/bipocjam10?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU_Y9FleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQZ3jv2gvX4IsTx-CkJDfFedxZ4ja3NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_qFJPLtIUGK1hPf6liUvblEkq5QTvCCgAQRA6adb_sNZcw-SV1jzouxsdiw_aem_dPWo8DrpxY7D3eciuOZFfg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dmv"
   },
   {
     "id": "r-mva073gp-9odhvp",
@@ -2798,217 +3840,68 @@ export const generatedEvents: PrideEvent[] = [
     "city": "nyc"
   },
   {
-    "id": "r-mv9wc69c-r9dlzc",
+    "id": "r-mv9ycyuq-xn1m0o",
     "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-21",
-    "dayLabel": "Wednesday",
-    "name": "Sapphic Social: Spooky edition",
-    "organizer": "QueerTalk Events",
+    "day": "saturday",
+    "dayDate": "2026-10-24",
+    "dayLabel": "Saturday",
+    "name": "Old Bae Halloween Edition - A 30 & Over Party",
+    "organizer": "Old Bae",
     "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "time": "6:30 PM – 10:00 PM",
-    "location": "Spark Social · 2009 14th St NW, Washington, DC 20009",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/sapphic-social-spooky-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacNC5c02ocTyYHI7Yj4h6LrmXmLSYRXorQtTjwx4MRH8uuebgGLmKokV44xxw_aem_UhUD6rIcWdKje0k_wyn26Q",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9zlj8m-gaozv8",
-    "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-21",
-    "dayLabel": "Wednesday",
-    "name": "SuciaBLERD Meet Up 10/21/2026",
-    "organizer": "SuciaNYC",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
-      "Queer-friendly",
-      "Latina",
-      "ENM"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Queer-friendly",
-      "Latina",
-      "ENM",
-      "Free"
-    ],
-    "time": "6:00 PM – 9:00 PM",
-    "location": "Fulton Grand · 1011 Fulton St, Brooklyn, NY 11238",
-    "vibeTags": [],
-    "ctaHref": "https://forbiddentickets.com/events/sucianyc/bcbdc91c6c",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-workshop",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9yhw3k-xoo5c8",
-    "festival": "august-events",
-    "day": "tuesday",
-    "dayDate": "2026-10-20",
-    "dayLabel": "Tuesday",
-    "name": "Talking Through The Body",
-    "organizer": "Femme Fatale DC",
-    "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Femme",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$55.00",
-    "badges": [
-      "Queer",
-      "Femme",
-      "Latina"
-    ],
-    "time": "6:30 PM – 8:30 PM",
-    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
-    "vibeTags": [],
-    "ctaHref": "https://www.femmefataledc.com/events/talking-through-the-body",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9xujvx-qnuw7b",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-18",
-    "dayLabel": "Sunday",
-    "name": "A Day of Queersylvania",
-    "organizer": "Sinners and Saints",
-    "types": [
-      "show",
       "party"
     ],
     "audienceTags": [
       "Black",
       "Queer",
-      "Lesbian/WLW",
+      "30+"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$18.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "30+"
+    ],
+    "time": "9:00 PM – 3:00 AM",
+    "location": "The Bush · 333 Troutman St Store 4, Brooklyn, NY 11237, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/old-bae-halloween-edition-a-30-over-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9ynwbv-v7dsi0",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Omizs Halloween Party - I <3 Jb",
+    "organizer": "PAMELA CLUB",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Queer-friendly",
       "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$10.00",
+    "price": "$15.00",
     "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
+      "Queer-friendly",
       "Latina"
     ],
-    "time": "2:00 PM – 6:00 PM",
-    "location": "sinners and saints · 2309 18th St NW, Washington, DC 20009, USA",
+    "time": "11:00 PM – 6:00 AM",
+    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/a-day-of-queersylvania?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUvbGdleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPo-eaOzdw5WdCgNAr8de8rq5xHv6nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp9HAJmq8fcT9_lHAM4wTD1I1nJIUTAjDWjUIpCfjeFkmSsGRS4tVQkwVw2dd_aem_MTDla3q-Ze9pb2RaRDULLg",
+    "ctaHref": "https://shotgun.live/fr/events/omizspartyhalloweenjb",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9xhjcr-igxwdv",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-18",
-    "dayLabel": "Sunday",
-    "name": "Book Club Meeting",
-    "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Femme",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Femme",
-      "Latina",
-      "Free"
-    ],
-    "time": "6:00 PM – 8:00 PM",
-    "location": "DC",
-    "vibeTags": [],
-    "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950081/?eventOrigin=group_upcoming_events",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9vwve2-8ksxgi",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-18",
-    "dayLabel": "Sunday",
-    "name": "GOOD TIMES MARKET",
-    "organizer": "Transmission",
-    "types": [
-      "meetup"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Queer",
-      "Trans",
-      "GNC/Nonbinary",
-      "Latina",
-      "Free"
-    ],
-    "time": "11:00 AM – 4:00 PM",
-    "location": "Transmission · 1353 H Street Northeast, Washington, DC 20002, USA",
-    "vibeTags": [],
-    "ctaHref": "https://www.instagram.com/p/DdhVO2chg8e",
-    "ctaLabel": "More Info",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-meetup",
-    "city": "dc"
+    "cardClass": "tp-party",
+    "city": "paris"
   },
   {
     "id": "r-mv9x52oy-0h8196",
@@ -3041,215 +3934,76 @@ export const generatedEvents: PrideEvent[] = [
     "city": "nyc"
   },
   {
-    "id": "r-mv9yhe0c-e99xf8",
+    "id": "r-mv9wzolf-tx4ce3",
     "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-18",
-    "dayLabel": "Sunday",
-    "name": "SING DC",
-    "organizer": "Femme Fatale DC",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "Out N Bad: CREATURES | NYC | Queer Caribbean Halloween Bashment",
+    "organizer": "littlefield",
     "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Femme",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$28.00",
-    "badges": [
-      "Queer",
-      "Femme",
-      "Latina"
-    ],
-    "time": "12:00 PM – 1:00 PM",
-    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
-    "vibeTags": [],
-    "ctaHref": "https://www.femmefataledc.com/events/sing-dc-ms-p-community-choir-ezxjf",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9zudv7-5zzoaq",
-    "festival": "august-events",
-    "day": "sunday",
-    "dayDate": "2026-10-18",
-    "dayLabel": "Sunday",
-    "name": "Sapphic sip n' paint at as you are",
-    "organizer": "Dom",
-    "types": [
-      "workshop"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$25.00",
-    "badges": [
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "time": "4:00 PM – 6:00 PM",
-    "location": "as you are. DC · 500 8th St SE, Washington, DC 20003, USA",
-    "vibeTags": [],
-    "ctaHref": "https://luma.com/6ehxrp1w",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mvbvidy6-xccbyn",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "Scary Jane",
-    "organizer": "Lavender Evolutions",
-    "types": [
-      "workshop",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Femme",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$15.00",
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "Trans",
-      "GNC/Nonbinary",
-      "Femme",
-      "Latina"
-    ],
-    "time": "7:00 PM",
-    "location": "Femme Fatale · 3409 Connecticut Ave NW, Washington, DC 20008, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/scary-jane",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9x4o87-aywto3",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "(NYC) Babyboi: Cuffing SZN",
-    "organizer": "Babyboi",
-    "types": [
-      "party",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "MLM",
-      "Trans",
-      "GNC/Nonbinary"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Black",
-      "Queer",
-      "Lesbian/WLW",
-      "MLM",
-      "Trans",
-      "GNC/Nonbinary"
-    ],
-    "time": "7:00 PM – 12:00 AM",
-    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/nyc-babyboi-cuffing-szn",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9xswo2-lu05dt",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "GAY HALLOWEEN",
-    "organizer": "Portal 6",
-    "types": [
+      "conference",
       "party"
     ],
     "audienceTags": [
-      "Queer"
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$1.90",
+    "price": "$16.92",
     "badges": [
-      "Queer"
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
     ],
-    "time": "9:00 PM – 3:00 AM",
-    "location": "2309 18th St NW Washington, DC 20009",
+    "time": "11:00 PM – 4:00 AM",
+    "location": "Littlefield · 635 Sackett St, Brooklyn, NY 11217",
     "vibeTags": [],
-    "ctaHref": "https://www.gatherevents.online/event/pllO-gay-halloween",
+    "ctaHref": "https://www.eventbrite.com/e/out-n-bad-creatures-nyc-queer-caribbean-halloween-bashment-tickets-2002653429317",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-party",
-    "city": "dc"
+    "cardClass": "tp-conference",
+    "city": "nyc"
   },
   {
-    "id": "r-mv9x8fk5-stl432",
+    "id": "r-mv9y6qbu-ncbaz1",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "Get Lit with Paula presents Quiet Riot by Alicia Hines",
-    "organizer": "Gladys Books and Wine",
+    "day": "wednesday",
+    "dayDate": "2026-10-28",
+    "dayLabel": "Wednesday",
+    "name": "Pecha Kucha: 2026 Season",
+    "organizer": "Pecha Kucha: 2026 Season",
     "types": [
+      "show",
       "workshop",
-      "party",
-      "meetup"
+      "outdoors-&-active"
     ],
     "audienceTags": [
-      "Black",
-      "Lesbian/WLW",
+      "Queer-friendly",
+      "Latina",
       "Families and youth"
     ],
     "vibesRaw": "",
-    "free": false,
-    "price": "$15.00",
+    "free": true,
+    "price": "Free",
     "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Families and youth"
+      "Queer-friendly",
+      "Latina",
+      "Families and youth",
+      "Free"
     ],
-    "time": "6:00 PM – 8:00 PM",
-    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
+    "time": "6:00 PM",
+    "location": "Current Space Garden Bar · 421 Tyson St",
     "vibeTags": [],
-    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92276",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-workshop",
-    "city": "nyc"
+    "ctaHref": "https://pools.events/event/lIuM5RFP/pecha-kucha-2026-season/?i=1iruIW9S",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "baltimore"
   },
   {
     "id": "r-mva7tdu4-5pomu4",
@@ -3311,6 +4065,77 @@ export const generatedEvents: PrideEvent[] = [
     "city": "nyc"
   },
   {
+    "id": "r-mv9wqvkr-vyubur",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "QUEER HALLOWEEN REGGAETON PARTY!!",
+    "organizer": "TASTE Takeover",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$25.00",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "time": "9:00 PM – 2:00 AM",
+    "location": "Taqueria Picoso · 1472 N Beauregard St, Alexandria, VA 22311",
+    "vibeTags": [],
+    "ctaHref": "https://www.tastetakeover.com/event-details-registration/queer-halloween-reggaeton-party",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mv9xjlw9-dy75uj",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-12-20",
+    "dayLabel": "Sunday",
+    "name": "Book Club Meeting",
+    "organizer": "DMV Area Black Fem 4 Fem Lesbians and Bisexual Women",
+    "types": [
+      "workshop",
+      "happy-hour",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Femme"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Femme",
+      "Free"
+    ],
+    "time": "6:00 PM – 8:00 PM",
+    "location": "DC",
+    "vibeTags": [],
+    "ctaHref": "https://www.meetup.com/dmv-area-black-fem-4-fem-lesbians-and-bisexual-women/events/315950083/?eventOrigin=group_upcoming_events",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
     "id": "r-mv9vs46h-qakt31",
     "festival": "august-events",
     "day": "saturday",
@@ -3347,208 +4172,170 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mv9x6f8n-aptc8k",
+    "id": "r-mv9zudv7-5zzoaq",
     "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "WNBA FINALS \"BRONX WATCH PARTY\" GAME 1",
-    "organizer": "DJ Kidd Swag",
-    "types": [
-      "party",
-      "outdoors-&-active",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Black",
-      "Lesbian/WLW"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Black",
-      "Lesbian/WLW",
-      "Free"
-    ],
-    "time": "3:00 PM – 7:00 PM",
-    "location": "Last Stop Bar & Grill · 4609 White Plains Road, Bronx, NY 10470",
-    "vibeTags": [],
-    "ctaHref": "https://events.eventnoire.com/e/bxwnbafinals?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf2zTBKabxinvd-Lf2e4JxDQkcbJfXJoSfY8Kl6SruzqOw7n6m42_owTI6IOQ_aem_zPoY7RPdqN24MIIF623WqA",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-party",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9ztaaz-auqr50",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-17",
-    "dayLabel": "Saturday",
-    "name": "the stacey show: livestream",
-    "organizer": "As You Are DC.",
-    "types": [
-      "show",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Queer",
-      "Lesbian/WLW",
-      "Latina"
-    ],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Queer",
-      "Lesbian/WLW",
-      "Latina",
-      "Free"
-    ],
-    "time": "3:00 PM – 6:00 PM",
-    "location": "As You Are DC. · 500 8th St SE, Washington, DC 20003, USA",
-    "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/the-stacey-show-livestream",
-    "ctaLabel": "RSVP Free",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-show",
-    "city": "dc"
-  },
-  {
-    "id": "r-mv9ygpur-qd9192",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-16",
-    "dayLabel": "Friday",
-    "name": "Burn the Patriarchy's Falloween Candle Pour Night",
-    "organizer": "Femme Fatale DC",
+    "day": "sunday",
+    "dayDate": "2026-10-18",
+    "dayLabel": "Sunday",
+    "name": "Sapphic sip n' paint at as you are",
+    "organizer": "Dom",
     "types": [
       "workshop"
     ],
     "audienceTags": [
-      "Black",
+      "Queer",
       "Lesbian/WLW",
-      "Femme",
       "Latina"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$55.55",
+    "price": "$25.00",
     "badges": [
-      "Black",
+      "Queer",
       "Lesbian/WLW",
-      "Femme",
       "Latina"
     ],
-    "time": "6:30 PM – 8:30 PM",
-    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
+    "time": "4:00 PM – 6:00 PM",
+    "location": "as you are. DC · 500 8th St SE, Washington, DC 20003, USA",
     "vibeTags": [],
-    "ctaHref": "https://www.femmefataledc.com/events/hera-hub-dc-x-femme-fatale-dc-y4h5s",
+    "ctaHref": "https://luma.com/6ehxrp1w",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-workshop",
     "city": "dc"
   },
   {
-    "id": "r-mv9ycixt-olsh33",
+    "id": "r-mv9wc69c-r9dlzc",
     "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-16",
-    "dayLabel": "Friday",
-    "name": "FALL of FASC!SM",
-    "organizer": "Hot Gurlz Organize",
+    "day": "wednesday",
+    "dayDate": "2026-10-21",
+    "dayLabel": "Wednesday",
+    "name": "Sapphic Social: Spooky edition",
+    "organizer": "QueerTalk Events",
+    "types": [
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "time": "6:30 PM – 10:00 PM",
+    "location": "Spark Social · 2009 14th St NW, Washington, DC 20009",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/sapphic-social-spooky-edition?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacNC5c02ocTyYHI7Yj4h6LrmXmLSYRXorQtTjwx4MRH8uuebgGLmKokV44xxw_aem_UhUD6rIcWdKje0k_wyn26Q",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-meetup",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9xbwnm-p1hdz0",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Sapphic Superstition",
+    "organizer": "Gladys Books and Wine",
     "types": [
       "show",
       "party"
     ],
     "audienceTags": [
+      "Black",
       "Queer",
       "Lesbian/WLW"
     ],
     "vibesRaw": "",
     "free": false,
-    "price": "$1.20",
+    "price": "$10.00",
     "badges": [
+      "Black",
       "Queer",
       "Lesbian/WLW"
     ],
-    "time": "10:00 PM",
-    "location": "The Bush",
+    "time": "7:00 PM – 1:00 AM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
     "vibeTags": [],
-    "ctaHref": "https://events.ticketleap.com/tickets/queerflatbush/FallofFascism?fbclid=PAVERFWAUw2uVleHRuA2FlbQIxMABwZG9mAmZkaWQWUPuNkidO6Uun0Mqj2yzD9YUw6QWSNnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6dpbb6pdjv43AuqAMAofay9LGTPqAcrud2Zjd1gDMjQ4KkX8bE0Untzxd4i_aem_hmKtNRq4CLrVDszyc2Gfzw",
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92287",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-show",
     "city": "nyc"
   },
   {
-    "id": "r-mv9x0r7b-pqltwk",
+    "id": "r-mv9xgecw-q652fa",
     "festival": "august-events",
     "day": "friday",
-    "dayDate": "2026-10-16",
+    "dayDate": "2026-10-23",
     "dayLabel": "Friday",
-    "name": "Juke Jam (21+ Listening Experience) (Lesbian/Queer Event)",
-    "organizer": "Adult Supervision Needed",
+    "name": "Scorpio Season Happy Hour",
+    "organizer": "BlackDMVSaphhics",
+    "types": [
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "6:30 PM – 8:30 PM",
+    "location": "Barkada Wine & Cocktail Bar · 1939 12th St NW",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/scorpio-season-happy-hour?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafuDOO3VA3lD-xColjmjxRv8RwPMmeRek5BmqZskj_7Sk21ish7WP8hLUX3LA_aem_sNT-JPfE7epHi1YIS4DdfA",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-happy-hour",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9slq9j-f9u87l",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-11-07",
+    "dayLabel": "Saturday",
+    "name": "Scorpio Stings: Junior Sanchez, Ultra Violet and More!",
+    "organizer": "House of Yes",
     "types": [
       "party"
     ],
     "audienceTags": [
-      "Black",
       "Queer",
       "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
       "Latina"
     ],
     "vibesRaw": "",
     "free": true,
-    "price": "$20.00",
+    "price": "From free",
     "badges": [
-      "Black",
       "Queer",
       "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
       "Latina",
       "Free"
     ],
-    "time": "10:00 PM – 2:00 AM",
-    "location": "1526 E Forrest Ave, East Point, GA 30344, USA",
+    "time": "10:00 PM",
+    "location": "House of Yes · 2 Wyckoff Avenue, Brooklyn, New York 11237, United States",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/juke-jam-21-listening-experience-lesbianqueer-event-1",
+    "ctaHref": "https://link.dice.fm/R808117106d3",
     "ctaLabel": "RSVP Free",
     "ctaButtonClass": "btn-free",
     "cardClass": "tp-party",
-    "city": "atlanta"
-  },
-  {
-    "id": "r-mv9zpfo3-jbxn90",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-16",
-    "dayLabel": "Friday",
-    "name": "LEZ SING",
-    "organizer": "Friendly Masc Hotties (FMH)",
-    "types": [
-      "karaoke",
-      "party",
-      "meetup"
-    ],
-    "audienceTags": [
-      "Lesbian/WLW",
-      "Masc"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$5.00",
-    "badges": [
-      "Lesbian/WLW",
-      "Masc"
-    ],
-    "time": "10:00 PM – 3:00 AM",
-    "location": "Body Shop Bar · 698 Nostrand Ave, Brooklyn, NY",
-    "vibeTags": [],
-    "ctaHref": "https://partiful.com/e/cQdF402zkwfguw9fW1BQ?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaeSHjaIWwmmgHWvMgfegvLZFpbD0L6p6gv81QQ0rPHfWNgWemf9vLIC6hmsjw_aem_d-Ju_LIRsCChrTDpK852cg",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-karaoke",
     "city": "nyc"
   },
   {
@@ -3582,6 +4369,72 @@ export const generatedEvents: PrideEvent[] = [
     "prideSeries": "Yes"
   },
   {
+    "id": "r-mv9yhe0c-e99xf8",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-18",
+    "dayLabel": "Sunday",
+    "name": "SING DC",
+    "organizer": "Femme Fatale DC",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Femme",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$28.00",
+    "badges": [
+      "Queer",
+      "Femme",
+      "Latina"
+    ],
+    "time": "12:00 PM – 1:00 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
+    "vibeTags": [],
+    "ctaHref": "https://www.femmefataledc.com/events/sing-dc-ms-p-community-choir-ezxjf",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9zx058-arvjyi",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-31",
+    "dayLabel": "Saturday",
+    "name": "Something Lit For The Ladies: Freakfest Halloween Party For WLW",
+    "organizer": "Xxclusive Vibes",
+    "types": [
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "Mixx Atlanta · 1492 Piedmont Ave NE Ste b, Atlanta, GA 30309, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/something-lit-for-the-ladies-2026-11-1-7-0",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "atlanta"
+  },
+  {
     "id": "r-mv9zogta-p8m9if",
     "festival": "august-events",
     "day": "friday",
@@ -3612,6 +4465,119 @@ export const generatedEvents: PrideEvent[] = [
     "cardClass": "tp-festival",
     "city": "nyc",
     "prideSeries": "Yes"
+  },
+  {
+    "id": "r-mv9zlj8m-gaozv8",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-21",
+    "dayLabel": "Wednesday",
+    "name": "SuciaBLERD Meet Up 10/21/2026",
+    "organizer": "SuciaNYC",
+    "types": [
+      "workshop",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Queer-friendly",
+      "Latina",
+      "ENM"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Queer-friendly",
+      "Latina",
+      "ENM",
+      "Free"
+    ],
+    "time": "6:00 PM – 9:00 PM",
+    "location": "Fulton Grand · 1011 Fulton St, Brooklyn, NY 11238",
+    "vibeTags": [],
+    "ctaHref": "https://forbiddentickets.com/events/sucianyc/bcbdc91c6c",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9zm87e-3swa2a",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-28",
+    "dayLabel": "Wednesday",
+    "name": "SuciaPLAY Meet & Greet 10/28/2026",
+    "organizer": "SuciaNYC",
+    "types": [
+      "workshop",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW",
+      "Queer-friendly",
+      "Latina",
+      "ENM",
+      "Kink"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Queer-friendly",
+      "Latina",
+      "ENM",
+      "Kink",
+      "Free"
+    ],
+    "time": "6:00 PM – 9:00 PM",
+    "location": "Fulton Grand · 1011 Fulton St, Brooklyn, NY 11238",
+    "vibeTags": [],
+    "ctaHref": "https://forbiddentickets.com/events/sucianyc/962f5e746d",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9yhw3k-xoo5c8",
+    "festival": "august-events",
+    "day": "tuesday",
+    "dayDate": "2026-10-20",
+    "dayLabel": "Tuesday",
+    "name": "Talking Through The Body",
+    "organizer": "Femme Fatale DC",
+    "types": [
+      "workshop"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Femme",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$55.00",
+    "badges": [
+      "Queer",
+      "Femme",
+      "Latina"
+    ],
+    "time": "6:30 PM – 8:30 PM",
+    "location": "Femme Fatale DC · 3409 Connecticut Avenue Northwest",
+    "vibeTags": [],
+    "ctaHref": "https://www.femmefataledc.com/events/talking-through-the-body",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc"
   },
   {
     "id": "r-mv9xo0or-2do70s",
@@ -3651,16 +4617,244 @@ export const generatedEvents: PrideEvent[] = [
     "city": "dc"
   },
   {
-    "id": "r-mva69p0l-0ujw5l",
+    "id": "r-mv9yoxjw-zobdma",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-15",
-    "dayLabel": "Thursday",
-    "name": "Eating Out: Oral Sex for Vulvas",
-    "organizer": "Lotus Blooms",
+    "day": "friday",
+    "dayDate": "2026-10-30",
+    "dayLabel": "Friday",
+    "name": "The Bunker Horror Show",
+    "organizer": "The Bunker Paris",
     "types": [
       "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$16.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina"
+    ],
+    "time": "11:59 PM – 6:00 AM",
+    "location": "The Klub · 14 Rue Saint Denis, 75001 Paris, France",
+    "vibeTags": [],
+    "ctaHref": "https://shotgun.live/fr/events/le-bunker-horror-show?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadzDFdXS_cXxvTOSjVyvH27NIBqTKWGhX4SabWbNznJThEHYXwcKxR8lrxm5w_aem_XJOFQN23Ojes-31q9KDepg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "paris"
+  },
+  {
+    "id": "r-mv9wxxwy-dvha9f",
+    "festival": "august-events",
+    "day": "wednesday",
+    "dayDate": "2026-10-28",
+    "dayLabel": "Wednesday",
+    "name": "The Cento & Garments workshop with Maria Fernanda",
+    "organizer": "Creative Grounds DC",
+    "types": [
       "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Black",
+      "Queer-friendly"
+    ],
+    "time": "6:30 PM – 7:30 PM",
+    "location": "Creative Grounds · 1822 North Capitol St NW, Washington, DC 20002",
+    "vibeTags": [],
+    "ctaHref": "https://www.instagram.com/p/DdpqnMFtAZL/?hl=en",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "dc"
+  },
+  {
+    "id": "r-mv9xzgng-n1jrov",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-10",
+    "dayLabel": "Saturday",
+    "name": "The Fruits of Our Labor",
+    "organizer": "Arena Stage",
+    "types": [
+      "show",
+      "workshop",
+      "happy-hour"
+    ],
+    "audienceTags": [
+      "Lesbian/WLW",
+      "Families and youth"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "badges": [
+      "Lesbian/WLW",
+      "Families and youth"
+    ],
+    "time": "8:00 PM",
+    "location": "Fichandler Stage · 1101 Sixth Street SW",
+    "vibeTags": [],
+    "ctaHref": "https://www.arenastage.org/tickets/show-seasons/2026-2027-season/the-fruits-of-our-labor/",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "dc",
+    "prideSeries": "Yes"
+  },
+  {
+    "id": "r-mva7b3fo-k25ny3",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2027-08-27",
+    "dayLabel": "Friday",
+    "name": "Dope Pleasure in the Woods",
+    "organizer": "Dope Pleasure in the Woods (DPW)",
+    "types": [
+      "festival",
+      "show",
+      "workshop"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Femme",
+      "Latina",
+      "ENM",
+      "Kink"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$75.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Femme",
+      "Latina",
+      "ENM",
+      "Kink"
+    ],
+    "time": "",
+    "location": "DMV",
+    "vibeTags": [],
+    "ctaHref": "https://dopepleasureinthewoods.com/vettingform-9228?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAU-R8dleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQUxAK3ZR5rhGhFmEG4mz0zwoGhygHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwTMi3ogXwoG6chTNcpNMcz1JwFGkJ5JivZs0FDV-2ruA8u191vaL6oBTUnv_aem_ZwW8j3izqzdYQ5al6Y8qFg",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-festival",
+    "city": "dmv"
+  },
+  {
+    "id": "r-mv9ztaaz-auqr50",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "the stacey show: livestream",
+    "organizer": "As You Are DC.",
+    "types": [
+      "show",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Queer",
+      "Lesbian/WLW",
+      "Latina"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Queer",
+      "Lesbian/WLW",
+      "Latina",
+      "Free"
+    ],
+    "time": "3:00 PM – 6:00 PM",
+    "location": "As You Are DC. · 500 8th St SE, Washington, DC 20003, USA",
+    "vibeTags": [],
+    "ctaHref": "https://posh.vip/e/the-stacey-show-livestream",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "dc"
+  },
+  {
+    "id": "r-mva03vfr-fbbs04",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "Trans Bike Ride: Halloween Edition (Costumes Encouraged)",
+    "organizer": "Southern Fried Queer Pride",
+    "types": [
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
+      "Families and youth"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary",
+      "Latina",
+      "Families and youth",
+      "Free"
+    ],
+    "time": "7:00 PM – 10:00 PM",
+    "location": "97 Estoria · 727 Wylie St SE, Atlanta, GA 30316",
+    "vibeTags": [],
+    "ctaHref": "sfqp.info/transbike1025",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-outdoors-&-active",
+    "city": "atlanta"
+  },
+  {
+    "id": "r-mv9ydgrr-8qzj7v",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "Untamed",
+    "organizer": "Puff Productions",
+    "types": [
+      "show",
+      "party"
     ],
     "audienceTags": [
       "Black",
@@ -3669,58 +4863,59 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "vibesRaw": "",
     "free": false,
+    "price": "$19.00",
     "badges": [
       "Black",
       "Queer",
       "Latina"
     ],
-    "time": "7:30 PM – 9:00 PM",
-    "location": "Crush Dance Bar · 2007 14th St NW, Washington, DC 20009, USA",
+    "time": "10:00 PM – 3:00 AM",
+    "location": "The Bush · 333 Troutman St Store 4, Brooklyn, NY 1123",
     "vibeTags": [],
-    "ctaHref": "https://events.humanitix.com/eating-out-oral-sex-for-vulvas?c=crush&fbclid=PARlRTSAU-P7tleHRuA2FlbQIxMQBwZG9mAmZkaWQWUQXG6uNiFiRdjBn1iWI6B7Kz9nZminNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1kE8IBYrkkFXXccsPGiyQry5HbZDRCLfG5xqN9Zg4f8RnF7T4qli5Se0PpM_aem_kaJpfv0mCTRYQH1CHv8pJQ",
+    "ctaHref": "https://events.ticketleap.com/tickets/puff-productions/untamed?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUw3K5leHRuA2FlbQIxMQBwZG9mAmZkaWQWUPvUmZFyUZaYk8g4i4zSzJjdfEbT-nNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6tozElIZ7D7r-3r9KXMKhMZ9s5c7vmGwwKiX6eeKZ2XTmQXCk8JNxXQ9CIE_aem_9Y_jXSnHnFCsAg4Uq9KPOw",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-show",
-    "city": "dc"
+    "city": "nyc"
   },
   {
-    "id": "r-mv9ym9gu-hiede9",
+    "id": "r-mv9x328z-jtn2wc",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-15",
-    "dayLabel": "Thursday",
-    "name": "Hyphensystem - Nanou, Secri99, Blackangelzz, Trasholicsd33j",
-    "organizer": "PAMELA CLUB",
+    "day": "wednesday",
+    "dayDate": "2026-10-14",
+    "dayLabel": "Wednesday",
+    "name": "Unwine'd with Sole: An Insecure (re)Watch Party.",
+    "organizer": "Communal Sole Club",
     "types": [
-      "festival",
-      "party",
       "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
     ],
     "vibesRaw": "",
     "free": false,
     "badges": [
-      "Festival",
-      "Party",
-      "Meetup"
+      "Black",
+      "Lesbian/WLW"
     ],
-    "time": "11:59 PM – 5:00 AM",
-    "location": "Pamela · 62 Rue Mazarine, 75006 Paris, France",
+    "time": "7:00 PM – 10:00 PM",
+    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
     "vibeTags": [],
-    "ctaHref": "https://shotgun.live/fr/events/hyphensystem2",
+    "ctaHref": "https://posh.vip/e/unwined-with-sole-an-insecure-rewatch-party-3",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
-    "cardClass": "tp-festival",
-    "city": "paris",
-    "prideSeries": "Yes"
+    "cardClass": "tp-meetup",
+    "city": "nyc"
   },
   {
-    "id": "r-mv9x3g1f-ora04b",
+    "id": "r-mv9xaxeo-4z2h8d",
     "festival": "august-events",
     "day": "thursday",
-    "dayDate": "2026-10-15",
+    "dayDate": "2026-10-29",
     "dayLabel": "Thursday",
-    "name": "Jazz Night for Lovers & Loners",
-    "organizer": "Saint James Libations",
+    "name": "Velvet Requiem: A Sapphic Murder Mystery Dinner Party",
+    "organizer": "Gladys Books and Wine",
     "types": [
       "show"
     ],
@@ -3730,54 +4925,151 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "vibesRaw": "",
     "free": false,
+    "price": "$65.00",
     "badges": [
       "Black",
       "Lesbian/WLW"
     ],
-    "time": "7:00 PM – 11:00 PM",
-    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
+    "time": "7:00 PM – 9:30 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/jazz-night-for-lovers-loners-2?u=saintjameslibations&_t=muwonfnt&os=web&src=event_page",
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92285",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-show",
     "city": "nyc"
   },
   {
-    "id": "r-mv9xeglp-ye4veb",
+    "id": "r-mv9y7owb-lwxwfi",
+    "festival": "august-events",
+    "day": "friday",
+    "dayDate": "2026-10-23",
+    "dayLabel": "Friday",
+    "name": "VERSION",
+    "organizer": "Version Baltimore",
+    "types": [
+      "party"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$14.00",
+    "badges": [
+      "Party"
+    ],
+    "time": "7:00 PM – 11:00 PM",
+    "location": "Current Space Garden Bar · 421 Tyson St",
+    "vibeTags": [],
+    "ctaHref": "https://pools.events/event/KOGStSTW/version/?i=gLrKgIHs",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-party",
+    "city": "baltimore"
+  },
+  {
+    "id": "r-mv9x8v1t-id7jfj",
     "festival": "august-events",
     "day": "thursday",
-    "dayDate": "2026-10-15",
+    "dayDate": "2026-10-22",
     "dayLabel": "Thursday",
-    "name": "NOSTALGIA 10/15",
-    "organizer": "Peazy",
+    "name": "Who Gets To Be Fully Human? Featuring Dr. Rachel Hardeman in Conversation",
+    "organizer": "Gladys Books and Wine",
     "types": [
-      "conference",
-      "outdoors-&-active"
+      "show"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "$10.00",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "7:00 PM – 9:00 PM",
+    "location": "Gladys Books & Wine · 306 Malcolm X Blvd, Brooklyn, NY 11233, USA",
+    "vibeTags": [],
+    "ctaHref": "https://www.gladysbooksandwine.com/pages/events#?event-id=92012",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9x6f8n-aptc8k",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-10-17",
+    "dayLabel": "Saturday",
+    "name": "WNBA FINALS \"BRONX WATCH PARTY\" GAME 1",
+    "organizer": "DJ Kidd Swag",
+    "types": [
+      "party",
+      "outdoors-&-active",
+      "meetup"
+    ],
+    "audienceTags": [
+      "Black",
+      "Lesbian/WLW"
+    ],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Black",
+      "Lesbian/WLW",
+      "Free"
+    ],
+    "time": "3:00 PM – 7:00 PM",
+    "location": "Last Stop Bar & Grill · 4609 White Plains Road, Bronx, NY 10470",
+    "vibeTags": [],
+    "ctaHref": "https://events.eventnoire.com/e/bxwnbafinals?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf2zTBKabxinvd-Lf2e4JxDQkcbJfXJoSfY8Kl6SruzqOw7n6m42_owTI6IOQ_aem_zPoY7RPdqN24MIIF623WqA",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-party",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mv9xmvp9-9f8rre",
+    "festival": "august-events",
+    "day": "sunday",
+    "dayDate": "2026-10-25",
+    "dayLabel": "Sunday",
+    "name": "You Filed Your Taxes, Now What? Tax Planning 101 Wi",
+    "organizer": "RUMA Collective",
+    "types": [
+      "workshop"
     ],
     "audienceTags": [
       "Black",
       "Queer",
-      "Lesbian/WLW",
-      "30+"
+      "Trans",
+      "GNC/Nonbinary",
+      "Femme",
+      "Latina"
     ],
     "vibesRaw": "",
-    "free": false,
-    "price": "$12.51",
+    "free": true,
+    "price": "Free",
     "badges": [
       "Black",
       "Queer",
-      "Lesbian/WLW",
-      "30+"
+      "Trans",
+      "GNC/Nonbinary",
+      "Femme",
+      "Latina",
+      "Free"
     ],
-    "time": "7:00 PM – 11:00 PM",
-    "location": "Safari Club · 5625 O Donnell Street, Baltimore, MD 21224",
+    "time": "2:00 PM – 4:00 PM",
+    "location": "RUMA Collective · 1921 Gallaudet Street Northeast",
     "vibeTags": [],
-    "ctaHref": "https://www.eventbrite.com/e/nostalgia-1015-tickets-2002979993078?aff=oddtdtcreator&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadmUdo4XctpTX4ONEpIyzspRmi9Yn7yBwoqDv8zks6bGvpeZRluurhwPYXT6A_aem_3iy3N3PaIf9kPWXCdpoC7A",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-conference",
-    "city": "baltimore"
+    "ctaHref": "https://www.rumacollective.com/events/a08178vq8vvxwmuzwu98z6kvfyk7u2",
+    "ctaLabel": "RSVP Free",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-workshop",
+    "city": "dc"
   },
   {
     "id": "r-mv8sm8cn-bngytk",
@@ -3817,14 +5109,55 @@ export const generatedEvents: PrideEvent[] = [
     "city": "nyc"
   },
   {
-    "id": "r-mv9x328z-jtn2wc",
+    "id": "r-mwbd3f83-jox51k",
     "festival": "august-events",
-    "day": "wednesday",
-    "dayDate": "2026-10-14",
-    "dayLabel": "Wednesday",
-    "name": "Unwine'd with Sole: An Insecure (re)Watch Party.",
-    "organizer": "Communal Sole Club",
+    "day": "thursday",
+    "dayDate": "2026-11-19",
+    "dayLabel": "Thursday",
+    "name": "Hoochie Palace x DickAppointment (NYC)",
+    "organizer": "DickAppointment",
     "types": [
+      "show",
+      "party"
+    ],
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$17.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "MLM",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "10:00 PM – 3:00 AM",
+    "location": "NYC",
+    "vibeTags": [],
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=89cd3b60-3dad-4a5e-be65-6c1f03eaa226&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fra.co%2Fevents%2F2570182&key=sh-1&hmac=9bb7cff5cb765e9dfb7fcd631f4b40bae725f4ebe20c74986bd55ac70543ae81",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-show",
+    "city": "nyc"
+  },
+  {
+    "id": "r-mwbdxvzr-g4vnff",
+    "festival": "august-events",
+    "day": "saturday",
+    "dayDate": "2026-12-12",
+    "dayLabel": "Saturday",
+    "name": "A Very Lesbifriends Holiday",
+    "organizer": "Lesbifriends",
+    "types": [
+      "party",
       "meetup"
     ],
     "audienceTags": [
@@ -3833,104 +5166,57 @@ export const generatedEvents: PrideEvent[] = [
     ],
     "vibesRaw": "",
     "free": false,
+    "price": "$75.00",
     "badges": [
       "Black",
       "Lesbian/WLW"
     ],
-    "time": "7:00 PM – 10:00 PM",
-    "location": "Saint James Libations · 269 Stanhope St, Brooklyn, NY 11237, USA",
+    "time": "4:00 PM – 10:00 PM",
+    "location": "The Lesbifriends House",
     "vibeTags": [],
-    "ctaHref": "https://posh.vip/e/unwined-with-sole-an-insecure-rewatch-party-3",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-meetup",
-    "city": "nyc"
-  },
-  {
-    "id": "r-mv9xzgng-n1jrov",
-    "festival": "august-events",
-    "day": "saturday",
-    "dayDate": "2026-10-10",
-    "dayLabel": "Saturday",
-    "name": "The Fruits of Our Labor",
-    "organizer": "Arena Stage",
-    "types": [
-      "show",
-      "workshop",
-      "happy-hour"
-    ],
-    "audienceTags": [
-      "Lesbian/WLW",
-      "Families and youth"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "badges": [
-      "Lesbian/WLW",
-      "Families and youth"
-    ],
-    "time": "8:00 PM",
-    "location": "Fichandler Stage · 1101 Sixth Street SW",
-    "vibeTags": [],
-    "ctaHref": "https://www.arenastage.org/tickets/show-seasons/2026-2027-season/the-fruits-of-our-labor/",
-    "ctaLabel": "Get Tickets",
-    "ctaButtonClass": "btn-p",
-    "cardClass": "tp-show",
-    "city": "dc",
-    "prideSeries": "Yes"
-  },
-  {
-    "id": "r-mv9xth3y-meo4rr",
-    "festival": "august-events",
-    "day": "friday",
-    "dayDate": "2026-10-09",
-    "dayLabel": "Friday",
-    "name": "FREAKY FRIDAY (Goth Techno Rave)",
-    "organizer": "Portal 6",
-    "types": [
-      "party"
-    ],
-    "audienceTags": [
-      "Punks"
-    ],
-    "vibesRaw": "",
-    "free": false,
-    "price": "$1.90",
-    "badges": [
-      "Punks"
-    ],
-    "time": "9:00 PM – 2:00 AM",
-    "location": "Sinners & Saints · 2309 18th St NW",
-    "vibeTags": [],
-    "ctaHref": "https://www.gatherevents.online/event/pllO-freaky-friday-goth-techno-rave",
+    "ctaHref": "https://4d9506f4.isolation.zscaler.com/profile/0cb16706-78ca-4463-bfa9-40812abb1ea5/zia-session/?controls_id=c5fbbe93-0cd8-4d2d-9280-d86fabd2bd2c&tenant=9bdf164cfefd&region=was&user=7a38a8885c903770e48a8f22e87e7b07d164c88342da06997153f108263ca46d&original_url=https%3A%2F%2Fwww.lesbifriendstravel.com%2Fevents%2Fa-very-lesbifriends-holiday&key=sh-1&hmac=3e3f4a4c8bcf57ab07cb819f5d5d1eca12d0c7e47f8779690c25bbcc5eb98aee",
     "ctaLabel": "Get Tickets",
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
     "city": "dc"
   },
   {
-    "id": "r-mvlomxpi-arxqkr",
+    "id": "r-mwjxhjqy-16kcvg",
     "festival": "august-events",
-    "day": "thursday",
-    "dayDate": "2026-10-29",
-    "dayLabel": "Thursday",
-    "name": "R&B + Hip Hop Karaoke & Trivia Night",
-    "organizer": "Leon's",
-    "types": [],
-    "vibesRaw": "",
-    "free": true,
-    "price": "Free",
-    "badges": [
-      "Free"
+    "day": "sunday",
+    "dayDate": "2026-11-29",
+    "dayLabel": "Sunday",
+    "name": "SuciaREAD Book Club",
+    "organizer": "SuciaNYC",
+    "types": [
+      "workshop",
+      "meetup"
     ],
-    "time": "9:30 PM",
-    "location": "Wondaland · 227 W Chase St, Baltimore, Maryland 21201",
+    "audienceTags": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "vibesRaw": "",
+    "free": false,
+    "price": "$23.00",
+    "badges": [
+      "Black",
+      "Queer",
+      "Lesbian/WLW",
+      "Trans",
+      "GNC/Nonbinary"
+    ],
+    "time": "3:00 PM – 5:00 PM",
+    "location": "NYC",
     "vibeTags": [],
-    "ctaHref": "",
-    "ctaLabel": "More Info",
-    "ctaButtonClass": "btn-free",
-    "cardClass": "tp-day-party",
-    "city": "baltimore"
+    "ctaHref": "https://forbiddentickets.com/events/sucianyc/7a12a1ee66",
+    "ctaLabel": "Get Tickets",
+    "ctaButtonClass": "btn-p",
+    "cardClass": "tp-workshop",
+    "city": "nyc"
   },
   {
     "id": "r-mw4cb87m-s99m3p",
@@ -3964,6 +5250,30 @@ export const generatedEvents: PrideEvent[] = [
     "ctaButtonClass": "btn-p",
     "cardClass": "tp-party",
     "city": "dmv"
+  },
+  {
+    "id": "r-mvlomxpi-arxqkr",
+    "festival": "august-events",
+    "day": "thursday",
+    "dayDate": "2026-10-29",
+    "dayLabel": "Thursday",
+    "name": "R&B + Hip Hop Karaoke & Trivia Night",
+    "organizer": "Leon's",
+    "types": [],
+    "vibesRaw": "",
+    "free": true,
+    "price": "Free",
+    "badges": [
+      "Free"
+    ],
+    "time": "9:30 PM",
+    "location": "Wondaland · 227 W Chase St, Baltimore, Maryland 21201",
+    "vibeTags": [],
+    "ctaHref": "",
+    "ctaLabel": "More Info",
+    "ctaButtonClass": "btn-free",
+    "cardClass": "tp-day-party",
+    "city": "baltimore"
   },
   {
     "id": "r-mw47f5of-eoid7o",
