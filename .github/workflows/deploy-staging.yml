@@ -1,6 +1,10 @@
 name: Deploy Staging
 
 on:
+  schedule:
+    # 14:00 UTC = 9:00 AM Eastern standard time, 10:00 AM Eastern daylight time.
+    # Sunday, Wednesday, Friday. GitHub schedules are UTC only.
+    - cron: '0 14 * * 0,3,5'
   push:
     branches:
       - staging
@@ -24,6 +28,16 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Sync Things to Do events from Google Sheets
+        env:
+          VITE_GOOGLE_SHEETS_API_KEY: ${{ secrets.VITE_GOOGLE_SHEETS_API_KEY }}
+        run: |
+          if [ -z "${VITE_GOOGLE_SHEETS_API_KEY}" ]; then
+            echo "::error::VITE_GOOGLE_SHEETS_API_KEY must be set in repository secrets."
+            exit 1
+          fi
+          npm run sync-events
 
       - name: Build for staging
         run: npm run build:staging
